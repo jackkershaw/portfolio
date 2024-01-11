@@ -1,12 +1,11 @@
 import './App.css';
 import Header from './header';
+import Footer from './footer';
 
 function App() {
-  return (
-
+    return (
     <>
     <Header/>
-    <div className="bg-slate-800 text-4xl">Hello</div>
     <div className="page" id="about-me">
       <h4 id="big-introduction">
         Hi there! I'm Jack, a London-based designer and developer. I'm
@@ -45,18 +44,9 @@ function App() {
         ><br /><br />
       </form>
     </div>
-    <footer>
-      <section id="footer-text">
-        <h2 className="left" id="bottom-to-top">
-          <a href="#navbar">back to top ^ </a>
-        </h2>
-      </section>
-    </footer>
+    <Footer/>
     </>
   );
 }
-
-
-
 
 export default App
