@@ -4,10 +4,10 @@ function Header() {
         <header>
       <navbar id="navbar">
         <section id="navbar-text">
-          <h1><a href="index.html">About</a></h1>
-          <h1><a href="coding.html">Coding</a></h1>
-          <h1><a href="design.html">Design</a></h1>
-          <h1><a href="videos.html">Video</a></h1>
+          <h1>About</h1>
+          <h1>Coding</h1>
+          <h1>Design</h1>
+          <h1>Video</h1>
           <svg
             width="100"
             height="100"
