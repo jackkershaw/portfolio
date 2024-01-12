@@ -10,7 +10,7 @@ function Videos() {
           using Final Cut Pro to make dynamic content.
         </p1>
       </div>
-      <div className="videos ">
+      <div >
         <div className="youtube">
           <iframe
             className="video-iframe "
