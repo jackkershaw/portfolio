@@ -1,7 +1,7 @@
 function Videos() {
     return (
         <>
-        <div className="page" id="projects">
+        <div className="container flex flex-col flexspace-between">
       <div id="projects-description">
         <p1 className="medium-introduction">
           Since I made my first stop-motion in 2011, I've been making
@@ -10,10 +10,10 @@ function Videos() {
           using Final Cut Pro to make dynamic content.
         </p1>
       </div>
-      <div className="videos">
+      <div className="videos ">
         <div className="youtube">
           <iframe
-            className="video-iframe"
+            className="video-iframe "
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/mYhZMghzws0"
