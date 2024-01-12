@@ -2,7 +2,7 @@ function Header() {
     return (
         <>
         <header>
-      <navbar id="navbar">
+      <navbar id="navbar" className="text-white">
         <section id="navbar-text">
           <h1>About</h1>
           <h1>Coding</h1>
@@ -14,7 +14,7 @@ function Header() {
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
             id="dark-mode"
-          className="icon"
+          classNameName="icon"
             alt="button to enable user to switch to dark mode, looks like a sun and moon made of circles which rotate when clicked."
           >
             <g>
@@ -29,6 +29,7 @@ function Header() {
             </g>
             <title>Dark mode</title>
           </svg>
+
         </section>
       </navbar>
       </header>

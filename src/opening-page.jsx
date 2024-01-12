@@ -3,8 +3,7 @@ function OpeningPage() {
         <>
     <div className="page" id="about-me">
       <h4 id="big-introduction">
-        Hi there! I'm Jack, a London-based designer and developer. I'm
-        currently studying software development with Just IT.
+        Hi there! I'm Jack, a London-based designer and developer.
       </h4>
     </div>
     <div id="contact-me">

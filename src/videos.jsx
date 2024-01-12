@@ -1,19 +1,19 @@
 function Videos() {
     return (
         <>
-        <div class="page" id="projects">
+        <div className="page" id="projects">
       <div id="projects-description">
-        <p1 class="medium-introduction">
+        <p1 className="medium-introduction">
           Since I made my first stop-motion in 2011, I've been making
           and editing short video content - first for Youtube, and then
           for social media. I have strong knowledge and experience of
           using Final Cut Pro to make dynamic content.
         </p1>
       </div>
-      <div class="videos">
-        <div class="youtube">
+      <div className="videos">
+        <div className="youtube">
           <iframe
-            class="video-iframe"
+            className="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/mYhZMghzws0"
@@ -25,17 +25,17 @@ function Videos() {
             allowfullscreen
           ></iframe>
           <h3>The World Transformed</h3>
-          <p class="video-description">
+          <p className="video-description">
             Video to promote The World Transformed's 2018 festival in
             Liverpool. I worked as a volunteer video editor at the
             festival, producing video for social media on a quick
             turnaround.
           </p>
-          <p class="view-count">View count: 17,000</p>
+          <p className="view-count">View count: 17,000</p>
         </div>
-        <div class="youtube">
+        <div className="youtube">
           <iframe
-            class="video-iframe"
+            className="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/0yw11HjRyoc"
@@ -47,16 +47,16 @@ function Videos() {
             allowfullscreen
           ></iframe>
           <h3>Momentum x Black Lives Matter</h3>
-          <p class="video-description">
+          <p className="video-description">
             I worked in collaboration with Patrisse Cullors, co-founder
             of Black Lives Matter, and Momentum on this short film to
             encourage people to fight racism.
           </p>
-          <p class="view-count">View count: 14,000</p>
+          <p className="view-count">View count: 14,000</p>
         </div>
-        <div class="youtube">
+        <div className="youtube">
           <iframe
-            class="video-iframe"
+            className="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/TAGjvtDlPgw"
@@ -68,16 +68,16 @@ function Videos() {
             allowfullscreen
           ></iframe>
           <h3>Palestine Solidarity Campaign</h3>
-          <p class="video-description">
+          <p className="video-description">
             The Palestine Solidarity Campaign approached me to work on
             a short, snappy video to build support for the campaign on
             social media.
           </p>
-          <p class="view-count">View count: 33,000</p>
+          <p className="view-count">View count: 33,000</p>
         </div>
-        <div class="youtube">
+        <div className="youtube">
           <iframe
-            class="video-iframe"
+            className="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/dfk6l4CHB1I"
@@ -89,14 +89,14 @@ function Videos() {
             allowfullscreen
           ></iframe>
           <h3>Just Treatment</h3>
-          <p class="video-description">
+          <p className="video-description">
             Video to promote Just Treatment's NHS New Deal Campaign.
           </p>
-          <p class="view-count">View count: 40,000</p>
+          <p className="view-count">View count: 40,000</p>
         </div>
-        <div class="youtube">
+        <div className="youtube">
           <iframe
-            class="video-iframe"
+            className="video-iframe"
             width="1000"
             height="1000"
             src="https://www.youtube.com/embed/iFlnxj4UlEs"
@@ -108,12 +108,12 @@ function Videos() {
             allowfullscreen
           ></iframe>
           <h3>IWGB</h3>
-          <p class="video-description">
+          <p className="video-description">
             I worked with Independent Workers' Union of Great Britain
             to create this short film to promote their Justice for
             University of London Workers campaign.
           </p>
-          <p class="view-count">View count: 12,000</p>
+          <p className="view-count">View count: 12,000</p>
         </div>
       </div>
     </div>

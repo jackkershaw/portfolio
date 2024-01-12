@@ -1,8 +1,8 @@
 function Coding() {
     return (
       <>
-          <div class="page" id="projects">
-      <p1 class="medium-introduction">
+          <div className="page" id="projects">
+      <p1 className="medium-introduction">
         I'm currently learning HTML, CSS, Python and Javascript with
         Just IT. You can follow my progress
         <a href="https://progress.jackkershaw.net" target="_blank"
@@ -15,9 +15,9 @@ function Coding() {
           >here</a
         >.
       </p1>
-      <section class="left-align">
+      <section className="left-align">
         <h3>Hobby Page</h3>
-        <div class="iframe-container">
+        <div className="iframe-container">
           <iframe src="https://spiekerfann.jackkershaw.net/"></iframe>
         </div>
         <p1>What, you don't know Erik Spiekermann?</p1>
@@ -25,11 +25,11 @@ function Coding() {
           <p2>Click here to view full site</p2>
         </a>
       </section>
-      <div class="dashed-line-left"></div>
-      <div class="dashed-line-right-straight-short"></div>
-      <section class="right-align">
+      <div className="dashed-line-left"></div>
+      <div className="dashed-line-right-straight-short"></div>
+      <section className="right-align">
         <h3>Daily challenges</h3>
-        <div class="iframe-container">
+        <div className="iframe-container">
           <iframe
             src="https://dailychallenges.jackkershaw.net"
           ></iframe>
@@ -45,11 +45,11 @@ function Coding() {
           <p2>Click here to view full site</p2>
         </a>
       </section>
-      <div class="dashed-line-right"></div>
-      <div class="dashed-line-left-straight-short"></div>
-      <section class="left-align">
+      <div className="dashed-line-right"></div>
+      <div className="dashed-line-left-straight-short"></div>
+      <section className="left-align">
         <h3>Game</h3>
-        <div class="iframe-container">
+        <div className="iframe-container">
           <iframe src="https://typespotting.jackkershaw.net/"></iframe>
         </div>
         <p1>Can you tell I like fonts?</p1>
@@ -60,12 +60,12 @@ function Coding() {
           <p2>Click here to view full site</p2>
         </a>
       </section>
-      <div class="dashed-line-left"></div>
-      <div class="dashed-line-right-straight-short"></div>
-      <section class="right-align">
+      <div className="dashed-line-left"></div>
+      <div className="dashed-line-right-straight-short"></div>
+      <section className="right-align">
         <h3>Where next?</h3>
       </section>
-      <div class="dashed-line-right-straight"></div>
+      <div className="dashed-line-right-straight"></div>
     </div>
     </>
 

@@ -4,7 +4,7 @@ import Footer from './footer';
 import OpeningPage from './opening-page';
 import Videos from './videos';
 import Design from './design';
-import Coding from './coding';
+import Coding from './coding-page/coding';
 
 function App() {
     return (
