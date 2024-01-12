@@ -1,7 +1,7 @@
 function Design() {
     return (
         <>
-       <div className="page" id="projects">
+       <div className="page text-blue" id="projects">
       <p1 className="medium-introduction">
         Section in progress! Come back soon...</p1
       >
