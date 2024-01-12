@@ -3,7 +3,7 @@
 - Bootstrapped with React + Vite
 - Imported the Html and Css from [my old portfolio](https://github.com/jones58/portfolio), this involved splitting the HTML into JSX files for React. This was one of the main reasons for switching to React - being able to have easily editable components like the footer and header, rather than repeating them on every page.
 - Changed the colour scheme to reflect my favourite blue (#002FA7)
--
+- Used events to add js inside jsx for the dark mode toggle.
 
 ## TODO:
 
@@ -18,30 +18,6 @@
 - see nextcloud todo list for next steps on learning react and finishing portfolio.
 - add dark mode and other js features back in - will have to learn about state i think.
 - use livesurface to make mockups for portfolio
-
-- merge into header using useeffect:
-
-```
-//dark mode //
-
-const darkModeButton = document.getElementById("dark-mode");
-
-const darkModeOn = () => {
-document.body.classList.add("darkMode");
-};
-
-const darkModeOff = () => {
-document.body.classList.remove("darkMode");
-};
-
-darkModeButton.addEventListener("click", () => {
-if (document.body.classList.contains("darkMode")) {
-darkModeOff();
-} else {
-darkModeOn();
-}
-});
-```
 
 ## How to run locally
 
