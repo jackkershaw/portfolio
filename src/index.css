@@ -8,15 +8,6 @@
 }
 */
 
-/* set colour scheme refer to with var(--name) elements */
-:root {
-  --white: #ffffff;
-  --blue: #002fa7;
-  --green: #32772b;
-  --pink: #da3a7f;
-  --grey: #767684;
-}
-
 /* loading font */
 @font-face {
   font-family: "AtkinsonHyperlegible";
