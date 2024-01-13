@@ -35,6 +35,8 @@ ykb: {
 
 ## Debugging
 
+- I fixed issues using `*{border: 1px solid black}` for Tailwind CSS and `Console.log("test")` for JSX.
+
 ## TODO:
 
 ### Header : done
@@ -52,6 +54,7 @@ ykb: {
 
 ### Coding
 
+- fix page structure
 - iframes desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Get right proportion iframes.
 
 ### Videos
