@@ -39,7 +39,7 @@ ykb: {
 
 ### Header
 
-- Hamburger menu on mobile/ipad
+- Hamburger menu on mobile
 
 ### Footer
 
