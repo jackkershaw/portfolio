@@ -37,9 +37,7 @@ ykb: {
 
 ## TODO:
 
-### Header
-
-- Hamburger menu on mobile
+### Header : done
 
 ### Footer
 
