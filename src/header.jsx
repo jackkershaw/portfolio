@@ -19,17 +19,17 @@ function Header({ onHeaderClick }) {
           {isNavVisible ? "X" : "Menu ☰"}
         </button>
         <nav
-          className={`${isNavVisible ? "sm:hidden md:flex" : "hidden md:flex"} container flex-col items-center justify-between space-x-4 py-4 text-center text-3xl md:mx-5 md:flex-row lg:mx-10 lg:text-3xl`}
+          className={`${isNavVisible ? "sm:hidden md:flex" : "hidden md:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl md:mx-5 md:flex-row lg:mx-10 lg:text-3xl`}
         >
           <h1
             onClick={() => onHeaderClick("openingPage")}
-            className="hover:text-ykb-50 active:text-ykb-200"
+            className=" hover:text-ykb-50 active:text-ykb-200"
           >
-            About Me
+            About
           </h1>
           <h1
             onClick={() => onHeaderClick("coding")}
-            className="hover:text-ykb-50 active:text-ykb-200"
+            className="ml-0 hover:text-ykb-50 active:text-ykb-200"
           >
             Coding
           </h1>
