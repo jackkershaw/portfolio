@@ -1,8 +1,8 @@
 function Footer() {
   return (
     <>
-      <footer className="bg-ykb-500 text-white text-2xl py-4 fixed bottom-0 w-full">
-        <navbar className=" md:mx-5 lg:mx-10 container flex flex-col justify-between items-center sm:flex-row ">
+      <footer className="fixed bottom-0 w-full bg-ykb-500 py-4 text-2xl text-white">
+        <navbar className=" container flex flex-col items-center justify-between sm:flex-row md:mx-5 lg:mx-10 ">
           <h2> back to top ^</h2>
         </navbar>
       </footer>
