@@ -41,7 +41,6 @@ ykb: {
 
 ### Footer
 
-- Add back to top scroll function
 - rebuild simple contact form into footer
 
 ### Opening page
