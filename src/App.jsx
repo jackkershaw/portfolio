@@ -6,6 +6,7 @@ import Videos from './videos';
 import Design from './design';
 import Coding from './coding-page/coding';
 import Footer from './footer';
+import Contact from './contact';
 
 function App() {
   const [currentContent, setCurrentContent] = useState('openingPage');
@@ -26,16 +27,19 @@ function App() {
     case 'coding':
       contentToShow = <Coding />;
       break;
+    case 'contact':
+      contentToShow = <Contact />;
+      break;
     default:
       contentToShow = <OpeningPage />;
   }
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header onHeaderClick={handleHeaderClick} />
       <div id="main-content">{contentToShow}</div>
       <Footer />
-    </>
+    </div>
   );
 }
 
