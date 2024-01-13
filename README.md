@@ -39,14 +39,19 @@ ykb: {
 
 ### Header : done
 
-### Footer
-
-- rebuild simple contact form into footer
+### Footer : done
 
 ### Opening page
 
+- fix mobile look
+- add image
 - More info - see cv profile.
 - remove redundant classnames.
+- should have some wow factor, not necessarily typing text but something else.
+
+### Contact
+
+- fix contact form, look at examples of tailwindcss react forms
 
 ### Coding
 
@@ -60,6 +65,8 @@ ykb: {
 
 - remove redundant classnames.
 
+## other
+
 - change design
 
   - look through inspo/sites i like like fourtet site.
@@ -68,9 +75,7 @@ ykb: {
     https://www.tailwindshades.com/
   - set font to helvetica or similar like neue haas grotesk
 
-- Finish fireship tutorials react .
 - see nextcloud todo list for next steps on learning react and finishing portfolio.
-- use scrolltotop function instead of navbar thing.
 - add other js features back in - will have to learn about state i think.
 - use livesurface to make mockups for portfolio
 - maybe images instead of iframes for the coding page - desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Or can have both next to each other with right proportion iframes.
