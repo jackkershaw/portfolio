@@ -43,11 +43,8 @@ ykb: {
 
 ### Opening page
 
-- fix mobile look
-- add image
-- More info - see cv profile.
-- remove redundant classnames.
 - should have some wow factor, not necessarily typing text but something else.
+- add image
 
 ### Contact
 
@@ -55,30 +52,27 @@ ykb: {
 
 ### Coding
 
-- remove redundant classnames.
+- iframes desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Get right proportion iframes.
 
 ### Videos
 
+- get looking like old site with flex
 - remove redundant classnames.
 
 ### Design
 
 - remove redundant classnames.
 
-## other
+## sitewide
 
 - change design
-
   - look through inspo/sites i like like fourtet site.
   - redesign it as wireframe in figma.
   - fix css, making it better with React and Tailwind.
     https://www.tailwindshades.com/
   - set font to helvetica or similar like neue haas grotesk
-
 - see nextcloud todo list for next steps on learning react and finishing portfolio.
-- add other js features back in - will have to learn about state i think.
 - use livesurface to make mockups for portfolio
-- maybe images instead of iframes for the coding page - desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Or can have both next to each other with right proportion iframes.
 - google lighthouse score
 
 ## How to run locally

@@ -1,75 +1,78 @@
 function Coding() {
-    return (
-      <>
-          <div className="page" id="projects">
-      <p1 className="medium-introduction">
-        I'm currently learning HTML, CSS, Python and Javascript with
-        Just IT. You can follow my progress
-        <a href="https://progress.jackkershaw.net" target="_blank"
-          >here</a
-        >
-        and see some of my favourite learning resources
-        <a
-          href="https://github.com/jones58/Learning-Resources"
-          target="_blank"
-          >here</a
-        >.
-      </p1>
-      <section className="left-align">
-        <h3>Hobby Page</h3>
-        <div className="iframe-container">
-          <iframe src="https://spiekerfann.jackkershaw.net/"></iframe>
-        </div>
-        <p1>What, you don't know Erik Spiekermann?</p1>
-        <a href="https://spiekerfann.jackkershaw.net/" target="_blank">
-          <p2>Click here to view full site</p2>
-        </a>
-      </section>
-      <div className="dashed-line-left"></div>
-      <div className="dashed-line-right-straight-short"></div>
-      <section className="right-align">
-        <h3>Daily challenges</h3>
-        <div className="iframe-container">
+  return (
+    <>
+      <div className="space-between bottom-20 mx-5 flex w-full flex-col">
+        <p className="max-w-max text-2xl sm:text-3xl">
+          You can follow my progress{" "}
+          <a
+            href="https://progress.jackkershaw.net"
+            target="_blank"
+            className="hover:underline"
+          >
+            here
+          </a>{" "}
+          and see some of my favorite learning resources{" "}
+          <a
+            href="https://github.com/jones58/Learning-Resources"
+            target="_blank"
+            className="hover:underline"
+          >
+            here
+          </a>
+          .
+        </p>
+        <section>
           <iframe
-            src="https://dailychallenges.jackkershaw.net"
+            src="https://spiekerfann.jackkershaw.net/"
+            className="flex-grow"
           ></iframe>
-        </div>
-        <p1
-          >My partner and I both like to play Wordle adjacent games so
-          I made this website.</p1
-        >
-        <a
-          href="https://dailychallenges.jackkershaw.net"
-          target="_blank"
-        >
-          <p2>Click here to view full site</p2>
-        </a>
-      </section>
-      <div className="dashed-line-right"></div>
-      <div className="dashed-line-left-straight-short"></div>
-      <section className="left-align">
-        <h3>Game</h3>
-        <div className="iframe-container">
-          <iframe src="https://typespotting.jackkershaw.net/"></iframe>
-        </div>
-        <p1>Can you tell I like fonts?</p1>
-        <a
-          href="https://typespotting.jackkershaw.net/"
-          target="_blank"
-        >
-          <p2>Click here to view full site</p2>
-        </a>
-      </section>
-      <div className="dashed-line-left"></div>
-      <div className="dashed-line-right-straight-short"></div>
-      <section className="right-align">
-        <h3>Where next?</h3>
-      </section>
-      <div className="dashed-line-right-straight"></div>
-    </div>
+          <h3>Hobby Page</h3>
+          <p>What, you don't know Erik Spiekermann?</p>
+          <iframe
+            src="https://spiekerfann.jackkershaw.net/"
+            className="flex-grow"
+          ></iframe>
+          <a href="https://spiekerfann.jackkershaw.net/" target="_blank">
+            <p>Click here to view full site</p>
+          </a>
+        </section>
+        <section>
+          <h3>Daily challenges</h3>
+          <div>
+            <iframe
+              src="https://dailychallenges.jackkershaw.net"
+              className="flex-grow"
+            ></iframe>
+          </div>
+          <p>
+            My partner and I both like to play Wordle adjacent games so I made
+            this website.
+          </p>
+          <a href="https://dailychallenges.jackkershaw.net" target="_blank">
+            <p>Click here to view full site</p>
+          </a>
+        </section>
+        <div className="flex-grow"></div>
+        <div className="flex-grow"></div>
+        <section>
+          <h3>Game</h3>
+          <div>
+            <iframe
+              src="https://typespotting.jackkershaw.net/"
+              className="flex-grow"
+            ></iframe>
+          </div>
+          <p>Can you tell I like fonts?</p>
+          <a href="https://typespotting.jackkershaw.net/" target="_blank">
+            <p>Click here to view full site</p>
+          </a>
+        </section>
+        <section>
+          <h3>Where next?</h3>
+        </section>
+      </div>
     </>
-
-    )
+  );
 }
 
-export default Coding
+export default Coding;

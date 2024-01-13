@@ -25,7 +25,7 @@ function Header({ onHeaderClick }) {
             onClick={() => onHeaderClick("openingPage")}
             className=" hover:text-ykb-50 active:text-ykb-200"
           >
-            About
+            About Me
           </h1>
           <h1
             onClick={() => onHeaderClick("coding")}
