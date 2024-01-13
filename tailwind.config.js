@@ -23,5 +23,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss", "tailwind-classes-sorter"],
 };
