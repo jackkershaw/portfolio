@@ -54,7 +54,10 @@ function Coding() {
           <ol>
             {projects.map((project, index) => (
               <div>
-                <iframe src={project.link}></iframe>
+                <iframe
+                  src={project.link}
+                  className="aspect-[1600/1093] py-4"
+                ></iframe>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <a
@@ -62,9 +65,12 @@ function Coding() {
                   target="_blank"
                   className="shadow-md hover:underline lg:shadow-none"
                 >
-                  <p>Click here to view full site</p>
+                  Click here to view full site
                 </a>
-                <iframe src={project.link}></iframe>
+                <iframe
+                  src={project.link}
+                  className="aspect-[946/2048] py-4"
+                ></iframe>
               </div>
             ))}
           </ol>
