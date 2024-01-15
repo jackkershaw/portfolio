@@ -37,7 +37,7 @@ ykb: {
 
 - I fixed issues using `*{border: 1px solid black}` for Tailwind CSS and `Console.log("test")` for JSX.
 
-## TODO:
+## !TO DO
 
 ### Header : done
 
@@ -51,32 +51,37 @@ ykb: {
 ### Contact
 
 - fix contact form, look at examples of tailwindcss react forms
+- just email and message on the form.
+- linkedin, email etc. at bottom buttons.
 
 ### Coding
 
 - fix page structure
 - iframes desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Get right proportion iframes.
 
-### Videos
-
-- get looking like old site with flex
-- remove redundant classnames.
-
 ### Design
 
 - remove redundant classnames.
+- pelicula - present like this: https://tosche.net/fonts/dossier
 
-## sitewide
+### sitewide
 
 - change design
   - look through inspo/sites i like like fourtet site.
   - redesign it as wireframe in figma.
   - fix css, making it better with React and Tailwind.
     https://www.tailwindshades.com/
-  - set font to helvetica or similar like neue haas grotesk
-- see nextcloud todo list for next steps on learning react and finishing portfolio.
+  - set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
+  -
+- see nextcloud todo list for next steps on learning react .
+- hide navbar on mobile launch, click to open it up kind of like on: https://www.apple.com/uk/ also see other examples https://www.pentagram.com/
 - use livesurface to make mockups for portfolio
 - google lighthouse score
+- archive old portfolio and reconfigure on netlify.
+
+### Maybe later:
+
+- Animate dots on coding one, maybe with picture of face
 
 ## How to run locally
 
