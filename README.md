@@ -24,7 +24,7 @@ ykb: {
 - Redesigned [my old portfolio](https://github.com/jones58/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
 - Thought about the components that make up my website - this was useful for helping the move to React.
 
-## Building
+## Building and Debugging
 
 - Bootstrapped with React + Vite
 - Imported the Html from [my old portfolio](https://github.com/jones58/portfolio), this involved splitting the code into JSX files for React. This was one of the main reasons for switching to React - being able to have easily editable components like the footer and header, rather than repeating them on every page.
@@ -32,10 +32,9 @@ ykb: {
 - Used events to add js inside jsx for the dark mode toggle.
 - Used useState to change the main content of the page when elements in the header are clicked. This saved me having to have separate html files for each page, as [before](https://github.com/jones58/portfolio).
 - Edited color scheme within tailwind.config.js using shades of blue from above.
-
-## Debugging
-
+- While building the coding section, I realised that I could use a map function to generate elements and avoid having to write everything out by hand. This will allow me to easily add any future projects.
 - I fixed issues using `*{border: 1px solid black}` for Tailwind CSS and `Console.log("test")` for JSX.
+- I took each page and component at a time - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
 
 ## !TO DO
 
@@ -56,13 +55,18 @@ ykb: {
 
 ### Coding
 
-- fix page structure
-- iframes desktop and mobile versions. See: https://rectangle.design/revolutionary-papers/ for inspiration. Get right proportion iframes.
+- Debug iframes:
+
+  - Get right proportion: Width 1600 x height 1093 desktop
+    Width 946 height 2048 Mobile
+
+  - Might have to use Puppeteer or a similar tool for this, or just use image screenshots.
 
 ### Design
 
 - remove redundant classnames.
 - pelicula - present like this: https://tosche.net/fonts/dossier
+-
 
 ### sitewide
 
