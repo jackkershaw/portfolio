@@ -40,12 +40,6 @@ function Header({ onHeaderClick }) {
             Design
           </h1>
           <h1
-            onClick={() => onHeaderClick("videos")}
-            className="hover:text-ykb-50 active:text-ykb-200"
-          >
-            Video
-          </h1>
-          <h1
             onClick={() => onHeaderClick("contact")}
             className="hover:text-ykb-50 active:text-ykb-200"
           >
