@@ -55,18 +55,15 @@ ykb: {
 
 ### Coding
 
-- Debug iframes:
-
-  - Get right proportion: Width 1600 x height 1093 desktop
-    Width 946 height 2048 Mobile
-
-  - Might have to use Puppeteer or a similar tool for this, or just use image screenshots.
+- finish layout mobile
+- finish layout tablet
+- finish layout desktop
+- Add more project photos, cmd shift y to take screenshots of websites with fireshot.
 
 ### Design
 
 - remove redundant classnames.
 - pelicula - present like this: https://tosche.net/fonts/dossier
--
 
 ### sitewide
 

@@ -3,28 +3,38 @@ function Coding() {
     {
       title: "Daily Challenges",
       description:
-        "My partner and I both like to play Wordle adjacent games so I made this website.",
+        "My partner and I both like to play Wordle and Wordle-adjacent games so I made this website.",
       link: "https://dailychallenges.jackkershaw.net",
+      github_link: "https://github.com/jones58/daily-challenges",
       image_folder: "daily-challenges",
     },
     {
       title: "Typespotting",
       description: "I like fonts.",
-      link: "https://dailychallenges.jackkershaw.net",
+      link: "https://typespotting.jackkershaw.net/",
+      github_link: "https://github.com/jones58/typespotting",
       image_folder: "typespotting",
+    },
+    {
+      title: "All About Cooper Black",
+      description: "I like fonts.",
+      link: "https://allaboutcooperblack.jackkershaw.net/",
+      github_link: "https://github.com/jones58/Cooper-Black-Info-Site",
+      image_folder: "cooper-black",
     },
     {
       title: "London Brutalist Map",
       description:
         "My partner and I both like to play Wordle adjacent games so I made this website.",
       link: "https://dailychallenges.jackkershaw.net",
+      github_link: "https://github.com/jones58/London-Brutalist-Map",
       image_folder: "brutalist-map",
     },
     {
-      title: "Other Project",
-      description:
-        "My partner and I both like to play Wordle adjacent games so I made this website.",
-      link: "https://dailychallenges.jackkershaw.net",
+      title: "My Portfolio",
+      description: "This website. ",
+      link: "https://www.jackkershaw.net",
+      github_link: "https://github.com/jones58/portfolio-2024",
       image_folder: "other",
     },
   ];
@@ -37,7 +47,7 @@ function Coding() {
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
-            className="shadow-md hover:underline lg:shadow-none"
+            className="shadow-md hover:underline lg:shadow-none "
           >
             here
           </a>{" "}
@@ -45,7 +55,7 @@ function Coding() {
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
-            className="shadow-md hover:underline lg:shadow-none"
+            className="shadow-md hover:underline lg:shadow-none "
           >
             here
           </a>
@@ -62,25 +72,33 @@ function Coding() {
               <img
                 src={`/src/coding-page/${project.image_folder}/desktop.jpg`}
                 alt={`desktop view of ${project.title}`}
-                className="aspect-[1600/1093] h-auto max-w-full py-2"
+                className="my-2 aspect-[1600/1093] h-auto max-w-full border-2 border-black "
                 style={{ height: "auto" }}
               />
-              <h3 className="text-2xl font-semibold">{project.title}</h3>
-              <p className="text-xl">{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mb-5 text-right text-xl shadow-md hover:underline sm:mb-0 lg:shadow-none"
-              >
-                Click here to view full site
-              </a>
+              <div>
+                <h3 className="text-2xl font-semibold">{project.title}</h3>
+                <p className="text-xl">{project.description}</p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="mt-4 block w-full px-4 py-2 text-center text-xl shadow-md hover:underline lg:shadow-none"
+                >
+                  View Website
+                </a>
+                <a
+                  href={project.github_link}
+                  target="_blank"
+                  className="mt-5 block w-full px-4 py-2 text-center text-xl shadow-md hover:underline lg:shadow-none"
+                >
+                  View Github
+                </a>
+              </div>
               <img
                 src={`/src/coding-page/${project.image_folder}/mobile.jpg`}
                 alt={`mobile view of ${project.title}`}
                 className="hidden aspect-[946/2048] h-auto max-w-full py-2 lg:block"
               />
-              <div className="border-l-10 mx-auto border-dotted border-ykb-500"></div>
+              <div class="mx-auto my-4 h-10 border-8 border-dashed border-black"></div>
             </li>
           ))}
         </ol>
