@@ -1,15 +1,14 @@
 // App.js
-import React, { useState } from 'react';
-import Header from './header';
-import OpeningPage from './opening-page';
-import Videos from './videos';
-import Design from './design';
-import Coding from './coding-page/coding';
-import Footer from './footer';
-import Contact from './contact';
+import React, { useState } from "react";
+import Header from "./header";
+import OpeningPage from "./opening-page";
+import Design from "./design";
+import Coding from "./coding-page/coding";
+import Footer from "./footer";
+import Contact from "./contact";
 
 function App() {
-  const [currentContent, setCurrentContent] = useState('openingPage');
+  const [currentContent, setCurrentContent] = useState("openingPage");
 
   const handleHeaderClick = (content) => {
     setCurrentContent(content);
@@ -18,16 +17,16 @@ function App() {
   let contentToShow;
 
   switch (currentContent) {
-    case 'videos':
+    case "videos":
       contentToShow = <Videos />;
       break;
-    case 'design':
+    case "design":
       contentToShow = <Design />;
       break;
-    case 'coding':
+    case "coding":
       contentToShow = <Coding />;
       break;
-    case 'contact':
+    case "contact":
       contentToShow = <Contact />;
       break;
     default:
