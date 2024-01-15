@@ -1,71 +1,73 @@
 function Coding() {
+  const projects = [
+    {
+      title: "Daily Challenges",
+      description:
+        "My partner and I both like to play Wordle adjacent games so I made this website.",
+      link: "https://dailychallenges.jackkershaw.net",
+    },
+    {
+      title: "Typespotting",
+      description: "I like fonts.",
+      link: "https://dailychallenges.jackkershaw.net",
+    },
+    {
+      title: "London Brutalist Map",
+      description:
+        "My partner and I both like to play Wordle adjacent games so I made this website.",
+      link: "https://dailychallenges.jackkershaw.net",
+    },
+    {
+      title: "Daily Challenges",
+      description:
+        "My partner and I both like to play Wordle adjacent games so I made this website.",
+      link: "https://dailychallenges.jackkershaw.net",
+    },
+  ];
+
   return (
     <>
-      <div className="space-between bottom-20 mx-5 flex w-full flex-col">
-        <p className="max-w-max text-2xl sm:text-3xl">
-          You can follow my progress{" "}
-          <a
-            href="https://progress.jackkershaw.net"
-            target="_blank"
-            className="hover:underline"
-          >
-            here
-          </a>{" "}
-          and see some of my favorite learning resources{" "}
-          <a
-            href="https://github.com/jones58/Learning-Resources"
-            target="_blank"
-            className="hover:underline"
-          >
-            here
-          </a>
-          .
-        </p>
+      <div className="space-between bottom-30 mx-5 flex flex-col">
         <section>
-          <iframe
-            src="https://spiekerfann.jackkershaw.net/"
-            className="flex-grow"
-          ></iframe>
-          <h3>Hobby Page</h3>
-          <p>What, you don't know Erik Spiekermann?</p>
-          <iframe
-            src="https://spiekerfann.jackkershaw.net/"
-            className="flex-grow"
-          ></iframe>
-          <a href="https://spiekerfann.jackkershaw.net/" target="_blank">
-            <p>Click here to view full site</p>
-          </a>
-        </section>
-        <section>
-          <h3>Daily challenges</h3>
-          <div>
-            <iframe
-              src="https://dailychallenges.jackkershaw.net"
-              className="flex-grow"
-            ></iframe>
-          </div>
-          <p>
-            My partner and I both like to play Wordle adjacent games so I made
-            this website.
+          <p className="max-w-max py-4 text-2xl sm:text-3xl">
+            Projects I've built while learning to code. You can follow my
+            progress{" "}
+            <a
+              href="https://progress.jackkershaw.net"
+              target="_blank"
+              className="shadow-md hover:underline lg:shadow-none"
+            >
+              here
+            </a>{" "}
+            and see some of my favorite learning resources{" "}
+            <a
+              href="https://github.com/jones58/Learning-Resources"
+              target="_blank"
+              className="shadow-md hover:underline lg:shadow-none"
+            >
+              here
+            </a>
+            .
           </p>
-          <a href="https://dailychallenges.jackkershaw.net" target="_blank">
-            <p>Click here to view full site</p>
-          </a>
         </section>
-        <div className="flex-grow"></div>
-        <div className="flex-grow"></div>
         <section>
-          <h3>Game</h3>
-          <div>
-            <iframe
-              src="https://typespotting.jackkershaw.net/"
-              className="flex-grow"
-            ></iframe>
-          </div>
-          <p>Can you tell I like fonts?</p>
-          <a href="https://typespotting.jackkershaw.net/" target="_blank">
-            <p>Click here to view full site</p>
-          </a>
+          <ol>
+            {projects.map((project, index) => (
+              <div>
+                <iframe src={project.link}></iframe>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="shadow-md hover:underline lg:shadow-none"
+                >
+                  <p>Click here to view full site</p>
+                </a>
+                <iframe src={project.link}></iframe>
+              </div>
+            ))}
+          </ol>
         </section>
         <section>
           <h3>Where next?</h3>
