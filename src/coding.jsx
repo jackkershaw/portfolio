@@ -25,7 +25,7 @@ function Coding() {
     {
       title: "London Brutalist Map",
       description:
-        "My partner and I both like to play Wordle adjacent games so I made this website.",
+        "A map for discovering London's brutalist buildings. Built with Mapbox API.",
       link: "https://brutalistmap.jackkershaw.net/",
       github_link: "https://github.com/jones58/London-Brutalist-Map",
       image_folder: "brutalist-map",
@@ -67,7 +67,7 @@ function Coding() {
           {projects.map((project, index) => (
             <li
               key={index}
-              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-6"
+              className="flex flex-col hover:shadow-lg lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-6"
             >
               <a
                 href={project.link}
@@ -77,11 +77,11 @@ function Coding() {
                 <img
                   src={`/coding-page/${project.image_folder}/desktop.jpg`}
                   alt={`desktop view of ${project.title}`}
-                  className="my-2 h-auto w-full border-2 border-black object-contain lg:border-0"
+                  className="h-auto w-full border-2 border-black object-contain hover:shadow-lg lg:my-2 lg:border-0"
                 />
               </a>
-              <div className="lg:col-span-1 lg:my-8  lg:p-8">
-                <h3 className="text-2xl font-semibold lg:h-[8vw] lg:pb-5 lg:text-4xl">
+              <div className="lg:col-span-1 lg:my-4 lg:p-8">
+                <h3 className="pt-3 text-2xl font-semibold lg:h-[8vw] lg:pb-2 lg:pt-0 lg:text-4xl">
                   {project.title}
                 </h3>
                 <p className="text-xl lg:h-[10vw] lg:text-2xl">
@@ -90,7 +90,7 @@ function Coding() {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="mt-4 block w-full px-4 py-2 text-center text-xl shadow-md hover:underline lg:mt-0 lg:px-0 lg:py-2 lg:text-left lg:shadow-none
+                  className="mt-4 block w-full border-2 border-black px-4 py-2 text-center text-xl hover:shadow-lg lg:mt-0 lg:px-0 lg:py-2
                   "
                 >
                   View Website
@@ -98,7 +98,7 @@ function Coding() {
                 <a
                   href={project.github_link}
                   target="_blank"
-                  className="mt-5 block w-full px-4 py-2 text-center text-xl shadow-md hover:underline lg:mt-0 lg:px-0 lg:py-2 lg:text-left lg:shadow-none"
+                  className="mt-5 block w-full border-2 border-black px-4 text-center text-xl  hover:shadow-lg lg:mt-0 lg:mt-3 lg:px-0 lg:py-2"
                 >
                   View Github
                 </a>
@@ -111,7 +111,7 @@ function Coding() {
                 <img
                   src={`/coding-page/${project.image_folder}/mobile.jpg`}
                   alt={`mobile view of ${project.title}`}
-                  className="my-2 hidden h-auto max-h-[30vw] w-full object-contain lg:block "
+                  className="my-2 hidden h-auto max-h-[30vw] w-full object-contain lg:block"
                 />
               </a>
               <div class="mx-auto my-4 h-10 border-8 border-dashed border-black lg:hidden"></div>
