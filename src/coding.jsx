@@ -119,7 +119,7 @@ function Coding() {
           ))}
         </ol>
       </section>
-      <section className="lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black">
+      <section className="hover:shadow-lg lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black">
         <a
           href="https://github.com/jones58"
           target="_blank"
