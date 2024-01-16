@@ -33,8 +33,9 @@ ykb: {
 - Used useState to change the main content of the page when elements in the header are clicked. This saved me having to have separate html files for each page, as [before](https://github.com/jones58/portfolio).
 - Edited color scheme within tailwind.config.js using shades of blue from above.
 - While building the coding section, I realised that I could use a map function to generate elements and avoid having to write everything out by hand. This will allow me to easily add any future projects.
-- I originally started with screenshots of both mobile and desktop, but this felt a bit plain so i decided to make a phone mockup using
-- I fixed issues using `*{border: 1px solid black}` for Tailwind CSS and `Console.log("test")` for JSX.
+- I originally started with screenshots of both mobile and desktop, but this felt a bit plain so i decided to make a phone mockup using photoshop and [Facebook design resources](https://design.facebook.com/toolsandresources/devices/).
+- I realised that images weren't loading properly for my production build, so I put them in public as per the (Vite documentation)[https://vitejs.dev/guide/assets.html#importing-asset-as-url].
+- I fixed layout issues using `border-2 border-black` for Tailwind CSS and `console.log("test")` for JSX.
 - I took each page and component at a time - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
 
 ## !TO DO
