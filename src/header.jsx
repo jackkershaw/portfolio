@@ -13,13 +13,13 @@ function Header({ onHeaderClick }) {
       <header className="min-w-100 bg-ykb-500 py-4 text-white">
         <button
           id="hamburger-button"
-          className="ml-auto mr-5 flex cursor-pointer text-4xl hover:text-ykb-50 active:text-ykb-200 md:hidden"
+          className="ml-auto mr-5 flex cursor-pointer text-4xl hover:text-ykb-50 active:text-ykb-200 sm:hidden"
           onClick={toggleNav}
         >
           {isNavVisible ? "X" : "Menu ☰"}
         </button>
         <nav
-          className={`${isNavVisible ? "sm:hidden md:flex" : "hidden md:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl md:mx-5 md:flex-row lg:mx-10 lg:text-3xl`}
+          className={`${isNavVisible ? "sm:flex sm:hidden" : "hidden sm:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl sm:mx-5 sm:flex-row lg:mx-10 lg:text-3xl`}
         >
           <h1
             onClick={() => onHeaderClick("openingPage")}
