@@ -69,12 +69,13 @@ function Coding() {
               key={index}
               className="flex-space-between flex flex-col lg:flex-row"
             >
-              <img
-                src={`/src/coding-page/${project.image_folder}/desktop.jpg`}
-                alt={`desktop view of ${project.title}`}
-                className="my-2 aspect-[1600/1093] h-auto max-w-full border-2 border-black "
-                style={{ height: "auto" }}
-              />
+              <a href={project.link} target="_blank">
+                <img
+                  src={`/src/coding-page/${project.image_folder}/desktop.jpg`}
+                  alt={`desktop view of ${project.title}`}
+                  className="my-2 aspect-[1600/1093] h-auto w-full border-2 border-black object-contain "
+                />
+              </a>
               <div>
                 <h3 className="text-2xl font-semibold">{project.title}</h3>
                 <p className="text-xl">{project.description}</p>
@@ -93,11 +94,13 @@ function Coding() {
                   View Github
                 </a>
               </div>
-              <img
-                src={`/src/coding-page/${project.image_folder}/mobile.jpg`}
-                alt={`mobile view of ${project.title}`}
-                className="hidden aspect-[946/2048] h-auto max-w-full py-2 lg:block"
-              />
+              <a href={project.link} target="_blank">
+                <img
+                  src={`/src/coding-page/${project.image_folder}/mobile.jpg`}
+                  alt={`mobile view of ${project.title}`}
+                  className="hidden aspect-[946/2048] py-2 lg:block"
+                />
+              </a>
               <div class="mx-auto my-4 h-10 border-8 border-dashed border-black"></div>
             </li>
           ))}
