@@ -56,7 +56,7 @@ ykb: {
 
 ### Coding
 
-- add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
+- work out why images aren't loading on build.
 
 ### Design
 
@@ -84,6 +84,7 @@ ykb: {
 
 - Animate dots on coding one, maybe with picture of face
 - Add hero icons for header: https://heroicons.dev/?search=x
+- add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
 
 ## How to run locally
 
