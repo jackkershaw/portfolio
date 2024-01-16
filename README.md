@@ -55,8 +55,6 @@ ykb: {
 - just email and message on the form.
 - linkedin, email etc. at bottom buttons.
 
-### Coding
-
 - work out why images aren't loading on build.
 
 ### Design
@@ -64,12 +62,17 @@ ykb: {
 - remove redundant classnames.
 - pelicula - present like this: https://tosche.net/fonts/dossier
 
+### Coding :
+
+- edit descriptions later.
+
 ### sitewide
 
 - change design
   - colour scheme, use tailwindcss colors.
   - look through inspo/sites i like like fourtet site.
   - https://www.tailwindshades.com/
+  - good example: https://github.com/BraydenTW/react-tailwind-portfolio/tree/main
 - set font to helvetica or similar like neue haas grotesk
 
 -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
@@ -81,6 +84,8 @@ ykb: {
 - archive old portfolio and reconfigure on netlify.
 - Test everything on a big desktop screen.
 - add new photos for portfolio mobile desktop
+
+- add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
 
 ### Maybe later:
 
