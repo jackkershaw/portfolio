@@ -6,11 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: {
-        main: "src/main.js",
-        index: "public/index.html",
-        videos: "public/videos.html",
-      },
+      input: "src/main.js",
     },
   },
 });

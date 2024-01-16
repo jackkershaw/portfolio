@@ -5,7 +5,7 @@ function Contact() {
         I'm currently looking for new projects. If you'd like to work with me,
         feel free to reach out!
       </p>
-      <form action="https://formsubmit.co/jcode689@gmail.com" method="POST">
+      {/* <form action="https://formsubmit.co/jcode689@gmail.com" method="POST">
         <h4>Want to send me a message? Get in touch below.</h4>
         <input
           type="text"
@@ -39,7 +39,7 @@ function Contact() {
         </button>
         <br />
         <br />
-      </form>
+      </form> */}
     </>
   );
 }
