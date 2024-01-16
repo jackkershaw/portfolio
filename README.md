@@ -33,6 +33,7 @@ ykb: {
 - Used useState to change the main content of the page when elements in the header are clicked. This saved me having to have separate html files for each page, as [before](https://github.com/jones58/portfolio).
 - Edited color scheme within tailwind.config.js using shades of blue from above.
 - While building the coding section, I realised that I could use a map function to generate elements and avoid having to write everything out by hand. This will allow me to easily add any future projects.
+- I originally started with screenshots of both mobile and desktop, but this felt a bit plain so i decided to make a phone mockup using
 - I fixed issues using `*{border: 1px solid black}` for Tailwind CSS and `Console.log("test")` for JSX.
 - I took each page and component at a time - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
 
@@ -55,10 +56,7 @@ ykb: {
 
 ### Coding
 
-- finish layout mobile
-- finish layout tablet
-- finish layout desktop
-- Add more project photos, cmd shift y to take screenshots of websites with fireshot.
+- add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
 
 ### Design
 
@@ -79,10 +77,13 @@ ykb: {
 - use livesurface to make mockups for portfolio
 - google lighthouse score
 - archive old portfolio and reconfigure on netlify.
+- Test everything on a big desktop screen.
+- add new photos for portfolio mobile desktop
 
 ### Maybe later:
 
 - Animate dots on coding one, maybe with picture of face
+- Add hero icons for header: https://heroicons.dev/?search=x
 
 ## How to run locally
 
