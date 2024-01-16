@@ -66,12 +66,13 @@ ykb: {
 ### sitewide
 
 - change design
+  - colour scheme, use tailwindcss colors.
   - look through inspo/sites i like like fourtet site.
-  - redesign it as wireframe in figma.
-  - fix css, making it better with React and Tailwind.
-    https://www.tailwindshades.com/
-  - set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
-  -
+  - https://www.tailwindshades.com/
+- set font to helvetica or similar like neue haas grotesk
+
+-https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
+
 - see nextcloud todo list for next steps on learning react .
 - hide navbar on mobile launch, click to open it up kind of like on: https://www.apple.com/uk/ also see other examples https://www.pentagram.com/
 - use livesurface to make mockups for portfolio

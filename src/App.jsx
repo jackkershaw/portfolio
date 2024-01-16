@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./header";
 import OpeningPage from "./opening-page";
 import Design from "./design";
-import Coding from "./coding-page/coding";
+import Coding from "./coding";
 import Footer from "./footer";
 import Contact from "./contact";
 

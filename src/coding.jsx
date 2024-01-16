@@ -75,7 +75,7 @@ function Coding() {
                 className="lg:col-span-2 lg:h-[30vw] lg:px-10 lg:py-8"
               >
                 <img
-                  src={`./src/coding-page/${project.image_folder}/desktop.jpg`}
+                  src={`./public/coding-page/${project.image_folder}/desktop.jpg`}
                   alt={`desktop view of ${project.title}`}
                   className="my-2 h-auto w-full border-2 border-black object-contain lg:border-0"
                 />
@@ -109,7 +109,7 @@ function Coding() {
                 className="lg:col-span-1 lg:h-[30vw]"
               >
                 <img
-                  src={`./src/coding-page/${project.image_folder}/mobile.jpg`}
+                  src={`./public/coding-page/${project.image_folder}/mobile.jpg`}
                   alt={`mobile view of ${project.title}`}
                   className="my-2 hidden h-auto max-h-[30vw] w-full object-contain lg:block "
                 />
