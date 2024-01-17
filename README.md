@@ -44,6 +44,11 @@ ykb: {
 
 ### Footer : done
 
+### Design
+
+- add fairwork
+-
+
 ### Opening page
 
 - should have some wow factor, not necessarily typing text but something else.
@@ -54,13 +59,6 @@ ykb: {
 - fix contact form, look at examples of tailwindcss react forms
 - just email and message on the form.
 - linkedin, email etc. at bottom buttons.
-
-- work out why images aren't loading on build.
-
-### Design
-
-- remove redundant classnames.
-- pelicula - present like this: https://tosche.net/fonts/dossier
 
 ### Coding :
 
@@ -73,9 +71,7 @@ ykb: {
   - look through inspo/sites i like like fourtet site.
   - https://www.tailwindshades.com/
   - good example: https://github.com/BraydenTW/react-tailwind-portfolio/tree/main
-- set font to helvetica or similar like neue haas grotesk
-
--https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
+- set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
 
 - see nextcloud todo list for next steps on learning react .
 - hide navbar on mobile launch, click to open it up kind of like on: https://www.apple.com/uk/ also see other examples https://www.pentagram.com/
@@ -86,6 +82,8 @@ ykb: {
 - add new photos for portfolio mobile desktop
 
 - add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
+
+- shadow colour ykb or dominant color like on the design page
 
 ### Maybe later:
 
