@@ -8,10 +8,6 @@ function Design() {
       id: "leaves",
       description: "design ",
     },
-    {
-      id: "fflondon",
-      description: "design ",
-    },
     { id: "cpc", description: "design " },
     { id: "pelicula", description: "design " },
     { id: "peoplesvaccine", description: "design " },
@@ -22,6 +18,7 @@ function Design() {
       description: "design",
     },
     { id: "screenburn", description: "design " },
+    { id: "fairwork", description: "design " },
   ];
 
   return (
