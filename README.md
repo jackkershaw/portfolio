@@ -44,10 +44,11 @@ ykb: {
 
 ### Footer : done
 
-### Design
+### Design :
 
-- add fairwork
--
+- make all images a4 (split a bit like on fairwork one if two landscapes) so look good on desktop. Use fairwork one as mockup, see downloads > portfolio designs psds > mockup.
+- say what programs you can use.
+- say your way of working with moodboards etc., collaborative. Your style bright colours etc.
 
 ### Opening page
 
@@ -85,11 +86,15 @@ ykb: {
 
 - shadow colour ykb or dominant color like on the design page
 
+once done a new colour scheme use it to design a new cover photo for linkedin
+
 ### Maybe later:
 
 - Animate dots on coding one, maybe with picture of face
 - Add hero icons for header: https://heroicons.dev/?search=x
 - add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
+- Mobile Navbar as full page, scrollable like on wired.com
+- pelicula - present like this: https://tosche.net/fonts/dossier
 
 ## How to run locally
 
