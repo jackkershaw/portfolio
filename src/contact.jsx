@@ -1,11 +1,13 @@
 function Contact() {
   return (
-    <>
-      <p className="mx-10 py-10 text-5xl text-ykb-700">
+    <div className="space-between mx-5 mb-10 flex flex-col py-10">
+      <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
         I'm currently looking for new projects. If you'd like to work with me,
         feel free to reach out!
       </p>
-      {/* <form action="https://formsubmit.co/jcode689@gmail.com" method="POST">
+    </div>
+
+    /* <form action="https://formsubmit.co/jcode689@gmail.com" method="POST">
         <h4>Want to send me a message? Get in touch below.</h4>
         <input
           type="text"
@@ -39,8 +41,7 @@ function Contact() {
         </button>
         <br />
         <br />
-      </form> */}
-    </>
+  </form> */
   );
 }
 
