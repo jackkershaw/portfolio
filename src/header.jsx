@@ -45,6 +45,7 @@ function Header({ onHeaderClick }) {
           >
             Contact
           </h1>
+          <a href="https://cv.jackkershaw.net"><h1>CV</h1></a>
         </nav>
       </header>
     </>
