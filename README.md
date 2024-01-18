@@ -37,6 +37,7 @@ ykb: {
 - I realised that images weren't loading properly for my production build, so I put them in public as per the (Vite documentation)[https://vitejs.dev/guide/assets.html#importing-asset-as-url].
 - I fixed layout issues using `border-2 border-black` for Tailwind CSS and `console.log("test")` for JSX.
 - I took each page and component at a time - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
+- I ran Google Lighthouse to check accessibility. While I was happy with the scores (100, 85, 100, 91), I realised there was more I could be doing for accessibility so I added meta description and increased the maximum scale to 5 in my 'index.html' according to the reccommendations.
 
 ## !TO DO
 
@@ -44,10 +45,11 @@ ykb: {
 
 ### Footer : done
 
+### Coding : done
+
 ### Design :
 
 - wrap sections in a tag linked to who it's for.
-
 - make all images a4 (split a bit like on fairwork one if two landscapes) so look good on desktop. Use fairwork one as mockup, see downloads > portfolio designs psds > mockup.
 - say what programs you can use.
 - say your way of working with moodboards etc., collaborative. Your style bright colours etc.
@@ -61,42 +63,26 @@ ykb: {
 
 - fix contact form, look at examples of tailwindcss react forms
 - just email and message on the form.
-- linkedin, email etc. at bottom buttons.
+- Font awesome icons for github, linkedin etc. at the bottom of page.
 
-### Coding :
-
-- wrap sections in a tag linked to project website.
 
 ### sitewide
-
 - change design
   - colour scheme, use tailwindcss colors.
   - look through inspo/sites i like like fourtet site.
   - https://www.tailwindshades.com/
   - good example: https://github.com/BraydenTW/react-tailwind-portfolio/tree/main
 - set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
-
-- see nextcloud todo list for next steps on learning react .
-- hide navbar on mobile launch, click to open it up kind of like on: https://www.apple.com/uk/ also see other examples https://www.pentagram.com/
-- use livesurface to make mockups for portfolio
-- google lighthouse score
-- archive old portfolio and reconfigure on netlify.
-- Test everything on a big desktop screen.
-- add new photos for portfolio mobile desktop
-
-- add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
-
+- see nextcloud todo list for next steps on learning react.
 - shadow colour ykb or dominant color like on the design page
-
-once done a new colour scheme use it to design a new cover photo for linkedin
 
 ### Maybe later:
 
-- Animate dots on coding one, maybe with picture of face
-- Add hero icons for header: https://heroicons.dev/?search=x
+- Add hero icons/font awesome icons for header: https://heroicons.dev/?search=x.
 - add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
 - Mobile Navbar as full page, scrollable like on wired.com
 - pelicula - present like this: https://tosche.net/fonts/dossier
+- add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
 
 ## How to run locally
 
