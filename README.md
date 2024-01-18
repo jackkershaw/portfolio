@@ -65,9 +65,7 @@ ykb: {
 
 ### Coding :
 
-- Edit descriptions to match cv.
 - wrap sections in a tag linked to project website.
-
 
 ### sitewide
 
