@@ -3,7 +3,7 @@ function Coding() {
     {
       title: "Daily Challenges",
       description:
-        "My partner and I like to play Wordle-adjacent games so I made this website.",
+        "Website to link to all the Wordle-adjacent games I like to play.",
       link: "https://dailychallenges.jackkershaw.net",
       github_link: "https://github.com/jones58/daily-challenges",
       image_folder: "daily-challenges",
