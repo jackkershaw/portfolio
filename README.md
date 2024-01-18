@@ -46,6 +46,8 @@ ykb: {
 
 ### Design :
 
+- wrap sections in a tag linked to who it's for.
+
 - make all images a4 (split a bit like on fairwork one if two landscapes) so look good on desktop. Use fairwork one as mockup, see downloads > portfolio designs psds > mockup.
 - say what programs you can use.
 - say your way of working with moodboards etc., collaborative. Your style bright colours etc.
@@ -64,6 +66,8 @@ ykb: {
 ### Coding :
 
 - edit descriptions later.
+- wrap sections in a tag linked to project website.
+
 
 ### sitewide
 
