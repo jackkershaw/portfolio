@@ -47,26 +47,24 @@ ykb: {
 
 ### Coding : done
 
+### Contact
+
+- fix contact form, look at examples of tailwindcss react forms
+- Font awesome icons for github, linkedin etc. at the bottom of page.
+
 ### Design :
 
-- wrap sections in a tag linked to who it's for.
-- make all images a4 (split a bit like on fairwork one if two landscapes) so look good on desktop. Use fairwork one as mockup, see downloads > portfolio designs psds > mockup.
-- say what programs you can use.
-- say your way of working with moodboards etc., collaborative. Your style bright colours etc.
+- add descriptions, uncomment <p></p>
 
 ### Opening page
 
 - should have some wow factor, not necessarily typing text but something else.
 - add image
-
-### Contact
-
-- fix contact form, look at examples of tailwindcss react forms
-- just email and message on the form.
-- Font awesome icons for github, linkedin etc. at the bottom of page.
-
+- my cv button
+- coding button
 
 ### sitewide
+
 - change design
   - colour scheme, use tailwindcss colors.
   - look through inspo/sites i like like fourtet site.
