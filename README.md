@@ -41,7 +41,9 @@ ykb: {
 
 ## !TO DO
 
-### Header : done
+### Header :
+
+a little more gap between elements
 
 ### Footer : done
 
@@ -49,8 +51,8 @@ ykb: {
 
 ### Contact
 
-- fix contact form, look at examples of tailwindcss react forms
-- Font awesome icons for github, linkedin etc. at the bottom of page.
+- test on tablet size.
+- photo on right hand side (below on mobile and tablet) with icons below (Font awesome icons for github, linkedin etc. at the bottom)
 
 ### Design :
 
@@ -81,6 +83,7 @@ ykb: {
 - Mobile Navbar as full page, scrollable like on wired.com
 - pelicula - present like this: https://tosche.net/fonts/dossier
 - add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
+- test with jest while learning - see last section of front end roadmap
 
 ## How to run locally
 

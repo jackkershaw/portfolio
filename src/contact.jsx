@@ -1,22 +1,25 @@
 function Contact() {
   return (
-    <div className="space-between mx-5 mb-10 flex flex-col py-10">
-      <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-        I'm currently looking for new projects. If you'd like to work with me,
-        feel free to reach out!
-      </p>
-    </div>
-
-    /* <form action="https://formsubmit.co/jcode689@gmail.com" method="POST">
-        <h4>Want to send me a message? Get in touch below.</h4>
+    <div className="mb-10 pb-10">
+      <div className="space-between mx-5 mb-10 flex flex-col pt-10">
+        <p className="text-2xl  md:mx-5 md:py-4 lg:w-1/3">
+          I'm currently looking for new projects. If you'd like to work with me,
+          please reach out below.
+        </p>
+      </div>
+      <form
+        action="https://formsubmit.co/jcode689@gmail.com"
+        method="POST"
+        className="mx-5 flex flex-col space-y-2 border-black sm:w-1/3 md:mx-10"
+      >
         <input
           type="text"
           id="name"
           name="name"
           placeholder="Your name"
           required
+          className=" rounded border-2 p-4 focus:border-ykb focus:shadow-md"
         />
-        <br />
         <br />
         <input
           type="email"
@@ -24,24 +27,28 @@ function Contact() {
           name="email"
           placeholder="Your email"
           required
+          className=" rounded border-2 p-4  focus:border-ykb focus:shadow-md"
         />
-        <br />
         <br />
         <textarea
           id="message"
           name="message"
-          placeholder="How can I help?"
+          placeholder="Your message"
           required
           rows="4"
+          className=" rounded border-2 p-4 focus:border-ykb focus:shadow-md"
         ></textarea>
         <br />
-        <br />
-        <button type="submit" value="Submit">
+        <button
+          type="submit"
+          value="Submit"
+          className=" rounded border-4 border-ykb p-4 text-left shadow-md focus:border-ykb focus:shadow-md"
+        >
           Submit
         </button>
         <br />
-        <br />
-  </form> */
+      </form>
+    </div>
   );
 }
 
