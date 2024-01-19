@@ -8,7 +8,10 @@ function Design() {
       id: "leaves",
       description: "design ",
     },
-    { id: "cpc", description: "design " },
+    {
+      id: "cpc",
+      description: "design",
+    },
     { id: "pelicula", description: "design " },
     { id: "peoplesvaccine", description: "design " },
     { id: "safesickpay", description: "design " },
@@ -24,7 +27,9 @@ function Design() {
   return (
     <div className="space-between mx-5 mb-10 flex flex-col py-10">
       <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-        Designs I created in my time at Tapir Studio Limited.
+        Designs I created in my time at Tapir Studio Limited. I used Adobe
+        Photoshop, Illustrator, InDesign and Bridge to create bold, colourful
+        design for a host of clients around the world.
       </p>
       <div className="flex flex-wrap justify-center gap-4 p-4">
         {designs.map((design) => (
@@ -37,7 +42,7 @@ function Design() {
               alt={design.id}
               className="h-auto w-full"
             />
-            <p>{design.id}</p>
+            {/* <p>{design.description}</p> */}
           </section>
         ))}
       </div>
