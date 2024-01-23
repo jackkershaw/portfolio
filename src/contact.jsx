@@ -3,8 +3,14 @@ function Contact() {
     <div className="mb-10 pb-10">
       <div className="space-between mx-5 mb-10 flex flex-col pt-10">
         <p className="text-2xl  md:mx-5 md:py-4 lg:w-1/3">
-          I'm currently looking for new projects. If you'd like to work with me,
-          please reach out below.
+          Get in touch here or email me directly on{" "}
+          <a
+            href="mailto:jkershaw986@gmail.com"
+            target="_blank"
+            className="hover:underline"
+          >
+            jkershaw986@gmail.com
+          </a>
         </p>
       </div>
       <form
