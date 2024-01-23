@@ -49,9 +49,7 @@ ykb: {
 
 ### Contact: done
 
-### Coding :
-
-- fix images overhanging.
+### Coding : done
 
 ### Design :
 
