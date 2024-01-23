@@ -51,28 +51,27 @@ ykb: {
 
 ### Coding : done
 
-### Design :
+### CV: done
 
-- add descriptions, uncomment <p></p>
+### Design : done
 
-- typo colourful designs
+### About me
 
-### Opening page
-
-- should have some wow factor, not necessarily typing text but something else.
 - add image
 - my cv button
 - coding button
+- should have some wow factor, not necessarily typing text but something else. Probably basic animation on load.
 
-### sitewide
+### acessibility
+
+- Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
+
+### styling
 
 - change colour scheme, use tailwindcss colors.
-
 - set font to helvetica or similar like neue haas grotesk
-- https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
 - see nextcloud todo list for next steps on learning react.
 - shadow colour ykb or dominant color like on the design page
-- Make clickable bits accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 
 ### Maybe later:
 
