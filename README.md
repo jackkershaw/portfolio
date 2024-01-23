@@ -40,6 +40,9 @@ ykb: {
 - I ran Google Lighthouse to check accessibility. While I was happy with the scores (100, 85, 100, 91), I realised there was more I could be doing for accessibility so I added meta description and increased the maximum scale to 5 in my 'index.html' according to the reccommendations.
 - Further to this, I ran Axe developer tools in my developer tools section and was advised to remove: "maximum-scale=5, user-scalable=no" from the 'index.html' file because it does not support accessibility for people with low vision who need magnification to see the content.
 - Axe Developer tools also reccommended I add landmarks, [ARIA roles](https://dequeuniversity.com/rules/axe/4.8/region?application=AxeFirefox) to the page to make it more accessible to screen readers.
+- #### Opening page
+  - I missed the typing animation of [my first portfolio](https://github.com/jones58/portfolio) so I looked for a way to do that. While I could rewrite all the JS, it seemed like an easier way would be using [Typist](https://github.com/jstejada/react-typist), so i implemented this with NPM. This wasn't compatible with my version of React, so I looked in the Github issues section for Typist and found an alternative: [react-typewriter](https://www.npmjs.com/package/react-typewriter)
+  -
 
 ## !TO DO
 
@@ -57,10 +60,10 @@ ykb: {
 
 ### About me
 
+- add typist https://github.com/jstejada/react-typist#readme
 - add image
-- my cv button
-- coding button
-- should have some wow factor, not necessarily typing text but something else. Probably basic animation on load.
+- my cv button (fa icon wrapped in button probably)
+- coding button (fa icon wrapped in button probably)
 
 ### acessibility
 
@@ -68,13 +71,12 @@ ykb: {
 
 ### styling
 
-- change colour scheme, use tailwindcss colors.
 - set font to helvetica or similar like neue haas grotesk
-- see nextcloud todo list for next steps on learning react.
-- shadow colour ykb or dominant color like on the design page
 
 ### Maybe later:
 
+- see nextcloud todo list for next steps on learning react and use this to learn them.
+- change colour scheme, use tailwindcss colors. // shadow colour ykb or dominant color.
 - a little more gap between elements
 - Add hero icons/font awesome icons for header: https://heroicons.dev/?search=x.
 - add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
