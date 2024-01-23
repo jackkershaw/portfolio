@@ -44,39 +44,9 @@ ykb: {
 
   - I missed the typing animation of [my first portfolio](https://github.com/jones58/portfolio) so I looked for a way to do that. While I could rewrite all the JS, it seemed like an easier way would be using [Typist](https://github.com/jstejada/react-typist), so i implemented this with NPM, as a React Hook. This wasn't compatible with my version of React, so I looked in the Github issues section for Typist and found an alternative: [react-typewriter](https://www.npmjs.com/package/react-typewriter). This also didn't work with my version of React, so I continued to look on github, test installing with NPM and eventually got [react-use-typing-effect](https://www.npmjs.com/package/react-use-typing-effect) working.
 
-  -
-
-## !TO DO
-
-### Header : done
-
-### Footer : done
-
-### Contact: done
-
-### Coding : done
-
-### CV: done
-
-### Design : done
-
-### About me
-
-- add typist https://github.com/jstejada/react-typist#readme
-- add image
-- my cv button (fa icon wrapped in button probably)
-- coding button (fa icon wrapped in button probably)
-
-### acessibility
-
-- Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
-
-### styling
+### Roadmap (things I want to do later)
 
 - set font to helvetica or similar like neue haas grotesk
-
-### Maybe later:
-
 - see nextcloud todo list for next steps on learning react and use this to learn them.
 - change colour scheme, use tailwindcss colors. // shadow colour ykb or dominant color.
 - a little more gap between elements
@@ -86,6 +56,12 @@ ykb: {
 - pelicula - present like this: https://tosche.net/fonts/dossier
 - add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
 - test with jest while learning - see last section of front end roadmap
+- speech bubble on opening page, scribbled in.
+- on opening page:
+  - my cv button (fa icon wrapped in button probably)
+  - coding button (fa icon wrapped in button probably)
+- accesibility improved reccommended by MDN:
+  - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 
 ## How to run locally
 
