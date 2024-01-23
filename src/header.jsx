@@ -23,30 +23,34 @@ function Header({ onHeaderClick }) {
         >
           <h1
             onClick={() => onHeaderClick("openingPage")}
-            className=" hover:text-ykb-50 active:text-ykb-200 cursor-pointer"
+            className=" cursor-pointer hover:text-ykb-50 active:text-ykb-200"
           >
             About Me
           </h1>
           <h1
             onClick={() => onHeaderClick("coding")}
-            className="ml-0 hover:text-ykb-50 active:text-ykb-200 cursor-pointer"
+            className="ml-0 cursor-pointer hover:text-ykb-50 active:text-ykb-200"
           >
             Coding
           </h1>
           <h1
             onClick={() => onHeaderClick("design")}
-            className="hover:text-ykb-50 active:text-ykb-200 cursor-pointer"
+            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
           >
             Design
           </h1>
           <h1
             onClick={() => onHeaderClick("contact")}
-            className="hover:text-ykb-50 active:text-ykb-200 cursor-pointer"
+            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
           >
             Contact
           </h1>
-          <a href="https://cv.jackkershaw.net"  className="hover:text-ykb-50 active:text-ykb-200 cursor-pointer"
-          ><h1>CV</h1></a>
+          <a
+            href="https://cv.jackkershaw.net"
+            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+          >
+            <h1>CV</h1>
+          </a>
         </nav>
       </header>
     </>
