@@ -10,14 +10,16 @@ function Coding() {
     },
     {
       title: "Typespotting",
-      description: "It's like Where's Wally but you have to find the Cooper Black font. Built Using HTML, CSS and Javascript.",
+      description:
+        "It's like Where's Wally but you have to find the Cooper Black font. Built Using HTML, CSS and Javascript.",
       link: "https://typespotting.jackkershaw.net/",
       github_link: "https://github.com/jones58/typespotting",
       image_folder: "typespotting",
     },
     {
       title: "All About Cooper Black",
-      description: "Website to teach people about Cooper Black. Built using HTML, CSS and Javascript.",
+      description:
+        "Website to teach people about Cooper Black. Built using HTML, CSS and Javascript.",
       link: "https://allaboutcooperblack.jackkershaw.net/",
       github_link: "https://github.com/jones58/Cooper-Black-Info-Site",
       image_folder: "cooper-black",
@@ -47,7 +49,7 @@ function Coding() {
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
-            className="shadow-md lg:hover:underline lg:shadow-none "
+            className="shadow-md lg:shadow-none lg:hover:underline "
           >
             here
           </a>{" "}
@@ -55,7 +57,7 @@ function Coding() {
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
-            className="shadow-md lg:hover:underline lg:shadow-none"
+            className="shadow-md lg:shadow-none lg:hover:underline"
           >
             here
           </a>
@@ -65,9 +67,9 @@ function Coding() {
       <section>
         <ol className="flex-space-between flex flex-col justify-center">
           {projects.map((project, index) => (
-           <li
+            <li
               key={index}
-              className="flex flex-col lg:hover:shadow-lg lg:hover:shadow-ykb-500 lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-6"
+              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-6 lg:hover:shadow-lg lg:hover:shadow-ykb-500"
             >
               <a
                 href={project.link}
@@ -90,7 +92,7 @@ function Coding() {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="mt-4 block w-full border-2 border-black px-4 py-2 text-center text-xl lg:hover:shadow-lg lg:mt-0 lg:px-0 lg:py-2
+                  className="mt-4 block w-full border-2 border-black px-4 py-2 text-center text-xl lg:mt-0 lg:px-0 lg:py-2 lg:hover:shadow-lg
                   "
                 >
                   View Website
@@ -98,7 +100,7 @@ function Coding() {
                 <a
                   href={project.github_link}
                   target="_blank"
-                  className="mt-5 block w-full border-2 border-black px-4 text-center text-xl  lg:hover:shadow-lg lg:mt-0 lg:mt-3 lg:px-0 lg:py-2"
+                  className="mt-5 block w-full border-2 border-black px-4 text-center text-xl  lg:mt-0 lg:mt-3 lg:px-0 lg:py-2 lg:hover:shadow-lg"
                 >
                   View Github
                 </a>
@@ -119,18 +121,17 @@ function Coding() {
           ))}
         </ol>
       </section>
-      <section className="lg:hover:shadow-lg lg:hover:shadow-ykb-500 lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black">
+      <section className="lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb-500">
         <a
           href="https://github.com/jones58"
           target="_blank"
           className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none"
         >
-          <h3 className="mb-5 max-w-full p-5 text-center text-2xl font-semibold lg:pt-8 lg:text-left lg:text-5xl">
+          <h3 className="mb-5 max-w-full p-5 text-center text-2xl font-semibold sm:hover:underline lg:pt-8 lg:text-left lg:text-5xl">
             Where next?
           </h3>
         </a>
       </section>
-
     </div>
   );
 }
