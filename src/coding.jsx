@@ -69,7 +69,7 @@ function Coding() {
           {projects.map((project, index) => (
             <li
               key={index}
-              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-6 lg:hover:shadow-lg lg:hover:shadow-ykb-500"
+              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-4 lg:hover:shadow-lg lg:hover:shadow-ykb-500"
             >
               <a
                 href={project.link}
