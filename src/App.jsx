@@ -35,9 +35,11 @@ function App() {
 
   return (
     <div className="overflow-x-hidden">
-      <Header onHeaderClick={handleHeaderClick} />
-      <div id="main-content">{contentToShow}</div>
-      <Footer />
+      <Header onHeaderClick={handleHeaderClick} role="navigation" />
+      <div id="main-content" role="main">
+        {contentToShow}
+      </div>
+      <Footer role="banner" />
     </div>
   );
 }
