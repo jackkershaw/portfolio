@@ -17,7 +17,7 @@
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-typewriter-hook": "^1.0.2",
+    "react-use-typing-effect": "^1.0.0",
     "tailwind-classes-sorter": "^0.2.5"
   },
   "devDependencies": {
