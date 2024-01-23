@@ -47,15 +47,17 @@ ykb: {
 
 ### Footer : done
 
-### Coding : done
+### Contact: done
 
-### Contact
+### Coding :
 
-- photo on right hand side (below on mobile) with icons below (Font awesome icons for github, linkedin etc. at the bottom)
+- fix images overhanging.
 
 ### Design :
 
 - add descriptions, uncomment <p></p>
+
+- typo colourful designs
 
 ### Opening page
 
@@ -66,12 +68,10 @@ ykb: {
 
 ### sitewide
 
-- change design
-  - colour scheme, use tailwindcss colors.
-  - look through inspo/sites i like like fourtet site.
-  - https://www.tailwindshades.com/
-  - good example: https://github.com/BraydenTW/react-tailwind-portfolio/tree/main
-- set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
+- change colour scheme, use tailwindcss colors.
+
+- set font to helvetica or similar like neue haas grotesk
+- https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
 - see nextcloud todo list for next steps on learning react.
 - shadow colour ykb or dominant color like on the design page
 - Make clickable bits accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
