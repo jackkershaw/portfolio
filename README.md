@@ -41,7 +41,6 @@ ykb: {
 - Further to this, I ran Axe developer tools in my developer tools section and was advised to remove: "maximum-scale=5, user-scalable=no" from the 'index.html' file because it does not support accessibility for people with low vision who need magnification to see the content.
 - Axe Developer tools also reccommended I add landmarks, [ARIA roles](https://dequeuniversity.com/rules/axe/4.8/region?application=AxeFirefox) to the page to make it more accessible to screen readers.
 - #### Opening page
-
   - I missed the typing animation of [my first portfolio](https://github.com/jones58/portfolio) so I looked for a way to do that. While I could rewrite all the JS, it seemed like an easier way would be using [Typist](https://github.com/jstejada/react-typist), so i implemented this with NPM, as a React Hook. This wasn't compatible with my version of React, so I looked in the Github issues section for Typist and found an alternative: [react-typewriter](https://www.npmjs.com/package/react-typewriter). This also didn't work with my version of React, so I continued to look on github, test installing with NPM and eventually got [react-use-typing-effect](https://www.npmjs.com/package/react-use-typing-effect) working.
 
 ### Roadmap (things I want to do later)
