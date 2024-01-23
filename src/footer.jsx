@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faFreeCodeCamp,
+} from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -14,6 +21,26 @@ function Footer() {
             {" "}
             back to top ^
           </h2>
+          <div className="flex space-x-6 py-6">
+            <a href="https://github.com/jones58" target="_blank">
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500 "
+              />
+            </a>
+            <a href="https://www.freecodecamp.com/jones58" target="_blank">
+              <FontAwesomeIcon
+                icon={faFreeCodeCamp}
+                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/jackkershaw" target="_blank">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500"
+              />
+            </a>
+          </div>
         </navbar>
       </footer>
     </>
