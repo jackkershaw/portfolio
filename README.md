@@ -38,12 +38,12 @@ ykb: {
 - I fixed layout issues using `border-2 border-black` for Tailwind CSS and `console.log("test")` for JSX.
 - I took each page and component at a time - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
 - I ran Google Lighthouse to check accessibility. While I was happy with the scores (100, 85, 100, 91), I realised there was more I could be doing for accessibility so I added meta description and increased the maximum scale to 5 in my 'index.html' according to the reccommendations.
+- Further to this, I ran Axe developer tools in my developer tools section and was advised to remove: "maximum-scale=5, user-scalable=no" from the 'index.html' file because it does not support accessibility for people with low vision who need magnification to see the content.
+- Axe Developer tools also reccommended I add landmarks, [ARIA roles](https://dequeuniversity.com/rules/axe/4.8/region?application=AxeFirefox) to the page to make it more accessible to screen readers.
 
 ## !TO DO
 
-### Header :
-
-a little more gap between elements
+### Header : done
 
 ### Footer : done
 
@@ -51,8 +51,7 @@ a little more gap between elements
 
 ### Contact
 
-- test on tablet size.
-- photo on right hand side (below on mobile and tablet) with icons below (Font awesome icons for github, linkedin etc. at the bottom)
+- photo on right hand side (below on mobile) with icons below (Font awesome icons for github, linkedin etc. at the bottom)
 
 ### Design :
 
@@ -75,9 +74,11 @@ a little more gap between elements
 - set font to helvetica or similar like neue haas grotesk -https://www.are.na/gemma-copeland/good-footers-9eibsw2ipzm
 - see nextcloud todo list for next steps on learning react.
 - shadow colour ykb or dominant color like on the design page
+- Make clickable bits accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 
 ### Maybe later:
 
+- a little more gap between elements
 - Add hero icons/font awesome icons for header: https://heroicons.dev/?search=x.
 - add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
 - Mobile Navbar as full page, scrollable like on wired.com
@@ -87,7 +88,7 @@ a little more gap between elements
 
 ## How to run locally
 
-- Clone the repo
+- clone the repo
 - npm install
 - npm run dev
 
