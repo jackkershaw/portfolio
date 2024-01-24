@@ -1,5 +1,13 @@
 # My Portfolio
 
+## final edits
+
+- fix contact form not working on mobile - maybe there's a way with npm/react
+- the menu shouldn't stay highlighted/active after clicked on Mobile
+- when on a page, highlight that page in menu
+- change hover/active color for Navbar
+- when click on menu item, menu closes (on mobile)
+
 ## Planning
 
 - Generated shades for the colour scheme using [Tailwind Shades](https://www.tailwindshades.com/) based on my favourite blue, Yves Klein Blue:
