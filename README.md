@@ -28,11 +28,9 @@
   - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
   - when click on menu item, menu closes (on mobile) - this was done by toggling the nav bar on click - using state just as opening it does. I wrapped the two functions in another, function to handle header clicks.
   - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
-- Set font to Neue Haas Unica, a typeface by one of my favourite type designers, Toshi Omagari. The easiest way to set this was changing the default fonts in tailwind.config.js., and set font-face in index.css.
+- Set font to [Neue Haas Unica](https://fontsinuse.com/typefaces/38883/neue-haas-unica), a typeface by one of my favourite type designers, [Toshi Omagari](http://tosche.net/). The easiest way to set this was changing the default fonts in tailwind.config.js., and set font-face in index.css.
 
-## Roadmap
-
-(some things I want to do later)
+## Roadmap (some things I want to do later)
 
 - rebuild form with a backend/using express js, node or such.
 - see nextcloud todo list for next steps on learning react and use this to learn them.
