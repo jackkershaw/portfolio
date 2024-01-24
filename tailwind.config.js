@@ -9,6 +9,10 @@ export default {
         ykb: "#002FA7",
         orangepeel: "#FFA630",
       },
+      fontFamily: {
+        sans: ["Unica", "Helvetica", "sans-serif"],
+        bold: ["Unica Bold", "Helvetica Bold", "sans-serif"],
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss", "tailwind-classes-sorter"],

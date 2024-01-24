@@ -1,6 +1,6 @@
 import useTypingEffect from "react-use-typing-effect";
 
-const text = `Hi there! I'm Jack, a London-based designer and developer.
+const text = `Hi there! I'm Jack, a London-based developer and designer.
 I've spent the last year and a half learning the fundamentals of development,
 including taking part in Just IT's highly selective twelve-week
 bootcamp. So far I've learnt HTML, CSS, Javascript, Python, React and
