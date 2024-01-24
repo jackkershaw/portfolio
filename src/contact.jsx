@@ -17,7 +17,7 @@ function Contact() {
       <form
         action="https://formsubmit.co/jcode689@gmail.com"
         method="POST"
-        className="my-10 flex flex-col space-y-3 border-2 border-black p-5 hover:shadow-md hover:shadow-ykb-500 md:mx-10"
+        className="my-10 flex flex-col space-y-3 border-2 border-black p-5 hover:shadow-md hover:shadow-ykb md:mx-10"
       >
         <div className="space-y-3 sm:grid sm:grid-cols-3 sm:space-y-0">
           <input

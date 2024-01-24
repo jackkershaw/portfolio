@@ -49,7 +49,7 @@ function Coding() {
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
-            className="shadow-md lg:shadow-none lg:hover:underline "
+            className=" lg:hover:underline "
           >
             here
           </a>{" "}
@@ -57,7 +57,7 @@ function Coding() {
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
-            className="shadow-md lg:shadow-none lg:hover:underline"
+            className="lg:hover:underline"
           >
             here
           </a>
@@ -69,7 +69,7 @@ function Coding() {
           {projects.map((project, index) => (
             <li
               key={index}
-              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-4 lg:hover:shadow-lg lg:hover:shadow-ykb-500"
+              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-4 lg:hover:shadow-lg lg:hover:shadow-ykb"
             >
               <a
                 href={project.link}
@@ -121,7 +121,10 @@ function Coding() {
           ))}
         </ol>
       </section>
-      <section className="lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb-500">
+      <section
+        className="pb-10 sm:pb-0 lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb
+      "
+      >
         <a
           href="https://github.com/jones58"
           target="_blank"

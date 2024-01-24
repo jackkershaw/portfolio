@@ -3,52 +3,65 @@ import React, { useState } from "react";
 function Header({ onHeaderClick }) {
   /* Using state to set initial value for mobile nav */
   const [isNavVisible, setNavVisible] = useState(false);
+  const [currentPage, setCurrentPage] = useState("openingPage");
 
   const toggleNav = () => {
     setNavVisible(!isNavVisible);
   };
 
+  const handleHeaderClick = (section) => {
+    onHeaderClick(section);
+    setCurrentPage(section);
+    toggleNav();
+  };
+
+  const getHeaderStyle = (pageName) => {
+    return `cursor-pointer hover:text-orangepeel active:text-white ${
+      currentPage === pageName ? "text-orangepeel" : ""
+    }`;
+  };
+
   return (
     <>
-      <header className="min-w-100 bg-ykb-500 py-4 text-white">
+      <header className="min-w-100 bg-ykb py-4 text-white">
         <button
           id="hamburger-button"
-          className="ml-auto mr-5 flex cursor-pointer text-4xl hover:text-ykb-50 active:text-ykb-200 sm:hidden"
+          className="hover:text-orangepeel ml-auto mr-5 flex cursor-pointer text-4xl active:text-white sm:hidden"
           onClick={toggleNav}
         >
           {isNavVisible ? "X" : "Menu ☰"}
         </button>
         <nav
-          className={`${isNavVisible ? "sm:flex sm:hidden" : "hidden sm:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl sm:mx-5 sm:flex-row lg:mx-10 lg:text-3xl`}
+          className={`${isNavVisible ? "sm:flex" : "hidden sm:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl sm:mx-5 sm:flex-row lg:mx-10 lg:text-3xl`}
         >
           <h1
-            onClick={() => onHeaderClick("openingPage")}
-            className=" cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+            onClick={() => handleHeaderClick("openingPage")}
+            className={getHeaderStyle("openingPage")}
           >
             About Me
           </h1>
           <h1
-            onClick={() => onHeaderClick("coding")}
-            className="ml-0 cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+            onClick={() => handleHeaderClick("coding")}
+            className={getHeaderStyle("coding")}
           >
             Coding
           </h1>
           <h1
-            onClick={() => onHeaderClick("design")}
-            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+            onClick={() => handleHeaderClick("design")}
+            className={getHeaderStyle("design")}
           >
             Design
           </h1>
           <h1
-            onClick={() => onHeaderClick("contact")}
-            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+            onClick={() => handleHeaderClick("contact")}
+            className={getHeaderStyle("contact")}
           >
             Contact
           </h1>
           <a
             href="https://cv.jackkershaw.net"
             target="_blank"
-            className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
+            className={getHeaderStyle("cv")}
           >
             <h1>CV</h1>
           </a>

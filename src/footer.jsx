@@ -12,11 +12,11 @@ function Footer() {
 
   return (
     <>
-      <footer className="fixed bottom-0 w-full bg-ykb-500 py-4 text-2xl text-white sm:max-h-20">
+      <footer className="fixed bottom-0 w-full bg-ykb py-4 text-2xl text-white sm:max-h-20">
         <navbar className="container flex flex-col items-center justify-between sm:mx-5 sm:flex-row lg:mx-10">
           <h2
             onClick={scrollToTop}
-            className="cursor-pointer hover:text-ykb-50 active:text-ykb-500"
+            className="hover:text-orangepeel  cursor-pointer active:text-white"
           >
             {" "}
             back to top ^
@@ -25,19 +25,19 @@ function Footer() {
             <a href="https://github.com/jones58" target="_blank">
               <FontAwesomeIcon
                 icon={faGithub}
-                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500 "
+                className="hover:text-orangepeel cursor-pointer  text-3xl active:text-white "
               />
             </a>
             <a href="https://www.freecodecamp.com/jones58" target="_blank">
               <FontAwesomeIcon
                 icon={faFreeCodeCamp}
-                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500"
+                className="hover:text-orangepeel cursor-pointer  text-3xl active:text-white"
               />
             </a>
             <a href="https://www.linkedin.com/in/jackkershaw" target="_blank">
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="cursor-pointer text-3xl hover:text-ykb-50 active:text-ykb-500"
+                className="hover:text-orangepeel cursor-pointer  text-3xl active:text-white"
               />
             </a>
           </div>

@@ -59,7 +59,7 @@ function Design() {
         Photoshop, Illustrator, InDesign and Bridge to create bold, colourful
         designs for a host of clients around the world.
       </p>
-      <div className="flex flex-wrap justify-center gap-4 p-4">
+      <div className="flex flex-wrap justify-center gap-4 p-4 pb-10 sm:pb-0">
         {designs.map((design) => (
           <section
             key={design.id}

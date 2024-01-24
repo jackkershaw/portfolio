@@ -2,32 +2,13 @@
 
 ## final edits
 
-- fix contact form not working on mobile - maybe there's a way with npm/react
-- the menu shouldn't stay highlighted/active after clicked on Mobile
 - when on a page, highlight that page in menu
 - change hover/active color for Navbar
 - when click on menu item, menu closes (on mobile)
 
 ## Planning
 
-- Generated shades for the colour scheme using [Tailwind Shades](https://www.tailwindshades.com/) based on my favourite blue, Yves Klein Blue:
-
-```jsx
-ykb: {
-         DEFAULT: "#002FA7",
-         50: "#608CFF",
-         100: "#4B7EFF",
-         200: "#2260FF",
-         300: "#0046F9",
-         400: "#003AD0",
-         500: "#002FA7",
-         600: "#001F6F",
-         700: "#000F37",
-         800: "#000000",
-         900: "#000000",
-         950: "#000000",
-       },
-```
+- Generated shades for the colour scheme based on my favourite blue, Yves Klein Blue(#002FA7), plain black and white and
 
 - Redesigned [my old portfolio](https://github.com/jones58/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
 - Thought about the components that make up my website - this was useful for helping the move to React.
@@ -55,6 +36,7 @@ ykb: {
 
 (some things I want to do later)
 
+- rebuild form with a backend/using express js, node or such.
 - set font to helvetica or similar like neue haas grotesk
 - see nextcloud todo list for next steps on learning react and use this to learn them.
 - change colour scheme, use tailwindcss colors. // shadow colour ykb or dominant color.
