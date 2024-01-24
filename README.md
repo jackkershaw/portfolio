@@ -1,15 +1,8 @@
 # My Portfolio
 
-## final edits
-
-- when on a page, highlight that page in menu
-- change hover/active color for Navbar
-- when click on menu item, menu closes (on mobile)
-
 ## Planning
 
-- Generated shades for the colour scheme based on my favourite blue, Yves Klein Blue(#002FA7), plain black and white and
-
+- Generated shades for the colour scheme based on my favourite blue, Yves Klein Blue(#002FA7), plain black and white and orangepeel (#FFA630)
 - Redesigned [my old portfolio](https://github.com/jones58/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
 - Thought about the components that make up my website - this was useful for helping the move to React.
 
@@ -31,6 +24,10 @@
 - Axe Developer tools also reccommended I add landmarks, [ARIA roles](https://dequeuniversity.com/rules/axe/4.8/region?application=AxeFirefox) to the page to make it more accessible to screen readers.
 - #### Opening page
   - I missed the typing animation of [my first portfolio](https://github.com/jones58/portfolio) so I looked for a way to do that. While I could rewrite all the JS, it seemed like an easier way would be using [Typist](https://github.com/jstejada/react-typist), so i implemented this with NPM, as a React Hook. This wasn't compatible with my version of React, so I looked in the Github issues section for Typist and found an alternative: [react-typewriter](https://www.npmjs.com/package/react-typewriter). This also didn't work with my version of React, so I continued to look on github, test installing with NPM and eventually got [react-use-typing-effect](https://www.npmjs.com/package/react-use-typing-effect) working.
+- Following some user feedback, I was told that a few things needed change on mobile to make it snappier. I interpreted the user feedback and wrote code for the following in my header.jsx:
+  - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
+  - when click on menu item, menu closes (on mobile) - this was done by toggling the nav bar on click - using state just as opening it does. I wrapped the two functions in another, function to handle header clicks.
+  - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
 
 ## Roadmap
 
