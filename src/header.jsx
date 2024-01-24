@@ -47,6 +47,7 @@ function Header({ onHeaderClick }) {
           </h1>
           <a
             href="https://cv.jackkershaw.net"
+            target="_blank"
             className="cursor-pointer hover:text-ykb-50 active:text-ykb-200"
           >
             <h1>CV</h1>
