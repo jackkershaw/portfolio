@@ -5,17 +5,17 @@ function Contact() {
         <p className="text-2xl  md:mx-5">
           Get in touch here or email me directly on {""}
           <a
-            href="mailto:jkershaw986@gmail.com"
+            href="mailto:jackkershaw@protonmail.com"
             target="_blank"
             className="hover:underline"
           >
-            jkershaw986@gmail.com
+            jackkershaw@protonmail.com
           </a>
           .
         </p>
       </div>
       <form
-        action="https://formsubmit.co/jcode689@gmail.com"
+        action="https://formsubmit.co/jackkershaw@protonmail.com"
         method="POST"
         className="my-10 flex flex-col space-y-3 border-2 border-black p-5 hover:shadow-md hover:shadow-ykb md:mx-10"
       >
@@ -50,7 +50,7 @@ function Contact() {
         <button
           type="submit"
           value="Submit"
-          className="rounded border-4 border-ykb p-4 py-10 text-left text-xl font-bold hover:shadow-md hover:shadow-black focus:border-ykb focus:shadow-md sm:px-10 sm:py-6"
+          className="rounded border-4 border-ykb p-4 py-10 text-left font-bold text-xl hover:shadow-md hover:shadow-black focus:border-ykb focus:shadow-md sm:px-10 sm:py-6"
         >
           Submit
         </button>
