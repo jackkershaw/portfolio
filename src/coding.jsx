@@ -1,9 +1,17 @@
 function Coding() {
   const projects = [
     {
+      title: "London Brutalist Map",
+      description:
+        "Discover London's brutalist buildings on an interactive map. Built using Mapbox API, HTML, CSS, and JavaScript.",
+      link: "https://brutalistmap.jackkershaw.net/",
+      github_link: "https://github.com/jones58/London-Brutalist-Map",
+      image_folder: "brutalist-map",
+    },
+    {
       title: "Daily Challenges",
       description:
-        "Website to link to all the Wordle-adjacent games. Built using HTML, CSS and Javascript.",
+        "Explore a collection of Wordle-adjacent games. Built using HTML, CSS, and JavaScript.",
       link: "https://dailychallenges.jackkershaw.net",
       github_link: "https://github.com/jones58/daily-challenges",
       image_folder: "daily-challenges",
@@ -11,26 +19,18 @@ function Coding() {
     {
       title: "Typespotting",
       description:
-        "It's like Where's Wally but you have to find the Cooper Black font. Built Using HTML, CSS and Javascript.",
+        "Find the Cooper Black font in this Where's Wally-style game. Built using HTML, CSS, and JavaScript.",
       link: "https://typespotting.jackkershaw.net/",
       github_link: "https://github.com/jones58/typespotting",
       image_folder: "typespotting",
     },
     {
-      title: "All About Cooper Black",
+      title: "Cooper Black",
       description:
-        "Website to teach people about Cooper Black. Built using HTML, CSS and Javascript.",
-      link: "https://allaboutcooperblack.jackkershaw.net/",
+        "Educational website about the Cooper Black font. Built using HTML, CSS, and JavaScript.",
+      link: "https://cooperblack.jackkershaw.net/",
       github_link: "https://github.com/jones58/Cooper-Black-Info-Site",
       image_folder: "cooper-black",
-    },
-    {
-      title: "London Brutalist Map",
-      description:
-        "A map for discovering London's brutalist buildings. Built using Mapbox API, HTML, CSS and Javascript.",
-      link: "https://brutalistmap.jackkershaw.net/",
-      github_link: "https://github.com/jones58/London-Brutalist-Map",
-      image_folder: "brutalist-map",
     },
     {
       title: "My Portfolio",
@@ -38,6 +38,14 @@ function Coding() {
       link: "https://www.jackkershaw.net",
       github_link: "https://github.com/jones58/portfolio-2024",
       image_folder: "portfolio",
+    },
+    {
+      title: "Jobseeker",
+      description:
+        "Frontend job boards collected in one place. Built using React and Tailwind CSS, bootstrapped with Vite.",
+      link: "https://jobseeker.jackkershaw.net/",
+      github_link: "https://github.com/jones58/jobseeker",
+      image_folder: "jobseeker",
     },
   ];
 
