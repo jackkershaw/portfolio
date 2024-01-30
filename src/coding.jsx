@@ -34,7 +34,7 @@ function Coding() {
     },
     {
       title: "My Portfolio",
-      description: "This website. Built using Vite, React and Tailwind CSS.",
+      description: "This website. Built using React and Tailwind CSS.",
       link: "https://www.jackkershaw.net",
       github_link: "https://github.com/jones58/portfolio-2024",
       image_folder: "portfolio",
@@ -42,7 +42,7 @@ function Coding() {
     {
       title: "Jobseeker",
       description:
-        "Frontend job boards collected in one place. Built using React and Tailwind CSS, bootstrapped with Vite.",
+        "Frontend job boards collected in one place. Built using React and Tailwind CSS.",
       link: "https://jobseeker.jackkershaw.net/",
       github_link: "https://github.com/jones58/jobseeker",
       image_folder: "jobseeker",
