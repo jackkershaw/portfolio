@@ -6,6 +6,7 @@ import Design from "./design";
 import Coding from "./coding";
 import Footer from "./footer";
 import Contact from "./contact";
+import CV from "./CV";
 
 function App() {
   const [currentContent, setCurrentContent] = useState("openingPage");
@@ -17,8 +18,8 @@ function App() {
   let contentToShow;
 
   switch (currentContent) {
-    case "videos":
-      contentToShow = <Videos />;
+    case "openingPage":
+      contentToShow = <OpeningPage />;
       break;
     case "design":
       contentToShow = <Design />;
@@ -28,6 +29,9 @@ function App() {
       break;
     case "contact":
       contentToShow = <Contact />;
+      break;
+    case "cv":
+      contentToShow = <CV />;
       break;
     default:
       contentToShow = <OpeningPage />;

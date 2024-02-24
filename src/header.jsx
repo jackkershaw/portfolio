@@ -26,7 +26,7 @@ function Header({ onHeaderClick }) {
       <header className="min-w-100 bg-ykb py-4 text-white">
         <button
           id="hamburger-button"
-          className="hover:text-orangepeel ml-auto mr-5 flex cursor-pointer text-4xl active:text-white sm:hidden"
+          className="ml-auto mr-5 flex cursor-pointer text-4xl hover:text-orangepeel active:text-white sm:hidden"
           onClick={toggleNav}
         >
           {isNavVisible ? "X" : "Menu ☰"}
@@ -58,13 +58,12 @@ function Header({ onHeaderClick }) {
           >
             Contact
           </h1>
-          <a
-            href="https://cv.jackkershaw.net"
-            target="_blank"
+          <h1
+            onClick={() => handleHeaderClick("cv")}
             className={getHeaderStyle("cv")}
           >
-            <h1>CV</h1>
-          </a>
+            CV
+          </h1>
         </nav>
       </header>
     </>
