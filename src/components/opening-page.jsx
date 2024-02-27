@@ -2,7 +2,7 @@ import MyTechStack from './my-tech-stack';
 
 function OpeningPage() {
   return (
-    <div className="mx-10 mb-10 pb-10 sm:grid sm:grid-cols-3 sm:py-10">
+    <div className="mx-10 mb-10 pb-10 sm:py-10 lg:grid lg:grid-cols-3">
       <div className="mt-10 h-auto border-2 border-black p-5 hover:shadow-md hover:shadow-ykb">
         <img
           src="/opening-page/jackkershaw.jpg"

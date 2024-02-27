@@ -14,7 +14,7 @@ function CvContent() {
       </p>
       <iframe
         src="Jack-Kershaw-CV.pdf"
-        className=" h-screen w-full border-2 border-black hover:shadow-md hover:shadow-ykb"
+        className=" my-6 h-[80vh] w-full border-2 border-black hover:shadow-md hover:shadow-ykb "
       ></iframe>
     </div>
   );
