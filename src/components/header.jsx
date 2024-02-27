@@ -26,14 +26,13 @@ function Header({ onHeaderClick }) {
         <button
           id="hamburger-button"
           className="ml-auto mr-5 flex cursor-pointer text-4xl hover:text-orangepeel active:text-white sm:hidden"
-          onClick={toggleNav}
         >
           {isNavVisible ? "X" : "Menu ☰"}
         </button>
         <nav
           className={`${isNavVisible ? "sm:flex" : "hidden sm:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl sm:mx-5 sm:flex-row lg:mx-10 lg:text-3xl`}
         >
-          <a href="/openingPage" className={getHeaderStyle("openingPage")} onClick={() => handleHeaderClick("openingPage")}>
+          <a href="/" className={getHeaderStyle("openingPage")} onClick={() => handleHeaderClick("openingPage")}>
             About Me
           </a>
           <a href="/coding" className={getHeaderStyle("coding")} onClick={() => handleHeaderClick("coding")}>
