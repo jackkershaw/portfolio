@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Header({ onHeaderClick }) {
-  /* Using state to set initial value for mobile nav */
   const [isNavVisible, setNavVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState("openingPage");
 
@@ -34,36 +33,21 @@ function Header({ onHeaderClick }) {
         <nav
           className={`${isNavVisible ? "sm:flex" : "hidden sm:flex"} container w-full flex-col items-center justify-between py-4 text-center text-2xl sm:mx-5 sm:flex-row lg:mx-10 lg:text-3xl`}
         >
-          <h1
-            onClick={() => handleHeaderClick("openingPage")}
-            className={getHeaderStyle("openingPage")}
-          >
+          <a href="/openingPage" className={getHeaderStyle("openingPage")} onClick={() => handleHeaderClick("openingPage")}>
             About Me
-          </h1>
-          <h1
-            onClick={() => handleHeaderClick("coding")}
-            className={getHeaderStyle("coding")}
-          >
+          </a>
+          <a href="/coding" className={getHeaderStyle("coding")} onClick={() => handleHeaderClick("coding")}>
             Coding
-          </h1>
-          <h1
-            onClick={() => handleHeaderClick("design")}
-            className={getHeaderStyle("design")}
-          >
+          </a>
+          <a href="/design" className={getHeaderStyle("design")} onClick={() => handleHeaderClick("design")}>
             Design
-          </h1>
-          <h1
-            onClick={() => handleHeaderClick("contact")}
-            className={getHeaderStyle("contact")}
-          >
+          </a>
+          <a href="/contact" className={getHeaderStyle("contact")} onClick={() => handleHeaderClick("contact")}>
             Contact
-          </h1>
-          <h1
-            onClick={() => handleHeaderClick("cv")}
-            className={getHeaderStyle("cv")}
-          >
+          </a>
+          <a href="/cv" className={getHeaderStyle("cv")} onClick={() => handleHeaderClick("cv")}>
             CV
-          </h1>
+          </a>
         </nav>
       </header>
     </>
