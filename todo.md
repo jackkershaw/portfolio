@@ -1,7 +1,7 @@
 To do list
 
 - fix header colour changes
-- fix mobile nav
+- fix mobile nav and mobile look of opening page.
 - fix footer icons not showing
 - get working on jackkershaw.net
 - use audit thing in dev environment , make edits it suggests
