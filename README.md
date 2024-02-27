@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Planning
-- I originally built this site in vanilla HTML, CSS and JS. As the project expanded it became harder to edit, so I decided to use React and Vite with Tailwind CSS.
+- I originally built this site in vanilla HTML, CSS and JS. As the project expanded it became harder to edit, so I decided to use React and Vite with Tailwind CSS. Later I migrated it to Astro in order to add some new features(see below).
 - Generated shades for the colour scheme based on my favourite blue, Yves Klein Blue(#002FA7), plain black and white and orangepeel (#FFA630).
 - Redesigned [my old portfolio](https://github.com/jones58/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
 - Thought about the components that make up my website - this was useful for helping the move to React.
@@ -44,21 +44,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 🚀 Project Structure
-
-The project is built of the following files and folders:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
