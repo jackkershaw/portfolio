@@ -19,17 +19,18 @@
   - this helped speed up my workflow, as I could easily debug each one at a time and remain focussed.
 - I ran Google Lighthouse to check accessibility. While I was happy with the scores (100, 85, 100, 91), I realised there was more I could be doing for accessibility so I added meta description and increased the maximum scale to 5 in my 'index.html' according to the reccommendations.
 - Further to this, I ran Axe developer tools in my developer tools section and was advised to remove: "maximum-scale=5, user-scalable=no" from the 'index.html' file because it does not support accessibility for people with low vision who need magnification to see the content.
-- Axe Developer tools also reccommended I add landmarks, [ARIA roles](https://dequeuniversity.com/rules/axe/4.8/region?application=AxeFirefox) to the page to make it more accessible to screen readers.
-- #### Opening page
+- Set font to [Neue Haas Unica](https://fontsinuse.com/typefaces/38883/neue-haas-unica), a typeface by one of my favourite type designers, [Toshi Omagari](http://tosche.net/). The easiest way to set this was changing the default fonts in tailwind.config.js., and set font-face in index.css.
+#### Opening page
 - Following some user feedback, I was told that a few things needed change on mobile to make it snappier. I interpreted the user feedback and wrote code for the following in my header.jsx:
   - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
   - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
-- Set font to [Neue Haas Unica](https://fontsinuse.com/typefaces/38883/neue-haas-unica), a typeface by one of my favourite type designers, [Toshi Omagari](http://tosche.net/). The easiest way to set this was changing the default fonts in tailwind.config.js., and set font-face in index.css.
+
 
 ## Moving to Astro
 
 - In late February 2024, I decided I wanted to migrate the site, in React, Vite and Tailwind CSS, to Astro. It took me a relatively short amount of time to edit my codebase and I was very happy with the result.
 - I wanted to do this because it would allow me to easily add a blog to my site, and tinker with different frameworks such as Svelte and Vue within one project.
+- I had some problems using Font Awesome icons in Astro, so I decided to use SVGs instead.
 
 ## 🧞 Commands
 
