@@ -1,9 +1,17 @@
 To do list
 
+- fix footer icons not showing
+- do other pages
 - get working on jackkershaw.net
 - use audit thing in dev environment , make edits it suggests
 - edit Readme to reflect Astro changes
 - use lighthouse
+- maybe bring back typing text on first page
+- add sitemap: [
+](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
+- add blog component served from md files: [
+
+](https://docs.astro.build/en/tutorial/2-pages/)
 
 - rebuild form with a backend/using express js, node or such.
 - see nextcloud todo list for next steps on learning react and use this to learn them.
