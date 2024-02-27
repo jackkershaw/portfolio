@@ -1,10 +1,8 @@
-import useTypingEffect from "react-use-typing-effect";
-
-function OpeningPage() {
+function CV() {
   return (
     <div className="mx-10 mb-10 py-10 pb-10">
       <p className="w-full py-4 text-2xl">
-        Below you'll find my CV. You can also{" "}
+        Below you'll find my CV. You can also{' '}
         <a
           href="Jack-Kershaw-CV.pdf"
           target="_blank"
@@ -17,11 +15,9 @@ function OpeningPage() {
       <iframe
         src="Jack-Kershaw-CV.pdf"
         className=" h-screen w-full border-2 border-black hover:shadow-md hover:shadow-ykb"
-      >
-        title="CV" >
-      </iframe>
+      ></iframe>
     </div>
   );
 }
 
-export default OpeningPage;
+export default CV;
