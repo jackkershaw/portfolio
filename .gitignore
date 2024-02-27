@@ -131,3 +131,6 @@ dist
 
 src/coding-page/iphone 13mini mockup.psd
 public/coding-page/iphone 13mini mockup.psd
+
+# Local Netlify folder
+.netlify
