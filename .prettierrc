@@ -1,11 +1,11 @@
 {
   "tabWidth": 2,
   "useTabs": false,
-  "plugins": ["prettier-plugin-tailwind"],
   "singleQuote": true,
+  "plugins": ["prettier-plugin-tailwind"],
   "overrides": [
     {
-      "files": ["**/*.js"],
+      "files": ["**/*.js", "**/*.jsx", "**/*.astro"],
       "options": {
         "parser": "babel",
         "requireConfig": true,
