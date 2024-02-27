@@ -1,7 +1,8 @@
 To do list
 
+- fix header colour changes
+- fix mobile nav
 - fix footer icons not showing
-- do other pages
 - get working on jackkershaw.net
 - use audit thing in dev environment , make edits it suggests
 - edit Readme to reflect Astro changes
@@ -10,20 +11,19 @@ To do list
 - add sitemap: [
 ](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
 - add blog component served from md files: [
-
 ](https://docs.astro.build/en/tutorial/2-pages/)
+- edit 404 page
 
+- system theme dark theme light theme like on [here](https://alexworradandrews.com/)
+
+
+- cool theme: [text](https://brutal.elian.codes/)
 - rebuild form with a backend/using express js, node or such.
-- see nextcloud todo list for next steps on learning react and use this to learn them.
-- change colour scheme, use tailwindcss colors. // shadow colour ykb or dominant color.
-- a little more gap between elements
-- Add hero icons/font awesome icons for header: https://heroicons.dev/?search=x.
-- add react router DOM so can navigate between pages - e.g. clicking where next goes to contact page.
-- Mobile Navbar as full page, scrollable like on wired.com
+- Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
+- Mobile Navbar as full page, scrollable like on wired.com mobile site.
 - pelicula - present like this: https://tosche.net/fonts/dossier
-- add icons from font awesome: https://fontawesome.com/icons/github?f=brands&s=solid
 - test with jest while learning - see last section of front end roadmap
-- speech bubble on opening page, scribbled in.
+- speech bubble on opening page, scribbled in maybe
 - on opening page:
   - my cv button (fa icon wrapped in button probably)
   - coding button (fa icon wrapped in button probably)
