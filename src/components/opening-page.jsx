@@ -1,9 +1,4 @@
-
-const text = `Hi there! I'm Jack, a London-based developer and designer.
-I've spent the last two years learning the fundamentals of development,
-including taking part in Just IT's highly selective twelve-week
-bootcamp. So far I've learnt HTML, CSS, Javascript, Python, React and
-Tailwind CSS.`;
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function OpeningPage() {
 
@@ -17,7 +12,15 @@ function OpeningPage() {
         />
       </div>
       <div className="mx-10 mb-10 py-10 text-2xl text-ykb sm:col-span-2 md:text-5xl">
-        {text}
+        <p>Hi there! I'm Jack, a London-based developer and designer.
+I've spent the last two years learning the fundamentals of development,
+including taking part in Just IT's highly selective twelve-week
+bootcamp. So far I've learnt:</p>
+        <FontAwesomeIcon icon={['fab', 'html5']} className="text-orangepeel" />
+        <FontAwesomeIcon icon={['fab', 'css3-alt']} />
+        <FontAwesomeIcon icon={['fab', 'js-square']} />
+        <FontAwesomeIcon icon={['fab', 'react']} />
+
       </div>
     </div>
   );
