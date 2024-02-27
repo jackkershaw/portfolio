@@ -1,54 +1,54 @@
-function Design() {
+function DesignContent() {
   const designs = [
     {
-      id: "fete2022",
+      id: 'fete2022',
       description:
         "Poster designed as part of the broader identity and logo design I completed for Fête de L'Humanité 2022 - a festival drawing crowds of over 500,000 in France.",
     },
     {
-      id: "leaves",
+      id: 'leaves',
       description:
-        "Self-initiated poster made by gathering leaves, scanning and manipulating them in Photoshop.",
+        'Self-initiated poster made by gathering leaves, scanning and manipulating them in Photoshop.',
     },
     {
-      id: "cpc",
+      id: 'cpc',
       description:
-        "Logo and brand identity for the Centre for Progressive Change.",
+        'Logo and brand identity for the Centre for Progressive Change.',
     },
     {
-      id: "pelicula",
+      id: 'pelicula',
       description:
-        "An open-source typeface inspired by Poster Collective posters at May Day Rooms.",
+        'An open-source typeface inspired by Poster Collective posters at May Day Rooms.',
     },
     {
-      id: "peoplesvaccine",
+      id: 'peoplesvaccine',
       description:
         "Poster design for the People's Vaccine campaign, advocating for global access to COVID-19 vaccines.",
     },
     {
-      id: "safesickpay",
+      id: 'safesickpay',
       description:
-        "Designs for Safe Sick Pay, a policy research project to raise the rate of statuory sick pay.",
+        'Designs for Safe Sick Pay, a policy research project to raise the rate of statuory sick pay.',
     },
     {
-      id: "scotland-tuc",
+      id: 'scotland-tuc',
       description:
-        "Leaflet, beer mat and pins for Scotland TUC, an organisation in Scotland providing guidance to workers and employers on how to return to work after the COVID-19 lockdowns.",
+        'Leaflet, beer mat and pins for Scotland TUC, an organisation in Scotland providing guidance to workers and employers on how to return to work after the COVID-19 lockdowns.',
     },
     {
-      id: "fete2023",
+      id: 'fete2023',
       description:
         "Poster designed as part of the broader identity and logo design I completed for Fête de L'Humanité 2023 - a festival drawing crowds of over 600,000 in France.",
     },
     {
-      id: "screenburn",
+      id: 'screenburn',
       description:
-        "Logo and brand identity for Screenburn, an organisation researching the implications of excessive screen use.",
+        'Logo and brand identity for Screenburn, an organisation researching the implications of excessive screen use.',
     },
     {
-      id: "fairwork",
+      id: 'fairwork',
       description:
-        "Billboard designs for Fairwork, a research group at the Oxford Internet Institute.",
+        'Billboard designs for Fairwork, a research group at the Oxford Internet Institute.',
     },
   ];
 
@@ -78,4 +78,4 @@ function Design() {
   );
 }
 
-export default Design;
+export default DesignContent;

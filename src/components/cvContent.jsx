@@ -1,4 +1,4 @@
-function CV() {
+function CvContent() {
   return (
     <div className="mx-10 mb-10 py-10 pb-10">
       <p className="w-full py-4 text-2xl">
@@ -20,4 +20,4 @@ function CV() {
   );
 }
 
-export default CV;
+export default CvContent;

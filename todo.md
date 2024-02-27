@@ -16,6 +16,8 @@ To do list
 
 - edit header so orange for selected header item.
 
+- some animations? Look into cool things to do with Astro transitions etc.
+
 - cool theme: [text](https://brutal.elian.codes/)
 - rebuild form with a backend/using express js, node or such, or netlify.
 - Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
