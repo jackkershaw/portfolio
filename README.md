@@ -30,7 +30,7 @@
 
 - In late February 2024, I decided I wanted to migrate the site, in React, Vite and Tailwind CSS, to Astro. It took me a relatively short amount of time to edit my codebase and I was very happy with the result.
 - I wanted to do this because it would allow me to easily add a blog to my site, and tinker with different frameworks such as Svelte and Vue within one project.
-- I had some problems using Font Awesome icons in Astro, so I decided to use SVGs instead.
+- I had some problems using Font Awesome icons in Astro, so I decided to use SVGs instead, from FreeCodeCamp and [Iconify](https://iconify.design/).
 
 ## 🧞 Commands
 
