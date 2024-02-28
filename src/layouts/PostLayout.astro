@@ -1,0 +1,15 @@
+---
+import Header from "../components/header";
+import Footer from "../components/footer";
+const { frontmatter } = Astro.props;
+import Layout from '../layouts/Layout.astro';
+---
+<Layout >
+<main>
+	<h1>{frontmatter.title}</h1>
+    <p>Written by {frontmatter.author}</p>
+    <p>{frontmatter.pubDate.slice(0, 10)}</p>
+    <p>{frontmatter.description}</p>
+    <slot />
+  </main>
+</Layout>

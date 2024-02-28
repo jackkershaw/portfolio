@@ -32,7 +32,12 @@
 - I wanted to do this because it would allow me to easily add a blog to my site, and tinker with different frameworks such as Svelte and Vue within one project.
 - I had some problems using Font Awesome icons in Astro, so I decided to use SVGs instead, from FreeCodeCamp and [Iconify](https://iconify.design/).
 
-## 🧞 Commands
+## Blog
+
+- One of the advantages of moving to Astro was that I could use Markdown files to make a blog. I followed the [tutorial](https://docs.astro.build/en/tutorial/0-introduction/)  in the Astro Docs to get the basics down. I also learnt about Frontmatter for the first time.
+
+
+##  Commands
 
 All commands are run from the root of the project, from a terminal:
 
