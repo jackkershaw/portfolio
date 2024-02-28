@@ -1,6 +1,22 @@
 To do list
 
--
+Blog
+
+- add blog component served from md files: [
+](https://docs.astro.build/en/tutorial/2-pages/) and blog page, including in header. Setup RSS.
+- good blog format[here](https://www.hipertipo.com/en/log/)
+- Work on blog to raise personal brand
+- Article on RSS
+- Article on students and open-source
+- see blog folder in finder.
+
+
+
+
+
+
+
+
 - fix mobile look of header and nav - hamburger icon svg, do it as full page, scrollable like on wired.com mobile site.
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
@@ -8,9 +24,7 @@ To do list
 - add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
 - add sitemap: [
 ](https://docs.astro.build/en/guides/integrations-guide/sitemap/) to help SEO.
-- add blog component served from md files: [
-](https://docs.astro.build/en/tutorial/2-pages/) and blog page, including in header. Setup RSS.
-  - good blog format[here](https://www.hipertipo.com/en/log/)
+
 - edit 404 page
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
 - add scroll to top/back to top back into footer.
