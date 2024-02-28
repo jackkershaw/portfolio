@@ -1,16 +1,19 @@
 To do list
 
 Blog
-
-- setup RSS
+- add blog to header
+- setup RSS (move this to readme.md)
 - style with Tailwind CSS
-- possibly serif for blog text
 - good blog format[here](https://www.hipertipo.com/en/log/)
-- Work on blog to raise personal brand
-- Article on RSS
-- Article on students and open-source
-- see blog folder in finder.
-- follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/)  on making tag pages. Good for learning about dynamic routing and getstaticpaths() too
+- possibly serif for blog text
+- Write first blog post - use it to raise personal brand
+  - Article on RSS
+  - Article on students and open-source
+  - see blog folder in finder.
+
+
+
+- (later) follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/)  on making tag pages. Good for learning about dynamic routing and getstaticpaths() too
 
 
 
