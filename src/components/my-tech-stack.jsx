@@ -11,7 +11,6 @@ function MyTechStack() {
             margin: 10px auto;
           }
         `}
-        }
       </style>
       <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
         <svg
