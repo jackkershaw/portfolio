@@ -2,13 +2,16 @@ To do list
 
 Blog
 
-- add blog component served from md files: [
-](https://docs.astro.build/en/tutorial/2-pages/) and blog page, including in header. Setup RSS.
+- setup RSS
+- style with Tailwind CSS
+- possibly serif for blog text
 - good blog format[here](https://www.hipertipo.com/en/log/)
 - Work on blog to raise personal brand
 - Article on RSS
 - Article on students and open-source
 - see blog folder in finder.
+- follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/)  on making tag pages. Good for learning about dynamic routing and getstaticpaths() too
+
 
 
 

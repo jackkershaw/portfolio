@@ -9,5 +9,6 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   integrations: [tailwind(), react()],
   output: "server",
-  adapter: netlify()
+  adapter: netlify(),
+  site: "https://jackkershaw.net"
 });
