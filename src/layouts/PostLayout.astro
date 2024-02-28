@@ -1,13 +1,29 @@
 ---
-import Header from "../components/header";
-import Footer from "../components/footer";
 const { frontmatter } = Astro.props;
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
-<Layout >
-	<h1>{frontmatter.title}</h1>
-    <p>Written by {frontmatter.author}</p>
-    <p>{frontmatter.pubDate.slice(0, 10)}</p>
-    <p>{frontmatter.description}</p>
-    <slot />
+
+<Layout>
+  <div class="mx-5 sm:mx-10 py-10 mb-10">
+    <div
+      class="flex
+    flex-col sm:flex-row justify-between sm:items-center pb-5"
+    >
+      <h1 class="pt-4
+text-2xl sm:text-3xl lg:text-4xl">
+        {frontmatter.title}
+      </h1>
+      <p class="text-sm sm:text-base lg:text-lg">
+        {frontmatter.pubDate.slice(0, 10)}
+      </p>
+    </div>
+    <div class="prose">
+      <slot />
+    </div>
+    <div class="border-t-2 border-black pb-10 pt-4">
+      <a href="/blog" class="text-xl mx-auto pb-10 mb-10"
+        >Back to all posts</a
+      >
+    </div>
+  </div>
 </Layout>

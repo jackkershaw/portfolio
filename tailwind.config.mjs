@@ -8,10 +8,14 @@ export default {
         orangepeel: "#FFA630",
       },
       fontFamily: {
-        unica: ["Unica", "Helvetica", "sans-serif"],
-        "unica-bold": ["Unica Bold", "Helvetica Bold", "sans-serif"],
+        sans: ["Unica", "sans-serif"],
+        "unica-bold": ["Unica Bold", "sans-serif"],
       },
     },
   },
-  plugins: ["prettier-plugin-tailwindcss", "tailwind-classes-sorter"],
+  plugins: [
+    "prettier-plugin-tailwindcss",
+    "tailwind-classes-sorter",
+    require("@tailwindcss/typography"),
+  ],
 };
