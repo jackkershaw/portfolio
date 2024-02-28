@@ -17,7 +17,10 @@ function Footer() {
                 />
               </svg>
             </a>
-            <a href="https://www.freecodecamp.com/jones58" target="_blank">
+            <a
+              href="https://www.freecodecamp.com/jones58"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
@@ -29,7 +32,10 @@ function Footer() {
                 />
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/jackkershaw" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/jackkershaw"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
