@@ -15,3 +15,7 @@
   font-weight: 700;
   src: url(/fonts/NeueHaasUnicaW1G-Bold1.otf);
 }
+
+:root {
+  font-family: "Unica", sans-serif;
+}
