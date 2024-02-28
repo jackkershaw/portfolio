@@ -12,6 +12,9 @@ function Header() {
           <a href="/design" className="hover:text-orangepeel active:text-white">
             Design
           </a>
+          <a href="/blog" className="hover:text-orangepeel active:text-white">
+            Blog
+          </a>
           <a
             href="/contact"
             className="hover:text-orangepeel active:text-white"
