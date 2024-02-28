@@ -1,6 +1,18 @@
 function MyTechStack() {
   return (
-    <div className="h-min-[20vh] flex w-full flex-row justify-between py-10 align-middle sm:w-[50vw] sm:flex-row">
+    <div className="h-min-[20vh] max-w-fittext-center mx-auto grid w-full w-full grid-cols-2 justify-between py-10 sm:mx-0 sm:flex sm:w-[50vw] sm:flex-row">
+      <style jsx>
+        {`
+        @media (max-width: 640px) {
+          /* Adjust SVG size for mobile */
+          svg {
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+          }
+        `}
+        }
+      </style>
       <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -1,13 +1,16 @@
 To do list
-- fix mobile look of opening page
+
+-
 - fix mobile look of header and nav - hamburger icon svg, do it as full page, scrollable like on wired.com mobile site.
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
-- maybe bring back typing text on first page
+
+- add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
 - add sitemap: [
 ](https://docs.astro.build/en/guides/integrations-guide/sitemap/) to help SEO.
 - add blog component served from md files: [
 ](https://docs.astro.build/en/tutorial/2-pages/) and blog page, including in header. Setup RSS.
+  - good blog format[here](https://www.hipertipo.com/en/log/)
 - edit 404 page
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
 - add scroll to top/back to top back into footer.
@@ -15,7 +18,7 @@ To do list
 - update portfolio images on codingContent page.
 - Maybe put text under technologies used for what they are.
 - some animations? Look into cool things to do with Astro transitions etc.
-- cool theme: [text](https://brutal.elian.codes/)
+  - maybe bring back typing text on first page
 - rebuild form with a backend/using express js, node or such, or netlify.
 - Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
 - pelicula - present like this: https://tosche.net/fonts/dossier
@@ -44,3 +47,8 @@ To do list
     │       └── index.astro
     └── package.json
     ```
+
+
+
+some portfolio examples for inspiration:
+-
