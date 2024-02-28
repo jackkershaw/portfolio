@@ -1,26 +1,17 @@
 ---
-layout: '../../layouts/PostLayout.astro'
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+layout: "../../layouts/PostLayout.astro"
+title: "Welcome to my Blog"
+pubDate: 2023-02-28
+description: "This is my first blog post"
+tags: ["welcome"]
 ---
-# My First Blog Post
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Proper content coming soon...Watch this space.
 
-## What I've accomplished
+Caltor de saint-ciarge de christie de boswell d'ostifie de Jésus de plâtre de verrat de géritole de sapristi de bout d'crisse de saint-ciboire de gériboire de ciarge.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+Cibole de verrat de saint-cimonaque de caltor de cibouleau d'astie de mosus de cibolac de viarge de cossin de baptême de sapristi de doux Jésus.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+Mangeux d'marde de cibouleau de maudine de ciarge de cimonaque de mosus de saintes fesses d'étole de cul de bâtard de verrat d'enfant d'chienne de mautadit.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+Étole de maudine de calvaire de verrat de caltor de sacrament de ciarge de saint-ciboire de saint-cimonaque de purée de doux Jésus de ciboire d'enfant d'chienne.
