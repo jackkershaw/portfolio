@@ -36,9 +36,8 @@ const allPosts = await Astro.glob("../pages/blog/*.md");
       {
         allPosts.map((post) => (
           <a href={post.url} class="hover:text-ykb active:text-white">
-            <div class="border-b-2 border-black flex flex-col sm:flex-row justify-between py-2">
+            <div class="border-b-2 border-black flex flex-col sm:flex-row justify-between py-2 align-middle">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
-              <p class="text-md">{post.frontmatter.description}</p>
               <p>{post.frontmatter.pubDate.slice(0, 10)}</p>
             </div>
           </a>
