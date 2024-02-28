@@ -69,3 +69,5 @@ Blog
 
 some portfolio examples for inspiration:
 -
+
+Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
