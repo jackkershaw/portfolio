@@ -2,8 +2,8 @@
 const { frontmatter } = Astro.props;
 import Layout from "../layouts/Layout.astro";
 
-const formatDate = (date) => {
-  const options = {
+const formatDate = (date: string) => {
+  const options: Intl.DateTimeFormatOptions = {
     year: "numeric",
     month: "long",
     day: "numeric",
