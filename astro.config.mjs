@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import node from "@astrojs/node";
@@ -11,5 +11,5 @@ export default defineConfig({
   integrations: [tailwind(), react(), sitemap()],
   output: "server",
   adapter: netlify(),
-  site: "https://jackkershaw.net"
+  site: "https://jackkershaw.net",
 });
