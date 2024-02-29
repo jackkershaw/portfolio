@@ -39,6 +39,10 @@
 - One of the advantages of moving to Astro was that I could use Markdown files to make a blog. I followed the [tutorial](https://docs.astro.build/en/tutorial/0-introduction/) in the Astro Docs to get the basics down. This tutorial was really helpful, teaching me about YAML Frontmatter, Astro props and how to setup RSS.
 - Added [the tailwindcss-typography plugin](https://github.com/tailwindlabs/tailwindcss-typography) to allow me to use the prose class to style md content. This adds spaces between lines and makes big blocks of text easier to read.
 
+## Other Improvements in Astro
+
+- Added the Astro JS Sitemap plugin to improve SEO by generating a sitemap xml.
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:

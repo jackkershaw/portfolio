@@ -8,13 +8,11 @@ Blog
   - Article on students and open-source
   - see blog folder in finder.
 
-- fix mobile look of header and nav - hamburger icon svg, do it as full page, scrollable like on wired.com mobile site.
+- mobile look - do it as full page, tbh could just open new menu page when it's on mobile, scrollable like on wired.com mobile site.
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
 
 - add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
-- add sitemap: [
-  ](https://docs.astro.build/en/guides/integrations-guide/sitemap/) to help SEO.
 
 - edit 404 page
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
