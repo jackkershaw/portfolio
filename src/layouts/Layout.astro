@@ -1,23 +1,26 @@
-npx astro add node
 ---
 import Header from "../components/header";
 import Footer from "../components/footer";
 ---
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="A personal portfolio website for Jack Kershaw, a developer and designer.">
-  <meta name="viewport" content="width=device-width">
-  <link rel="icon" type="favicon" href="/favicon.ico">
-  <meta name="generator" content={Astro.generator}>
-  <title>Jack Kershaw</title>
-</head>
-<body>
-  <Header/>
-  <main>
-	<slot />
-  </main>
-  <Footer/>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A personal portfolio website for Jack Kershaw, a developer and designer."
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="favicon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Jack Kershaw</title>
+  </head>
+  <body>
+    <Header client:load />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
 </html>
