@@ -1,17 +1,15 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Welcome to my Blog"
-pubDate: 2023-02-28
+title: "Welcome"
+pubDate: 2024-02-29
 description: "This is my first blog post"
 tags: ["welcome"]
 ---
 
-Proper content coming soon...Watch this space.
+I've been meaning to write a blog for some time now. I quit most social media about three years ago and since then have come to rely on RSS from various news sites and blogs to stay up to date on the news, world politics and culture. It's refreshing to be away from the [Twittering Machine](https://www.versobooks.com/en-gb/products/2505-the-twittering-machine) but sometimes I miss the ability to share content with others, quickly and online.
 
-Caltor de saint-ciarge de christie de boswell d'ostifie de Jésus de plâtre de verrat de géritole de sapristi de bout d'crisse de saint-ciboire de gériboire de ciarge.
+I have a few ideas of where I want to go with this blog. In particular, I'd like to write about some thoughts on open-source software, the RSS protocol and web design. Watch this space!
 
-Cibole de verrat de saint-cimonaque de caltor de cibouleau d'astie de mosus de cibolac de viarge de cossin de baptême de sapristi de doux Jésus.
+If you want to subscribe via RSS, you can do so [here](https://jackkershaw.net/rss.xml).
 
-Mangeux d'marde de cibouleau de maudine de ciarge de cimonaque de mosus de saintes fesses d'étole de cul de bâtard de verrat d'enfant d'chienne de mautadit.
-
-Étole de maudine de calvaire de verrat de caltor de sacrament de ciarge de saint-ciboire de saint-cimonaque de purée de doux Jésus de ciboire d'enfant d'chienne.
+Thanks to [Alex](https://alexworradandrews.com) for the push to get started with this.
