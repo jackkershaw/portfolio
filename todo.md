@@ -1,12 +1,16 @@
-To do list
+# To do list
 
-Blog
+## Blog
 
-- Article on RSS
-- Article on students and open-source
-- see blog folder in finder.
+- see ideas in [drafts folder](src/pages/blog/_drafts)
+- improve design
+
+## Header
 
 - mobile look - do it as full page, tbh could just open new menu page when it's on mobile, scrollable like on wired.com mobile site.
+
+## Accessibility
+
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
 
