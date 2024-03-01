@@ -1,4 +1,4 @@
-import MyTechStack from './my-tech-stack';
+import MyTechStack from "./my-tech-stack";
 
 function OpeningPage() {
   return (
@@ -12,9 +12,10 @@ function OpeningPage() {
       </div>
       <div className="mb-10 py-5 text-2xl text-ykb sm:col-span-2 sm:mx-5 sm:mb-0 sm:mt-10 sm:py-10 sm:text-3xl md:mx-10 md:text-5xl">
         <p>
-          Hi there! I'm Jack, a London-based developer and designer. I've spent
-          the last two years learning the fundamentals of development, including
-          taking part in a twelve-week bootcamp. So far I've taught myself:
+          Hi there! I'm Jack, a London-based developer and designer.
+          I've spent the last two years learning the fundamentals of
+          development, including taking part in a twelve-week bootcamp.
+          So far I've learnt:
         </p>
         <MyTechStack />
       </div>

@@ -34,7 +34,9 @@
   - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
   - add icons for tech stack [like on this one](https://www.jackherizsmith.com/#projCaf), technologies you know. Is better to have more visual. Put [icons from technology on here](https://roadmap.sh/frontend)
 
-- project structure like this:
+## Project structure
+
+- Add project structure like this to Readme:
   i think there's a github repo for generating these somewhere.
 
   ## 🚀 Project Structure
@@ -55,7 +57,7 @@
   └── package.json
   ```
 
-## some portfolio examples for inspiration:
+## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
 Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
 
