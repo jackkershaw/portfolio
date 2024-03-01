@@ -134,3 +134,5 @@ public/coding-page/iphone 13mini mockup.psd
 
 # Local Netlify folder
 .netlify
+
+src/pages/blog/_drafts

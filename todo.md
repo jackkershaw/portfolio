@@ -2,11 +2,9 @@ To do list
 
 Blog
 
-- Write first blog post - use it to raise personal brand
-
-  - Article on RSS
-  - Article on students and open-source
-  - see blog folder in finder.
+- Article on RSS
+- Article on students and open-source
+- see blog folder in finder.
 
 - mobile look - do it as full page, tbh could just open new menu page when it's on mobile, scrollable like on wired.com mobile site.
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
