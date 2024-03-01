@@ -24,12 +24,13 @@
 - Maybe put text under technologies used for what they are.
 - some animations? Look into cool things to do with Astro transitions etc.
   - maybe bring back typing text on first page
+  - framer motion maybe
 - rebuild form with a backend/using express js, node or such, or netlify.
 - Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
 - pelicula - present like this: https://tosche.net/fonts/dossier
 - test with jest while learning - see last section of front end roadmap
 - speech bubble on opening page, scribbled in maybe
-- accesibility improved reccommended by MDN:
+- reccommended by MDN:
 
   - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
   - add icons for tech stack [like on this one](https://www.jackherizsmith.com/#projCaf), technologies you know. Is better to have more visual. Put [icons from technology on here](https://roadmap.sh/frontend)
