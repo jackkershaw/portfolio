@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <div>
-      <footer className="fixed bottom-0 w-full bg-ykb py-4 text-2xl text-white sm:max-h-20">
+      <footer className="sm:fixed bottom-0 w-full bg-ykb py-4 text-2xl text-white sm:max-h-20">
         <navbar className="container flex flex-col items-center justify-between sm:mx-5 sm:flex-row lg:mx-10">
           <div className="flex space-x-6 pt-4 sm:pt-0">
             <a href="https://github.com/jones58" target="_blank">
