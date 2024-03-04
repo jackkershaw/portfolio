@@ -1,51 +1,51 @@
 function CodingContent() {
   const projects = [
     {
-      title: 'London Brutalist Map',
+      title: "London Brutalist Map",
       description:
         "Discover London's brutalist buildings on an interactive map. Built using Mapbox API, HTML, CSS, and JavaScript.",
-      link: 'https://brutalistmap.jackkershaw.net/',
-      github_link: 'https://github.com/jones58/London-Brutalist-Map',
-      image_folder: 'brutalist-map',
+      link: "https://brutalistmap.jackkershaw.net/",
+      github_link: "https://github.com/jones58/London-Brutalist-Map",
+      image_folder: "brutalist-map",
     },
     {
-      title: 'Daily Challenges',
+      title: "Daily Challenges",
       description:
-        'Explore a collection of Wordle-adjacent games. Built using HTML, CSS, and JavaScript.',
-      link: 'https://dailychallenges.jackkershaw.net',
-      github_link: 'https://github.com/jones58/daily-challenges',
-      image_folder: 'daily-challenges',
+        "Explore a collection of Wordle-adjacent games. Built using HTML, CSS, and JavaScript.",
+      link: "https://dailychallenges.jackkershaw.net",
+      github_link: "https://github.com/jones58/daily-challenges",
+      image_folder: "daily-challenges",
     },
     {
-      title: 'Typespotting',
+      title: "Typespotting",
       description:
         "Find the Cooper Black font in this Where's Wally-style game. Built using HTML, CSS, and JavaScript.",
-      link: 'https://typespotting.jackkershaw.net/',
-      github_link: 'https://github.com/jones58/typespotting',
-      image_folder: 'typespotting',
+      link: "https://typespotting.jackkershaw.net/",
+      github_link: "https://github.com/jones58/typespotting",
+      image_folder: "typespotting",
     },
     {
-      title: 'Cooper Black',
+      title: "Cooper Black",
       description:
-        'Educational website about the Cooper Black font. Built using HTML, CSS, and JavaScript.',
-      link: 'https://cooperblack.jackkershaw.net/',
-      github_link: 'https://github.com/jones58/Cooper-Black-Info-Site',
-      image_folder: 'cooper-black',
+        "Educational website about the Cooper Black font. Built using HTML, CSS, and JavaScript.",
+      link: "https://cooperblack.jackkershaw.net/",
+      github_link: "https://github.com/jones58/Cooper-Black-Info-Site",
+      image_folder: "cooper-black",
     },
     {
-      title: 'My Portfolio',
-      description: 'This website. Built using React and Tailwind CSS.',
-      link: 'https://www.jackkershaw.net',
-      github_link: 'https://github.com/jones58/portfolio-2024',
-      image_folder: 'portfolio',
+      title: "My Portfolio",
+      description: "This website. Built using React and Tailwind CSS.",
+      link: "https://www.jackkershaw.net",
+      github_link: "https://github.com/jones58/portfolio-2024",
+      image_folder: "portfolio",
     },
     {
-      title: 'Jobseeker',
+      title: "Jobseeker",
       description:
-        'Frontend job boards collected in one place. Built using React and Tailwind CSS.',
-      link: 'https://jobseeker.jackkershaw.net/',
-      github_link: 'https://github.com/jones58/jobseeker',
-      image_folder: 'jobseeker',
+        "Frontend job boards collected in one place. Built using React and Tailwind CSS.",
+      link: "https://jobseeker.jackkershaw.net/",
+      github_link: "https://github.com/jones58/jobseeker",
+      image_folder: "jobseeker",
     },
   ];
 
@@ -53,15 +53,16 @@ function CodingContent() {
     <div className="space-between mx-5 mb-10 flex flex-col py-10">
       <section>
         <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-          Projects I've built while learning to code. You can follow my progress{' '}
+          Projects I've built while learning to code. You can follow my
+          progress{" "}
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
             className=" lg:hover:underline "
           >
             here
-          </a>{' '}
-          and see some of my favorite learning resources{' '}
+          </a>{" "}
+          and see some of my favorite learning resources{" "}
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
@@ -130,7 +131,7 @@ function CodingContent() {
         </ol>
       </section>
       <section
-        className="pb-10 sm:pb-0 lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb
+        className="lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb
       "
       >
         <a
@@ -138,7 +139,7 @@ function CodingContent() {
           target="_blank"
           className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none"
         >
-          <h3 className="mb-5 max-w-full p-5 text-center text-2xl font-semibold sm:hover:underline lg:pt-8 lg:text-left lg:text-5xl">
+          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold sm:hover:underline lg:text-left lg:text-5xl">
             Where next?
           </h3>
         </a>
