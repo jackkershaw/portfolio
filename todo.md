@@ -5,35 +5,46 @@
 - see ideas in [drafts folder](src/pages/blog/_drafts)
 - improve design
 
-## Header
-
-- mobile look - do it as full page, tbh could just open new menu page when it's on mobile, scrollable like on wired.com mobile site.
-
 ## Accessibility
 
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
+- Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
+
+## Main page
 
 - add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
 
+- Put [icons from technology on here](https://roadmap.sh/frontend) and add netlify.
+
+- Maybe put text under technologies used for what they are.
+
+## Other / sitewide
+
 - edit 404 page
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
-- add scroll to top/back to top back into footer.
-- edit header so orange for selected header item.
-- update portfolio images on codingContent page.
-- Maybe put text under technologies used for what they are.
-- some animations? Look into cool things to do with Astro transitions etc.
-  - maybe bring back typing text on first page
-  - framer motion maybe
-- rebuild form with a backend/using express js, node or such, or netlify.
-- Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
-- pelicula - present like this: https://tosche.net/fonts/dossier
 - test with jest while learning - see last section of front end roadmap
 - speech bubble on opening page, scribbled in maybe
-- reccommended by MDN:
+- some animations? Look into cool things to do with Astro transitions etc.
+  - framer motion maybe
 
-  - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
-  - add icons for tech stack [like on this one](https://www.jackherizsmith.com/#projCaf), technologies you know. Is better to have more visual. Put [icons from technology on here](https://roadmap.sh/frontend)
+## Footer
+
+- add scroll to top/back to top back into footer.
+
+## Header
+
+- edit header so orange for selected header item.
+- update portfolio images on codingContent page.
+- Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
+
+## Contact
+
+- rebuild form with a backend/using express js, node or such, or netlify.
+
+## Design
+
+- pelicula - present like this: https://tosche.net/fonts/dossier
 
 ## Project structure
 
