@@ -1,5 +1,9 @@
 # To do list
 
+## Design
+Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
+How to show more about projects - should have separate pages for each project really.
+
 ## Blog
 
 - see ideas in [drafts folder](src/pages/blog/_drafts)
