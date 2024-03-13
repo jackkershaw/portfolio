@@ -7,7 +7,7 @@ How to show more about projects - should have separate pages for each project re
 ## Blog
 
 - see ideas in [drafts folder](src/pages/blog/_drafts)
-- improve design
+- improve design on different screens and lining things up.
 
 ## Accessibility
 
