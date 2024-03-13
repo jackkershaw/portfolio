@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "What Debugging My Friend’s Website Taught Me About Modern Web Design and GoDaddy"
+title: "What Debugging an Old Website Taught Me"
 pubDate: 2024-03-13
 description: "A post about GoDaddy, Wordpress and legacy vs modern software solutions."
 tags: ["Wordpress"]
