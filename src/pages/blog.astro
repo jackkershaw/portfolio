@@ -1,6 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
 const allPosts = await Astro.glob("../pages/blog/*.md");
+
+const formatDate = (date: string) => {
+  const options: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  return new Date(date).toLocaleDateString("en-GB", options);
+};
 ---
 
 <style>
@@ -31,18 +40,20 @@ const allPosts = await Astro.glob("../pages/blog/*.md");
         </svg>
       </a>
     </div>
-    <ul class="mt-10">
-      <div class="border-t-2 border-black"></div>
+    <div class="mt-10">
       {
-        allPosts.map((post) => (
+        allPosts.reverse().map((post) => (
           <a href={post.url} class="hover:text-ykb active:text-white">
-            <div class="border-b-2 border-black flex flex-col sm:flex-row justify-between py-2 sm:items-center">
+            <div class="border-2 border-black flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.pubDate.slice(0, 10)}</p>
+              <p>
+                {" "}
+                {formatDate(post.frontmatter.pubDate.slice(0, 10))}
+              </p>
             </div>
           </a>
         ))
       }
-    </ul>
+    </div>
   </div>
 </Layout>
