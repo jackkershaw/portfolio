@@ -15,5 +15,9 @@ export default {
       },
     },
   },
-  plugins: ["prettier-plugin-tailwindcss", "tailwind-classes-sorter"],
+  plugins: [
+    "prettier-plugin-tailwindcss",
+    "tailwind-classes-sorter",
+    require("@tailwindcss/typography"),
+  ],
 };
