@@ -3,9 +3,9 @@ function CodingContent() {
     {
       title: "London Brutalist Map",
       description:
-        "Discover London's brutalist buildings on an interactive map. Built using Mapbox API, HTML, CSS, and JavaScript.",
+        "Discover London's brutalist buildings on an interactive map. Built using Mapbox API, React, TypeScript and Tailwind CSS.",
       link: "https://brutalistmap.jackkershaw.net/",
-      github_link: "https://github.com/jones58/London-Brutalist-Map",
+      github_link: "https://github.com/jones58/brutalist-map-2",
       image_folder: "brutalist-map",
     },
     {
@@ -28,7 +28,7 @@ function CodingContent() {
       title: "Cooper Black",
       description:
         "Educational website about the Cooper Black font. Built using HTML, CSS, and JavaScript.",
-      link: "https://cooperblack.jackkershaw.net/",
+      link: "https://allaboutcooperblack.jackkershaw.net/",
       github_link: "https://github.com/jones58/Cooper-Black-Info-Site",
       image_folder: "cooper-black",
     },
