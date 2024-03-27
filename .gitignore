@@ -136,3 +136,22 @@ public/coding-page/iphone 13mini mockup.psd
 .netlify
 
 src/pages/blog/_drafts
+.DS_Store
+public/.DS_Store
+public/coding-page/.DS_Store
+public/coding-page/brutalist-map/.DS_Store
+public/coding-page/cooper-black/.DS_Store
+public/coding-page/daily-challenges/.DS_Store
+public/coding-page/portfolio/.DS_Store
+public/coding-page/typespotting/.DS_Store
+public/design-page/.DS_Store
+public/design-page/cpc/.DS_Store
+public/design-page/fete2022/.DS_Store
+public/design-page/fete2023/.DS_Store
+public/design-page/fflondon/.DS_Store
+public/design-page/peoplesvaccine/.DS_Store
+public/design-page/safesickpay/.DS_Store
+public/design-page/scotland-tuc/.DS_Store
+public/design-page/screenburn/.DS_Store
+public/fonts/.DS_Store
+src/.DS_Store
