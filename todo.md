@@ -1,8 +1,10 @@
 # To do list
 
-## Design
-Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
-How to show more about projects - should have separate pages for each project really.
+## ## Design
+
+- For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
+- Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
+- How to show more about projects - should have separate pages for each project really.
 
 ## Blog
 
@@ -21,7 +23,11 @@ How to show more about projects - should have separate pages for each project re
 
 - Put [icons from technology on here](https://roadmap.sh/frontend) and add netlify.
 
-- Maybe put text under technologies used for what they are.
+## Coding page
+
+- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
+
+- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
 
 ## Other / sitewide
 
