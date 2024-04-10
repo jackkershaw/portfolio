@@ -54,10 +54,12 @@ function DesignContent() {
 
   return (
     <div className="space-between mx-5 mb-10 flex flex-col py-10">
-      <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-        Designs I created in my time at Tapir Studio Limited. I used
-        Adobe Photoshop, Illustrator, InDesign and Bridge to create
-        bold, colourful designs for a host of clients around the world.
+      <p className="py-4 text-2xl lg:mx-5">
+        Jack's graphic design work has been featured in{" "}
+        <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>.
+        Jack used Adobe Photoshop, Illustrator, InDesign and Bridge to
+        create bold, colourful designs for a host of clients around the
+        world, including Oxford University, Fête de L'Humanité
       </p>
       <div className="flex flex-wrap justify-center gap-4 p-4 pb-10 sm:pb-0">
         {designs.map((design) => (
