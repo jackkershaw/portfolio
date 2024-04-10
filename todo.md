@@ -1,10 +1,21 @@
 # To do list
 
+## Main page
+
+- add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
+
+- Put [icons from technology on here](https://roadmap.sh/frontend) and add netlify.
+
+- Jack Kershaw is a developer and designer from London. He has been designing for over ten years, and developing websites for the past two years.
+
 ## ## Design
 
+- Jack's work has been featured in The Guardian, Vice, and It's Nice That.
+- Selected clients: Oxford University, Fête de L'Humanité.
+- Lay out each design on a page when click on it.
+  - use a component layout to get it consistent.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
-- How to show more about projects - should have separate pages for each project really.
 
 ## Blog
 
@@ -17,17 +28,13 @@
 - use lighthouse and make suggested edits.
 - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 
-## Main page
-
-- add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
-
-- Put [icons from technology on here](https://roadmap.sh/frontend) and add netlify.
-
 ## Coding page
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
+
+- each project should have own page - use a component layout to get it consistent.
 
 ## Other / sitewide
 
