@@ -17,7 +17,7 @@ function Contact() {
       <form
         action="https://formsubmit.co/jackkershaw@protonmail.com"
         method="POST"
-        className="my-10 flex flex-col space-y-3 py-5"
+        className="flex flex-col space-y-3 py-5"
       >
         <input
           type="text"
