@@ -10,7 +10,6 @@
 
 ## Blog
 
-- use iconify tailwind instead of fortawesome/fontawesome.
 - see ideas in [drafts folder](src/pages/blog/_drafts)
 - improve design on different screens and lining things up.
 
@@ -22,11 +21,11 @@
 
 ## Coding page
 
-- update portfolio images.
-
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc. do this on own page - use a component layout to get it consistent.
+
+- update portfolio images.
 
 ## Other / sitewide
 
