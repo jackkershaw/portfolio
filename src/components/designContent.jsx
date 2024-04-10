@@ -1,63 +1,63 @@
 function DesignContent() {
   const designs = [
     {
-      id: 'fete2022',
+      id: "fete2022",
       description:
         "Poster designed as part of the broader identity and logo design I completed for Fête de L'Humanité 2022 - a festival drawing crowds of over 500,000 in France.",
     },
     {
-      id: 'leaves',
+      id: "leaves",
       description:
-        'Self-initiated poster made by gathering leaves, scanning and manipulating them in Photoshop.',
+        "Self-initiated poster made by gathering leaves, scanning and manipulating them in Photoshop.",
     },
     {
-      id: 'cpc',
+      id: "cpc",
       description:
-        'Logo and brand identity for the Centre for Progressive Change.',
+        "Logo and brand identity for the Centre for Progressive Change.",
     },
     {
-      id: 'pelicula',
+      id: "pelicula",
       description:
-        'An open-source typeface inspired by Poster Collective posters at May Day Rooms.',
+        "An open-source typeface inspired by Poster Collective posters at May Day Rooms.",
     },
     {
-      id: 'peoplesvaccine',
+      id: "peoplesvaccine",
       description:
         "Poster design for the People's Vaccine campaign, advocating for global access to COVID-19 vaccines.",
     },
     {
-      id: 'safesickpay',
+      id: "safesickpay",
       description:
-        'Designs for Safe Sick Pay, a policy research project to raise the rate of statuory sick pay.',
+        "Designs for Safe Sick Pay, a policy research project to raise the rate of statuory sick pay.",
     },
     {
-      id: 'scotland-tuc',
+      id: "scotland-tuc",
       description:
-        'Leaflet, beer mat and pins for Scotland TUC, an organisation in Scotland providing guidance to workers and employers on how to return to work after the COVID-19 lockdowns.',
+        "Leaflet, beer mat and pins for Scotland TUC, an organisation in Scotland providing guidance to workers and employers on how to return to work after the COVID-19 lockdowns.",
     },
     {
-      id: 'fete2023',
+      id: "fete2023",
       description:
         "Poster designed as part of the broader identity and logo design I completed for Fête de L'Humanité 2023 - a festival drawing crowds of over 600,000 in France.",
     },
     {
-      id: 'screenburn',
+      id: "screenburn",
       description:
-        'Logo and brand identity for Screenburn, an organisation researching the implications of excessive screen use.',
+        "Logo and brand identity for Screenburn, an organisation researching the implications of excessive screen use.",
     },
     {
-      id: 'fairwork',
+      id: "fairwork",
       description:
-        'Billboard designs for Fairwork, a research group at the Oxford Internet Institute.',
+        "Billboard designs for Fairwork, a research group at the Oxford Internet Institute.",
     },
   ];
 
   return (
     <div className="space-between mx-5 mb-10 flex flex-col py-10">
       <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-        Designs I created in my time at Tapir Studio Limited. I used Adobe
-        Photoshop, Illustrator, InDesign and Bridge to create bold, colourful
-        designs for a host of clients around the world.
+        Designs I created in my time at Tapir Studio Limited. I used
+        Adobe Photoshop, Illustrator, InDesign and Bridge to create
+        bold, colourful designs for a host of clients around the world.
       </p>
       <div className="flex flex-wrap justify-center gap-4 p-4 pb-10 sm:pb-0">
         {designs.map((design) => (
