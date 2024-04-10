@@ -2,16 +2,15 @@
 
 ## Design
 
-- Jack's graphic design work has been featured in The Guardian, Vice, and It's Nice That.
-- Selected clients: Oxford University, Fête de L'Humanité.
 - Lay out each design on a page when click on it.
   - use a component layout to get it consistent.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
+- pelicula - present like this: https://tosche.net/fonts/dossier
 
 ## Blog
 
-- - use iconify tailwind instead of fortawesome/fontawesome.
+- use iconify tailwind instead of fortawesome/fontawesome.
 - see ideas in [drafts folder](src/pages/blog/_drafts)
 - improve design on different screens and lining things up.
 
@@ -23,11 +22,11 @@
 
 ## Coding page
 
+- update portfolio images.
+
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 
-- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
-
-- each project should have own page - use a component layout to get it consistent.
+- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc. do this on own page - use a component layout to get it consistent.
 
 ## Other / sitewide
 
@@ -37,26 +36,17 @@
 - test with jest while learning - see last section of front end roadmap
 - speech bubble on opening page, scribbled in maybe
 - some animations? Look into cool things to do with Astro transitions etc.
-  - framer motion maybe
+  - framer motion or gsap maybe
 
 ## Footer
 
 - add scroll to top/back to top back into footer.
-- - use iconify tailwind instead of fortawesome/fontawesome.
+- use iconify tailwind instead of fortawesome/fontawesome.
 
 ## Header
 
 - edit header so orange for selected header item.
-- update portfolio images on codingContent page.
 - Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
-
-## Contact
-
-- rebuild form with a backend/using express js, node or such, or netlify.
-
-## Design
-
-- pelicula - present like this: https://tosche.net/fonts/dossier
 
 ## Project structure
 
