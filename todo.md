@@ -4,6 +4,7 @@
 
 - Lay out each design on a page when click on it.
   - use a component layout to get it consistent.
+  - can just make 10 subpages rather than building something more dynamic with local api etc.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/)
 - pelicula - present like this: https://tosche.net/fonts/dossier
@@ -21,31 +22,29 @@
 
 ## Coding page
 
+- Each project opens own page - like with design page, use a component layout to get it consistent.
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
-
-- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc. do this on own page - use a component layout to get it consistent.
-
-- update portfolio images.
+- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
+- update portfolio images - maybe use puppeteer to get this done dynamically.
 
 ## Other / sitewide
 
 - edit 404 page to be like design page text. link back to home page.
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
 - test with jest while learning - see last section of front end roadmap
-- speech bubble on opening page, scribbled in maybe
 - some animations? Look into cool things to do with Astro transitions etc.
-  - framer motion or gsap maybe
+  - framer motion or gsap too
+  - css animations site that used with daily challenges site.
 
 ## Footer
 
 - add scroll to top/back to top back into footer.
-- use iconify tailwind instead of fortawesome/fontawesome.
+- icons to bottom right
 
 ## Header
 
 - edit header so orange for selected header item.
-- Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
-- icons to bottom right
+- Add iconify icons for hamburger and cross
 
 ## Project structure
 
