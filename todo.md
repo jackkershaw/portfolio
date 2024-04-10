@@ -1,7 +1,5 @@
 # To do list
 
-## My tech stack
-
 ## Design
 
 - Jack's work has been featured in The Guardian, Vice, and It's Nice That.

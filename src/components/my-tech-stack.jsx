@@ -16,12 +16,17 @@ function MyTechStack() {
       svg: "icon-[akar-icons--javascript-fill]",
     },
     {
+      name: "TypeScript",
+      href: "https://www.typescriptlang.org/",
+      svg: "icon-[akar-icons--typescript-fill]",
+    },
+    {
       name: "React",
       href: "https://react.dev/",
       svg: "icon-[akar-icons--react-fill]",
     },
     {
-      name: "Tailwind CSS",
+      name: "Tailwind",
       href: "https://tailwindcss.com",
       svg: "icon-[mdi--tailwind]",
     },
@@ -46,70 +51,56 @@ function MyTechStack() {
       svg: "icon-[simple-icons--astro]",
     },
     {
-      name: "TypeScript",
-      href: "https://www.typescriptlang.org/",
-      svg: "icon-[simple-icons--astro]",
+      name: "Wordpress",
+      href: "https://en.wikipedia.org/wiki/WordPress",
+      svg: "icon-[simple-icons--wordpress]",
     },
-    {
-      name: "Python",
-      href: "https://en.wikipedia.org/wiki/Python_(programming_language)",
-      svg: "icon-[simple-icons--astro]",
-    },
+
     {
       name: "Git",
       href: "https://en.wikipedia.org/wiki/Git",
-      svg: "icon-[simple-icons--astro]",
+      svg: "icon-[mdi--git]",
     },
     {
       name: "Github",
       href: "https://en.wikipedia.org/wiki/GitHub",
-      svg: "icon-[simple-icons--astro]",
-    },
-    {
-      name: "Astro",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
+      svg: "icon-[mdi--github]",
     },
     {
       name: "Netlify",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
-    },
-    {
-      name: "Photoshop",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
+      href: "https://www.netlify.com/",
+      svg: "icon-[simple-icons--netlify]",
     },
     {
       name: "Figma",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
+      href: "https://en.wikipedia.org/wiki/Figma",
+      svg: "icon-[simple-icons--figma]",
+    },
+    {
+      name: "Photoshop",
+      href: "https://en.wikipedia.org/wiki/Photoshop",
+      svg: "icon-[file-icons--adobe-photoshop]",
     },
     {
       name: "Illustrator",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
+      href: "https://en.wikipedia.org/wiki/Adobe_Illustrator",
+      svg: "icon-[file-icons--adobe-illustrator]",
     },
     {
       name: "Bridge",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
-    },
-    {
-      name: "Final Cut Pro",
-      href: "https://astro.build/",
-      svg: "icon-[simple-icons--astro]",
+      href: "https://en.wikipedia.org/wiki/Adobe_Bridge",
+      svg: "icon-[file-icons--adobe-bridge]",
     },
   ];
 
   return (
-    <div className="mx-auto grid w-full h-auto grid-cols-2 justify-between py-10 sm:grid-cols-4 sm:gap-6 md:grid-cols-6 md:gap-8 lg:grid-cols-8 lg:gap-10">
+    <div className="mx-auto grid w-full h-auto grid-cols-3 justify-between py-10 sm:grid-cols-4 gap-6 sm:gap-6 md:grid-cols-6 md:gap-8 lg:grid-cols-8 lg:gap-10">
       {technologies.map((item, index) => (
         <a
           key={index}
           href={item.href}
           target="_blank"
-          className="flex flex-col items-center justify-center text-center"
+          className="flex flex-col items-center justify-between text-center"
         >
           <span className={item.svg}></span>
           <p className="text-sm mt-2">{item.name}</p>
