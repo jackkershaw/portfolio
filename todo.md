@@ -2,8 +2,8 @@
 
 ## My tech stack
 
-- fix icons - use iconify tailwind like on museum redesign website instead
-- add netlify icon
+- fix iconify tailwind.
+- use iconify tailwind instead of fortawesome/fontawesome in footer and elsewhere.
 
 ## ## Design
 
