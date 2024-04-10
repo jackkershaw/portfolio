@@ -1,56 +1,13 @@
 function MyTechStack() {
-  return (
-    <div className="h-min-[20vh] max-w-fittext-center mx-auto grid w-full w-full grid-cols-2 justify-between py-10 sm:mx-0 sm:flex sm:w-[50vw] sm:flex-row">
-      <style jsx>
-        {`
-        @media (max-width: 640px) {
-          /* Adjust SVG size for mobile */
-          svg {
-            width: 100px;
-            height: 100px;
-            margin: 30px auto;
-          }
-        `}
-      </style>
-      <a
-        href="https://en.wikipedia.org/wiki/HTML"
-        target="_blank"
-        className="flex flex-col justify-between items-center align-middle text-center"
-      >
+  const technologies = [
+    {
+      name: "HTML",
+      href: "https://en.wikipedia.org/wiki/HTML",
+      svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
           viewBox="0 0 24 24"
-        >
-          <g fill="none">
-            <g fill="currentColor" clipPath="url(#akarIconsHtmlFill0)">
-              <path d="M5.08 0h1.082v1.069h.99V0h1.082v3.236H7.152V2.153h-.99v1.083H5.081zm4.576 1.073h-.952V0h2.987v1.073h-.953v2.163H9.656zM12.165 0h1.128l.694 1.137L14.68 0h1.128v3.236h-1.077V1.632l-.744 1.151h-.019l-.745-1.15v1.603h-1.058zm4.181 0h1.083v2.167h1.52v1.07h-2.603z"></path>
-              <path
-                fillRule="evenodd"
-                d="M5.046 22.072L3 4.717h18L18.953 22.07L11.99 24zm4.137-9.5l-.194-2.18h8.145l.19-2.128H6.664l.574 6.437h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.332l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571z"
-                clipRule="evenodd"
-              ></path>
-            </g>
-            <defs>
-              <clipPath id="akarIconsHtmlFill0">
-                <path fill="#fff" d="M0 0h24v24H0z"></path>
-              </clipPath>
-            </defs>
-          </g>
-        </svg>
-        <p className="text-sm text-center">HTML</p>
-      </a>
-      <a
-        href="https://en.wikipedia.org/wiki/CSS"
-        target="_blank"
-        className="flex flex-col justify-between items-center align-middle text-center"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
-          viewBox="0 0 24 24"
+          className="w-10 h-10"
         >
           <path
             fill="currentColor"
@@ -63,35 +20,73 @@ function MyTechStack() {
             clipRule="evenodd"
           ></path>
         </svg>
-        <p className="text-sm text-center">CSS</p>
-      </a>
-      <a
-        href="https://en.wikipedia.org/wiki/JavaScript"
-        target="_blank"
-        className="flex flex-col justify-between items-center align-middle text-center"
-      >
+      ),
+    },
+    {
+      name: "CSS",
+      href: "https://en.wikipedia.org/wiki/CSS",
+      svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
           viewBox="0 0 24 24"
+          className="w-10 h-10"
         >
-          <g fill="none">
-            <g clipPath="url(#akarIconsJavascriptFill0)">
-              <path
-                fill="currentColor"
-                fillRule="evenodd"
-                d="M0 0h24v24H0zm18.347 20.12c-1.113 0-1.742-.58-2.225-1.37l-1.833 1.065c.662 1.308 2.015 2.306 4.11 2.306c2.142 0 3.737-1.112 3.737-3.143c0-1.883-1.082-2.72-2.998-3.543l-.564-.241c-.968-.42-1.387-.693-1.387-1.37c0-.547.42-.966 1.08-.966c.647 0 1.064.273 1.451.966l1.756-1.127c-.743-1.307-1.773-1.806-3.207-1.806c-2.014 0-3.303 1.288-3.303 2.98c0 1.835 1.08 2.704 2.708 3.397l.564.242c1.029.45 1.642.724 1.642 1.497c0 .646-.597 1.113-1.531 1.113m-8.74-.015c-.775 0-1.098-.53-1.452-1.16l-1.836 1.112c.532 1.126 1.578 2.06 3.383 2.06c1.999 0 3.368-1.063 3.368-3.398v-7.7h-2.255v7.67c0 1.127-.468 1.416-1.209 1.416"
-                clipRule="evenodd"
-              ></path>
-            </g>
-            <defs>
-              <clipPath id="akarIconsJavascriptFill0">
-                <path fill="#fff" d="M0 0h24v24H0z"></path>
-              </clipPath>
-            </defs>
-          </g>
+          <path
+            fill="currentColor"
+            d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z"
+          ></path>
+          <path
+            fill="currentColor"
+            fillRule="evenodd"
+            d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
+            clipRule="evenodd"
+          ></path>
         </svg>
+      ),
+    },
+    {name: "JavaScript", href: "https://en.wikipedia.org/wiki/JavaScript", svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        className="w-10 h-10"
+      >
+        <g fill="none">
+          <g clipPath="url(#akarIconsJavascriptFill0)">
+            <path
+              fill="currentColor"
+              fillRule="evenodd"
+              d="M0 0h24v24H0zm18.347 20.12c-1.113 0-1.742-.58-2.225-1.37l-1.833 1.065c.662 1.308 2.015 2.306 4.11 2.306c2.142 0 3.737-1.112 3.737-3.143c0-1.883-1.082-2.72-2.998-3.543l-.564-.241c-.968-.42-1.387-.693-1.387-1.37c0-.547.42-.966 1.08-.966c.647 0 1.064.273 1.451.966l1.756-1.127c-.743-1.307-1.773-1.806-3.207-1.806c-2.014 0-3.303 1.288-3.303 2.98c0 1.835 1.08 2.704 2.708 3.397l.564.242c1.029.45 1.642.724 1.642 1.497c0 .646-.597 1.113-1.531 1.113m-8.74-.015c-.775 0-1.098-.53-1.452-1.16l-1.836 1.112c.532 1.126 1.578 2.06 3.383 2.06c1.999 0 3.368-1.063 3.368-3.398v-7.7h-2.255v7.67c0 1.127-.468 1.416-1.209 1.416"
+              clipRule="evenodd"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="akarIconsJavascriptFill0">
+              <path fill="#fff" d="M0 0h24v24H0z"></path>
+            </clipPath>
+          </defs>
+        </g>
+      </svg>)},
+    {name: "React", href: "", svg: <div>React</div>},
+  ];
+
+  return (
+    <div className="h-min-[20vh] mx-auto grid w-full h-auto space-y-4 space-x-4 grid-cols-2 justify-between py-10 sm:mx-0 sm:flex sm:w-[30vw] sm:flex-row sm:flex-wrap">
+      {technologies.map((item, index) => (
+        <a
+          key={index}
+          href={item.href}
+          target="_blank"
+          className="flex flex-col justify-between items-center align-middle text-center"
+        >
+          <div>{item.svg}</div>
+          <p className="text-sm text-center">{item.name}</p>
+        </a>
+      ))}
+    </div>
+  );
+}
+
+
         <p className="text-sm text-center">JavaScript</p>
       </a>
       <a
@@ -101,9 +96,8 @@ function MyTechStack() {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
           viewBox="0 0 24 24"
+          className="w-10 h-10"
         >
           <g fill="none">
             <g
@@ -257,8 +251,155 @@ function MyTechStack() {
         </svg>
         <p className="text-sm text-center">Python</p>
       </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Git"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill="currentColor"
+            d="M15.698 7.287L8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45l1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025a1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.03 1.03 0 0 0 0-1.457"
+          />
+        </svg>
+        <p className="text-sm text-center">Git</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/GitHub"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
+          />
+        </svg>
+        <p className="text-sm text-center">Github</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Photoshop"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10.45 10.48a1.3 1.3 0 0 1-1 1.33a4.83 4.83 0 0 1-1.61.19c-.14 0-.15-.09-.15-.19V9.26c0-.07.07-.19.11-.19a4.91 4.91 0 0 1 1.71.11a1.28 1.28 0 0 1 .94 1.3"
+          />
+          <path
+            fill="currentColor"
+            d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5m-6 11a3.48 3.48 0 0 1-1.68.54H7.98c-.28 0-.28 0-.28.27v2.32c0 .2-.06.26-.26.26H6.12c-.19 0-.24-.07-.24-.25V7.71c0-.2 0-.26.25-.26h3.13a3.34 3.34 0 0 1 1.62.47a2.75 2.75 0 0 1 1.4 2.39A2.83 2.83 0 0 1 11 13m5.92 3.3a4.62 4.62 0 0 1-2.73.19c-.272-.06-.54-.14-.8-.24a.29.29 0 0 1-.16-.2v-1.51c.32.12.62.26.93.36a3.66 3.66 0 0 0 1.61.14c.107-.02.212-.053.31-.1a.37.37 0 0 0 .08-.63a4 4 0 0 0-.73-.4c-.41-.2-.83-.36-1.22-.59a1.82 1.82 0 0 1-1-1.93a2 2 0 0 1 1.36-1.63a4.21 4.21 0 0 1 2-.17c.32 0 .63.12.95.18c.17 0 .23.14.22.31v1.17c0 .22-.05.24-.25.16a3.87 3.87 0 0 0-2-.34a.9.9 0 0 0-.28.08a.37.37 0 0 0-.1.63c.289.192.593.36.91.5c.38.19.78.34 1.15.55a1.73 1.73 0 0 1 1 1.79a1.92 1.92 0 0 1-1.26 1.64z"
+          />
+        </svg>
+        <p className="text-sm text-center">Photoshop</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Photoshop"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10.45 10.48a1.3 1.3 0 0 1-1 1.33a4.83 4.83 0 0 1-1.61.19c-.14 0-.15-.09-.15-.19V9.26c0-.07.07-.19.11-.19a4.91 4.91 0 0 1 1.71.11a1.28 1.28 0 0 1 .94 1.3"
+          />
+          <path
+            fill="currentColor"
+            d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5m-6 11a3.48 3.48 0 0 1-1.68.54H7.98c-.28 0-.28 0-.28.27v2.32c0 .2-.06.26-.26.26H6.12c-.19 0-.24-.07-.24-.25V7.71c0-.2 0-.26.25-.26h3.13a3.34 3.34 0 0 1 1.62.47a2.75 2.75 0 0 1 1.4 2.39A2.83 2.83 0 0 1 11 13m5.92 3.3a4.62 4.62 0 0 1-2.73.19c-.272-.06-.54-.14-.8-.24a.29.29 0 0 1-.16-.2v-1.51c.32.12.62.26.93.36a3.66 3.66 0 0 0 1.61.14c.107-.02.212-.053.31-.1a.37.37 0 0 0 .08-.63a4 4 0 0 0-.73-.4c-.41-.2-.83-.36-1.22-.59a1.82 1.82 0 0 1-1-1.93a2 2 0 0 1 1.36-1.63a4.21 4.21 0 0 1 2-.17c.32 0 .63.12.95.18c.17 0 .23.14.22.31v1.17c0 .22-.05.24-.25.16a3.87 3.87 0 0 0-2-.34a.9.9 0 0 0-.28.08a.37.37 0 0 0-.1.63c.289.192.593.36.91.5c.38.19.78.34 1.15.55a1.73 1.73 0 0 1 1 1.79a1.92 1.92 0 0 1-1.26 1.64z"
+          />
+        </svg>
+        <p className="text-sm text-center">Illustrator</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Photoshop"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10.45 10.48a1.3 1.3 0 0 1-1 1.33a4.83 4.83 0 0 1-1.61.19c-.14 0-.15-.09-.15-.19V9.26c0-.07.07-.19.11-.19a4.91 4.91 0 0 1 1.71.11a1.28 1.28 0 0 1 .94 1.3"
+          />
+          <path
+            fill="currentColor"
+            d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5m-6 11a3.48 3.48 0 0 1-1.68.54H7.98c-.28 0-.28 0-.28.27v2.32c0 .2-.06.26-.26.26H6.12c-.19 0-.24-.07-.24-.25V7.71c0-.2 0-.26.25-.26h3.13a3.34 3.34 0 0 1 1.62.47a2.75 2.75 0 0 1 1.4 2.39A2.83 2.83 0 0 1 11 13m5.92 3.3a4.62 4.62 0 0 1-2.73.19c-.272-.06-.54-.14-.8-.24a.29.29 0 0 1-.16-.2v-1.51c.32.12.62.26.93.36a3.66 3.66 0 0 0 1.61.14c.107-.02.212-.053.31-.1a.37.37 0 0 0 .08-.63a4 4 0 0 0-.73-.4c-.41-.2-.83-.36-1.22-.59a1.82 1.82 0 0 1-1-1.93a2 2 0 0 1 1.36-1.63a4.21 4.21 0 0 1 2-.17c.32 0 .63.12.95.18c.17 0 .23.14.22.31v1.17c0 .22-.05.24-.25.16a3.87 3.87 0 0 0-2-.34a.9.9 0 0 0-.28.08a.37.37 0 0 0-.1.63c.289.192.593.36.91.5c.38.19.78.34 1.15.55a1.73 1.73 0 0 1 1 1.79a1.92 1.92 0 0 1-1.26 1.64z"
+          />
+        </svg>
+        <p className="text-sm text-center">Bridge</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Photoshop"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10.45 10.48a1.3 1.3 0 0 1-1 1.33a4.83 4.83 0 0 1-1.61.19c-.14 0-.15-.09-.15-.19V9.26c0-.07.07-.19.11-.19a4.91 4.91 0 0 1 1.71.11a1.28 1.28 0 0 1 .94 1.3"
+          />
+          <path
+            fill="currentColor"
+            d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5m-6 11a3.48 3.48 0 0 1-1.68.54H7.98c-.28 0-.28 0-.28.27v2.32c0 .2-.06.26-.26.26H6.12c-.19 0-.24-.07-.24-.25V7.71c0-.2 0-.26.25-.26h3.13a3.34 3.34 0 0 1 1.62.47a2.75 2.75 0 0 1 1.4 2.39A2.83 2.83 0 0 1 11 13m5.92 3.3a4.62 4.62 0 0 1-2.73.19c-.272-.06-.54-.14-.8-.24a.29.29 0 0 1-.16-.2v-1.51c.32.12.62.26.93.36a3.66 3.66 0 0 0 1.61.14c.107-.02.212-.053.31-.1a.37.37 0 0 0 .08-.63a4 4 0 0 0-.73-.4c-.41-.2-.83-.36-1.22-.59a1.82 1.82 0 0 1-1-1.93a2 2 0 0 1 1.36-1.63a4.21 4.21 0 0 1 2-.17c.32 0 .63.12.95.18c.17 0 .23.14.22.31v1.17c0 .22-.05.24-.25.16a3.87 3.87 0 0 0-2-.34a.9.9 0 0 0-.28.08a.37.37 0 0 0-.1.63c.289.192.593.36.91.5c.38.19.78.34 1.15.55a1.73 1.73 0 0 1 1 1.79a1.92 1.92 0 0 1-1.26 1.64z"
+          />
+        </svg>
+        <p className="text-sm text-center">Figma</p>
+      </a>
+      <a
+        href="https://en.wikipedia.org/wiki/Photoshop"
+        target="_blank"
+        className="flex flex-col justify-between items-center align-middle text-center"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10.45 10.48a1.3 1.3 0 0 1-1 1.33a4.83 4.83 0 0 1-1.61.19c-.14 0-.15-.09-.15-.19V9.26c0-.07.07-.19.11-.19a4.91 4.91 0 0 1 1.71.11a1.28 1.28 0 0 1 .94 1.3"
+          />
+          <path
+            fill="currentColor"
+            d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5m-6 11a3.48 3.48 0 0 1-1.68.54H7.98c-.28 0-.28 0-.28.27v2.32c0 .2-.06.26-.26.26H6.12c-.19 0-.24-.07-.24-.25V7.71c0-.2 0-.26.25-.26h3.13a3.34 3.34 0 0 1 1.62.47a2.75 2.75 0 0 1 1.4 2.39A2.83 2.83 0 0 1 11 13m5.92 3.3a4.62 4.62 0 0 1-2.73.19c-.272-.06-.54-.14-.8-.24a.29.29 0 0 1-.16-.2v-1.51c.32.12.62.26.93.36a3.66 3.66 0 0 0 1.61.14c.107-.02.212-.053.31-.1a.37.37 0 0 0 .08-.63a4 4 0 0 0-.73-.4c-.41-.2-.83-.36-1.22-.59a1.82 1.82 0 0 1-1-1.93a2 2 0 0 1 1.36-1.63a4.21 4.21 0 0 1 2-.17c.32 0 .63.12.95.18c.17 0 .23.14.22.31v1.17c0 .22-.05.24-.25.16a3.87 3.87 0 0 0-2-.34a.9.9 0 0 0-.28.08a.37.37 0 0 0-.1.63c.289.192.593.36.91.5c.38.19.78.34 1.15.55a1.73 1.73 0 0 1 1 1.79a1.92 1.92 0 0 1-1.26 1.64z"
+          />
+        </svg>
+        <p className="text-sm text-center">Final Cut Pro</p>
+      </a>
     </div>
   );
 }
+*/
 
 export default MyTechStack;
