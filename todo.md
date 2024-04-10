@@ -30,8 +30,7 @@
 
 ## Other / sitewide
 
-- main page round that image out
-- edit 404 page
+- edit 404 page to be like design page text. link back to home page.
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
 - test with jest while learning - see last section of front end roadmap
 - speech bubble on opening page, scribbled in maybe
@@ -47,6 +46,7 @@
 
 - edit header so orange for selected header item.
 - Add hero icons/font awesome icons for header hamburger: https://heroicons.dev/?search=x.
+- icons to bottom right
 
 ## Project structure
 

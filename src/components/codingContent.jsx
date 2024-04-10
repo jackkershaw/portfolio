@@ -52,7 +52,7 @@ function CodingContent() {
   return (
     <div className="mb-10 flex flex-col">
       <section>
-        <p className="py-4 text-2xl">
+        <p className="text-2xl">
           Websites that Jack has worked on. You can follow his progress{" "}
           <a
             href="https://progress.jackkershaw.net"

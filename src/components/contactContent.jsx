@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="mb-10">
-      <div className="space-between mb-10 flex flex-col">
+      <div className="justify-between flex flex-col">
         <p className="text-2xl">
           Get in touch here or email me directly on {""}
           <a

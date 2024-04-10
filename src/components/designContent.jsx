@@ -54,7 +54,7 @@ function DesignContent() {
 
   return (
     <div className="mb-10 flex flex-col">
-      <p className="py-4 text-2xl">
+      <p className="text-2xl">
         Jack's graphic design work has been featured in{" "}
         <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>. He
         used Adobe Photoshop, Illustrator, InDesign and Bridge to
