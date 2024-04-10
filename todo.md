@@ -2,7 +2,7 @@
 
 ## Design
 
-- Jack's work has been featured in The Guardian, Vice, and It's Nice That.
+- Jack's graphic design work has been featured in The Guardian, Vice, and It's Nice That.
 - Selected clients: Oxford University, Fête de L'Humanité.
 - Lay out each design on a page when click on it.
   - use a component layout to get it consistent.
