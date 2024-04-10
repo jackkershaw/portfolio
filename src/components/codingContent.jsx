@@ -52,9 +52,8 @@ function CodingContent() {
   return (
     <div className="space-between mx-5 mb-10 flex flex-col py-10">
       <section>
-        <p className="py-4 text-2xl lg:mx-5 lg:w-1/3">
-          Projects I've built while learning to code. You can follow my
-          progress{" "}
+        <p className="py-4 text-2xl lg:mx-5">
+          Websites that Jack has worked on. You can follow his progress{" "}
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
@@ -62,7 +61,7 @@ function CodingContent() {
           >
             here
           </a>{" "}
-          and see some of my favorite learning resources{" "}
+          and see some of his favourite learning resources{" "}
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
