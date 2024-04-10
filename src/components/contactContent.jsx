@@ -1,8 +1,8 @@
 function Contact() {
   return (
-    <div className="mx-5 mb-10 py-14 ">
+    <div className="mb-10">
       <div className="space-between mb-10 flex flex-col">
-        <p className="text-2xl  md:mx-5">
+        <p className="text-2xl">
           Get in touch here or email me directly on {""}
           <a
             href="mailto:jackkershaw@protonmail.com"
@@ -17,26 +17,24 @@ function Contact() {
       <form
         action="https://formsubmit.co/jackkershaw@protonmail.com"
         method="POST"
-        className="my-10 flex flex-col space-y-3 border-2 border-black p-5 hover:shadow-md hover:shadow-ykb md:mx-10"
+        className="my-10 flex flex-col space-y-3 py-5"
       >
-        <div className="space-y-3 sm:grid sm:grid-cols-3 sm:space-y-0">
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your name"
-            required
-            className=" w-full rounded border-2 p-4 text-xl focus:border-ykb focus:shadow-md sm:col-span-2 sm:mr-5 sm:w-auto sm:px-10 sm:py-6"
-          />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email"
-            required
-            className="w-full rounded border-2 p-4 text-xl focus:border-ykb focus:shadow-md sm:w-auto sm:px-10 sm:py-6"
-          />
-        </div>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+          className="w-full rounded border-2 p-4 text-xl focus:border-ykb focus:shadow-md sm:w-auto sm:px-10 sm:py-6"
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+          className="w-full rounded border-2 p-4 text-xl focus:border-ykb focus:shadow-md sm:w-auto sm:px-10 sm:py-6"
+        />
         <br />
         <textarea
           id="message"

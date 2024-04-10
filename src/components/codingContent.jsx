@@ -50,9 +50,9 @@ function CodingContent() {
   ];
 
   return (
-    <div className="space-between mx-5 mb-10 flex flex-col py-10">
+    <div className="mb-10 flex flex-col">
       <section>
-        <p className="py-4 text-2xl lg:mx-5">
+        <p className="py-4 text-2xl">
           Websites that Jack has worked on. You can follow his progress{" "}
           <a
             href="https://progress.jackkershaw.net"
@@ -73,11 +73,11 @@ function CodingContent() {
         </p>
       </section>
       <section>
-        <ol className="flex-space-between flex flex-col justify-center">
+        <ol className="justify-between flex flex-col">
           {projects.map((project, index) => (
             <li
               key={index}
-              className="flex flex-col lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-4 lg:hover:shadow-lg lg:hover:shadow-ykb"
+              className="flex flex-col lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:pt-4 lg:hover:shadow-lg lg:hover:shadow-ykb lg:my-5"
             >
               <a
                 href={project.link}
@@ -130,7 +130,7 @@ function CodingContent() {
         </ol>
       </section>
       <section
-        className="lg:m-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb
+        className="lg:my-5 lg:grid lg:grid-cols-4 lg:border-2 lg:border-black lg:hover:shadow-lg lg:hover:shadow-ykb
       "
       >
         <a

@@ -2,7 +2,7 @@ import MyTechStack from "./my-tech-stack";
 
 function OpeningPage() {
   return (
-    <div className="mx-5 mb-10 pb-10 sm:py-10 md:mx-10 lg:grid lg:grid-cols-3">
+    <div className="mb-10 pb-10 lg:grid lg:grid-cols-3">
       <img
         src="/opening-page/jackkershaw.jpg"
         alt="a photo of me. I'm wearing a blue jumper and headphones."

@@ -53,26 +53,26 @@ function DesignContent() {
   ];
 
   return (
-    <div className="space-between mx-5 mb-10 flex flex-col py-10">
-      <p className="py-4 text-2xl lg:mx-5">
+    <div className="mb-10 flex flex-col">
+      <p className="py-4 text-2xl">
         Jack's graphic design work has been featured in{" "}
-        <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>.
-        Jack used Adobe Photoshop, Illustrator, InDesign and Bridge to
+        <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>. He
+        used Adobe Photoshop, Illustrator, InDesign and Bridge to
         create bold, colourful designs for a host of clients around the
-        world, including Oxford University, Fête de L'Humanité
+        world, including Oxford University, Fête de L'Humanité and
+        Autonomy.
       </p>
-      <div className="flex flex-wrap justify-center gap-4 p-4 pb-10 sm:pb-0">
+      <div className="flex flex-wrap justify-center gap-4 py-4 pb-10 sm:pb-0">
         {designs.map((design) => (
           <section
             key={design.id}
-            className="max-w-xs overflow-hidden border-2 border-black p-5 hover:shadow-lg hover:shadow-ykb"
+            className="max-w-xs overflow-hidden py-5 "
           >
             <img
               src={`/design-page/${design.id}/${design.id}.jpg`}
               alt={design.id}
               className="h-auto w-full"
             />
-            <p className="p-4">{design.description}</p>
           </section>
         ))}
       </div>
