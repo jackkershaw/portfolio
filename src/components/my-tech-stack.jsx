@@ -3,70 +3,19 @@ function MyTechStack() {
     {
       name: "HTML",
       href: "https://en.wikipedia.org/wiki/HTML",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          className="w-10 h-10"
-        >
-          <path
-            fill="currentColor"
-            d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z"
-          ></path>
-          <path
-            fill="currentColor"
-            fillRule="evenodd"
-            d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
-            clipRule="evenodd"
-          ></path>
-        </svg>
-      ),
+      svg: "icon-[ri--javascript-fill]",
     },
     {
       name: "CSS",
       href: "https://en.wikipedia.org/wiki/CSS",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          className="w-10 h-10"
-        >
-          <path
-            fill="currentColor"
-            d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z"
-          ></path>
-          <path
-            fill="currentColor"
-            fillRule="evenodd"
-            d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
-            clipRule="evenodd"
-          ></path>
-        </svg>
-      ),
+      svg: "icon-[ri--css3-fill]",
     },
-    {name: "JavaScript", href: "https://en.wikipedia.org/wiki/JavaScript", svg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        className="w-10 h-10"
-      >
-        <g fill="none">
-          <g clipPath="url(#akarIconsJavascriptFill0)">
-            <path
-              fill="currentColor"
-              fillRule="evenodd"
-              d="M0 0h24v24H0zm18.347 20.12c-1.113 0-1.742-.58-2.225-1.37l-1.833 1.065c.662 1.308 2.015 2.306 4.11 2.306c2.142 0 3.737-1.112 3.737-3.143c0-1.883-1.082-2.72-2.998-3.543l-.564-.241c-.968-.42-1.387-.693-1.387-1.37c0-.547.42-.966 1.08-.966c.647 0 1.064.273 1.451.966l1.756-1.127c-.743-1.307-1.773-1.806-3.207-1.806c-2.014 0-3.303 1.288-3.303 2.98c0 1.835 1.08 2.704 2.708 3.397l.564.242c1.029.45 1.642.724 1.642 1.497c0 .646-.597 1.113-1.531 1.113m-8.74-.015c-.775 0-1.098-.53-1.452-1.16l-1.836 1.112c.532 1.126 1.578 2.06 3.383 2.06c1.999 0 3.368-1.063 3.368-3.398v-7.7h-2.255v7.67c0 1.127-.468 1.416-1.209 1.416"
-              clipRule="evenodd"
-            ></path>
-          </g>
-          <defs>
-            <clipPath id="akarIconsJavascriptFill0">
-              <path fill="#fff" d="M0 0h24v24H0z"></path>
-            </clipPath>
-          </defs>
-        </g>
-      </svg>)},
-    {name: "React", href: "", svg: <div>React</div>},
+    {
+      name: "JavaScript",
+      href: "https://en.wikipedia.org/wiki/JavaScript",
+      svg: "icon-[ri--javascript-fill]",
+    },
+    { name: "React", href: "", svg: "icon-[ri--reactjs-fill]" },
   ];
 
   return (
@@ -78,7 +27,7 @@ function MyTechStack() {
           target="_blank"
           className="flex flex-col justify-between items-center align-middle text-center"
         >
-          <div>{item.svg}</div>
+          <span class={item.svg}></span>
           <p className="text-sm text-center">{item.name}</p>
         </a>
       ))}
@@ -86,6 +35,7 @@ function MyTechStack() {
   );
 }
 
+/*
 
         <p className="text-sm text-center">JavaScript</p>
       </a>
@@ -400,6 +350,8 @@ function MyTechStack() {
     </div>
   );
 }
+
+NETLIFY ADD
 */
 
 export default MyTechStack;
