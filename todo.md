@@ -2,10 +2,7 @@
 
 ## My tech stack
 
-- fix iconify tailwind.
-- use iconify tailwind instead of fortawesome/fontawesome in footer and elsewhere.
-
-## ## Design
+## Design
 
 - Jack's work has been featured in The Guardian, Vice, and It's Nice That.
 - Selected clients: Oxford University, Fête de L'Humanité.
@@ -16,6 +13,7 @@
 
 ## Blog
 
+- - use iconify tailwind instead of fortawesome/fontawesome.
 - see ideas in [drafts folder](src/pages/blog/_drafts)
 - improve design on different screens and lining things up.
 
@@ -35,6 +33,7 @@
 
 ## Other / sitewide
 
+- main page round that image out
 - edit 404 page
 - system theme dark theme light theme like on [here](https://alexworradandrews.com/)
 - test with jest while learning - see last section of front end roadmap
@@ -45,6 +44,7 @@
 ## Footer
 
 - add scroll to top/back to top back into footer.
+- - use iconify tailwind instead of fortawesome/fontawesome.
 
 ## Header
 
