@@ -94,7 +94,7 @@ function MyTechStack() {
   ];
 
   return (
-    <div className="mx-auto grid w-full h-auto grid-cols-3 justify-between py-10 sm:grid-cols-4 gap-6 sm:gap-6 md:grid-cols-6 md:gap-8 lg:grid-cols-8 lg:gap-10">
+    <div className="mx-auto grid w-full h-auto grid-cols-3 justify-between pt-10 sm:grid-cols-4 gap-6 sm:gap-6 md:grid-cols-6 md:gap-8 lg:grid-cols-8 lg:gap-10 text-ykb">
       {technologies.map((item, index) => (
         <a
           key={index}
@@ -103,7 +103,7 @@ function MyTechStack() {
           className="flex flex-col items-center justify-between text-center"
         >
           <span className={item.svg}></span>
-          <p className="text-sm mt-2">{item.name}</p>
+          <p className="text-sm mt-2 text-black">{item.name}</p>
         </a>
       ))}
     </div>
