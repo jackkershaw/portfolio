@@ -1,12 +1,9 @@
 # To do list
 
-## Main page
+## My tech stack
 
-- add git and github to tools, add hover over names like on [this site](https://ianreve.com/#Projects). also separate section for photoshop and illustrator.
-
-- Put [icons from technology on here](https://roadmap.sh/frontend) and add netlify.
-
-- Jack Kershaw is a developer and designer from London. He has been designing for over ten years, and developing websites for the past two years.
+- fix icons - use iconify tailwind like on museum redesign website instead
+- add netlify icon
 
 ## ## Design
 
