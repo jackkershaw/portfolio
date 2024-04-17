@@ -8,7 +8,7 @@ function Header() {
       <header className="min-w-100 bg-ykb pt-6 sm:py-6 text-white">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="sm:hidden text-blue-900 hover:text-white focus:outline-none flex flex-row items-center justify-between mx-auto text-2xl"
+          className="sm:hidden text-white hover:text-white focus:outline-none flex flex-row items-center justify-between mx-auto text-2xl"
         >
           <svg
             className="w-6 h-6"
