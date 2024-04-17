@@ -6,6 +6,8 @@ export default {
     extend: {
       colors: {
         ykb: "#002FA7",
+        ykbdark: "#001F6F",
+        ykblight: "#003AD0",
         orangepeel: "#FFA630",
       },
       fontFamily: {
