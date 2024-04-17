@@ -8,7 +8,7 @@ function Header() {
       <header className="min-w-100 bg-ykb pt-6 sm:py-6 text-white">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="sm:hidden text-orangepeel hover:text-white focus:outline-none flex flex-row items-center justify-between mx-auto text-2xl"
+          className="sm:hidden text-blue-900 hover:text-white focus:outline-none flex flex-row items-center justify-between mx-auto text-2xl"
         >
           <svg
             className="w-6 h-6"
@@ -36,44 +36,32 @@ function Header() {
           <h1 className="text-3xl">Menu</h1>
         </button>
         <nav
-          className={` pt-8 sm:pt-0 bg-white text-ykb sm:text-white sm:bg-ykb items-center justify-between text-center text-3xl sm:mx-10 space-y-10 sm:space-y-0 ${menuOpen ? "flex sm:flex-row flex-col" : "hidden sm:flex sm:flex-row"}`}
+          className={` pt-8 sm:pt-0 text-orangepeel sm:text-white sm:slate-600 items-center justify-center space-x-5 text-center text-2xl sm:mx-10 space-y-10 sm:space-y-0 ${menuOpen ? "flex sm:flex-row flex-col" : "hidden sm:flex sm:flex-row"}`}
         >
           {" "}
           <a
             href="/"
-            className="hover:text-orangepeel active:text-white"
+            className=" active:text-white sm: sm:hover:bg-ykbdark sm:active:bg-ykblight p-5 rounded-lg"
           >
-            About Me
+            About
           </a>
           <a
             href="/coding"
-            className="hover:text-orangepeel active:text-white"
+            className=" active:text-white sm: sm:hover:bg-ykbdark sm:active:bg-ykblight p-5 rounded-lg"
           >
             Coding
           </a>
           <a
             href="/design"
-            className="hover:text-orangepeel active:text-white"
+            className=" active:text-white sm: sm:hover:bg-ykbdark sm:active:bg-ykblight p-5 rounded-lg"
           >
             Design
           </a>
           <a
             href="/blog"
-            className="hover:text-orangepeel active:text-white"
+            className=" active:text-white sm: sm:hover:bg-ykbdark sm:active:bg-ykblight p-5 rounded-lg"
           >
             Blog
-          </a>
-          <a
-            href="/contact"
-            className="hover:text-orangepeel active:text-white"
-          >
-            Contact
-          </a>
-          <a
-            href="/cv"
-            className="hover:text-orangepeel active:text-white"
-          >
-            CV
           </a>
         </nav>
       </header>
