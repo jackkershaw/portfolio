@@ -1,5 +1,31 @@
 # To do list
 
+Use traditional design structure - Material Design
+
+Header - 3 to 5 options
+
+Use Dribble, and other inspiration sites to copy good design
+
+Color scheme - add a secondary colour
+
+Fix layout, stuff overlapping
+Have to scroll down
+
+Footer shouldnt be sticky
+
+Pdf not right size, needs to be more on view
+
+Unprofessional, needs to be polished
+
+put contact form and cv somewhere else
+
+## Header
+
+- mobile header should look like this [top app](https://m3.material.io/components/top-app-bar/overview)
+- Add iconify icons for hamburger and cross
+
+- remember to keep looking through examples you like
+
 ## Design
 
 - Lay out each design on a page when click on it.
@@ -38,36 +64,9 @@
 
 ## Footer
 
+- fix footer drifiting on some pages like blog page.
 - add scroll to top/back to top back into footer.
 - icons to bottom right
-
-## Header
-
-- edit header so orange for selected header item.
-- Add iconify icons for hamburger and cross
-
-## Project structure
-
-- Add project structure like this to Readme:
-  i think there's a github repo for generating these somewhere.
-
-  ## 🚀 Project Structure
-
-  The project is built of the following files and folders:
-
-  ```text
-  /
-  ├── public/
-  │   └── favicon.svg
-  ├── src/
-  │   ├── components/
-  │   │   └── Card.astro
-  │   ├── layouts/
-  │   │   └── Layout.astro
-  │   └── pages/
-  │       └── index.astro
-  └── package.json
-  ```
 
 ## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
