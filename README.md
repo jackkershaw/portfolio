@@ -44,6 +44,13 @@
 - Added the Astro JS Sitemap plugin to improve SEO by generating a sitemap xml.
 - Following some user feedback, I added labels to the icons for my tech stack on the main page.
 
+## Redesigning
+
+- Following user feedback, I wanted to make the site look more professional so I decided to implement some changes based on the Material Design guidelines. In particular, the guidelines on [navigation bars](https://m3.material.io/components/navigation-bar/guidelines).
+  - reduced navigation bar to 4 items instead of 6 and made smaller.
+  - Made footer not sticky
+  - Added a ykb dark and ykb light colour to the tailwind config so i have more options, basically lighter and darker shades of the original blue colour which I can use across the site.
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:
