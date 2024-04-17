@@ -124,7 +124,7 @@ function CodingContent() {
                   className="my-2 hidden h-auto max-h-[30vw] w-full object-contain lg:block"
                 />
               </a>
-              <div class="mx-auto my-4 h-10 border-8 border-dashed border-black lg:hidden"></div>
+              <div className="mx-auto my-4 h-10 border-8 border-dashed border-black lg:hidden"></div>
             </li>
           ))}
         </ol>
