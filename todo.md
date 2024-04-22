@@ -2,22 +2,19 @@
 
 Use traditional design structure - Material Design
 
-Header - 3 to 5 options
-
 Use Dribble, and other inspiration sites to copy good design
 
-Color scheme - add a secondary colour
+Color scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
 
-Fix layout, stuff overlapping
-Have to scroll down
-
-Footer shouldnt be sticky
+Fix layout so don't have to scroll down so much
 
 Pdf not right size, needs to be more on view
 
 Unprofessional, needs to be polished
 
-put contact form and cv somewhere else
+put contact form in footer
+
+add some animations!
 
 ## Header
 
@@ -73,3 +70,11 @@ put contact form and cv somewhere else
 Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
 
 - (later) follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/) on making tag pages for blog. Good for learning about dynamic routing and getstaticpaths() too
+
+rewrite this bit:
+
+#### Opening page
+
+- Following some user feedback, I was told that a few things needed change on mobile to make it snappier. I interpreted the user feedback and wrote code for the following in my header.jsx:
+  - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
+  - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
