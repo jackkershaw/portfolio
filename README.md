@@ -44,6 +44,7 @@
   - reduced navigation bar to 4 items instead of 6 and made smaller.
   - Made footer not sticky
   - Added a ykb dark and ykb light colour to the tailwind config so i have more options, basically lighter and darker shades of the original blue colour which I can use across the site.
+  - Edited the design of the header, following [Material Design](https://m3.material.io/components/top-app-bar/overview) for the mobile header.
 
 ## Commands
 
