@@ -1,29 +1,24 @@
 # To do list
 
-## sitewide
+## Sitewide
 
-Use traditional design structure - Material Design
-
-- system theme dark theme light theme like on [here](https://alexworradandrews.com/)
+- Use traditional design system - Material Design
+- system theme dark theme and light theme like on [here](https://alexworradandrews.com/)
 - test with jest while learning - see last section of front end roadmap
 - Add some animations! Look into cool things to do with Astro transitions etc.
-
   - framer motion or gsap too
   - css animations site that used with daily challenges site.
+- Use Dribble, and other inspiration sites to copy good design
+- Color scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
+- Unprofessional, needs to be polished
 
-  Use Dribble, and other inspiration sites to copy good design
-
-Color scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
+## CV
 
 Pdf not right size, needs to be more on view
-
-Unprofessional, needs to be polished
 
 ## Design
 
 - Lay out each design on a page when click on it.
-  - use a component layout to get it consistent.
-  - can just make 10 subpages rather than building something more dynamic with local api etc.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
 - pelicula - present like this: https://tosche.net/fonts/dossier
