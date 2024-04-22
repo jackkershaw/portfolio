@@ -1,18 +1,17 @@
 # To do list
 
-## Sitewide
+## New colour scheme
 
+- Colour scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
 - system theme dark theme and light theme like on [here](https://alexworradandrews.com/)
+
+## Sitewide
+
 - Add some animations! Look into cool things to do with Astro transitions etc.
   - framer motion or gsap too
   - css animations site that used with daily challenges site.
 - Use Dribble, and other inspiration sites to copy good design
-- Color scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
 - Unprofessional, needs to be polished
-
-## CV
-
-Pdf not right size, needs to be more on view
 
 ## Design
 
