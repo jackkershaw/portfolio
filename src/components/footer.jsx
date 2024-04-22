@@ -54,8 +54,8 @@ function Footer() {
               </button>
             </form>
           </div>
-          <div className="flex-col justify-end flex">
-            <div className="flex flex-col justify-end sm:flex-row space-x-5 text-right text-white py-5">
+          <div className="flex-col sm:justify-end flex pt-10 sm:pt-0">
+            <div className="flex flex-row justify-center sm:justify-end space-x-5 text-right text-white py-5">
               {" "}
               <a href="https://github.com/jones58" target="_blank">
                 <span className="icon-[mdi--github] w-20 h-20 cursor-pointer hover:text-orangepeel active:text-white"></span>
