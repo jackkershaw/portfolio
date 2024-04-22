@@ -1,7 +1,5 @@
 # To do list
 
-Use traditional design structure - Material Design
-
 Use Dribble, and other inspiration sites to copy good design
 
 Color scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
@@ -12,15 +10,12 @@ Pdf not right size, needs to be more on view
 
 Unprofessional, needs to be polished
 
-put contact form in footer
-
 add some animations!
 
-## Header
+## Header - mobilex
 
 - mobile header should look like this [top app](https://m3.material.io/components/top-app-bar/overview)
 - Add iconify icons for hamburger and cross
-
 - remember to keep looking through examples you like
 
 ## Design
@@ -45,6 +40,7 @@ add some animations!
 
 ## Coding page
 
+- something [like this](https://www.emnuel.xyz/)
 - Each project opens own page - like with design page, use a component layout to get it consistent.
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
@@ -63,7 +59,7 @@ add some animations!
 
 - fix footer drifiting on some pages like blog page.
 - add scroll to top/back to top back into footer.
-- icons to bottom right
+- put contact form in footer
 
 ## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
@@ -78,3 +74,5 @@ rewrite this bit:
 - Following some user feedback, I was told that a few things needed change on mobile to make it snappier. I interpreted the user feedback and wrote code for the following in my header.jsx:
   - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
   - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
+
+Use traditional design structure - Material Design
