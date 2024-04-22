@@ -12,6 +12,7 @@
   - css animations site that used with daily challenges site.
 - Use Dribble, and other inspiration sites to copy good design
 - Unprofessional, needs to be polished
+- check site design across mobile.
 
 ## Design
 
@@ -39,12 +40,6 @@
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
 - update portfolio images - maybe use puppeteer to get this done dynamically.
-
-## Footer
-
-- fix footer drifiting on some pages like blog page.
-- add scroll to top/back to top back into footer.
-- put contact form in footer
 
 ## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
