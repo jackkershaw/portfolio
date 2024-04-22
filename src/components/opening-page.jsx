@@ -7,7 +7,8 @@ function OpeningPage() {
       <div className="flex sm:flex-row justify-between flex-col space-y-6">
         <img
           src="/opening-page/jackkershaw.jpg"
-          className="sm:max-w-[10vw] h-auto rounded-lg object-cover h-auto"
+          className="sm:max-w-[10vw] max-h-[30vh] rounded-lg object-cover h-auto"
+          alt="Jack wearing a blue jumper and headphones"
         />
         <p className="text-3xl sm:max-w-[30vw] sm:ml-5">
           Jack Kershaw is a developer and designer from London. He has
