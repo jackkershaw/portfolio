@@ -1,10 +1,15 @@
 ## New colour scheme
 
-Moved to a more neutral colour scheme with ykb blue just used for accents rather than the whole site.
+Keep refining the colour scheme
 
-bg-neutral-300 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-300
+Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer
 
-set hover:text-ykb
+Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100
+
+Add to readme:
+
+I moved to a more neutral colour scheme with ykb blue just used for accents rather than the whole site.
+bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100
 
 ## Coding
 
@@ -14,6 +19,7 @@ set hover:text-ykb
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
 - update portfolio images - maybe use puppeteer to get this done dynamically.
+- fix images, tbh should be able to autogenerate these with puppeteer or such, at least something in build stage. look into.
 
 ## Sitewide
 
