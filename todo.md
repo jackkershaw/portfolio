@@ -4,10 +4,9 @@ Keep refining the colour scheme
 
 Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer
 
-Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100
+Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
 Add to readme:
-
 I moved to a more neutral colour scheme with ykb blue just used for accents rather than the whole site.
 bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100
 
