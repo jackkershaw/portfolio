@@ -22,12 +22,6 @@
 - Further to this, I ran Axe developer tools in my developer tools section and was advised to remove: "maximum-scale=5, user-scalable=no" from the 'index.html' file because it does not support accessibility for people with low vision who need magnification to see the content.
 - Set font to [Neue Haas Unica](https://fontsinuse.com/typefaces/38883/neue-haas-unica), a typeface by one of my favourite type designers, [Toshi Omagari](http://tosche.net/). The easiest way to set this was changing the default fonts in tailwind.config.js., and set font-face in index.css.
 
-#### Opening page
-
-- Following some user feedback, I was told that a few things needed change on mobile to make it snappier. I interpreted the user feedback and wrote code for the following in my header.jsx:
-  - when on a page, highlight that page in menu: this involved setting a classname for text to be orange if on that page, with state setting the initial, opening page.
-  - change hover/active color for Navbar: I accomplished this by setting the text color to orange on hover and white on active. This was in the set headerstyle function, again wrapped in the handle header click function. This made me realise how powerful combining functions, particularly in React, can be.
-
 ## Moving to Astro
 
 - In late February 2024, I decided I wanted to migrate the site, in React, Vite and Tailwind CSS, to Astro. It took me a relatively short amount of time to edit my codebase and I was very happy with the result.
