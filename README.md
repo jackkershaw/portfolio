@@ -45,6 +45,7 @@
   - Made footer not sticky
   - Added a ykb dark and ykb light colour to the tailwind config so i have more options, basically lighter and darker shades of the original blue colour which I can use across the site.
   - Edited the design of the header, following [Material Design](https://m3.material.io/components/top-app-bar/overview) for the mobile header.
+- Moved the contact form to the site's footer to encourage people to get in touch and reduce the number of pages that the site has.
 
 ## Commands
 
