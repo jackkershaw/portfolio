@@ -121,7 +121,7 @@ function CodingContent() {
                 <img
                   src={`/coding-page/${project.image_folder}/mobile.jpg`}
                   alt={`mobile view of ${project.title}`}
-                  className="my-2 hidden h-auto max-h-[30vw] w-full object-contain lg:block"
+                  className="my-2 hidden h-auto max-h-[55vh] w-full object-contain lg:block"
                 />
               </a>
               <div className="mx-auto my-4 h-10 border-8 border-dashed border-black lg:hidden"></div>
