@@ -1,5 +1,14 @@
 # To do list
 
+## Coding
+
+- redo the design of this page to be something [like this](https://www.emnuel.xyz/)
+- Fix layout so don't have to scroll down so much
+- Each project opens own page - like with design page, use a component layout to get it consistent.
+- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
+- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
+- update portfolio images - maybe use puppeteer to get this done dynamically.
+
 ## New colour scheme
 
 - Colour scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
@@ -31,15 +40,6 @@
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
 - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
-
-## Coding page
-
-- Fix layout so don't have to scroll down so much
-- something [like this](https://www.emnuel.xyz/)
-- Each project opens own page - like with design page, use a component layout to get it consistent.
-- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
-- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
-- update portfolio images - maybe use puppeteer to get this done dynamically.
 
 ## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
