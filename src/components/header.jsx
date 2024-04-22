@@ -11,7 +11,7 @@ function Header() {
           className="sm:hidden text-white hover:text-white focus:outline-none flex flex-row items-center justify-between mx-auto text-2xl"
         >
           {menuOpen ? (
-            <span class="icon-[mdi--menu-close]"></span>
+            <span class="icon-[mdi--arrow-up]"></span>
           ) : (
             <span class="icon-[mdi--hamburger-menu]"></span>
           )}
@@ -49,7 +49,7 @@ function Header() {
           >
             Blog
           </a>
-          <div className="container flex flex-col items-center justify-between sm:mx-5 sm:flex-row lg:mx-10">
+          <div className="mx-auto container flex flex-col items-center justify-between sm:mx-5 sm:flex-row lg:mx-10">
             <div className="flex space-x-6 pt-4 sm:pt-0 ml-auto align-items-center">
               {" "}
               <a href="https://github.com/jones58" target="_blank">
