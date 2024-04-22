@@ -1,6 +1,6 @@
 ---
-import Layout from "../layouts/Layout.astro";
-const allPosts = await Astro.glob("../pages/blog/*.md");
+import Layout from "../../layouts/Layout.astro";
+const allPosts = await Astro.glob("./*.md");
 
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
@@ -13,7 +13,7 @@ const formatDate = (date: string) => {
 ---
 
 <style>
-  @import "../styles.css";
+  @import "../../styles.css";
 </style>
 
 <Layout>
