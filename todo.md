@@ -2,9 +2,7 @@
 
 ## Sitewide
 
-- Use traditional design system - Material Design
 - system theme dark theme and light theme like on [here](https://alexworradandrews.com/)
-- test with jest while learning - see last section of front end roadmap
 - Add some animations! Look into cool things to do with Astro transitions etc.
   - framer motion or gsap too
   - css animations site that used with daily challenges site.

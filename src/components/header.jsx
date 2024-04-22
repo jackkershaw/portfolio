@@ -55,7 +55,11 @@ function Header() {
               <a href="https://github.com/jones58" target="_blank">
                 <span className="icon-[mdi--github] w-10 h-10 cursor-pointer hover:text-orangepeel active:text-white"></span>
               </a>
-              <a href="/cv" target="_blank">
+              <a
+                href="Jack-Kershaw-CV.pdf"
+                target="_blank"
+                download="Jack-Kershaw-CV.pdf"
+              >
                 <span className="icon-[mdi--resume] w-10 h-10 cursor-pointer hover:text-orangepeel active:text-white"></span>
               </a>
               <a
