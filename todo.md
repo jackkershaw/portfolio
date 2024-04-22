@@ -1,4 +1,10 @@
-# To do list
+## New colour scheme
+
+Moved to a more neutral colour scheme with ykb blue just used for accents rather than the whole site.
+
+bg-neutral-300 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-300
+
+set hover:text-ykb
 
 ## Coding
 
@@ -8,11 +14,6 @@
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
 - For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
 - update portfolio images - maybe use puppeteer to get this done dynamically.
-
-## New colour scheme
-
-- Colour scheme - make new scheme, use ykb as an accent colour, make a dark scheme and light scheme with better colours.
-- system theme dark theme and light theme like on [here](https://alexworradandrews.com/)
 
 ## Sitewide
 
@@ -24,10 +25,6 @@
 - check site design across mobile.
 
 some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
-
-Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
-
-- (later) follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/) on making tag pages for blog. Good for learning about dynamic routing and getstaticpaths() too
 
 ## Design
 
