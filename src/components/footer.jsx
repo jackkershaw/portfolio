@@ -48,11 +48,32 @@ function Footer() {
               <button
                 type="submit"
                 value="Submit"
-                className="submit-button p-4 bg-white"
+                className="submit-button p-4 bg-white text-left"
               >
                 Submit
               </button>
             </form>
+          </div>
+          <div className="flex-col justify-end flex">
+            <div className="flex flex-col justify-end sm:flex-row space-x-5 text-right text-white py-5">
+              {" "}
+              <a href="https://github.com/jones58" target="_blank">
+                <span className="icon-[mdi--github] w-20 h-20 cursor-pointer hover:text-orangepeel active:text-white"></span>
+              </a>
+              <a
+                href="Jack-Kershaw-CV.pdf"
+                target="_blank"
+                download="Jack-Kershaw-CV.pdf"
+              >
+                <span className="icon-[mdi--resume] w-20 h-20 cursor-pointer hover:text-orangepeel active:text-white"></span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jackkershaw"
+                target="_blank"
+              >
+                <span className="icon-[mdi--linkedin] w-20 h-20 cursor-pointer hover:text-orangepeel active:text-white"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

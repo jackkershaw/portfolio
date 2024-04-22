@@ -49,27 +49,6 @@ function Header() {
           >
             Blog
           </a>
-          <div className="mx-auto container flex flex-col items-center justify-between sm:mx-5 sm:flex-row lg:mx-10">
-            <div className="flex space-x-6 pt-4 sm:pt-0 ml-auto align-items-center">
-              {" "}
-              <a href="https://github.com/jones58" target="_blank">
-                <span className="icon-[mdi--github] w-10 h-10 cursor-pointer hover:text-orangepeel active:text-white"></span>
-              </a>
-              <a
-                href="Jack-Kershaw-CV.pdf"
-                target="_blank"
-                download="Jack-Kershaw-CV.pdf"
-              >
-                <span className="icon-[mdi--resume] w-10 h-10 cursor-pointer hover:text-orangepeel active:text-white"></span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jackkershaw"
-                target="_blank"
-              >
-                <span className="icon-[mdi--linkedin] w-11 h-11 cursor-pointer hover:text-orangepeel active:text-white"></span>
-              </a>
-            </div>
-          </div>
         </nav>
       </header>
     </>
