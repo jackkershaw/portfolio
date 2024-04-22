@@ -1,10 +1,10 @@
 function Footer() {
   return (
-    <footer className="bottom-0 bg-ykb py-10 text-2xlsm:max-h-20">
+    <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-300">
       <div className="mx-10">
         <div className="sm:grid-cols-2 sm:grid">
           <div>
-            <p className="text-2xl text-neutral-300">
+            <p className="text-2xl">
               Get in touch here or email me directly at{" "}
               <a
                 href="mailto:jackkershaw@protonmail.com"
@@ -58,20 +58,20 @@ function Footer() {
             <div className="flex flex-row justify-center sm:justify-end space-x-5 text-right py-5">
               {" "}
               <a href="https://github.com/jones58" target="_blank">
-                <span className="icon-[mdi--github] w-20 h-20 cursor-pointer  hover:text-neutral-200 active:text-white"></span>
+                <span className="icon-[mdi--github] w-20 h-20 cursor-pointer hover:bg-ykbdark active:text-ykblight"></span>
               </a>
               <a
                 href="Jack-Kershaw-CV.pdf"
                 target="_blank"
                 download="Jack-Kershaw-CV.pdf"
               >
-                <span className="icon-[mdi--resume] w-20 h-20 cursor-pointer hover:text-neutral-200 active:text-white"></span>
+                <span className="icon-[mdi--resume] w-20 h-20 cursor-pointer hover:bg-ykbdark active:text-ykblight"></span>
               </a>
               <a
                 href="https://www.linkedin.com/in/jackkershaw"
                 target="_blank"
               >
-                <span className="icon-[mdi--linkedin] w-20 h-20 cursor-pointer hover:text-slate-200 active:text-white"></span>
+                <span className="icon-[mdi--linkedin] w-20 h-20 cursor-pointer hover:bg-ykbdark active:text-ykblight"></span>
               </a>
             </div>
           </div>
