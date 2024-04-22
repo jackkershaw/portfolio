@@ -23,6 +23,12 @@
 - Unprofessional, needs to be polished
 - check site design across mobile.
 
+some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
+
+Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
+
+- (later) follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/) on making tag pages for blog. Good for learning about dynamic routing and getstaticpaths() too
+
 ## Design
 
 - Lay out each design on a page when click on it.
@@ -40,9 +46,3 @@
 - use audit thing in dev environment , make edits it suggests particularly for accessibility.
 - use lighthouse and make suggested edits.
 - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
-
-## some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
-
-Keep going with Astro tutorial from [here](https://docs.astro.build/en/tutorial/6-islands/)
-
-- (later) follow tutorial [here](https://docs.astro.build/en/tutorial/5-astro-api/2/) on making tag pages for blog. Good for learning about dynamic routing and getstaticpaths() too
