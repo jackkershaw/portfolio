@@ -77,7 +77,7 @@ function CodingContent() {
           {projects.map((project, index) => (
             <li
               key={index}
-              className="flex flex-col lg:grid lg:grid-cols-4 lg:border-2 lg:border-neutral-900 dark:lg:border-neutral-300 lg:pt-4 lg:my-5"
+              className="flex flex-col lg:grid lg:grid-cols-4 lg:border-2 lg:border-neutral-900  lg:pt-4 lg:my-5"
             >
               <a
                 href={project.link}
@@ -87,7 +87,7 @@ function CodingContent() {
                 <img
                   src={`/coding-page/${project.image_folder}/desktop.jpg`}
                   alt={`desktop view of ${project.title}`}
-                  className="h-auto w-full border-2 lg:border-neutral-900 dark:lg:border-neutral-300 object-contain  lg:my-2 lg:border-0"
+                  className="h-auto w-full border-2 lg:border-neutral-900  object-contain  lg:my-2 lg:border-0"
                 />
               </a>
               <div className="lg:col-span-1 lg:my-4 lg:py-8">
@@ -100,7 +100,7 @@ function CodingContent() {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="mt-4 block w-full border-2 lg:border-neutral-900 dark:lg:border-neutral-300 px-4 py-2 text-center text-xl lg:mt-0 lg:px-0 lg:py-2 lg:hover:shadow-lg
+                  className="mt-4 block w-full border-2 lg:border-neutral-900  px-4 py-2 text-center text-xl lg:mt-0 lg:px-0 lg:py-2 lg:hover:shadow-lg
                   "
                 >
                   View Website
@@ -108,7 +108,7 @@ function CodingContent() {
                 <a
                   href={project.github_link}
                   target="_blank"
-                  className="mt-5 block w-full border-2 lg:border-neutral-900 dark:lg:border-neutral-300 px-4 text-center text-xl  lg:mt-0 lg:mt-3 lg:px-0 lg:py-2 lg:hover:shadow-lg"
+                  className="mt-5 block w-full border-2 lg:border-neutral-900  px-4 text-center text-xl  lg:mt-0 lg:mt-3 lg:px-0 lg:py-2 lg:hover:shadow-lg"
                 >
                   View Github
                 </a>
@@ -124,13 +124,13 @@ function CodingContent() {
                   className="my-2 hidden h-auto max-h-[55vh] w-full object-contain lg:block"
                 />
               </a>
-              <div className="mx-auto my-4 h-10 border-8 border-dashed lg:border-neutral-900 dark:lg:border-neutral-300 lg:hidden"></div>
+              <div className="mx-auto my-4 h-10 border-8 border-dashed lg:border-neutral-900  lg:hidden"></div>
             </li>
           ))}
         </ol>
       </section>
       <section
-        className="lg:my-5 lg:grid lg:grid-cols-4 lg:border-2  lg:border-neutral-900 dark:lg:border-neutral-300
+        className="lg:my-5 lg:grid lg:grid-cols-4 lg:border-2  lg:border-neutral-900
       "
       >
         <a

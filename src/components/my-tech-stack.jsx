@@ -103,7 +103,7 @@ function MyTechStack() {
           className="flex flex-col items-center justify-between text-center"
         >
           <span
-            className={`${item.svg} w-10 h-10 cursor-pointer text-neutral-400 dark:text-neutral-800 hover:text-ykb active:text-ykblight`}
+            className={`${item.svg} w-10 h-10 cursor-pointer text-neutral-400  hover:text-ykb active:text-ykblight`}
           ></span>
           <p className="text-sm mt-2 ">{item.name}</p>
         </a>
