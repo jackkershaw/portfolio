@@ -25,7 +25,7 @@ function CodingContent() {
       image_folder: "typespotting",
     },
     {
-      title: "Cooper Black",
+      title: "All About Cooper Black",
       description:
         "Educational website about the Cooper Black font. Built using HTML, CSS, and JavaScript.",
       link: "https://allaboutcooperblack.jackkershaw.net/",
