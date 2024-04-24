@@ -57,7 +57,7 @@ function CodingContent() {
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
-            className=" lg:hover:underline "
+            className=" hover:text-ykbdark active:text-ykblight"
           >
             here
           </a>{" "}
@@ -65,7 +65,7 @@ function CodingContent() {
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
-            className="lg:hover:underline"
+            className="hover:text-ykbdark active:text-ykblight"
           >
             here
           </a>
@@ -100,7 +100,7 @@ function CodingContent() {
                 <a
                   href={project.link}
                   target="_blank"
-                  className="mt-4 block w-full border-2 lg:border-neutral-900  px-4 py-2 text-center text-xl lg:mt-0 lg:px-0 lg:py-2 lg:hover:shadow-lg
+                  className="mt-4 block w-full border-2 lg:border-neutral-900  px-4 py-2 text-center text-xl lg:mt-0 lg:px-0 lg:py-2 hover:bg-ykbdark active:bg-ykb-light hover:text-neutral-100
                   "
                 >
                   View Website
@@ -108,7 +108,7 @@ function CodingContent() {
                 <a
                   href={project.github_link}
                   target="_blank"
-                  className="mt-5 block w-full border-2 lg:border-neutral-900  px-4 text-center text-xl  lg:mt-0 lg:mt-3 lg:px-0 lg:py-2 lg:hover:shadow-lg"
+                  className="mt-5 block w-full border-2 lg:border-neutral-900  px-4 text-center text-xl  lg:mt-0 lg:mt-3 lg:px-0 lg:py-2 hover:bg-ykbdark active:bg-ykb-light hover:text-neutral-100"
                 >
                   View Github
                 </a>
@@ -136,9 +136,9 @@ function CodingContent() {
         <a
           href="https://github.com/jones58"
           target="_blank"
-          className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none"
+          className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none "
         >
-          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold sm:hover:underline lg:text-left lg:text-5xl">
+          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold hover:text-ykbdark active:text-ykblight lg:text-left lg:text-5xl">
             Where next?
           </h3>
         </a>
