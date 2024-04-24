@@ -57,7 +57,7 @@ function CodingContent() {
           <a
             href="https://progress.jackkershaw.net"
             target="_blank"
-            className=" hover:text-ykbdark active:text-ykblight"
+            className=" hover:text-ykb active:text-ykblight"
           >
             here
           </a>{" "}
@@ -65,7 +65,7 @@ function CodingContent() {
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
-            className="hover:text-ykbdark active:text-ykblight"
+            className="hover:text-ykb active:text-ykblight"
           >
             here
           </a>
@@ -138,7 +138,7 @@ function CodingContent() {
           target="_blank"
           className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none "
         >
-          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold hover:text-ykbdark active:text-ykblight lg:text-left lg:text-5xl">
+          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold hover:text-ykb active:text-ykblight lg:text-left lg:text-5xl">
             Where next?
           </h3>
         </a>

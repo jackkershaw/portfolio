@@ -56,8 +56,33 @@ function DesignContent() {
     <div className="mb-10 flex flex-col sm:px-5">
       <p className="text-2xl">
         Jack's graphic design work has been featured in{" "}
-        <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>. He
-        used Adobe Photoshop, Illustrator, InDesign and Bridge to
+        <a
+          className="hover:text-ykb active:text-ykblight"
+          href="https://www.theguardian.com/artanddesign/gallery/2022/aug/20/anonymous-street-art-with-a-political-message-in-pictures"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Guardian
+        </a>
+        ,{" "}
+        <a
+          className="hover:text-ykb active:text-ykblight"
+          href="https://www.vice.com/en/article/889j95/show-these-rent-strike-posters-to-your-landlord-or-hang-them-on-your-wall"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Vice
+        </a>
+        , and{" "}
+        <a
+          className="hover:text-ykb active:text-ykblight"
+          href="https://www.itsnicethat.com/features/radical-poster-graphic-design-250522"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          It's Nice That
+        </a>
+        . He used Adobe Photoshop, Illustrator, InDesign and Bridge to
         create bold, colourful designs for a host of clients around the
         world, including Oxford University, Fête de L'Humanité and
         Autonomy.
