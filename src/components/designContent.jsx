@@ -53,7 +53,7 @@ function DesignContent() {
   ];
 
   return (
-    <div className="mb-10 flex flex-col">
+    <div className="mb-10 flex flex-col sm:px-5">
       <p className="text-2xl">
         Jack's graphic design work has been featured in{" "}
         <a>The Guardian</a>, <a>Vice</a>, and <a>It's Nice That</a>. He

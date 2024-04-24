@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-300">
-      <div className="mx-10">
+      <div className="mx-10 sm:px-5">
         <div className="sm:grid-cols-2 sm:grid">
           <div>
             <p className="text-2xl">
@@ -19,7 +19,7 @@ function Footer() {
             <form
               action="https://formsubmit.co/jackkershaw@protonmail.com"
               method="POST"
-              className="flex flex-col space-y-3 py-5"
+              className="flex flex-col space-y-3 py-5 text-neutral-900"
             >
               <input
                 type="text"
@@ -27,7 +27,7 @@ function Footer() {
                 name="name"
                 placeholder="Your name"
                 required
-                className="input-field p-4  bg-neutral-300"
+                className="input-field p-4 bg-neutral-300"
               />
               <input
                 type="email"

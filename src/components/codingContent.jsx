@@ -50,7 +50,7 @@ function CodingContent() {
   ];
 
   return (
-    <div className="mb-10 flex flex-col">
+    <div className="mb-10 flex flex-col sm:px-5">
       <section>
         <p className="text-2xl">
           Websites that Jack has worked on. You can follow his progress{" "}
@@ -94,7 +94,7 @@ function CodingContent() {
                 <h3 className="pt-3 text-2xl font-semibold lg:h-[8vw]  lg:pt-0 lg:text-3xl">
                   {project.title}
                 </h3>
-                <p className="text-xl lg:h-[10vw] lg:text-2xl">
+                <p className="text-xl lg:h-[20vh] lg:text-2xl">
                   {project.description}
                 </p>
                 <a
