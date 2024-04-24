@@ -39,6 +39,7 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 
 ## Design
 
+- Add links for guardian, vice, it's nice that.
 - Lay out each design on a page when click on it.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
@@ -50,6 +51,12 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 - use lighthouse and make suggested edits.
 - Make clickable bits of header accessible on keyboard: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard?utm_source=devtools&utm_medium=a11y-panel-checks-keyboard#clickable_elements_must_be_focusable_and_should_have_interactive_semantics
 
-## Write Blog Posts
+## Blog
 
-- see ideas in [drafts folder](src/pages/blog/_drafts)
+- Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts)
+- Maybe add mailing list as alt to rss - use buttondown
+- Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
+
+## Maybe add a testing element
+
+jest, cypress etc., see frontend developer roadmap
