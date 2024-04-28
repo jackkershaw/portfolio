@@ -1,3 +1,5 @@
+Move from Astro to NextJS and use [this] (https://www.youtube.com/watch?v=nkGjob3q2GI&t=18548s) for tips.
+
 ## New colour scheme
 
 Keep refining the colour scheme
