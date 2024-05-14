@@ -1,4 +1,8 @@
+make better call to action on page like contact ...
+
 Move from Astro to NextJS and use [this] (https://www.youtube.com/watch?v=nkGjob3q2GI&t=18548s) for tips.
+
+remove layout shift from portfolio menu on mobile
 
 ## New colour scheme
 
