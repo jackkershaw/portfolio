@@ -5,7 +5,7 @@ function Footer() {
         <div className="sm:grid-cols-2 sm:grid">
           <div>
             <p className="text-2xl">
-              Get in touch here or email me directly at{" "}
+              Get in touch with Jack below or email him directly at{" "}
               <a
                 href="mailto:jackkershaw@protonmail.com"
                 target="_blank"
