@@ -13,7 +13,6 @@ function OpeningPage() {
         <MyTechStack />
       </div>
       <div className="w-full h-20 py-10" />
-      <CodingContent />
     </div>
   );
 }
