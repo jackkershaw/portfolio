@@ -10,13 +10,13 @@ As I get more into RSS and following developer blogs, I've noticed a trend to [s
 
 - 📮 Mail Server: Protonmail, Riseup and Gmail
 - 📨 Mail Client: Webclients of the above
-- 📝 Notes: Obsidian(Android), VSCode(Mac)
+- 📝 Notes: Obsidian (Android), VSCode (Mac)
 - ✅ To-Do: Todoist
 - 📷 Camera: Pixel 6a Camera app
-- 🟦 Photo Management: Photoprism(Docker)
+- 🟦 Photo Management: Photoprism (Docker)
 - 📆 Calendar: Google Calendar
 - 📁 Cloud File Storage: Google Drive
-- 📖 RSS: FreshRSS(Docker) and Fluent Reader(Android)
+- 📖 RSS: FreshRSS (Docker) and Fluent Reader (Android)
 - 🙍🏻‍♂️ Contacts: Google
 - 🌐 Browser: Firefox (Nightly on Android, Developer Edition on Mac), Orion (Mac)
 - 💬 Chat: WhatsApp and Signal
@@ -29,7 +29,7 @@ As I get more into RSS and following developer blogs, I've noticed a trend to [s
 - 🍴 Meal Planning: Mealie (Docker)
 - 💰 Budgeting and Personal Finance: Starling
 - 📰 News: RSS (above)
-- 🎵 Music: Symfonium (Android) and Plex(Docker)
+- 🎵 Music: Symfonium (Android) and Plex (Docker)
 - 🎤 Podcasts: PocketCasts
 - 🔐 Password Management: Bitwarden
 
