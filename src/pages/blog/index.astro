@@ -3,7 +3,9 @@ import Layout from "../../layouts/Layout.astro";
 const allPosts = await Astro.glob("./*.md");
 
 // Sort posts by date (newest first)
-allPosts.sort((a, b) => b.frontmatter.pubDate - a.frontmatter.pubDate);
+const allPostsSorted = allPosts.sort(
+  (a, b) => b.frontmatter.pubDate - a.frontmatter.pubDate
+);
 
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
@@ -34,7 +36,7 @@ const formatDate = (date: string) => {
     </div>
     <div class="mt-10">
       {
-        allPosts.map((post) => (
+        allPostsSorted.map((post) => (
           <a href={post.url} class="hover:text-ykb active:text-white">
             <div class="border-2 border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
