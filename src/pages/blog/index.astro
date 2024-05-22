@@ -2,6 +2,9 @@
 import Layout from "../../layouts/Layout.astro";
 const allPosts = await Astro.glob("./*.md");
 
+// Sort posts by date (newest first)
+allPosts.sort((a, b) => b.frontmatter.pubDate - a.frontmatter.pubDate);
+
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
     year: "numeric",
