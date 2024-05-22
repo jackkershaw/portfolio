@@ -31,7 +31,7 @@ const formatDate = (date: string) => {
     </div>
     <div class="mt-10">
       {
-        allPosts.map((post) => (
+        allPosts.sort().map((post) => (
           <a href={post.url} class="hover:text-ykb active:text-white">
             <div class="border-2 border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
