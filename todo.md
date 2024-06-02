@@ -64,3 +64,32 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 ## Maybe add a testing element
 
 jest, cypress etc., see frontend developer roadmap
+
+
+- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) add wander page as alternative to blogroll and podroll page
+
+[On guestbooks – Manu](https://manuelmoreale.com/@/page/25583Thdp8L1dO0C) guestbook on portfolio site ?
+
+https://echofeed.app/
+
+use to improve portfolio site 
+
+[Using Eleventy to Gobble Up Everything I Do Online - Invidious](https://yewtu.be/watch?v=e_87IF7KGgo) use to improve portfolio website
+
+slash pages - see robb knight site for slash pages to add to site
+
+☐ Good about blurb, use similar on portfolio // also look at other landing pages // Home | chriskirknielsen
+
+☐ Portfolio make like this [Building a reactive website](https://feedpress.me/link/23795/16619744/building-a-reactive-website)
+
+☐ Good way of structuring portfolio PHANTOM | SUPERDRY
+
+☐ Good send me message thing on blog [Oh Hello Ana](https://ohhelloana.blog/i-want-it-all/)
+
+- check that blog page has posts with newest at top
+
+cal to action on portfolio like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching)
+
+improve SEO of portfolio with npm package/other way like robots.txt and metadata - see vital signs
+
+make design page more like rey portfolio with page for each design, notable clients, share that in adg etc.
