@@ -1,3 +1,7 @@
+remove portfolio as one of projects
+
+add vital signs and right to city
+
 make better call to action on page like contact ...
 
 Move from Astro to NextJS and use [this] (https://www.youtube.com/watch?v=nkGjob3q2GI&t=18548s) for tips.
