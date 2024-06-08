@@ -5,9 +5,9 @@
 
 ## New colour scheme
 
-Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
-
-Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
+- tbh the whole site could do with a do-over, in terms of colours and style.
+- Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
+- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
 ## Coding
 
@@ -31,6 +31,10 @@ Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:b
 - check site design across mobile.
 
 some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
+
+## contact form
+
+- Fix so it sends to an api with axios instead of using submitform.
 
 ## Design
 
