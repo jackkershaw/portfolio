@@ -53,7 +53,7 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Maybe add mailing list as alt to rss - use buttondown.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
-- [add echofeed to send rss to mastodon etc.](https://echofeed.app/)
+
 - Good send me message thing on blog [Oh Hello Ana](https://ohhelloana.blog/i-want-it-all/)
 - check that blog page has posts with newest at top
 
