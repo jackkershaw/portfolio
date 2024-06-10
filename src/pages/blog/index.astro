@@ -2,9 +2,10 @@
 import Layout from "../../layouts/Layout.astro";
 const allPosts = await Astro.glob("./*.md");
 
-// Sort posts by date (newest first)
 const allPostsSorted = allPosts.sort(
-  (a, b) => b.frontmatter.pubDate - a.frontmatter.pubDate
+  (a, b) =>
+    new Date(b.frontmatter.pubDate).getTime() -
+    new Date(a.frontmatter.pubDate).getTime()
 );
 
 const formatDate = (date: string) => {

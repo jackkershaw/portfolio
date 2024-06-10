@@ -1,6 +1,6 @@
 ## to do first
 
-- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) edit wander page as alternative to blogroll and podroll page
+- finish wander page and tailwind it
 - Make frontpage more like github profile page: https://github.com/jones58
 
 ## home page
@@ -62,7 +62,6 @@
 
 ## Blog
 
-- fix order
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Maybe add mailing list as alt to rss - use buttondown.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
