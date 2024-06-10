@@ -1,3 +1,7 @@
+## to do first
+
+- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) add wander page as alternative to blogroll and podroll page
+
 ## home page
 
 - make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
@@ -62,8 +66,6 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 jest, cypress etc., see frontend developer roadmap
 
 # other
-
-- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) add wander page as alternative to blogroll and podroll page
 
 - Add guestbook [On guestbooks – Manu](https://manuelmoreale.com/@/page/25583Thdp8L1dO0C)
 
