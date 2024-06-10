@@ -1,8 +1,13 @@
 ## to do first
 
-- finish wander page using podroll and blogroll.
 - Make frontpage more like github profile page: https://github.com/jones58
-- add vital signs and right to city to coding content properly.
+- make the rest of site more material design like the coding page.
+
+## Coding
+
+- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
+- Each project opens own page - like with design page, use a component layout to get it consistent.
+  - Include some process images ie research, early sketches, prototypes , feedback collection etc.
 
 ## sitewide design changes
 
@@ -21,16 +26,6 @@
 - make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
 - move tech stack to within coding element
 - More space below learning resources here on mobile
-
-## Coding
-
-- add puppeteer to get images dynamically rather than screenshotting manually.
-- Fix layout so don't have to scroll down so much
-- Each project opens own page - like with design page, use a component layout to get it consistent.
-- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
-- For the coding projects include some process images ie research, early sketches, prototypes , feedback collection etc.
-- update portfolio images - maybe use puppeteer to get this done dynamically.
-- fix images, tbh should be able to autogenerate these with puppeteer or such, at least something in build stage. look into.
 
 ## Animations
 
@@ -89,10 +84,10 @@
 
 ## Wander page (/wander)
 
-maybe add:
-
-- youtube subs
-- are.na
-- any other sites which have info of yours/you lik (look through in Bitwarden)
-- fontsinuse
-- my fav sites etc.
+- add more blogs when got server going again and can download from FreshRSS.
+- maybe add:
+  - youtube subs
+  - are.na
+  - any other sites which have info of yours/you lik (look through in Bitwarden)
+  - fontsinuse
+  - my fav sites etc.
