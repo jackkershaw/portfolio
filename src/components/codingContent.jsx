@@ -1,3 +1,5 @@
+import MyTechStack from "./my-tech-stack";
+
 function CodingContent() {
   const projects = [
     {
@@ -43,7 +45,8 @@ function CodingContent() {
   ];
 
   return (
-    <div className="mb-10 flex flex-col sm:px-5">
+    <div className="mb-10 flex flex-col">
+      <MyTechStack />
       <section>
         <p className="text-2xl">
           Websites that Jack has worked on. You can follow his progress{" "}
