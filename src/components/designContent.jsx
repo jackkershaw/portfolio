@@ -53,7 +53,7 @@ function DesignContent() {
   ];
 
   return (
-    <div className="mb-10 flex flex-col sm:px-5">
+    <div className="flex flex-col">
       <p className="text-2xl">
         Jack's graphic design work has been featured in{" "}
         <a
