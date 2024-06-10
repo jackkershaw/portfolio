@@ -48,6 +48,8 @@
 - Moved the contact form to the site's footer to encourage people to get in touch and reduce the number of pages that the site has.
 - It then made sense to add the social icon links to the bottom right of the footer, rather than in the header. This made the mobile header much sleeker.
 - I noticed an issue sorting blogposts by date, so I remedied this by converting the pubdate strings to a date object, then using getTime to get the time since January 1, 1970 in milliseconds, which could be used for sorting.
+- redesigned coding page with material design guidelines in mind.
+- Added screenshots to the coding page (MDPI Laptop and Pixel 5 Android 11 size).
 
 ## Commands
 
