@@ -1,20 +1,24 @@
 ## to do first
 
 - [Wander | James' Coffee Blog](https://jamesg.blog/wander/) edit wander page as alternative to blogroll and podroll page
+- Make frontpage more like github profile page: https://github.com/jones58
 
 ## home page
 
 - make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
 - move tech stack to within coding element
+- More space below learning resources here on mobile
 
 ## New colour scheme
 
 - tbh the whole site could do with a do-over, in terms of colours and style.
+  [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
 ## Coding
 
+- remove where next maybe
 - add puppeteer to get images dynamically rather than screenshotting manually.
 - add vital signs and right to city
 - redo the design of this page to be something [like this](https://www.emnuel.xyz/)
@@ -31,10 +35,14 @@
   - framer motion or gsap too
   - css animations site that used with daily challenges site.
   - animations like on vital signs
+  - [text](https://locomotivemtl.github.io/lo
+  - [text](https://gsap.com/scroll/)
+  - [text](http://michalsnik.github.io/aos/)
 - Use Dribble, and other inspiration sites to copy good design
+- [good way of showing projects](https://ohamidux.com/work)
 - check site design across mobile.
-
-some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
+  [tailwind components ](https://floatui.com/)
+  some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
 ## contact form
 
@@ -54,6 +62,7 @@ some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfol
 
 ## Blog
 
+- fix order
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Maybe add mailing list as alt to rss - use buttondown.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
@@ -82,3 +91,5 @@ jest, cypress etc., see frontend developer roadmap
 - improve SEO of portfolio with npm package/other way like robots.txt and metadata - see vital signs
 
 - make design page more like rey portfolio with page for each design. maybe share that in adg.
+
+- Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
