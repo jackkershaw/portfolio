@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-300">
-      <div className="mx-10 sm:px-5">
+      <div className="mx-10">
         <div className="sm:grid-cols-2 sm:grid">
           <div>
             <p className="text-2xl">
