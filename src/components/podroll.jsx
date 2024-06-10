@@ -1,0 +1,93 @@
+function Podroll() {
+  const podcasts = [
+    {
+      title: "Syntax",
+      description: "Web Development Podcast.",
+      link: "https://syntax.fm/",
+      RSS_link: "https://feed.syntax.fm/",
+    },
+    {
+      title: "Tech Won't Save Us",
+      description:
+        "Great for keeping up to date with the very worst developments in tech.",
+      link: "https://www.techwontsave.us/",
+      RSS_link: "https://feeds.buzzsprout.com/1004689.rss",
+    },
+    {
+      title: "The Wild Ones Podcast",
+      description: "Cycling news and chat.",
+      link: "https://shows.acast.com/the-wild-ones",
+      RSS_link: "https://feeds.acast.com/public/shows/the-wild-ones",
+    },
+    {
+      title: "Give The People What They Want",
+      description: "News from social movements around the world.",
+      link: "https://www.podbean.com/podcast-detail/7dse6-1877a8/Give-The-People-What-They-Want%21-wVijay-Prashad-Podcast",
+      RSS_link: "https://anchor.fm/s/443b6c28/podcast/rss",
+    },
+    {
+      title: "Ruminate",
+      description: "Chilled talkshow about snacks and computing.",
+      link: "https://ruminatepodcast.com/",
+      RSS_link: "https://feeds.libsyn.com/517508/rss",
+    },
+  ];
+
+  return (
+    <div>
+      <h1 className="text-3xl font-bold pt-4">Podcasts</h1>
+      <div className="flex flex-wrap py-4">
+        {podcasts.map((podcast) => (
+          <div
+            key={podcast.title}
+            className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
+          >
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-2 h-40">
+              <div className="p-6">
+                <h2 className="text-2xl font-bold mb-2">
+                  {podcast.title}
+                </h2>
+                <p className="text-gray-700 mb-4 text-lg">
+                  {podcast.description}
+                </p>
+                <div className="flex-row flex justify-start space-x-2">
+                  <a
+                    target="_blank"
+                    href={podcast.link}
+                    className="inline-block bg-ykb hover:bg-ykbdark text-white font-bold py-2 px-2 rounded"
+                  >
+                    Listen
+                  </a>
+                  <a
+                    target="_blank"
+                    href={podcast.RSS_link}
+                    className="inline-block bg-ykb hover:bg-ykbdark text-white font-bold py-2 px-2 rounded"
+                  >
+                    RSS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+        <div className="w-full md:w-1/2 px-4 mb-4 md:mb-0">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-2 h-40 p-6">
+            <p className="text-gray-700 mb-4 text-lg">
+              Subscribe to all the podcasts I listen to by importing{" "}
+              <a
+                href="/podcasts_opml.xml"
+                target="_blank"
+                className="hover:text-ykb"
+              >
+                this OPML file
+              </a>{" "}
+              into your podcast app of choice.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Podroll;

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>Blog feed</title>
+  </head>
+  <body>
+    <outline text="feeds">
+      <outline type="rss" text="Robb Knight" xmlUrl="https://rknight.me/subscribe/everything/rss.xml" />
+    </outline>
+  </body>
+</opml>

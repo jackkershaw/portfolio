@@ -1,24 +1,21 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Blogroll from "../../components/blogroll.jsx";
+import Podroll from "../../components/podroll.jsx";
 ---
 
 <Layout>
   <main>
-    <h1 class="font-bold text-2xl">Wander Page</h1>
-    Hello! This is a big list of places I like on the internet! Go wander
-    the web. I got the idea for this page from <a
-      href="https://www.podroll.com/"
-      target="_blank"
-      aria-label="Link to James' Coffee Blog">James' Coffee Blog</a
-    >
-    <h2>Blogroll</h2>
-    <p>Blogs I follow. Ordered alphabetically.</p>
-    <a href="">Link</a>
-    <h2>Podroll</h2>
-    <p>Podcasts I follow. Ordered alphabetically.</p>
-    <h2>Youtube</h2>
-    <p>YouTube channels I particularly like.</p>
-    <h2>Are.na</h2>
-    <p>Are.na channels I particularly like.</p>
+    <p class="text-2xl mb-5">
+      This is a list of places I like on the internet! I got the idea
+      from <a
+        href="https://jamesg.blog/wander/"
+        target="_blank"
+        aria-label="Link to James' Coffee Blog Wander Page"
+        class="hover:text-ykb">James' Coffee Blog.</a
+      > Go wander the web.
+    </p>
+    <Blogroll />
+    <Podroll />
   </main>
 </Layout>

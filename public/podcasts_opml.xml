@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>Pocket Casts Feeds</title>
+  </head>
+  <body>
+    <outline text="feeds">
+      <outline type="rss" text="Tech Won't Save Us" xmlUrl="https://feeds.buzzsprout.com/1004689.rss" />
+      <outline type="rss" text="Give The People What They Want! w/Vijay Prashad" xmlUrl="https://anchor.fm/s/443b6c28/podcast/rss" />
+      <outline type="rss" text="The Wild Ones Cycling Podcast" xmlUrl="https://feeds.acast.com/public/shows/6477148d8332f1001103c9af" />
+      <outline type="rss" text="Ruminate Podcast" xmlUrl="https://feeds.libsyn.com/517508/rss" />
+      <outline type="rss" text="Syntax - Tasty Web Development Treats" xmlUrl="https://feed.syntax.fm/rss" />
+    </outline>
+  </body>
+</opml>
