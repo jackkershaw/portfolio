@@ -1,5 +1,6 @@
 ## to do first
 
+- edit wander page
 - Make frontpage more like github profile page: https://github.com/jones58
 
 ## home page
