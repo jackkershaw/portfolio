@@ -8,6 +8,7 @@
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
 - Each project opens own page - like with design page, use a component layout to get it consistent.
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
+  - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
 
 ## sitewide design changes
 
