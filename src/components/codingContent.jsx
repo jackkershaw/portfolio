@@ -125,20 +125,6 @@ function CodingContent() {
           ))}
         </ol>
       </section>
-      <section
-        className="lg:my-5 lg:grid lg:grid-cols-4 lg:border-2  lg:border-neutral-300
-      "
-      >
-        <a
-          href="https://github.com/jones58"
-          target="_blank"
-          className="shadow-lg lg:col-span-2 lg:col-start-3 lg:shadow-none "
-        >
-          <h3 className="sm:pb-6 max-w-full pt-8 text-center text-3xl font-semibold hover:text-ykb active:text-ykblight lg:text-left lg:text-5xl">
-            Where next?
-          </h3>
-        </a>
-      </section>
     </div>
   );
 }
