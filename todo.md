@@ -1,7 +1,20 @@
 ## to do first
 
-- edit wander page
+- finish wander page using podroll and blogroll.
 - Make frontpage more like github profile page: https://github.com/jones58
+- add vital signs and right to city to coding content properly.
+
+## sitewide design changes
+
+- Use Dribble, and other inspiration sites to copy good design
+- [good way of showing projects](https://ohamidux.com/work)
+- check site design across mobile.
+- [tailwind components ](https://floatui.com/)
+- some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
+- tbh the whole site could do with a do-over, in terms of colours and style.
+  [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
+- Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
+- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
 ## home page
 
@@ -9,17 +22,9 @@
 - move tech stack to within coding element
 - More space below learning resources here on mobile
 
-## New colour scheme
-
-- tbh the whole site could do with a do-over, in terms of colours and style.
-  [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
-- Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
-- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
-
 ## Coding
 
 - add puppeteer to get images dynamically rather than screenshotting manually.
-- add vital signs and right to city
 - Fix layout so don't have to scroll down so much
 - Each project opens own page - like with design page, use a component layout to get it consistent.
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
@@ -27,7 +32,7 @@
 - update portfolio images - maybe use puppeteer to get this done dynamically.
 - fix images, tbh should be able to autogenerate these with puppeteer or such, at least something in build stage. look into.
 
-## Sitewide
+## Animations
 
 - Add some animations! Look into cool things to do with Astro transitions etc.
   - framer motion or gsap too
@@ -36,17 +41,12 @@
   - [text](https://locomotivemtl.github.io/lo
   - [text](https://gsap.com/scroll/)
   - [text](http://michalsnik.github.io/aos/)
-- Use Dribble, and other inspiration sites to copy good design
-- [good way of showing projects](https://ohamidux.com/work)
-- check site design across mobile.
-  [tailwind components ](https://floatui.com/)
-  some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 
 ## contact form
 
 - Fix so it sends to an api with axios instead of using submitform.
 
-## Design
+## Design page
 
 - Lay out each design on a page when click on it.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
@@ -67,10 +67,6 @@
 - Good send me message thing on blog [Oh Hello Ana](https://ohhelloana.blog/i-want-it-all/)
 - check that blog page has posts with newest at top
 
-## Maybe add a testing element
-
-jest, cypress etc., see frontend developer roadmap
-
 # other
 
 - Add guestbook [On guestbooks – Manu](https://manuelmoreale.com/@/page/25583Thdp8L1dO0C)
@@ -90,3 +86,13 @@ jest, cypress etc., see frontend developer roadmap
 - make design page more like rey portfolio with page for each design. maybe share that in adg.
 
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
+
+## Wander page (/wander)
+
+maybe add:
+
+- youtube subs
+- are.na
+- any other sites which have info of yours/you lik (look through in Bitwarden)
+- fontsinuse
+- my fav sites etc.
