@@ -1,6 +1,5 @@
 ## to do first
 
-- finish wander page and tailwind it
 - Make frontpage more like github profile page: https://github.com/jones58
 
 ## home page
@@ -18,10 +17,8 @@
 
 ## Coding
 
-- remove where next maybe
 - add puppeteer to get images dynamically rather than screenshotting manually.
 - add vital signs and right to city
-- redo the design of this page to be something [like this](https://www.emnuel.xyz/)
 - Fix layout so don't have to scroll down so much
 - Each project opens own page - like with design page, use a component layout to get it consistent.
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
