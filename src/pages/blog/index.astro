@@ -44,12 +44,14 @@ const formatDate = (date: string) => {
         ))
       }
     </div>
-    <div class="flex flex-row space-x-5">
+    <div
+      class="flex flex-col space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5 items-center"
+    >
       <a
         href="https://buttondown.email/jackkershaw"
         class="text-ykb active:text-white hover:text-orangepeel"
         target="_blank"
-        >Subscribe via Email <span class="icon-[ic--round-email]"
+        >Subscribe via Email <span class="icon-[ic--baseline-email]"
         ></span>
       </a>
       <a
@@ -60,7 +62,14 @@ const formatDate = (date: string) => {
         Subscribe via RSS <span class="icon-[simple-icons--rss]"
         ></span>
       </a>
+      <a
+        href="/wander"
+        class="text-ykb active:text-white hover:text-orangepeel"
+        target="_blank"
+      >
+        Read more blogs on my Wander page <span
+          class="icon-[iconoir--network]"></span>
+      </a>
     </div>
-    Want more? Check out my <a href="/Wander">Wander page</a>
   </div>
 </Layout>
