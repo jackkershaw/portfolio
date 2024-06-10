@@ -1,6 +1,6 @@
 ## to do first
 
-- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) add wander page as alternative to blogroll and podroll page
+- [Wander | James' Coffee Blog](https://jamesg.blog/wander/) edit wander page as alternative to blogroll and podroll page
 
 ## home page
 
