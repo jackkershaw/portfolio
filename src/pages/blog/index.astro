@@ -23,17 +23,11 @@ const formatDate = (date: string) => {
 </style>
 
 <Layout>
-  <div class="mb-10 flex flex-col min-h-screen sm:px-5">
+  <div class="flex flex-col min-h-screen">
     <div class="flex flex-row justify-between">
       <p class="text-2xl">
         A blog about the web, design and typography.
       </p>
-      <a
-        href="/rss.xml"
-        class="text-ykb active:text-white hover:text-orangepeel text-4xl"
-      >
-        <span class="icon-[simple-icons--rss]"></span>
-      </a>
     </div>
     <div class="mt-10">
       {
@@ -50,5 +44,23 @@ const formatDate = (date: string) => {
         ))
       }
     </div>
+    <div class="flex flex-row space-x-5">
+      <a
+        href="https://buttondown.email/jackkershaw"
+        class="text-ykb active:text-white hover:text-orangepeel"
+        target="_blank"
+        >Subscribe via Email <span class="icon-[ic--round-email]"
+        ></span>
+      </a>
+      <a
+        href="/rss.xml"
+        class="text-ykb active:text-white hover:text-orangepeel"
+        target="_blank"
+      >
+        Subscribe via RSS <span class="icon-[simple-icons--rss]"
+        ></span>
+      </a>
+    </div>
+    Want more? Check out my <a href="/Wander">Wander page</a>
   </div>
 </Layout>
