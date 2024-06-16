@@ -73,7 +73,7 @@ function CodingContent() {
           >
             here
           </a>{" "}
-          and see some of his favorite learning resources{" "}
+          and see some of his favourite learning resources{" "}
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
