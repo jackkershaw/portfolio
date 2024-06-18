@@ -21,6 +21,7 @@
   [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
+- [something cool like this](https://www.youtube.com/watch?v=zkkeuhDc_eg)
 
 ## home page
 
