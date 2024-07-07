@@ -6,8 +6,8 @@ function CodingContent() {
       title: "Right to the City",
       description:
         "Festival website for the Right to the City. Built using React.",
-      link: "https://brutalistmap.jackkershaw.net/",
-      github_link: "https://github.com/jones58/brutalist-map-2",
+      link: "https://right-to-city.netlify.app/",
+      github_link: "https://github.com/jones58/right-to-city",
       image_folder: "righttothecity",
     },
     {
