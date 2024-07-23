@@ -42,10 +42,10 @@ function Header() {
           </a>
           <div className="flex flex-col justify-between sm:flex-row space-y-10 sm:space-y-0">
             <a
-              href="/"
+              href="/contact"
               className="active:text-neu sm:hover:bg-ykbdark sm:active:bg-ykblight sm:p-5 rounded-lg w-30"
             >
-              About
+              Contact
             </a>
             <a
               href="/coding"
