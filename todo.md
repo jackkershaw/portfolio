@@ -23,23 +23,23 @@
 
 ## home page
 
-- fix spacing
 - make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
 - move tech stack to within coding element
 - More space below learning resources here on mobile
 
 ## Animations
 
-- Add some animations! Look into cool things to do with Astro transitions etc.
-  - framer motion or gsap too
+- Add some animations:
+
+  - with Astro transitions
   - css animations site that used with daily challenges site.
-  - animations like on vital signs
   - [text](https://locomotivemtl.github.io/lo
   - [text](https://gsap.com/scroll/)
   - [text](http://michalsnik.github.io/aos/)
 
-## contact form
+## contact page
 
+- fix design
 - Fix so it sends to an api with axios instead of using submitform.
 
 ## Design page
