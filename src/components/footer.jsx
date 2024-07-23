@@ -1,11 +1,11 @@
 function Footer() {
   return (
-    <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-300">
+    <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-200">
       <div className="mx-10">
         <div className="sm:grid-cols-2 sm:grid">
           <div>
             <p className="text-2xl">
-              Get in touch with Jack below or email him directly at{" "}
+              Get in touch below or email me directly at{" "}
               <a
                 href="mailto:jackkershaw@protonmail.com"
                 target="_blank"
@@ -27,7 +27,7 @@ function Footer() {
                 name="name"
                 placeholder="Your name"
                 required
-                className="input-field p-4 bg-neutral-300"
+                className="input-field p-4 bg-neutral-100"
               />
               <input
                 type="email"
@@ -35,7 +35,7 @@ function Footer() {
                 name="email"
                 placeholder="Your email"
                 required
-                className="input-field p-4  bg-neutral-300"
+                className="input-field p-4  bg-neutral-100"
               />
               <textarea
                 id="message"
@@ -43,12 +43,12 @@ function Footer() {
                 placeholder="Your message"
                 required
                 rows="4"
-                className="input-field p-4  bg-neutral-300"
+                className="input-field p-4  bg-neutral-100"
               ></textarea>
               <button
                 type="submit"
                 value="Submit"
-                className="submit-button p-4 bg-neutral-300 text-left"
+                className="submit-button p-4 bg-neutral-100 text-left"
               >
                 Submit
               </button>
