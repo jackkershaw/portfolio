@@ -3,19 +3,19 @@
 @import "tailwindcss/utilities";
 
 @font-face {
-  font-family: "Unica";
+  font-family: "RealText";
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/NeueHaasUnicaW1G-Regular1.otf);
+  src: url(/fonts/RealTextPro-Regular.otf);
 }
 
 @font-face {
-  font-family: "Unica Bold";
+  font-family: "RealText Bold";
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/NeueHaasUnicaW1G-Bold1.otf);
+  src: url(/fonts/RealTextPro-Bold.otf);
 }
 
 :root {
-  font-family: "Unica", sans-serif;
+  font-family: "RealText", sans-serif;
 }

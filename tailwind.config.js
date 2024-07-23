@@ -11,8 +11,8 @@ export default {
         orangepeel: "#FFA630",
       },
       fontFamily: {
-        sans: ["Unica", "sans-serif"],
-        "unica-bold": ["Unica Bold", "sans-serif"],
+        sans: ["RealText", "sans-serif"],
+        bold: ["RealText Bold", "sans-serif"],
       },
     },
   },
