@@ -2,15 +2,14 @@
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
 - Each project opens own page - like with design page, use a component layout to get it consistent.
+
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
 
 ## sitewide design changes
 
-- Make frontpage more like github profile page: https://github.com/jones58
 - make the rest of site more material design like the coding page.
 - underline anchor tags.
-- change font
 - Use Dribble, and other inspiration sites to copy good design
 - [good way of showing projects](https://ohamidux.com/work)
 - check site design across mobile.
@@ -20,12 +19,6 @@
   [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - Set hover:text-ykb on all a elements.
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
-
-## home page
-
-- make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
-- move tech stack to within coding element
-- More space below learning resources here on mobile
 
 ## Animations
 
