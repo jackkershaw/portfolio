@@ -50,6 +50,7 @@
 - I noticed an issue sorting blogposts by date, so I remedied this by converting the pubdate strings to a date object, then using getTime to get the time since January 1, 1970 in milliseconds, which could be used for sorting.
 - redesigned coding page with material design guidelines in mind.
 - Added screenshots to the coding page (MDPI Laptop and Pixel 5 Android 11 size).
+- Changed font to Real Text Pro.
 
 ## Commands
 
