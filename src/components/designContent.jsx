@@ -55,7 +55,7 @@ function DesignContent() {
   return (
     <div className="flex flex-col">
       <p className="text-2xl">
-        Jack's graphic design work has been featured in{" "}
+        My graphic design work has been featured in{" "}
         <a
           className="hover:text-ykb active:text-ykblight"
           href="https://www.theguardian.com/artanddesign/gallery/2022/aug/20/anonymous-street-art-with-a-political-message-in-pictures"
@@ -82,7 +82,7 @@ function DesignContent() {
         >
           It's Nice That
         </a>
-        . He used Adobe Photoshop, Illustrator, InDesign and Bridge to
+        . I used Adobe Photoshop, Illustrator, InDesign and Bridge to
         create bold, colourful designs for a host of clients around the
         world, including Oxford University, Fête de L'Humanité and
         Autonomy.
