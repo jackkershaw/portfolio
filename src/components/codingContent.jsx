@@ -103,7 +103,7 @@ function CodingContent() {
                 />
               </a>
               <div className="lg:col-span-1 lg:ml-4">
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-bold mb-2">
                   {project.title}
                 </h3>
                 <p className="text-gray-700 mb-2">
