@@ -19,3 +19,8 @@
 :root {
   font-family: "RealText", sans-serif;
 }
+
+a {
+  @apply: text-underline;
+  @apply: hover:text-ykb;
+}
