@@ -1,8 +1,3 @@
-## to do first
-
-- Make frontpage more like github profile page: https://github.com/jones58
-- make the rest of site more material design like the coding page.
-
 ## Coding
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
@@ -12,6 +7,10 @@
 
 ## sitewide design changes
 
+- Make frontpage more like github profile page: https://github.com/jones58
+- make the rest of site more material design like the coding page.
+- underline anchor tags.
+- change font
 - Use Dribble, and other inspiration sites to copy good design
 - [good way of showing projects](https://ohamidux.com/work)
 - check site design across mobile.
@@ -19,12 +18,12 @@
 - some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 - tbh the whole site could do with a do-over, in terms of colours and style.
   [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
-- Set hover:text-ykb on all a elements, don't use hover underline. hover:text-ykbdark if in footer or header
+- Set hover:text-ykb on all a elements.
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
-- [something cool like this](https://www.youtube.com/watch?v=zkkeuhDc_eg)
 
 ## home page
 
+- fix spacing
 - make better call to action on page like contact ...(like on [Learn UI/UX Design at DesignCourse](https://designcourse.com/coaching))
 - move tech stack to within coding element
 - More space below learning resources here on mobile
@@ -45,6 +44,8 @@
 
 ## Design page
 
+- pelicula change colour so stands out from rest of site
+- Safe sick pay poster first
 - Lay out each design on a page when click on it.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
 - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
@@ -93,3 +94,77 @@
   - any other sites which have info of yours/you lik (look through in Bitwarden)
   - fontsinuse
   - my fav sites etc.
+
+## Performance
+
+- Implement lazy loading for images to improve page load times
+- Minify CSS, JavaScript, and HTML files
+- Optimize and compress images
+- Use a Content Delivery Network (CDN) for static assets
+
+## User Experience
+
+- Add a dark mode toggle for better readability
+- Implement smooth scrolling for internal links
+- Create a custom 404 error page
+- Add a search functionality for blog posts and portfolio items
+
+## Social Media Integration
+
+- Add social media share buttons to blog posts
+- Create Open Graph meta tags for better social media sharing
+
+## Analytics
+
+- Set up Google Analytics or an alternative privacy-focused analytics tool
+- Create a dashboard to track key metrics
+
+## Security
+
+- Implement HTTPS if not already done
+- Add security headers (Content Security Policy, X-XSS-Protection, etc.)
+- Set up regular backups of the website
+
+## Internationalization
+
+- Consider adding multi-language support for broader reach
+
+## Testing
+
+- Implement cross-browser testing
+- Set up automated testing for critical user flows
+
+## Continuous Integration/Continuous Deployment (CI/CD)
+
+- Set up a CI/CD pipeline for automated builds and deployments
+
+## Legal
+
+- Add a privacy policy page
+- Create a terms of service page if necessary
+
+## Feedback
+
+- Implement a feedback form or survey to gather user opinions
+
+## Newsletter
+
+- Set up a newsletter signup form and integration with an email marketing service
+
+## Portfolio Enhancements
+
+- Add case studies for major projects
+- Include testimonials from clients or colleagues
+- Create a skills section with visual representations (e.g., progress bars)
+
+## Networking
+
+- Add a section for speaking engagements or conferences attended
+- Include a list of certifications or courses completed
+
+## Miscellaneous
+
+- Create a sitemap for better SEO
+- Implement schema markup for rich snippets in search results
+- Add a "Back to Top" button for long pages
+- Consider adding a chat bot or live chat for visitor engagement
