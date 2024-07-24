@@ -1,3 +1,7 @@
+## Contact page
+
+- Fix, so it sends to an api with axios.
+
 ## Coding
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
@@ -29,11 +33,6 @@
   - [text](https://locomotivemtl.github.io/lo
   - [text](https://gsap.com/scroll/)
   - [text](http://michalsnik.github.io/aos/)
-
-## contact page
-
-- fix design
-- Fix so it sends to an api with axios instead of using submitform.
 
 ## Design page
 
