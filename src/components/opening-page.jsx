@@ -3,7 +3,7 @@ function OpeningPage() {
     <div>
       <div className="flex sm:flex-row justify-start flex-col py-10">
         <img
-          src="public/opening-page/jackkershaw.jpg"
+          src="/public/opening-page/jackkershaw.jpg"
           className="sm:w-[30vw] h-auto object-cover object-center rounded-lg"
         ></img>
         <div className="sm:px-14 flex flex-col justify-between sm:max-w-[40vw]">
