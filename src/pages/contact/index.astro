@@ -4,14 +4,18 @@ import Layout from "../../layouts/Layout.astro";
 
 <Layout>
   <main>
-    <div>
-      <p class="text-2xl">
-        Get in touch below or email me directly at{" "}
+    <div
+      class="flex flex-col items-center
+min-h-screen py-4 max-w-md sm:max-w-xl"
+    >
+      <p class="text-2xl text-black mb-8">
+        Want to work on something together? Get in touch below or email
+        me directly at{" "}
         <a
           href="mailto:jackkershaw@protonmail.com"
           target="_blank"
-          rel="noopener noreferrer"
-          class="hover:underline"
+          rel="noopener
+noreferrer"
         >
           jackkershaw@protonmail.com
         </a>
@@ -19,7 +23,8 @@ import Layout from "../../layouts/Layout.astro";
       <form
         action="https://formsubmit.co/jackkershaw@protonmail.com"
         method="POST"
-        class="flex flex-col space-y-3 py-5 text-neutral-900"
+        class="flex flex-col space-y-4 w-full
+rounded-lg"
       >
         <input
           type="text"
@@ -27,7 +32,9 @@ import Layout from "../../layouts/Layout.astro";
           name="name"
           placeholder="Your name"
           required
-          class="input-field p-4 bg-neutral-100"
+          class="p-4 bg-gray-100 border
+border-neutral-200 rounded-lg focus:outline-none focus:ring-2
+focus:ring-ykb"
         />
         <input
           type="email"
@@ -35,7 +42,9 @@ import Layout from "../../layouts/Layout.astro";
           name="email"
           placeholder="Your email"
           required
-          class="input-field p-4 bg-neutral-100"
+          class="p-4 bg-gray-100 border
+border-neutral-200 rounded-lg focus:outline-none focus:ring-2
+focus:ring-ykb"
         />
         <textarea
           id="message"
@@ -43,12 +52,15 @@ import Layout from "../../layouts/Layout.astro";
           placeholder="Your message"
           required
           rows="4"
-          class="input-field p-4 bg-neutral-100"></textarea>
+          class="p-4 bg-gray-100
+border border-neutral-200 rounded-lg focus:outline-none focus:ring-2
+focus:ring-ykb"
+        ></textarea>
         <button
           type="submit"
-          value="Submit"
-          class="submit-button p-4
-bg-neutral-100 text-left"
+          class="p-4
+bg-ykb text-neutral-200 rounded-lg hover:bg-ykbdark active:bg-ykblight focus:outline-none
+focus:ring-2 focus:ring-ykb"
         >
           Submit
         </button>

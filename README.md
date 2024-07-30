@@ -51,6 +51,7 @@
 - redesigned coding page with material design guidelines in mind.
 - Added screenshots to the coding page (MDPI Laptop and Pixel 5 Android 11 size).
 - Changed font to Real Text Pro.
+- edited design of contact page to look more material design.
 
 ## Commands
 
