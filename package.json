@@ -25,9 +25,9 @@
     "@iconify/tailwind": "^0.1.4",
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
-    "astro": "^4.11.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "astro": "^4.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-use-typing-effect": "^1.0.0",
     "tailwind-classes-sorter": "^0.2.5",
     "typescript": "^5.5.3"
