@@ -12,6 +12,7 @@
 
 ## sitewide design changes
 
+- make jack kershaw in header bigger
 - make the rest of site more material design like the coding page.
 - underline anchor tags.
 - Use Dribble, and other inspiration sites to copy good design
