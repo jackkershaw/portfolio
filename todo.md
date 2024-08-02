@@ -1,14 +1,12 @@
 ## Coding
 
+- Change main photo for each project - Gif navigating site.
+
 - Blogpost for each project
-
+  - Add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
   - change pub date to project finish date from github
-  - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
-  - Each project opens own page, linked to read more button.
-  - Include some process images ie research, early sketches, prototypes , feedback collection etc.
-  - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
-
-  - Gif navigating site for each project.
+  - link them to read more button.
+  - Include some process images ie research, early sketches, prototypes, feedback collection etc
 
 ## Design page
 
