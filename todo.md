@@ -17,6 +17,8 @@
 
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
+- also get rid of gray text throughout and black text?
+
 ## Design page
 
 - blog post for each design
