@@ -1,3 +1,5 @@
+- improve SEO of portfolio with npm package/other way like robots.txt and metadata - see vital signs
+
 ## Coding
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
@@ -9,25 +11,17 @@
 
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
-## Inspiration
-
-- Use Dribble, and other inspiration sites to copy good design
-- [good way of showing projects](https://ohamidux.com/work)
-- [tailwind components ](https://floatui.com/)
-- some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
-- [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
-
 ## Animations
 
 - Add some animations:
   - with Astro transitions
   - css animations site that used with daily challenges site.
-  - [text](https://locomotivemtl.github.io/lo
   - [text](https://gsap.com/scroll/)
   - [text](http://michalsnik.github.io/aos/)
 
 ## Design page
 
+- make design page more like rey portfolio with page for each design. maybe share that in adg.
 - make the design page more material design like the coding page.
 - pelicula change background colour so stands out from rest of site
 - Safe sick pay poster first
@@ -46,25 +40,9 @@
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
 
-# other
+# other indie web ideas
 
-- Add guestbook [On guestbooks – Manu](https://manuelmoreale.com/@/page/25583Thdp8L1dO0C)
-
-- [Using Eleventy to Gobble Up Everything I Do Online - Invidious](https://yewtu.be/watch?v=e_87IF7KGgo)
-
-- Slash pages - see robb knight site for slash pages to add to site
-
-- Good about blurb, use similar on portfolio // also look at other landing pages // Home | chriskirknielsen
-
-- Portfolio make like this [Building a reactive website](https://feedpress.me/link/23795/16619744/building-a-reactive-website)
-
-- Good way of structuring portfolio PHANTOM | SUPERDRY
-
-- improve SEO of portfolio with npm package/other way like robots.txt and metadata - see vital signs
-
-- make design page more like rey portfolio with page for each design. maybe share that in adg.
-
-- Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
+- Add guestbook like on this site: https://manuelmoreale.com/guestbook
 
 ## Wander page (/wander)
 
@@ -106,10 +84,6 @@
 - Add security headers (Content Security Policy, X-XSS-Protection, etc.)
 - Set up regular backups of the website
 
-## Internationalization
-
-- Consider adding multi-language support for broader reach
-
 ## Testing
 
 - Implement cross-browser testing
@@ -148,8 +122,17 @@
 - Create a sitemap for better SEO
 - Implement schema markup for rich snippets in search results
 - Add a "Back to Top" button for long pages
-- Consider adding a chat bot or live chat for visitor engagement
 
 ## Contact page
 
 - Fix, so it sends to an api with axios.
+
+## Inspiration
+
+- Use Dribble, and other inspiration sites to copy good design
+- [good way of showing projects](https://ohamidux.com/work)
+- [tailwind components ](https://floatui.com/)
+- some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
+- [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
+- [good design portfolio](https://phantom.land/work/superdry)
+- Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
