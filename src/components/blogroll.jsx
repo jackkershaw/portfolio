@@ -52,7 +52,7 @@ function Blogroll() {
               >
                 this OPML file
               </a>{" "}
-              into your blog app of choice.{" "}
+              into your RSS app of choice.{" "}
             </p>
           </div>
         </div>
