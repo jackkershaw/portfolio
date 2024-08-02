@@ -11,7 +11,7 @@
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
 
-## sitewide design changes
+## Colours check
 
 - Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
 
@@ -31,7 +31,7 @@
 ## Accessibility
 
 - check got enough metadata
-- use audit thing in dev environment, make edits it suggests particularly for accessibility.
+- use astro audit thing in dev environment, make edits it suggests particularly for accessibility.
 - use unlighthouse and make suggested edits.
 
 ## Blog
