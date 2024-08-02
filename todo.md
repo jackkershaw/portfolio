@@ -1,3 +1,7 @@
+## Blogpost layout
+
+- Add social media share buttons to blog posts like on vitalsigns.
+
 ## Coding
 
 - Blogpost for each project and link (read more button above website and github buttons)
@@ -30,13 +34,13 @@
 - Create Open Graph meta tags
 - Check got enough metadata in general
 
-## Blogposts
-
-- Add social media share buttons to blog posts like on vitalsigns.
-
 ## Contact page
 
 - Fix, so it sends to an api with axios.
+
+## Homepage
+
+- make like linkedin front page / about bit - write about Kraken Hackathon, design work etc.
 
 ## Inspiration
 
