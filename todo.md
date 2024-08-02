@@ -1,4 +1,6 @@
-- Add analytics with plausible
+## Analytics
+
+- [Check setup on here](https://plausible.io/jackkershaw.net)
 
 ## Blogroll
 
