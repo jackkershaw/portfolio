@@ -48,7 +48,7 @@ function Blogroll() {
         <div className="w-full px-4 mb-4 md:mb-0">
           <div className="rounded-lg border border-gray-300  mb-2 h-50 p-6">
             <p className="text-gray-700 mb-4 text-lg">
-              Subscribe to all the blogs I read by importing{" "}
+              Subscribe to my blogs by importing{" "}
               <a
                 href="/blogs_opml.xml"
                 target="_blank"
@@ -56,7 +56,7 @@ function Blogroll() {
               >
                 this OPML file
               </a>{" "}
-              into your RSS app of choice.{" "}
+              into your RSS app.{" "}
             </p>
           </div>
         </div>

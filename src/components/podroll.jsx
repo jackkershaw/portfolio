@@ -69,7 +69,7 @@ function Podroll() {
         <div className="w-full px-4 mb-4 md:mb-0">
           <div className="rounded-lg border border-gray-300 mb-2 h-50 p-6">
             <p className="text-gray-700 mb-4 text-lg">
-              Subscribe to all the podcasts I listen to by importing{" "}
+              Subscribe to my podcasts by importing{" "}
               <a
                 href="/podcasts_opml.xml"
                 target="_blank"
@@ -77,7 +77,7 @@ function Podroll() {
               >
                 this OPML file
               </a>{" "}
-              into your podcast app of choice.{" "}
+              into your podcast app.{" "}
             </p>
           </div>
         </div>
