@@ -17,12 +17,10 @@ const formatDate = (date: string) => {
     class="py-10 flex flex-col justify-start items-center min-h-[80vh]"
   >
     <div class="pb-10 max-w-prose">
-      <h1
-        class="text-2xl sm:text-3xl sm:text-4xl font-bold text-center"
-      >
+      <h1 class="text-4xl text-center">
         {frontmatter.title}
       </h1>
-      <p class="text-xl sm:text-base sm:text-2xl text-center pt-2">
+      <p class="text-2xl text-center pt-2">
         {formatDate(frontmatter.pubDate.slice(0, 10))}
       </p>
     </div>
@@ -30,17 +28,19 @@ const formatDate = (date: string) => {
       <slot />
     </div>
     <div
-      class="py-10 flex flex-row space-y-5 sm:space-y-0 space-x-5 text-left text-2xl"
+      class="py-10 flex flex-row space-y-2 sm:space-y-0 space-x-5 text-left text-2xl flex-wrap justify-center"
     >
-      <h1>Share this article:</h1>
+      <h1
+        class="text-2xl basis-full text-center lg:text-left lg:basis-auto"
+      >
+        Share:
+      </h1>
       <a
         href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span
-          class="icon-[mdi--twitter] text-neutral-900 hover:text-ykb active:neutral-100"
-        ></span>
+        Twitter
       </a>
       <a
         href={`https://wa.me/?text=${encodeURIComponent(
@@ -49,9 +49,7 @@ const formatDate = (date: string) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span
-          class="icon-[mdi--whatsapp] text-neutral-900 hover:text-ykb active:neutral-100"
-        ></span>
+        Whatsapp
       </a>
 
       <a
@@ -59,10 +57,16 @@ const formatDate = (date: string) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span
-          class="icon-[mdi--facebook] text-neutral-900 hover:text-ykb active:neutral-100"
-        ></span>
+        Facebook
       </a>
+      <a
+        href={`https://www.linkedin.com/shareArticle?mini=true&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+
       <a
         href={`mailto:?subject=${encodeURIComponent(
           frontmatter.title
@@ -70,13 +74,11 @@ const formatDate = (date: string) => {
           "https://www.jackkershaw.net/blog/" + frontmatter.slug
         )}`}
       >
-        <span
-          class="icon-[mdi--email] text-neutral-900 hover:text-ykb active:neutral-100"
-        ></span>
+        Email
       </a>
     </div>
 
-    <a href="/blog" class="text-xl hover:text-ykb block">
+    <a href="/blog" class="text-3xl hover:text-ykb block">
       Back to all blog posts
     </a>
   </div>
