@@ -1,7 +1,3 @@
-## Analytics
-
-- [Check setup on here](https://plausible.io/jackkershaw.net)
-
 ## Blogroll
 
 - Edit blog descriptions in JSON quickly and just delete any that are not easy to write about.
@@ -66,3 +62,7 @@
 ## Blog
 
 - Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+
+## Analytics
+
+- [Check numbers on here](https://plausible.io/jackkershaw.net)
