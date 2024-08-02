@@ -107,23 +107,32 @@ function CodingContent() {
                 <p className="text-neutral-900 mb-2">
                   {project.description}
                 </p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  className="block bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
-                >
-                  View Website
-                </a>
-                <a
-                  href={project.github_link}
-                  target="_blank"
-                  className="block mt-2 bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
-                >
-                  View Github
-                </a>
+                <div className="flex-col flex justify-between space-y-4">
+                  <a
+                    href={project.github_link}
+                    target="_blank"
+                    className=" bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
+                  >
+                    Read More
+                  </a>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    className=" bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
+                  >
+                    View Website
+                  </a>
+                  <a
+                    href={project.github_link}
+                    target="_blank"
+                    className=" bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
+                  >
+                    View Github
+                  </a>
+                </div>
               </div>
               <div className="lg:col-span-1 flex flex-row justify-center">
-                <div className="hidden lg:block pl-5">
+                <div className="hidden lg: pl-5">
                   <img
                     src={`/coding-page/${project.image_folder}/mobile.jpg`}
                     alt={`mobile view of ${project.title}`}
