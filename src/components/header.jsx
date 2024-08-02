@@ -35,7 +35,7 @@ function Header() {
           }`}
         >
           <a
-            className="hidden sm:block active:text-neu sm:hover:bg-ykbdark sm:active:bg-ykblight sm:p-5 rounded-lg w-30"
+            className="hidden text-4xl sm:block active:text-neu sm:hover:bg-ykbdark sm:active:bg-ykblight sm:p-5 rounded-lg w-30"
             href="/"
           >
             Jack Kershaw
