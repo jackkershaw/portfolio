@@ -1,14 +1,13 @@
-## Wander page (/wander)
+## Blogroll
 
 - add more blogs
-- maybe add:
-  - fontsinuse
-  - my fav sites etc.
 
 ## Coding
 
-- add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
-- Each project opens own page - like with design page, use a component layout to get it consistent.
+- Blogpost for each project and link to read more button
+  - change pub date to project finish date from github
+  - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
+  - Each project opens own page.
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
 
