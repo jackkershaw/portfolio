@@ -1,7 +1,10 @@
+- Add analytics with plausible
+
 ## Blogroll
 
-- SKip to "blogs" | "podcasts" |" other sites" at top
+- Edit blog descriptions in JSON quickly and just delete any that are not easy to write about.
 - "Read more" button after 10 or so blogs.
+- Skip to "blogs" | "podcasts" |" other sites" at top of wander page, linked through ids.
 
 ## Coding
 
@@ -31,36 +34,17 @@
 
 ## Accessibility
 
-- check got enough metadata
 - use astro audit thing in dev environment, make edits it suggests particularly for accessibility.
 - use unlighthouse and make suggested edits.
 
-## Blog
+## Metadata
 
-- Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+- Create Open Graph meta tags
+- Check got enough metadata in general
 
-## Wander page (/wander)
+## Blogposts
 
-- add more blogs when got server going again and can download from FreshRSS.
-- maybe add:
-  - youtube subs
-  - are.na
-  - any other sites which have info of yours/you lik (look through in Bitwarden)
-  - fontsinuse
-  - my fav sites etc.
-
-## Performance
-
-- Implement lazy loading for images to improve page load times
-
-## Social Media Integration
-
-- Add social media share buttons to blog posts
-- Create Open Graph meta tags for better social media sharing
-
-## Analytics
-
-- Set up Google Analytics or an alternative privacy-focused analytics tool like posthog
+- Add social media share buttons to blog posts like on vitalsigns.
 
 ## Contact page
 
@@ -76,3 +60,7 @@
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
 - guestbook like on this site: https://manuelmoreale.com/guestbook
+
+## Blog
+
+- Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.

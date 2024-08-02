@@ -3,11 +3,17 @@ import { ViewTransitions } from "astro:transitions";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import "../styles.css";
+import { Plausible } from "astro-analytics";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
+    <Plausible
+      domain="yourdomain.com"
+      src="https://youdomain.com/yoursript.js"
+    /> (if no src is set it will fallback to https://plausible.io/js/script.js)
+
     <ViewTransitions />
     <meta charset="UTF-8" />
     <meta
