@@ -2,8 +2,6 @@
 
 - add more blogs
 - maybe add:
-  - are.na
-  - any other sites which have info of yours/you lik (look through in Bitwarden)
   - fontsinuse
   - my fav sites etc.
 

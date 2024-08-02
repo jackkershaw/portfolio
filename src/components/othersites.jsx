@@ -1,35 +1,16 @@
 function OtherSites() {
   const sites = [
     {
-      title: "Syntax",
-      description: "Web Development Podcast.",
-      link: "https://syntax.fm/",
-      RSS_link: "https://feed.syntax.fm/",
-    },
-    {
-      title: "Tech Won't Save Us",
+      title: "Are.na",
       description:
-        "Great for keeping up to date with the very worst developments in tech.",
-      link: "https://www.techwontsave.us/",
-      RSS_link: "https://feeds.buzzsprout.com/1004689.rss",
+        "I use Are.na to collect websites and interesting tools for inspiration. ",
+      link: "https://www.are.na/jack-kershaw/channels",
     },
     {
-      title: "The Wild Ones Podcast",
-      description: "Cycling news and chat.",
-      link: "https://shows.acast.com/the-wild-ones",
-      RSS_link: "https://feeds.acast.com/public/shows/the-wild-ones",
-    },
-    {
-      title: "Give The People What They Want",
-      description: "News from social movements around the world.",
-      link: "https://www.podbean.com/podcast-detail/7dse6-1877a8/Give-The-People-What-They-Want%21-wVijay-Prashad-Podcast",
-      RSS_link: "https://anchor.fm/s/443b6c28/podcast/rss",
-    },
-    {
-      title: "Ruminate",
-      description: "Chilled talkshow about snacks and computing.",
-      link: "https://ruminatepodcast.com/",
-      RSS_link: "https://feeds.libsyn.com/517508/rss",
+      title: "Fonts In Use",
+      description:
+        "The best place to find fonts and pairing suggestions.",
+      link: "https://www.fontsinuse.com",
     },
   ];
 
@@ -55,16 +36,7 @@ function OtherSites() {
                       href={podcast.link}
                       className="inline-block bg-ykb hover:bg-ykbdark text-white py-2 px-2 rounded"
                     >
-                      Listen
-                    </a>
-                  </button>
-                  <button>
-                    <a
-                      target="_blank"
-                      href={podcast.RSS_link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-white py-2 px-2 rounded"
-                    >
-                      RSS
+                      Visit
                     </a>
                   </button>
                 </div>
