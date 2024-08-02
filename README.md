@@ -52,6 +52,7 @@
 - Added screenshots to the coding page (MDPI Laptop and Pixel 5 Android 11 size).
 - Changed font to Real Text Pro.
 - edited design of contact page to look more material design.
+- I wanted to add some animations to the site, so I used Astro transitions. This couldn't have been simpler, as I added `import { ViewTransitions } from 'astro:transitions';` and `<ViewTransitions />` to my layout files, adding a transition between pages.
 
 ## Commands
 

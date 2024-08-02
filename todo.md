@@ -1,5 +1,3 @@
-- improve SEO of portfolio with npm package/other way like robots.txt and metadata - see vital signs
-
 ## Coding
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
@@ -13,8 +11,7 @@
 
 ## Animations
 
-- Add some animations:
-  - with Astro transitions
+- ## Add some animations:
   - css animations site that used with daily challenges site.
   - [text](https://gsap.com/scroll/)
   - [text](http://michalsnik.github.io/aos/)
@@ -32,6 +29,7 @@
 
 ## Accessibility
 
+- check got enough meta data
 - use audit thing in dev environment, make edits it suggests particularly for accessibility.
 - use unlighthouse and make suggested edits.
 
@@ -39,10 +37,6 @@
 
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
-
-# other indie web ideas
-
-- Add guestbook like on this site: https://manuelmoreale.com/guestbook
 
 ## Wander page (/wander)
 
@@ -96,11 +90,6 @@
 ## Legal
 
 - Add a privacy policy page
-- Create a terms of service page if necessary
-
-## Feedback
-
-- Implement a feedback form or survey to gather user opinions
 
 ## Newsletter
 
@@ -119,8 +108,6 @@
 
 ## Miscellaneous
 
-- Create a sitemap for better SEO
-- Implement schema markup for rich snippets in search results
 - Add a "Back to Top" button for long pages
 
 ## Contact page
@@ -136,3 +123,4 @@
 - [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
+- Add guestbook like on this site: https://manuelmoreale.com/guestbook
