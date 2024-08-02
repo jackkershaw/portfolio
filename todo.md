@@ -1,8 +1,7 @@
 ## Wander page (/wander)
 
-- add more blogs when got server going again and can download from FreshRSS.
+- add more blogs
 - maybe add:
-  - youtube subs
   - are.na
   - any other sites which have info of yours/you lik (look through in Bitwarden)
   - fontsinuse
