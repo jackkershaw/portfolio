@@ -4,6 +4,7 @@ title: "Welcome"
 pubDate: 2024-02-29
 description: "This is my first blog post"
 tags: ["welcome"]
+slug: "welcome"
 ---
 
 I've been meaning to write a blog for some time now. I quit most social media about three years ago and since then have come to rely on RSS from various news sites and blogs to stay up to date on the news, world politics and culture. It's refreshing to be away from the [Twittering Machine](https://www.versobooks.com/en-gb/products/2505-the-twittering-machine) but sometimes I miss the ability to share content with others, quickly and online.

@@ -4,6 +4,7 @@ title: "App Defaults 2024"
 pubDate: 2024-05-22
 description: "Some app defaults for summer 2024"
 tags: ["Apps"]
+slug: "app-defaults"
 ---
 
 As I get more into RSS and following developer blogs, I've noticed a trend to [share app defaults](https://defaults.rknight.me/). We often don't stop and think about the apps we use everyday, so this is a good chance to stop and learn from other developers. As an Android and Linux user, I've avoided the Apple default apps over the past few years, despite using a Macbook everyday. I also don't want to get trapped in the Apple ecosystem, so most of the services I use are open-source (except Google services) or easy to migrate from (e.g. Todoist). I'm also interested in seeing how the apps I use change over time. Here are mine in summer 2024:

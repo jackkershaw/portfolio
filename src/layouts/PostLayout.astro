@@ -26,39 +26,58 @@ const formatDate = (date: string) => {
         {formatDate(frontmatter.pubDate.slice(0, 10))}
       </p>
     </div>
-    <div class="prose">
+    <div class="prose text-neutral-900">
       <slot />
     </div>
-    <div class="py-10">Share this post:</div>
     <div
-      class="pt-8 flex flex-col space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5 text-left"
+      class="pt-8 flex flex-col space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5 text-left text-2xl sm:items-center sm:justify-center"
     >
+      <h1 class="text-2xl text-left">Share this article:</h1>
       <a
-        href="https://buttondown.email/jackkershaw"
-        class="active:text-neutral-100 hover:text-ykb"
+        href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
         target="_blank"
-        >Subscribe via Email <span class="icon-[ic--baseline-email]"
+        rel="noopener noreferrer"
+      >
+        <span
+          class="icon-[mdi--twitter] text-neutral-900 hover:text-ykb active:neutral-100"
         ></span>
       </a>
       <a
-        href="/rss.xml"
-        class="active:text-neutral-100 hover:text-ykb"
+        href={`https://wa.me/?text=${encodeURIComponent(
+          `${frontmatter.title}: https://www.jackkershaw.net/blog/${frontmatter.slug}`
+        )}`}
         target="_blank"
+        rel="noopener noreferrer"
       >
-        Subscribe via RSS <span class="icon-[simple-icons--rss]"
+        <span
+          class="icon-[mdi--whatsapp] text-neutral-900 hover:text-ykb active:neutral-100"
+        ></span>
+      </a>
+
+      <a
+        href={`https://www.facebook.com/sharer/sharer.php?u=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span
+          class="icon-[mdi--facebook] text-neutral-900 hover:text-ykb active:neutral-100"
         ></span>
       </a>
       <a
-        href="/wander"
-        class="active:text-neutral-100 hover:text-ykb"
-        target="_blank"
+        href={`mailto:?subject=${encodeURIComponent(
+          frontmatter.title
+        )}&body=Check out this article: ${encodeURIComponent(
+          "https://www.jackkershaw.net/blog/" + frontmatter.slug
+        )}`}
       >
-        Read more blogs on my Wander page <span
-          class="icon-[iconoir--network]"></span>
+        <span
+          class="icon-[mdi--email] text-neutral-900 hover:text-ykb active:neutral-100"
+        ></span>
       </a>
     </div>
+
     <a href="/blog" class="text-xl hover:text-ykb pt-10 mt-10 block">
-      Back to all posts
+      Back to all blog posts
     </a>
   </div>
 </Layout>

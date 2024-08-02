@@ -43,3 +43,7 @@ li a {
 button a {
   text-decoration: none;
 }
+
+a span {
+  @apply text-3xl;
+}

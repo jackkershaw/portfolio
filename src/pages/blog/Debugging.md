@@ -4,6 +4,7 @@ title: "What Debugging an Old Website Taught Me"
 pubDate: 2024-03-13
 description: "A post about GoDaddy, Wordpress and legacy vs modern software solutions."
 tags: ["Wordpress"]
+slug: "debugging"
 ---
 
 So, two years into coding, I get that request that most developers are probably familiar with, the casual “Can you have a look at my website?” Despite learning not to agree to such requests in my past life as a graphic designer (“Can you design a logo quickly for me?”), I take the plunge and say yes. Why? I know my friend Richard’s site is built with WordPress, a technology which I know powers the majority of the web and many of my developer friends use day-to-day. As a React/Astro developer, I relish the challenge to learn a bit more about WordPress and help a friend out.
