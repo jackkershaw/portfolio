@@ -1,11 +1,14 @@
 ## Coding
 
-- Blogpost for each project and link (read more button above website and github buttons)
+- Blogpost for each project
+
   - change pub date to project finish date from github
   - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
-  - Each project opens own page.
+  - Each project opens own page, linked to read more button.
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
+
+  - Gif navigating site for each project.
 
 ## Design page
 
