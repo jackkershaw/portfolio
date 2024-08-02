@@ -54,6 +54,10 @@
 - edited design of contact page to look more material design.
 - I wanted to add some animations to the site, so I used Astro transitions. This couldn't have been simpler, as I added `import { ViewTransitions } from 'astro:transitions';` and `<ViewTransitions />` to my layout files, adding a transition between pages.
 - Added analytics with Plausible.
+- Standardised colours across the site: ## Colours check
+- neutral-900 instead of (dark) gray or black
+- neutral-100 instead of white
+- neutral-300 instead of (light) gray
 
 ## Commands
 

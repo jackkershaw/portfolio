@@ -30,7 +30,7 @@ const formatDate = (date: string) => {
         allPostsSorted.map((post) => (
           <a
             href={post.url}
-            class="hover:text-ykb active:text-white no-underline"
+            class="hover:text-ykb active:text-neutral-100 no-underline"
           >
             <div class="border-2 border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center rounded-lg">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
@@ -48,14 +48,14 @@ const formatDate = (date: string) => {
     >
       <a
         href="https://buttondown.email/jackkershaw"
-        class="active:text-white hover:text-ykb"
+        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
         >Subscribe via Email <span class="icon-[ic--baseline-email]"
         ></span>
       </a>
       <a
         href="/rss.xml"
-        class="active:text-white hover:text-ykb"
+        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
       >
         Subscribe via RSS <span class="icon-[simple-icons--rss]"
@@ -63,7 +63,7 @@ const formatDate = (date: string) => {
       </a>
       <a
         href="/wander"
-        class="active:text-white hover:text-ykb"
+        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
       >
         Read more on my Wander page <span

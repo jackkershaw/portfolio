@@ -36,7 +36,7 @@ function Podroll() {
             key={podcast.title}
             className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
           >
-            <div className="rounded-lg border border-gray-300 mb-2 h-50">
+            <div className="rounded-lg border border-neutral-300 mb-2 h-50">
               <div className="p-6">
                 <h2 className="text-2xl mb-2">{podcast.title}</h2>
                 <p className="text-gray-700 mb-4 text-lg">
@@ -47,7 +47,7 @@ function Podroll() {
                     <a
                       target="_blank"
                       href={podcast.link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-white py-2 px-2 rounded"
+                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
                     >
                       Listen
                     </a>
@@ -56,7 +56,7 @@ function Podroll() {
                     <a
                       target="_blank"
                       href={podcast.RSS_link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-white py-2 px-2 rounded"
+                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
                     >
                       RSS
                     </a>
@@ -67,8 +67,8 @@ function Podroll() {
           </div>
         ))}
         <div className="w-full px-4 mb-4 md:mb-0">
-          <div className="rounded-lg border border-gray-300 mb-2 h-50 p-6">
-            <p className="text-gray-700 mb-4 text-lg">
+          <div className="rounded-lg border border-neutral-300 mb-2 h-50 p-6">
+            <p className="text-neutral-900 mb-4 text-lg">
               Subscribe to my podcasts by importing{" "}
               <a
                 href="/podcasts_opml.xml"

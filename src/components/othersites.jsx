@@ -23,10 +23,10 @@ function OtherSites() {
             key={podcast.title}
             className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
           >
-            <div className="rounded-lg border border-gray-300 mb-2 h-50">
+            <div className="rounded-lg border border-neutral-300 mb-2 h-50">
               <div className="p-6">
                 <h2 className="text-2xl mb-2">{podcast.title}</h2>
-                <p className="text-gray-700 mb-4 text-lg">
+                <p className="text-neutral-900 mb-4 text-lg">
                   {podcast.description}
                 </p>
                 <div className="flex-row flex justify-start space-x-2">
@@ -34,7 +34,7 @@ function OtherSites() {
                     <a
                       target="_blank"
                       href={podcast.link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-white py-2 px-2 rounded"
+                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
                     >
                       Visit
                     </a>

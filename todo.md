@@ -1,21 +1,11 @@
-## Blogroll
-
-- Skip to "blogs" | "podcasts" |" other sites" at top of wander page, linked through ids.
-
 ## Coding
 
-- Blogpost for each project and link to read more button
+- Blogpost for each project and link (read more button above website and github buttons)
   - change pub date to project finish date from github
   - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
   - Each project opens own page.
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
-
-## Colours check
-
-- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
-
-- also get rid of gray text throughout and black text?
 
 ## Design page
 
@@ -65,4 +55,4 @@
 
 ## Analytics
 
-- [Check numbers on here](https://plausible.io/jackkershaw.net)
+- [Fix Plausible](https://plausible.io/jackkershaw.net)

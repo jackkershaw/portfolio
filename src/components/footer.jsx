@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-200">
+    <footer className="bottom-0 bg-ykb py-10 text-2xl text-neutral-100">
       <div className="mx-10">
         <div className="flex-col sm:justify-end flex pt-10 sm:pt-0">
           <div className="flex flex-row justify-center sm:justify-end space-x-5 text-right py-5">

@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-ykb py-5 text-neutral-200 relative">
+      <header className="bg-ykb py-5 text-neutral-100 relative">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="sm:hidden focus:outline-none flex flex-row items-center justify-between mx-auto text-4xl"

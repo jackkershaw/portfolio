@@ -141,16 +141,16 @@ function Blogroll() {
 
   return (
     <div>
-      <h1 className="text-3xl  pt-4">Blogs</h1>
+      <h1 className="text-3xl pt-4">Blogs</h1>
       <div className="flex flex-wrap py-4">
         {blogs.map((blog) => (
           <div
             key={blog.title}
             className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
           >
-            <div className="rounded-lg border border-gray-300 mb-2 h-50 p-6">
+            <div className="rounded-lg border border-neutral-300 mb-2 h-50 p-6">
               <h2 className="text-2xl  mb-2">{blog.title}</h2>
-              <p className="text-gray-700 mb-4 text-lg">
+              <p className="text-neutral-900 mb-4 text-lg">
                 {blog.description}
               </p>
               <div className="flex-row flex justify-start space-x-2">
@@ -158,7 +158,7 @@ function Blogroll() {
                   <a
                     target="_blank"
                     href={blog.link}
-                    className="inline-block bg-ykb hover:bg-ykbdark text-white  py-2 px-2 rounded"
+                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
                   >
                     Read
                   </a>
@@ -167,7 +167,7 @@ function Blogroll() {
                   <a
                     target="_blank"
                     href={blog.RSS_link}
-                    className="inline-block bg-ykb hover:bg-ykbdark text-white  py-2 px-2 rounded"
+                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100  py-2 px-2 rounded"
                   >
                     RSS
                   </a>
@@ -177,8 +177,8 @@ function Blogroll() {
           </div>
         ))}
         <div className="w-full px-4 mb-4 md:mb-0">
-          <div className="rounded-lg border border-gray-300  mb-2 h-50 p-6">
-            <p className="text-gray-700 mb-4 text-lg">
+          <div className="rounded-lg border border-neutral-300  mb-2 h-50 p-6">
+            <p className="text-neutral-900 mb-4 text-lg">
               Subscribe to all of the blogs I read (including some not
               mentioned above) by importing{" "}
               <a
