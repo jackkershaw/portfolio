@@ -27,8 +27,8 @@
 
 ## Metadata
 
-- Create Open Graph meta tags
-- Check got enough metadata in general
+- Create Open Graph meta tags for blog posts.
+- Check got enough metadata in general.
 
 ## Contact page
 
