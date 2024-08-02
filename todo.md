@@ -1,6 +1,7 @@
 ## Blogroll
 
-- add more blogs
+- SKip to "blogs" | "podcasts" |" other sites" at top
+- "Read more" button after 10 or so blogs.
 
 ## Coding
 
