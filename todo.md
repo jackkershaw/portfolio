@@ -1,20 +1,28 @@
 ## Coding
 
-- Change main photo for each project - Gif navigating site.
+- Edit description for each project
+
+  - Add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
+
+- Edit main photo for each project
+
+  - Gif navigating site or interesting photo
 
 - Blogpost for each project
-  - Add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
-  - change pub date to project finish date from github
-  - link them to read more button.
-  - Include some process images ie research, early sketches, prototypes, feedback collection etc
+
+  - Change pub date to project finish date from github
+  - Link them to read more button.
+  - Include some process images ie research, early sketches, prototypes, feedback collection etc.
+  - Alternatively, you can just edit the readme for each project and not write out everything again, deleting "view github" link and just using read more link.
 
 ## Design page
 
 - blog post for each design
-  - page for each design
-  - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
+
+  - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
   - like rey portfolio
+
 - pelicula - present like this: https://tosche.net/fonts/dossier
 - maybe share that in adg.
 - make the design page more material design like the coding page.
@@ -28,12 +36,12 @@
 
 ## Metadata
 
-- Create Open Graph meta tags for blog posts.
+- Create Open Graph meta tags for blog posts - look into best way to do this with astro. Look into how to add images to blogposts maybe.
 - Check got enough metadata in general.
 
 ## Contact page
 
-- Fix, so it sends to an api with axios.
+- Fix so it sends an email via api with axios.
 
 ## Homepage
 
