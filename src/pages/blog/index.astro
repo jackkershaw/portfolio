@@ -28,7 +28,10 @@ const formatDate = (date: string) => {
     <div class="mt-10">
       {
         allPostsSorted.map((post) => (
-          <a href={post.url} class="hover:text-ykb active:text-white">
+          <a
+            href={post.url}
+            class="hover:text-ykb active:text-white no-underline"
+          >
             <div class="border-2 border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center rounded-lg">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
               <p>

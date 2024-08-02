@@ -20,24 +20,11 @@ function Blogroll() {
       RSS_link: "https://feeds.feedburner.com/londonist/sBMe",
     },
     {
-      title: "Mapping London",
-      description: "Highlights the best London maps",
-      link: "https://mappinglondon.co.uk/",
-      RSS_link: "https://mappinglondon.co.uk/feed/",
-    },
-
-    {
       title: "404 Media",
       description:
         "Offshoot of Vice's Motherboard website - well written tech news.",
       link: "https://www.404media.co/",
       RSS_link: "https://www.404media.co/rss/",
-    },
-    {
-      title: "Alun Kirby",
-      description: "Cyanotype Art",
-      link: "http://alunkirby.com/",
-      RSS_link: "http://alunkirby.com/feed/",
     },
     {
       title: "Common Knowledge blog",
@@ -61,12 +48,6 @@ function Blogroll() {
       RSS_link: "https://pixelfed.social/users/harryfk.atom",
     },
     {
-      title: "Ideas Latest",
-      description: "Ideas from Wired.",
-      link: "https://www.wired.com/",
-      RSS_link: "https://www.wired.com/feed/category/ideas/latest/rss",
-    },
-    {
       title: "Maggie Appleton",
       description:
         "London-based developer tending to a digital garden filled with design, development, and anthropology.",
@@ -75,8 +56,7 @@ function Blogroll() {
     },
     {
       title: "Sonia Turcotte",
-      description:
-        "Freelance designer and researcher, formerly of Common Knowledge.",
+      description: "Freelance designer and researcher.",
       link: "https://soniaturcotte.com/",
       RSS_link: "https://soniaturcotte.com/feed/feed.xml",
     },
@@ -108,7 +88,7 @@ function Blogroll() {
     {
       title: "Ana Rodrigues",
       description:
-        "London-based frontend developer - good place to hear about what's happening in the London scene!",
+        "London-based frontend developer - good place to hear about what's happening in London.",
       link: "https://ohhelloana.blog/",
       RSS_link: "https://ohhelloana.blog/feed.xml",
     },
@@ -126,41 +106,15 @@ function Blogroll() {
       RSS_link: "https://feedpress.me/coryd",
     },
     {
-      title: "Culture Latest",
-      description: "Culture Articles from Wired.",
-      link: "https://www.wired.com/",
-      RSS_link:
-        "https://www.wired.com/feed/category/culture/latest/rss",
-    },
-    {
-      title: "Guide to AI",
-      description: "Monthly AI newsletter.",
-      link: "https://nathanbenaich.substack.com/",
-      RSS_link: "https://nathanbenaich.substack.com/feed",
-    },
-    {
       title: "Hacker News",
       description: "The best source of tech news.",
       link: "https://news.ycombinator.com/",
       RSS_link: "https://news.ycombinator.com/rss",
     },
     {
-      title: "Jack Kershaw | Blog",
-      description:
-        "My personal blog - writing about the web, typography and design.",
-      link: "https://jackkershaw.net/",
-      RSS_link: "https://jackkershaw.net/rss.xml",
-    },
-    {
-      title: "LOW←TECH MAGAZINE English",
-      description: "A solar-powered website.",
-      link: "https://solar.lowtechmagazine.com/posts/",
-      RSS_link: "https://solar.lowtechmagazine.com/posts/index.xml",
-    },
-    {
       title: "Manuel Moreale RSS Feed",
       description:
-        "One of my favourite bloggers - has a regular People and Blogs post with bloggers.",
+        "One of my favourite blogs - has a regular People and Blogs post interviewing people on their sites.",
       link: "https://manuelmoreale.com/",
       RSS_link: "https://manuelmoreale.com/feed/rss",
     },
@@ -171,40 +125,15 @@ function Blogroll() {
       RSS_link: "https://www.gyford.com/phil/feeds/everything/rss/",
     },
     {
-      title: "Robb Knight",
-      description: "Well-maintained personal blog by Robb Knight.",
-      link: "https://rknight.me/",
-      RSS_link: "https://rknight.me/subscribe/posts/atom.xml",
-    },
-    {
-      title: "Security Latest",
-      description: "Security Articles from Wired",
-      link: "https://www.wired.com/",
-      RSS_link:
-        "https://www.wired.com/feed/category/security/latest/rss",
-    },
-    {
-      title: "Monthly Review",
-      description: "An Independent Socialist Magazine",
-      link: "https://monthlyreview.org/",
-      RSS_link: "https://monthlyreview.org/feed/",
-    },
-    {
       title: "Novara Media",
-      description: "New Media for a Different Politics",
+      description:
+        "Left of The Guardian, good source of political news.",
       link: "https://novaramedia.com/",
       RSS_link: "https://novaramedia.com/feed/",
     },
     {
-      title: "Tribune",
-      description: "Social and labour news from the UK",
-      link: "https://tribunemag.co.uk/",
-      RSS_link: "https://tribunemag.co.uk/feed/",
-    },
-    {
       title: "Tricontinental: Institute for Social Research",
-      description:
-        "international, movement-driven institution focused on stimulating intellectual debate that serves people’s aspirations.",
+      description: "International, movement-driven news.",
       link: "https://thetricontinental.org/",
       RSS_link: "https://thetricontinental.org/feed/",
     },

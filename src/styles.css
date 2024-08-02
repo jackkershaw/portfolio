@@ -22,7 +22,10 @@
 
 a {
   text-decoration: underline;
-  @apply underline-offset-4;
+  @apply underline-offset-4 hover:text-ykb;
+}
+a .no-underline {
+  text-decoration: none;
 }
 
 nav a {

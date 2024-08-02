@@ -1,7 +1,5 @@
 ## Blogroll
 
-- Edit blog descriptions in JSON quickly and just delete any that are not easy to write about.
-- "Read more" button after 10 or so blogs.
 - Skip to "blogs" | "podcasts" |" other sites" at top of wander page, linked through ids.
 
 ## Coding
