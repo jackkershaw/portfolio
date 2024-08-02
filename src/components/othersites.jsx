@@ -1,5 +1,5 @@
-function Podroll() {
-  const podcasts = [
+function OtherSites() {
+  const sites = [
     {
       title: "Syntax",
       description: "Web Development Podcast.",
@@ -25,13 +25,19 @@ function Podroll() {
       link: "https://www.podbean.com/podcast-detail/7dse6-1877a8/Give-The-People-What-They-Want%21-wVijay-Prashad-Podcast",
       RSS_link: "https://anchor.fm/s/443b6c28/podcast/rss",
     },
+    {
+      title: "Ruminate",
+      description: "Chilled talkshow about snacks and computing.",
+      link: "https://ruminatepodcast.com/",
+      RSS_link: "https://feeds.libsyn.com/517508/rss",
+    },
   ];
 
   return (
     <div>
-      <h1 className="text-3xl pt-4">Podcasts</h1>
+      <h1 className="text-3xl pt-4">Other Sites I Like</h1>
       <div className="flex flex-wrap py-4">
-        {podcasts.map((podcast) => (
+        {sites.map((podcast) => (
           <div
             key={podcast.title}
             className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
@@ -66,24 +72,9 @@ function Podroll() {
             </div>
           </div>
         ))}
-        <div className="w-full px-4 mb-4 md:mb-0">
-          <div className="rounded-lg border border-gray-300 mb-2 h-50 p-6">
-            <p className="text-gray-700 mb-4 text-lg">
-              Subscribe to all the podcasts I listen to by importing{" "}
-              <a
-                href="/podcasts_opml.xml"
-                target="_blank"
-                className="hover:text-ykb"
-              >
-                this OPML file
-              </a>{" "}
-              into your podcast app of choice.{" "}
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
 }
 
-export default Podroll;
+export default OtherSites;
