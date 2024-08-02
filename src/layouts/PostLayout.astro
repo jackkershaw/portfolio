@@ -30,9 +30,9 @@ const formatDate = (date: string) => {
       <slot />
     </div>
     <div
-      class="pt-8 flex flex-col space-y-5 sm:flex-row sm:space-y-0 sm:space-x-5 text-left text-2xl sm:items-center sm:justify-center"
+      class="py-10 flex flex-row space-y-5 sm:space-y-0 space-x-5 text-left text-2xl"
     >
-      <h1 class="text-2xl text-left">Share this article:</h1>
+      <h1>Share this article:</h1>
       <a
         href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
         target="_blank"
@@ -76,7 +76,7 @@ const formatDate = (date: string) => {
       </a>
     </div>
 
-    <a href="/blog" class="text-xl hover:text-ykb pt-10 mt-10 block">
+    <a href="/blog" class="text-xl hover:text-ykb block">
       Back to all blog posts
     </a>
   </div>
