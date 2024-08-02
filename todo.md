@@ -1,7 +1,3 @@
-## Blogpost layout
-
-- Add social media share buttons to blog posts like on vitalsigns.
-
 ## Coding
 
 - Blogpost for each project and link (read more button above website and github buttons)
