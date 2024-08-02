@@ -1,34 +1,25 @@
-## Contact page
-
-- Fix, so it sends to an api with axios.
-
 ## Coding
 
 - add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh. There's space to add this on the main page in description.
 - Each project opens own page - like with design page, use a component layout to get it consistent.
-
   - Include some process images ie research, early sketches, prototypes , feedback collection etc.
   - tbh this could just be a quick blogpost, and then link to it. Would solve issue of filling blog too.
 
 ## sitewide design changes
 
-- make jack kershaw in header bigger
-- make the rest of site more material design like the coding page.
-- underline anchor tags.
+- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
+
+## Inspiration
+
 - Use Dribble, and other inspiration sites to copy good design
 - [good way of showing projects](https://ohamidux.com/work)
-- check site design across mobile.
 - [tailwind components ](https://floatui.com/)
 - some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
-- tbh the whole site could do with a do-over, in terms of colours and style.
-  [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
-- Set hover:text-ykb on all a elements.
-- Check to see if colours in all pages fit: bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 . In most cases the lighter colours will need to be made lighter.
+- [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 
 ## Animations
 
 - Add some animations:
-
   - with Astro transitions
   - css animations site that used with daily challenges site.
   - [text](https://locomotivemtl.github.io/lo
@@ -37,7 +28,8 @@
 
 ## Design page
 
-- pelicula change colour so stands out from rest of site
+- make the design page more material design like the coding page.
+- pelicula change background colour so stands out from rest of site
 - Safe sick pay poster first
 - Lay out each design on a page when click on it.
 - For the design work include some process images ie research, early sketches, prototypes , feedback collection etc.
@@ -46,16 +38,13 @@
 
 ## Accessibility
 
-- use audit thing in dev environment , make edits it suggests particularly for accessibility.
-- use lighthouse and make suggested edits.
+- use audit thing in dev environment, make edits it suggests particularly for accessibility.
+- use unlighthouse and make suggested edits.
 
 ## Blog
 
 - Write Blog Posts, see ideas in [drafts folder](src/pages/blog/_drafts) and todoist.
 - Add follow along buttons like on [this site](https://manuelmoreale.com/pb-simone-silvestroni) at the bottom of each post.
-
-- Good send me message thing on blog [Oh Hello Ana](https://ohhelloana.blog/i-want-it-all/)
-- check that blog page has posts with newest at top
 
 # other
 
@@ -160,3 +149,7 @@
 - Implement schema markup for rich snippets in search results
 - Add a "Back to Top" button for long pages
 - Consider adding a chat bot or live chat for visitor engagement
+
+## Contact page
+
+- Fix, so it sends to an api with axios.
