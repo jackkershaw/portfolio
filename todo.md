@@ -1,25 +1,19 @@
 ## Coding
 
-- Edit description for each project
-
-  - Add a little bit about what new things you learnt or what was challenging for each project - make it a mini version of readme in github tbh.
-
 - Edit main photo for each project
 
   - Gif navigating site or interesting photo
+  - Improve alt text, add alt text field to json.
 
-- Blogpost for each project
+- Improve project readmes
 
-  - Change pub date to project finish date from github
-  - Link them to read more button.
   - Include some process images ie research, early sketches, prototypes, feedback collection etc.
-  - Alternatively, you can just edit the readme for each project and not write out everything again, deleting "view github" link and just using read more link.
 
-- Add more recent projects
+- Improve spacing of tech stack component and add it back into the coding content page/coding astro.
 
 ## Design page
 
-- blog post for each design
+- blog post for each design or same thing as coding
 
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
@@ -43,11 +37,16 @@
 
 ## Contact page
 
-- Fix so it sends an email via api with axios.
+- Fix so it sends an email via [webhook](https://news.ycombinator.com/item?id=41144227)
 
 ## Homepage
 
 - make like linkedin front page / about bit - write about Kraken Hackathon, design work etc.
+- should probably just have see recent work in big letters and not contact me
+
+## Blog post
+
+- share under blog post should be left aligned
 
 ## Inspiration
 
