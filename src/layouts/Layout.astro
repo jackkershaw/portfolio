@@ -3,17 +3,17 @@ import { ViewTransitions } from "astro:transitions";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import "../styles.css";
-import { Plausible } from "astro-analytics";
+import { Umami } from "astro-analytics";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <Plausible
-      domain="jackkershaw.net"
-      src="https://plausible.io/js/script.js"
-    />
     <ViewTransitions />
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="711244a3-c8fe-4719-9fe1-43eeb11d3fd6"></script>
     <meta charset="UTF-8" />
     <meta
       name="description"

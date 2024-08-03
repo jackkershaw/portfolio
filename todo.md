@@ -15,6 +15,8 @@
   - Include some process images ie research, early sketches, prototypes, feedback collection etc.
   - Alternatively, you can just edit the readme for each project and not write out everything again, deleting "view github" link and just using read more link.
 
+- Add more recent projects
+
 ## Design page
 
 - blog post for each design
@@ -61,7 +63,3 @@
 ## Blog
 
 - Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
-
-## Analytics
-
-- [Fix Plausible](https://plausible.io/jackkershaw.net)
