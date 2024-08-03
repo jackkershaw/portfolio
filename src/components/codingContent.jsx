@@ -12,13 +12,15 @@ function CodingContent() {
     {
       title: "Take Back Water",
       description:
-        "I am currently working with a team of developers on maintaining the Take Back Water website in our free time. My responsibilities include improving accessibility, upgrading SEO and developing new React components. This project has enabled me to improve my Git workflow and team-working skills.",
+        "I am currently working with a team of developers on maintaining the Take Back Water website in my free time. My responsibilities include improving accessibility, upgrading SEO and developing new React components. This project has enabled me to improve my Git workflow and team-working skills.",
       link: "https://takebackwater.uk",
       image_folder: "takebackwater",
     },
     {
       title: "Fare Free London",
-      description: "",
+      description:
+        "Freelance project for a public transport campaign. I started by gathering inspiration in an Are.na folder, creating moodboards and wireframes in Figma. I based the site on the Vital Signs Next.js project (see below), again incorporating a WordPress backend with WPGraphQL for the API. I set up WordPress on a subdomain of the site(admin.farefreelondon.org) and used Vercel for continuous deployment. I added more editability to the site, whilst retaining a consistent design. I added a colorful SVG tube lines component and used Responsively to improve the responsive design. I used back to top and get involved buttons for better user navigation and to drive traffic. I debugged an issue with the security of the signup form linked to Airtable, by moving requests to the server-side through an API route. I implemented Deploy hooks with Vercel and Wordpress Webhooks for automatic site rebuilds. I used Google Unlighthouse to improve the SEO, perfomance and accessibility of all pages on the site. I improved Largest Contentful Paint (LCP) from 11.3s to 2.8s by using Next/Image for image optimization, dynamic imports for lazy loading, and optimizing images with the 'sharp' package. This boosted the Lighthouse performance score from 67 to 96. I enhanced SEO with meta tags, canonical tags, and Google Search Console integration. I integrated Umami analytics for tracking and responded to public user feedback in Github Issues.",
+
       link: "https://www.farefreelondon.org/",
       github_link: "https://github.com/jones58/fare-free-london",
       image_folder: "farefreelondon",
