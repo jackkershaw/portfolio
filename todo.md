@@ -11,6 +11,8 @@
 
 - Improve spacing of tech stack component and add it back into the coding content page/coding astro.
 
+- Under the image for each project, could have icons for the technologies used maybe.
+
 ## Design page
 
 - blog post for each design or same thing as coding
