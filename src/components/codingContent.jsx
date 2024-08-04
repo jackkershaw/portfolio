@@ -51,7 +51,8 @@ function CodingContent() {
       title: "Vital Signs",
       description: [
         "Freelance project for a group of NHS workers. I used Next.js and Headless Wordpress to build a fast, secure and easy to update site.",
-        "I used a Vercel Next.js and Wordpress example to bootstrap the project, and set up WordPress hosting with GraphQL. I used dummy content for testing, addressing issues like image errors and font loading by referring to the Next.js docs, adjusting configuration files and using Next/font.",
+        "I used a Vercel Next.js and Wordpress example to bootstrap the project, and set up WordPress hosting with GraphQL.",
+"I used dummy content for testing, addressing issues like image errors and font loading by referring to the Next.js docs, adjusting configuration files and using Next/font.",
         "I used Figma to create the design of the site and implemented it with Tailwind and Iconify, adding animations with Framer Motion.",
         "I improved SEO using the Next.js docs, OpenGraph.xyz to test social share links and the NPM package next-sitemap. I used Advanced Custom Fields to create a PDF uploader in the Wordpress editor and displayed this as an embed, with an anchor tag to view the pdf full screen. I created a guide for the client to help them edit site content easily and resolved their issues with PDF loading on mobile browsers. I used Wordpress webhooks connected to Vercel Deploy Hooks to trigger a site rebuild when posts are created, updated or deleted.",
       ],
