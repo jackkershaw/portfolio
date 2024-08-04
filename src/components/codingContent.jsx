@@ -157,7 +157,7 @@ function CodingContent() {
               <div className="lg:col-span-2 lg:ml-4 flex-col flex justify-between">
                 <div>
                   <h3 className="text-3xl pb-4">{project.title}</h3>
-                  <ul className="list-disc px-5">
+                  <ul className="list-disc px-5 pb-4">
                     {project.description.map((paragraph, index) => (
                       <li
                         key={index}
