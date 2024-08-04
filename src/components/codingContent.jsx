@@ -75,7 +75,7 @@ function CodingContent() {
     {
       title: "Daily Challenges",
       description: [
-        "I made this to keep track of the daily games I like to play. I learnt to use local storage to store visited sites for a day at a time, as well as using CSS Animations. I responded to user feedback by changing the colour scheme and added an introduction screen to improve usability.  I used Google Lighthouse to improve the speed and accessibility of the site, achieving a score of 100 across all categories.",
+        "I made this to keep track of the daily games I like to play."," I learnt to use local storage to store visited sites for a day at a time.","Used CSS Animations.","Responded to user feedback by changing the colour scheme and added an introduction screen to improve usability.","I used Google Lighthouse to improve the speed and accessibility of the site, achieving a score of 100 across all categories.",
       ],
       link: "https://dailychallenges.jackkershaw.net",
       github_link: "https://github.com/jones58/daily-challenges/",
@@ -84,7 +84,7 @@ function CodingContent() {
     {
       title: "Typespotting",
       description: [
-        "I built this after noticing a gap in existing typography games, which typically focus on multiple-choice questions. I used a mind map to come up with the idea for the project (Where's Wally but for Cooper Black), categorised images into difficulty levels, and applied a bold, contrasting colour scheme.",
+        "I built this after noticing a gap in existing typography games, which typically focus on multiple-choice questions.","I used a mind map to come up with the idea for the project (Where's Wally but for Cooper Black)","I categorised images into difficulty levels, and applied a bold, contrasting colour scheme.",
         "I created SVG graphics using Photoshop and Illustrator and optimised images with an Image Optimiser app, ensuring the game was responsive and fast.",
         " This was my first time using pseudocode to manage complex JavaScript functions for randomising colour schemes and managing click events so it allowed me to develop my JavaScript knowledge quickly through extensive debugging.",
       ],
@@ -105,7 +105,7 @@ function CodingContent() {
     {
       title: "London Frontend Jobs",
       description: [
-        "I decided to build this tool for my classmates and me, after finding that existing workarounds to check job boards, like RSS or keeping lots of tabs open, were insufficient. I used Framer Motion for the first time to add animations, explored Tailwind for rapid prototyping and used React Confetti to add confetti when all of the sites have been opened.",
+        "I decided to build this tool for my classmates and me, after finding that existing workarounds to check job boards, like RSS or keeping lots of tabs open, were insufficient.","I used Framer Motion to add animations", "Explored Tailwind for rapid prototyping and used React Confetti to add confetti when all of the sites have been opened.",
       ],
       link: "https://jobseeker.jackkershaw.net/",
       github_link: "https://github.com/jones58/jobseeker/",
