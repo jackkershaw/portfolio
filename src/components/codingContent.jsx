@@ -60,7 +60,8 @@ function CodingContent() {
     {
       title: "Vital Signs",
       description: [
-        "Freelance project for a group of NHS workers. I used Next.js and Headless Wordpress to build a fast, secure and easy to update site.",
+        "Freelance project for a group of NHS workers.",
+        "Used Next.js and Headless Wordpress to build a fast, secure and easy to update site.",
         "Used a Vercel Next.js and Wordpress example to bootstrap the project, and set up WordPress hosting with GraphQL as the API.",
         "Used dummy content for testing, addressing issues like image errors and font loading by referring to the Next.js docs, adjusting configuration files and using Next/font.",
         "Used Figma to create the design of the site and implemented it with Tailwind and Iconify, adding animations with Framer Motion.",
@@ -76,11 +77,13 @@ function CodingContent() {
     {
       title: "London Brutalist Map",
       description: [
-        "Created this an update to my previous Brutalist Map, originally built in HTML and vanilla JavaScript. After finding the JavaScript codebase of the original project challenging to navigate, I chose to rebuild it using React, for its component-based architecture, and Tailwind for CSS efficiency.",
-        "Transitioning from the Mapbox CDN to the react-map-gl NPM package enabled me to use the GEOJSON data locally, facilitating easier editing. It also encouraged me to create a multi-page site, enhancing the user experience by offering various ways to engage with the data.",
-        "Introduced React Router for navigation and page management, including a 404 error page to handle missing routes.",
+        "Rebuilt previous HTML and JavaScript project in React, for improved developed and user experience.",
+        "Transitioning from the Mapbox CDN to the react-map-gl NPM package enabled me to use the GEOJSON data locally, improving the editing process.",
+        "Deployed a multi-page site which enhanced the user experience by offering various ways to engage with the data.",
+        "Implemented React Router for navigation and page management, including a 404 page to handle missing routes.",
         "Learnt to use APIs with JavaScript’s fetch() and applied this knowledge to React.",
-        "Responded to user feedback by adding a custom marker to handle hover events and implemented state management to control marker interactions.",
+        "Responded to user feedback by adding a custom marker to handle hover events.",
+        "Implemented state management to control marker interactions.",
       ],
       link: "https://brutalistmap.jackkershaw.net/",
       github_link: "https://github.com/jones58/brutalist-map-2/",
@@ -105,7 +108,7 @@ function CodingContent() {
         "Built this after noticing a gap in existing typography games, which typically focus on multiple-choice questions.",
         "Used a mind map to come up with the idea for the project (Where's Wally but for Cooper Black)",
         "Categorised images into difficulty levels, and applied a bold, contrasting colour scheme.",
-        "Created SVG graphics using Photoshop and Illustrator and optimised images with an Image Optimiser app, ensuring the game was responsive and fast.",
+        "Created SVG graphics using Adobe Illustrator and optimised images with an Image Optimiser app, ensuring the game was responsive and fast.",
         "Wrote pseudocode to plan complex JavaScript functions for randomising colour schemes and managing click events.",
       ],
       link: "https://typespotting.jackkershaw.net/",
@@ -115,8 +118,8 @@ function CodingContent() {
     {
       title: "London Frontend Jobs",
       description: [
-        "Used Framer Motion to add animations",
-        "Explored Tailwind for rapid prototyping",
+        "Added animations with Framer Motion.",
+        "Explored React and Tailwind for rapid prototyping.",
         "Used an NPM package to add confetti when all of the sites have been opened.",
       ],
       link: "https://jobseeker.jackkershaw.net/",
