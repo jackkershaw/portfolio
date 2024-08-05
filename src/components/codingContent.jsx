@@ -6,7 +6,7 @@ function CodingContent() {
       title: "Starfish Energy",
       description: [
         "Won the Tech Zero x Kraken Hackathon in July 2024, with a project which sets out to encourage neighbours to share and grow their solar capacity.",
-        "We now have £20,000 and mentorship from Octopus Energy to help us develop this as an open-source project.",
+        "My team now have £20,000 and mentorship from Octopus Energy to help us develop this as an open-source project.",
         "Working on a dashboard with React and Tailwind, which integrates a Mapbox community map with the Google Solar API.",
       ],
       github_link: "https://github.com/StarFishEnergy",
