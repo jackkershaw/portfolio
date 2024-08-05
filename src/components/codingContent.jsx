@@ -100,9 +100,9 @@ function CodingContent() {
     {
       title: "London Frontend Jobs",
       description: [
-        "Added animations with Framer Motion.",
         "Explored React and Tailwind for rapid prototyping.",
         "Used an NPM package to add confetti when all of the sites have been opened.",
+        "Added animations with Framer Motion.",
       ],
       link: "https://jobseeker.jackkershaw.net/",
       github_link: "https://github.com/jones58/jobseeker/",
