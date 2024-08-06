@@ -9,6 +9,7 @@ function CodingContent() {
         "My team now have £20,000 and mentorship from Octopus Energy to help us develop this as an open-source project.",
         "Working on a dashboard with React and Tailwind, which integrates a Mapbox community map with the Google Solar API.",
       ],
+      link: "https://starfish-website.vercel.app/",
       github_link: "https://github.com/StarFishEnergy",
       image_folder: "starfish",
     },
