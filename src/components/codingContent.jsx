@@ -10,7 +10,7 @@ function CodingContent() {
         "Working on a dashboard with React and Tailwind, which integrates a Mapbox community map with the Google Solar API.",
       ],
       link: "https://starfish-website.vercel.app/",
-      github_link: "https://github.com/StarFishEnergy",
+      github_link: "https://github.com/jones58/Website",
       image_folder: "starfish",
     },
     {
