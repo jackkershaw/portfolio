@@ -31,7 +31,7 @@
     "react-dom": "^18.3.1",
     "react-use-typing-effect": "^1.0.0",
     "tailwind-classes-sorter": "^0.2.5",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
     "@tailwindcss/typography": "github:tailwindcss/typography",
