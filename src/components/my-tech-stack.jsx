@@ -91,6 +91,11 @@ function MyTechStack() {
       href: "https://en.wikipedia.org/wiki/Adobe_Bridge",
       svg: "icon-[file-icons--adobe-bridge]",
     },
+    {
+      name: "Storybook",
+      href: "https://storybook.js.org/",
+      svg: "icon-[cib--storybook]",
+    },
   ];
 
   return (
