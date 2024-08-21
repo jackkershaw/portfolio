@@ -16,7 +16,7 @@ function CodingContent() {
     {
       title: "Take Back Water",
       description: [
-        "Maintained the Take Back Water website within a team of six developers.",
+        "Maintained the Take Back Water website within a team of developers.",
         "Worked on accessibility and performance, reaching a score of 100 across all categories on Lighthouse.",
         "Developed and tested new React components with Storybook",
         "Upgraded the SEO of the site with Meta tags.",
