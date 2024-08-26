@@ -125,7 +125,7 @@ function CodingContent() {
           >
             here
           </a>{" "}
-          and see some of my favourite learning resources{" "}
+          and see my personal knowledge wiki{" "}
           <a
             href="https://github.com/jones58/Learning-Resources"
             target="_blank"
