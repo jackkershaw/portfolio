@@ -64,3 +64,23 @@
 ## Blog
 
 - Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+
+Portfolio\
+ \
+ Rejig website portfolio to use more traditional design structure, like
+material design, rejig to use existing design system\
+ \
+ Use dribble, and other inspiration site to copy a design fairly closely\
+ \
+ Colour scheme - add a secondary colour\
+ \
+ \
+ Fix layout, stuff overlapping\
+ Have to scroll down\
+ \
+ Footer shouldn\'t be sticky\
+ \
+ Pdf not right size, needs to be more on view\
+ \
+ Unprofessional, needs to be polished\
+ \
