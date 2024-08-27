@@ -127,7 +127,7 @@ function CodingContent() {
           </a>{" "}
           and see my personal knowledge wiki{" "}
           <a
-            href="https://github.com/jones58/Learning-Resources"
+            href="https://knowledgewiki.jackkershaw.net/"
             target="_blank"
             className="text-neutral-900 hover:text-ykb"
           >
