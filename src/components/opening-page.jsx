@@ -1,17 +1,20 @@
 function OpeningPage() {
   return (
     <div>
-      <div className="flex sm:flex-row justify-start flex-col py-10">
+      <div className="flex sm:flex-row justify-between flex-col py-10">
         <img
           src="/opening-page/jackkershaw.jpg"
           className="sm:w-[30vw] h-auto object-cover object-center rounded-lg"
           alt="Jack wearing a blue jumper and black headphones, peering over his laptop at the camera"
         ></img>
-        <div className="sm:px-14 flex flex-col justify-between sm:max-w-[40vw]">
+        <div className="sm:px-14 flex flex-col justify-between sm:max-w-4xl">
           <p className="text-3xl py-14 sm:py-0">
-            Hi! I'm a developer and designer from London. I have been
-            designing for over ten years, and developing websites for
-            the past two years.
+            Hi there! I'm a frontend developer based in London. With
+            over ten years of design experience and two years in
+            development, I’m passionate about creating beautiful and
+            functional products that enhance user experience. My
+            proactive and organised approach drives me to continuously
+            build new projects and learn new skills and technologies.
           </p>
           <div className="flex flex-col justify-between space-y-4">
             <a
