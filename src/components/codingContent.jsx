@@ -5,9 +5,8 @@ function CodingContent() {
     {
       title: "Starfish Energy",
       description: [
-        "Won the Tech Zero x Kraken Hackathon in July 2024, with a project which sets out to encourage neighbours to share and grow their solar capacity.",
-        "My team now have £20,000 and mentorship from Octopus Energy to help us develop this as an open-source project.",
-        "Working on a dashboard with React and Tailwind, which integrates a Mapbox community map with the Google Solar API.",
+        "Won the Tech Zero x Kraken Hackathon in July 2024 with a project that encourages neighbours to share and expand solar capacity, resulting in a £20,000 prize and mentorship from Octopus Energy.",
+        "Currently building an open-source product in FastHTML, integrating a Mapbox community map and the Google Solar API.",
       ],
       link: "https://starfish-website.vercel.app/",
       github_link: "https://github.com/jones58/Website",
@@ -66,10 +65,9 @@ function CodingContent() {
     {
       title: "London Brutalist Map",
       description: [
-        "Rebuilt my previous HTML project in React, for improved developed and user experience.",
-        "Deployed a multi-page site which offers various ways to engage with the data.",
-        "Implemented React Router for navigation and page management.",
-        "Learnt to use APIs with JavaScript’s fetch() and applied this knowledge to React.",
+        "Improved developer and user experience by rebuilding my previous HTML project in React.",
+        "Deployed a multi-page site with React Router for navigation and offers various ways to engage with the data, including custom markers for enhanced interactivity.",
+        "Used a mixture of Tailwind CSS and SASS, to create a consistent and accessible design.",
         "Responded to user feedback by adding a custom marker to handle hover events.",
       ],
       link: "https://brutalistmap.jackkershaw.net/",
@@ -80,10 +78,9 @@ function CodingContent() {
       title: "Daily Challenges",
       description: [
         "Learnt to use local storage to store visited sites for a day at a time.",
-        "Used CSS Animations.",
-        "Responded to user feedback by changing the colour scheme.",
+        "Responded to user feedback by changing the colour scheme and adding CSS animations for visual interest.",
         "Added an introduction screen to improve usability.",
-        "Used Google Lighthouse to improve the speed and accessibility of the site, achieving a score of 100 across all categories.",
+        "Used Google Lighthouse to improve the speed and accessibility of the site, achieving a score of 100 across all categories to improve user experience.",
       ],
       link: "https://dailychallenges.jackkershaw.net",
       github_link: "https://github.com/jones58/daily-challenges/",
@@ -94,7 +91,7 @@ function CodingContent() {
       description: [
         "Used a mind map of existing typography games to come up with the idea for the project (Where's Wally but for Cooper Black).",
         "Created SVG graphics using Adobe Illustrator and optimised images with an Image Optimiser app, ensuring the game was responsive and fast.",
-        "Wrote pseudocode to plan complex JavaScript functions, for randomising colour schemes and managing click events.",
+        "Planned complex JavaScript functions with pseudocode to manage game logic.",
       ],
       link: "https://typespotting.jackkershaw.net/",
       github_link: "https://github.com/jones58/typespotting/",
