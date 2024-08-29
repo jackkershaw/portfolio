@@ -53,9 +53,10 @@ function DesignContent() {
   ];
 
   return (
-    <div className="flex flex-col">
-      <p className="text-2xl">
-        My graphic design work has been featured in{" "}
+    <div className="flex flex-col ">
+      <p className="text-2xl sm:max-w-3xl">
+        I have achieved international recognition for my design work,
+        including a double-page spread in{" "}
         <a
           className="hover:text-ykb active:text-ykblight"
           href="https://www.theguardian.com/artanddesign/gallery/2022/aug/20/anonymous-street-art-with-a-political-message-in-pictures"
@@ -64,7 +65,7 @@ function DesignContent() {
         >
           The Guardian
         </a>
-        ,{" "}
+        , and articles in{" "}
         <a
           className="hover:text-ykb active:text-ykblight"
           href="https://www.vice.com/en/article/889j95/show-these-rent-strike-posters-to-your-landlord-or-hang-them-on-your-wall"
@@ -82,10 +83,11 @@ function DesignContent() {
         >
           It's Nice That
         </a>
-        . I used Adobe Photoshop, Illustrator, InDesign and Bridge to
-        create bold, colourful designs for a host of clients around the
-        world, including Oxford University, Fête de L'Humanité and
-        Autonomy.
+        . I designed posters, websites and social media branding for a
+        host of clients around the world, including Oxford University,
+        Common Knowledge and Autonomy. I lead the brand design for La
+        Fête de L’Humanité in 2022 and 2023, significantly contributing
+        to the event's success in attracting over 500,000 attendees.
       </p>
       <div className="flex flex-wrap justify-center gap-4 py-4 pb-10 sm:pb-0">
         {designs.map((design) => (
