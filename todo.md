@@ -1,9 +1,11 @@
 ## Coding
 
+- add knowledge wiki to projects, probably at bottom.
 - Edit main photo for each project
 
   - Gif navigating site or interesting photo
   - Improve alt text, add alt text field to json.
+  - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif thing
 
 - Improve project readmes
 
@@ -45,6 +47,7 @@
 
 - make like linkedin front page / about bit - write about Kraken Hackathon, design work etc.
 - should probably just have see recent work in big letters and not contact me
+- download cv button.
 
 ## Blog post
 
@@ -65,22 +68,7 @@
 
 - Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
 
-Portfolio\
- \
- Rejig website portfolio to use more traditional design structure, like
-material design, rejig to use existing design system\
- \
- Use dribble, and other inspiration site to copy a design fairly closely\
- \
- Colour scheme - add a secondary colour\
- \
- \
- Fix layout, stuff overlapping\
- Have to scroll down\
- \
- Footer shouldn\'t be sticky\
- \
- Pdf not right size, needs to be more on view\
- \
- Unprofessional, needs to be polished\
- \
+Use dribble, and other inspiration site to copy a design fairly closely
+Colour scheme - add a secondary colour
+
+fix wander page
