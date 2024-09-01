@@ -52,13 +52,13 @@
 ## Blog post
 
 - share under blog post should be left aligned
+- [shouldn't be such a mess of links, should use social icons etc. ](http://localhost:4321/blog/welcome)
 
 ## Inspiration
 
-- Use Dribble, and other inspiration sites to copy good design
+- Inspiration sites to copy good design: are.na/[text](https://www.are.na/jack-kershaw/portfolio-khzymlhkihk)
 - [good way of showing projects](https://ohamidux.com/work)
 - [tailwind components ](https://floatui.com/)
-- some portfolio examples for inspiration: https://www.are.na/jack-kershaw/portfolio-khzymlhkihk
 - [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
