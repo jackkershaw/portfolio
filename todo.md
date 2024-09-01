@@ -66,9 +66,11 @@
 
 ## Blog
 
-- Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
 
 Use dribble, and other inspiration site to copy a design fairly closely
 Colour scheme - add a secondary colour
 
 fix wander page
+
+use astro audit thing.
