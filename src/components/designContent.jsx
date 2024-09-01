@@ -54,7 +54,7 @@ function DesignContent() {
 
   return (
     <div className="flex flex-col ">
-      <p className="text-2xl sm:max-w-3xl">
+      <p className="text-2xl sm:max-w-2xl">
         I have achieved international recognition for my design work,
         including a double-page spread in{" "}
         <a

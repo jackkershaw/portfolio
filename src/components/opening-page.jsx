@@ -7,7 +7,7 @@ function OpeningPage() {
           className="sm:w-[30vw] h-auto object-cover object-center rounded-lg"
           alt="Jack wearing a blue jumper and black headphones, peering over his laptop at the camera"
         ></img>
-        <div className=" flex flex-col justify-between sm:max-w-2xl">
+        <div className=" flex flex-col justify-between sm:max-w-3xl">
           <p className="text-xl sm:text-2xl py-14 sm:py-0">
             Hi there! I'm a frontend developer based in London. With
             over ten years of design experience and two years in

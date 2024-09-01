@@ -111,26 +111,14 @@ function CodingContent() {
   ];
 
   return (
-    <div className="mb-10 flex flex-col">
-      <section>
+    <div className="mb-10 flex flex-col ">
+      <section className="sm:max-w-2xl">
         <p className="text-2xl">
-          Websites that I've developed. You can follow my progress{" "}
-          <a
-            href="https://progress.jackkershaw.net"
-            target="_blank"
-            className="text-neutral-900 hover:text-ykb"
-          >
-            here
-          </a>{" "}
-          and see my personal knowledge wiki{" "}
-          <a
-            href="https://knowledgewiki.jackkershaw.net/"
-            target="_blank"
-            className="text-neutral-900 hover:text-ykb"
-          >
-            here
-          </a>
-          .
+          Websites that I've developed. I’m passionate about creating
+          beautiful and functional products that enhance user
+          experience. My proactive and organised approach drives me to
+          continuously build new projects and learn new skills and
+          technologies.
         </p>
       </section>
       <section>
