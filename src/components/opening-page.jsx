@@ -18,6 +18,13 @@ function OpeningPage() {
           </p>
           <div className="flex flex-col justify-between space-y-4">
             <a
+              href="/Jack-Kershaw-CV.pdf"
+              target="_blank"
+              className=" bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
+            >
+              Download CV
+            </a>
+            <a
               href="/contact"
               className=" bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
             >
