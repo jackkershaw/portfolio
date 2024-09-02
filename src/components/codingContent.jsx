@@ -122,8 +122,8 @@ function CodingContent() {
     {
       title: "Knowledge Wiki",
       description: [
-        "Learnt to use Astro to build documentation that is fast and environmentally sustainable.",
-        "Used Python scripts to edit existing Markdown files and extract collections of .webloc files to new Markdown files.",
+        "Used Astro and Starlight to build a fast and sustainable documentation site.",
+        "Applied Python scripts to edit existing Markdown files and extract collections of .webloc files to new Markdown files.",
         "Prioritised an accesible format for my knowledge, which I have already shared with peers and those seeking to learn more about new technologies.",
       ],
       link: "https://knowledgewiki.jackkershaw.net/",
