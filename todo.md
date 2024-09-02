@@ -1,6 +1,5 @@
 ## Coding
 
-- add knowledge wiki to projects, probably at bottom.
 - Edit main photo for each project
 
   - Gif navigating site or interesting photo
