@@ -108,6 +108,29 @@ function CodingContent() {
       github_link: "https://github.com/jones58/jobseeker/",
       image_folder: "jobseeker",
     },
+    {
+      title: "Deployment Dashboard",
+      description: [
+        "A learning project for a new Python framework, FastHTML.",
+        "Used Tailwind via CDN to build a working prototype.",
+        "Made extensive use of the FastHTML Docs and Discord to understand features such as a built-in SQLite database.",
+      ],
+      link: "https://deployment-dashboard-eight.vercel.app/",
+      github_link: "https://github.com/jones58/deployment-dashboard",
+      image_folder: "deployment-dashboard",
+    },
+    {
+      title: "Knowledge Wiki",
+      description: [
+        "Learnt to use Astro to build documentation that is fast and environmentally sustainable.",
+        "Used Python scripts to edit existing Markdown files and extract collections of .webloc files to new Markdown files.",
+        "Prioritised an accesible format for my knowledge, which I have already shared with peers and those seeking to learn more about new technologies.",
+      ],
+      link: "https://knowledgewiki.jackkershaw.net/",
+      github_link:
+        "https://github.com/jones58/personal-knowledge-wiki",
+      image_folder: "knowledge-wiki",
+    },
   ];
 
   return (
