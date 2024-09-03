@@ -12,6 +12,7 @@ function CodingContent() {
       github_link: "https://github.com/jones58/Website",
       image_folder: "starfish",
     },
+
     {
       title: "Take Back Water",
       description: [
@@ -23,6 +24,18 @@ function CodingContent() {
       ],
       link: "https://takebackwater.uk",
       image_folder: "takebackwater",
+    },
+    {
+      title: "London Brutalist Map",
+      description: [
+        "Improved developer and user experience by rebuilding my previous HTML project in React.",
+        "Deployed a multi-page site with React Router for navigation and offers various ways to engage with the data, including custom markers for enhanced interactivity.",
+        "Used a mixture of Tailwind CSS and SASS, to create a consistent and accessible design.",
+        "Responded to user feedback by adding a custom marker to handle hover events.",
+      ],
+      link: "https://brutalistmap.jackkershaw.net/",
+      github_link: "https://github.com/jones58/brutalist-map-2/",
+      image_folder: "brutalist-map",
     },
     {
       title: "Fare Free London",
@@ -61,18 +74,6 @@ function CodingContent() {
       link: "https://www.vitalsignsmag.org/",
       github_link: "https://github.com/jones58/vital-signs/",
       image_folder: "vitalsigns",
-    },
-    {
-      title: "London Brutalist Map",
-      description: [
-        "Improved developer and user experience by rebuilding my previous HTML project in React.",
-        "Deployed a multi-page site with React Router for navigation and offers various ways to engage with the data, including custom markers for enhanced interactivity.",
-        "Used a mixture of Tailwind CSS and SASS, to create a consistent and accessible design.",
-        "Responded to user feedback by adding a custom marker to handle hover events.",
-      ],
-      link: "https://brutalistmap.jackkershaw.net/",
-      github_link: "https://github.com/jones58/brutalist-map-2/",
-      image_folder: "brutalist-map",
     },
     {
       title: "Daily Challenges",
