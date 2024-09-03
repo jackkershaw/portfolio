@@ -13,8 +13,8 @@ function OpeningPage() {
             over ten years of design experience and two years in
             development, I’m passionate about creating beautiful and
             functional products that enhance user experience. My
-            proactive and organised approach drives me to continuously
-            build new projects and learn new skills and technologies.
+            proactive and organised approach drives me to build new
+            projects and learn new skills and technologies.
           </p>
           <div className="flex flex-col justify-between space-y-4">
             <a
