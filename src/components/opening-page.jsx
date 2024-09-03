@@ -14,7 +14,7 @@ function OpeningPage() {
             development, I’m passionate about creating beautiful and
             functional products that enhance user experience. My
             proactive and organised approach drives me to build new
-            projects and learn new skills and technologies.
+            projects and learn new technologies.
           </p>
           <div className="flex flex-col justify-between space-y-4">
             <a
