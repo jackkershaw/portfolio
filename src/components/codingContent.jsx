@@ -137,12 +137,15 @@ function CodingContent() {
   return (
     <div className="mb-10 flex flex-col ">
       <section className="sm:max-w-2xl">
-        <p className="text-2xl">
-          Websites that I've developed. I’m passionate about creating
-          beautiful and functional products that enhance user
-          experience. My proactive and organised approach drives me to
-          continuously build new projects and learn new skills and
-          technologies.
+        <p className="text-xl sm:text-2xl">
+          These websites showcase my passion for creating beautiful and
+          functional digital experiences. I specialize in building
+          responsive, user-friendly sites using modern web
+          technologies. My favorite tools include Next.js and React for
+          dynamic interfaces, Astro for static site generation, and
+          Tailwind CSS for rapid styling. I'm constantly expanding my
+          skillset, exploring new frameworks and best practices to
+          deliver custom solutions.
         </p>
       </section>
       <section>
@@ -170,7 +173,7 @@ function CodingContent() {
                     {project.description.map((paragraph, index) => (
                       <li
                         key={index}
-                        className="text-neutral-900 py-1 text-xl"
+                        className="text-neutral-900 py-1 text-lg sm:text-xl"
                       >
                         {paragraph}
                       </li>
