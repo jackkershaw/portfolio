@@ -15,11 +15,7 @@ function DesignContent() {
       description:
         "Logo and brand identity for the Centre for Progressive Change.",
     },
-    {
-      id: "pelicula",
-      description:
-        "An open-source typeface inspired by Poster Collective posters at May Day Rooms.",
-    },
+
     {
       id: "peoplesvaccine",
       description:
@@ -49,6 +45,11 @@ function DesignContent() {
       id: "fairwork",
       description:
         "Billboard designs for Fairwork, a research group at the Oxford Internet Institute.",
+    },
+    {
+      id: "pelicula",
+      description:
+        "An open-source typeface inspired by Poster Collective posters at May Day Rooms.",
     },
   ];
 
@@ -93,13 +94,16 @@ function DesignContent() {
         {designs.map((design) => (
           <section
             key={design.id}
-            className="max-w-xs overflow-hidden py-5 "
+            className="max-w-xs py-5 relative group"
           >
             <img
               src={`/design-page/${design.id}/${design.id}.jpg`}
               alt={design.id}
               className="h-auto w-full"
             />
+            <p className=" absolute -bottom-10 left-0 right-0 bg-neutral-100 text-neutral-900 p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {design.description}
+            </p>
           </section>
         ))}
       </div>
