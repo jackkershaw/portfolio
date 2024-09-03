@@ -85,7 +85,7 @@ function DesignContent() {
         </a>
         . I designed posters, websites and social media branding for a
         host of clients around the world, including Oxford University,
-        Common Knowledge and Autonomy. I lead the brand design for La
+        Common Knowledge and Autonomy. I led the brand design for La
         Fête de L’Humanité in 2022 and 2023, significantly contributing
         to the event's success in attracting over 500,000 attendees.
       </p>
