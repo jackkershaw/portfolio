@@ -2,6 +2,7 @@
 
 - Change top lines of coding page to something different and more specific.
 - On the ‘design’ page, there are a few ‘lorem ipsum’ passages that look a bit odd and you could potentially replace with some of your poster designs for ADG.
+- Make transparent backgrounds for the images in photoshop.
 
 ## Coding
 
