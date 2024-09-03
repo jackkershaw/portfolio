@@ -1,9 +1,3 @@
-# todo today
-
-- Change top lines of coding page to something different and more specific.
-- On the ‘design’ page, there are a few ‘lorem ipsum’ passages that look a bit odd and you could potentially replace with some of your poster designs for ADG.
-- Make transparent backgrounds for the images in photoshop.
-
 ## Coding
 
 - Edit main photo for each project
@@ -28,8 +22,7 @@
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
   - like rey portfolio
 
-- pelicula - present like this: https://tosche.net/fonts/dossier
-- maybe share that in adg.
+- pelicula - present like this maybe: https://tosche.net/fonts/dossier
 - make the design page more material design like the coding page.
 - pelicula change background colour so stands out from rest of site
 - Safe sick pay poster first
