@@ -106,5 +106,4 @@ function DesignContent() {
     </div>
   );
 }
-
 export default DesignContent;
