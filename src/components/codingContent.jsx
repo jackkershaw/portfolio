@@ -138,14 +138,11 @@ function CodingContent() {
     <div className="mb-10 flex flex-col ">
       <section className="sm:max-w-2xl">
         <p className="text-xl sm:text-2xl">
-          These websites showcase my passion for creating beautiful and
-          functional digital experiences. I specialize in building
-          responsive, user-friendly sites using modern web
-          technologies. My favorite tools include Next.js and React for
-          dynamic interfaces, Astro for static site generation, and
-          Tailwind CSS for rapid styling. I'm constantly expanding my
-          skillset, exploring new frameworks and best practices to
-          deliver custom solutions.
+          These projects showcase my passion for creating beautiful and
+          functional digital experiences. I specialise in building
+          responsive, user-friendly sites using modern web technologies
+          such as Next.js, React, Astro and Tailwind. I'm constantly
+          expanding my skillset to deliver custom solutions.
         </p>
       </section>
       <section>
