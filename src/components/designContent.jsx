@@ -101,7 +101,8 @@ function DesignContent() {
               alt={design.id}
               className="h-auto w-full"
             />
-            <p className=" absolute -bottom-10 left-0 right-0 bg-neutral-100 text-neutral-900 p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+
+            <p className="absolute bottom-0 left-0 right-0 bg-neutral-900 text-neutral-100 p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm mb-5">
               {design.description}
             </p>
           </section>
