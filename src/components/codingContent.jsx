@@ -19,7 +19,7 @@ function CodingContent() {
         "Maintained the Take Back Water website within a team of developers.",
         "Worked on accessibility and performance, reaching a score of 100 across all categories on Lighthouse.",
         "Developed and tested new React components with Storybook and SASS.",
-        "Upgraded the SEO of the site with Meta tags.",
+        "Upgraded the SEO of the site with meta tags.",
         "Improved my Git workflow and team-working skills.",
       ],
       link: "https://takebackwater.uk",
