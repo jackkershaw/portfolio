@@ -61,6 +61,7 @@
   - neutral-300 instead of (light) gray
 
 - Added better descriptions of each of my coding projects.
+- From following Hacker News, I came across [this method](https://blog.logto.io/css-only-infinite-scroll) to add an infinite scroll. I immediately thought that something similar would look good to show the tech I used. As I wasn't using the tech stack component I did have, I redesigned it to make it look more like the rest of the coding page and then added the animations with Tailwind CSS.
 
 ## Commands
 
