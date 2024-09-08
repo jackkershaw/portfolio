@@ -1,5 +1,7 @@
 ## Coding
 
+- add all tech i use to tech stack element.
+
 - Edit main photo for each project
 
   - Gif navigating site or interesting photo
@@ -9,8 +11,6 @@
 - Improve project readmes
 
   - Include some process images ie research, early sketches, prototypes, feedback collection etc.
-
-- Improve spacing of tech stack component and add it back into the coding content page/coding astro.
 
 - Under the image for each project, could have icons for the technologies used maybe.
 
