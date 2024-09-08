@@ -97,27 +97,30 @@ function MyTechStack() {
       svg: "icon-[cib--storybook]",
     },
   ];
-
   return (
     <>
-      <h1 className="text-2xl mb-5">Technologies that Jack uses:</h1>
-      <ul className="grid h-auto grid-cols-3 justify-between sm:grid-cols-4 sm:gap-4 md:grid-cols-6 md:gap-4 lg:grid-cols-8 lg:gap-4 w-full">
-        {technologies.map((item, index) => (
-          <li>
-            <a
+      <h1 className="text-3xl">Technologies I use:</h1>
+      <div className="max-w-[100vw] overflow-hidden py-10 group">
+        <div className="flex flex-row gap-10 animate-scroll-mobile sm:animate-scroll group-hover:[animation-play-state:paused]">
+          {technologies.map((item, index) => (
+            <div
               key={index}
-              href={item.href}
-              target="_blank"
-              className="flex flex-col items-center justify-between text-center"
+              className="card border border-neutral-300 rounded-lg p-10 max-w-30"
             >
-              <span
-                className={`${item.svg} w-10 h-10 cursor-pointer text-neutral-900  hover:text-ykb active:text-ykblight`}
-              ></span>
-              <p className="text-sm mt-2 ">{item.name}</p>
-            </a>
-          </li>
-        ))}
-      </ul>
+              <a
+                href={item.href}
+                target="_blank"
+                className="flex flex-col items-center justify-between text-center no-underline"
+              >
+                <span
+                  className={`${item.svg} w-10 h-10 cursor-pointer text-neutral-900 hover:text-ykb active:text-ykblight`}
+                ></span>
+                <p className="text-sm mt-2 ">{item.name}</p>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
