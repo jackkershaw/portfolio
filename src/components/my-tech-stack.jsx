@@ -105,7 +105,7 @@ function MyTechStack() {
           {technologies.map((item, index) => (
             <div
               key={index}
-              className="card border border-neutral-300 rounded-lg p-10 max-w-30"
+              className="card border text-neutral-100 border-neutral-300 rounded-lg p-10 max-w-30 bg-ykb hover:bg-ykbdark active:bg-ykblight"
             >
               <a
                 href={item.href}
@@ -113,7 +113,7 @@ function MyTechStack() {
                 className="flex flex-col items-center justify-between text-center no-underline"
               >
                 <span
-                  className={`${item.svg} w-10 h-10 cursor-pointer text-neutral-900 hover:text-ykb active:text-ykblight`}
+                  className={`${item.svg} w-10 h-10 cursor-pointer  `}
                 ></span>
                 <p className="text-sm mt-2 ">{item.name}</p>
               </a>
