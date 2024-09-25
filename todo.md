@@ -72,3 +72,5 @@ Colour scheme - add a secondary colour
 fix wander page
 
 use astro audit thing.
+
+improve contact page
