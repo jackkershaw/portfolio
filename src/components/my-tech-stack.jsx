@@ -1,3 +1,5 @@
+import React from "react";
+
 function MyTechStack() {
   const technologies = [
     {
@@ -55,7 +57,6 @@ function MyTechStack() {
       href: "https://en.wikipedia.org/wiki/WordPress",
       svg: "icon-[simple-icons--wordpress]",
     },
-
     {
       name: "Git",
       href: "https://en.wikipedia.org/wiki/Git",
@@ -97,15 +98,16 @@ function MyTechStack() {
       svg: "icon-[cib--storybook]",
     },
   ];
+
   return (
     <div className="pt-5">
-      <h1 className="text-3xl">Technologies I use:</h1>
-      <div className="max-w-[100vw] overflow-hidden py-10 group">
-        <div className="flex flex-row gap-10 animate-scroll-mobile sm:animate-scroll group-hover:[animation-play-state:paused]">
+      <h1 className="text-3xl text-center mb-5">Technologies I use:</h1>
+      <div className="max-w-full overflow-x-auto py-10">
+        <div className="flex gap-10 sm:gap-8 md:gap-6 lg:gap-10 xl:gap-14 2xl:gap-16">
           {technologies.map((item, index) => (
             <div
               key={index}
-              className="card border text-neutral-100 border-neutral-300 rounded-lg p-10 max-w-30 bg-ykb hover:bg-ykbdark active:bg-ykblight"
+              className="card border text-neutral-100 border-neutral-300 rounded-lg p-4 sm:p-6 lg:p-8 xl:p-10 max-w-xs sm:max-w-sm lg:max-w-md bg-ykb hover:bg-ykbdark active:bg-ykblight"
             >
               <a
                 href={item.href}
@@ -113,9 +115,9 @@ function MyTechStack() {
                 className="flex flex-col items-center justify-between text-center no-underline"
               >
                 <span
-                  className={`${item.svg} w-10 h-10 cursor-pointer  `}
+                  className={`${item.svg} w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16`}
                 ></span>
-                <p className="text-sm mt-2 ">{item.name}</p>
+                <p className="text-sm mt-2">{item.name}</p>
               </a>
             </div>
           ))}
