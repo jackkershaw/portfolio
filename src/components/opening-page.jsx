@@ -1,3 +1,5 @@
+import MyTechStack from "./my-tech-stack";
+
 function OpeningPage() {
   return (
     <div>
@@ -38,6 +40,7 @@ function OpeningPage() {
             </a>
           </div>
         </div>
+        <MyTechStack/>
       </div>{" "}
     </div>
   );
