@@ -40,8 +40,8 @@ function OpeningPage() {
             </a>
           </div>
         </div>
-        <MyTechStack/>
       </div>{" "}
+       <MyTechStack/>
     </div>
   );
 }
