@@ -98,7 +98,7 @@ function MyTechStack() {
     },
   ];
   return (
-    <>
+    <div className="pt-5">
       <h1 className="text-3xl">Technologies I use:</h1>
       <div className="max-w-[100vw] overflow-hidden py-10 group">
         <div className="flex flex-row gap-10 animate-scroll-mobile sm:animate-scroll group-hover:[animation-play-state:paused]">
@@ -121,7 +121,7 @@ function MyTechStack() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
