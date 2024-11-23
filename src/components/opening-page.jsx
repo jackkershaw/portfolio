@@ -1,5 +1,3 @@
-import MyTechStack from "./my-tech-stack";
-
 function OpeningPage() {
   return (
     <div>
@@ -39,7 +37,6 @@ function OpeningPage() {
               See Recent Work
             </a>
           </div>
-          <MyTechStack />
         </div>
       </div>{" "}
     </div>
