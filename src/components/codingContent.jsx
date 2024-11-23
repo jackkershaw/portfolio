@@ -1,5 +1,3 @@
-import MyTechStack from "./my-tech-stack";
-
 function CodingContent() {
   const projects = [
     {
