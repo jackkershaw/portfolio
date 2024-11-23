@@ -2,11 +2,15 @@
 
 - add all tech i use to tech stack element.
 
+- edit description and photo for pluto/octopus.
+
 - Edit main photo for each project
 
   - Gif navigating site or interesting photo
   - Improve alt text, add alt text field to json.
   - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif thing
+
+- Maybe add tech stack to front page, will need to be rejigged somehow (like different colour/white buttons on a blue background or something)
 
 - Improve project readmes
 
