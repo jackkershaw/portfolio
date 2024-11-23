@@ -1,6 +1,6 @@
 function OpeningPage() {
   return (
-    <div>
+    <div className="py-10">
       <div className="flex sm:flex-row justify-between sm:justify-center sm:space-x-10 flex-col">
         <img
           src="/opening-page/jackkershaw.jpg"
@@ -8,7 +8,7 @@ function OpeningPage() {
           alt="Jack wearing a blue jumper and black headphones, peering over his laptop at the camera"
         ></img>
         <div className=" flex flex-col justify-between sm:max-w-3xl sm:space-y-5">
-          <p className="text-xl sm:text-2xl py-14 sm:py-0">
+          <p className="text-xl sm:text-3xl py-14 sm:py-0">
             Hi there! I'm a frontend developer based in London. With
             over ten years of design experience and two years in
             development, I’m passionate about creating beautiful and
