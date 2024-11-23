@@ -14,39 +14,11 @@ export default {
         sans: ["RealText", "sans-serif"],
         bold: ["RealText Bold", "sans-serif"],
       },
-      animation: {
-        scroll: "scroll 15s linear infinite",
-        "scroll-mobile": "scroll 5s linear infinite",
-      },
-      keyframes: {
-        scroll: {
-          "0%": { transform: "translate3d(-100%, 0, 0)" },
-          "100%": { transform: "translate3d(0, 0, 0)" },
-        },
-      },
     },
   },
-  variants: {
-    extend: {
-      animation: ["group-hover"],
-    },
-  },
+
   plugins: [
     require("@tailwindcss/typography"),
     addDynamicIconSelectors(),
-    function ({ addUtilities, theme, variants }) {
-      const newUtilities = {
-        ".animate-scroll": {
-          animation: theme("animation.scroll"),
-        },
-        "@media (max-width: 640px)": {
-          ".animate-scroll": {
-            animation: theme("animation.scroll-mobile"),
-          },
-        },
-      };
-
-      addUtilities(newUtilities, variants("animation"));
-    },
   ],
 };
