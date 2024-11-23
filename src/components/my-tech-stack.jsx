@@ -81,6 +81,11 @@ function MyTechStack() {
       svg: "icon-[simple-icons--netlify]",
     },
     {
+      name: "Vercel",
+      href: "https://www.vercel.com/",
+      svg: "icon-[simple-icons--vercel]",
+    },
+    {
       name: "Storybook",
       href: "https://storybook.js.org/",
       svg: "icon-[cib--storybook]",
