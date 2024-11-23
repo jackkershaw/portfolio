@@ -26,6 +26,11 @@ function MyTechStack() {
       svg: "icon-[akar-icons--react-fill]",
     },
     {
+      name: "Next.js",
+      href: "https://nextjs.org/",
+      svg: "icon-[akar-icons--nextjs-fill]",
+    },
+    {
       name: "Tailwind",
       href: "https://tailwindcss.com",
       svg: "icon-[mdi--tailwind]",
@@ -34,6 +39,11 @@ function MyTechStack() {
       name: "NodeJS",
       href: "https://en.wikipedia.org/wiki/Node.js",
       svg: "icon-[mdi--nodejs]",
+    },
+    {
+      name: "Python",
+      href: "https://en.wikipedia.org/wiki/Python",
+      svg: "icon-[akar-icons--python-fill]",
     },
     {
       name: "NPM",
@@ -55,7 +65,6 @@ function MyTechStack() {
       href: "https://en.wikipedia.org/wiki/WordPress",
       svg: "icon-[simple-icons--wordpress]",
     },
-
     {
       name: "Git",
       href: "https://en.wikipedia.org/wiki/Git",
@@ -70,6 +79,11 @@ function MyTechStack() {
       name: "Netlify",
       href: "https://www.netlify.com/",
       svg: "icon-[simple-icons--netlify]",
+    },
+    {
+      name: "Storybook",
+      href: "https://storybook.js.org/",
+      svg: "icon-[cib--storybook]",
     },
     {
       name: "Figma",
@@ -91,21 +105,16 @@ function MyTechStack() {
       href: "https://en.wikipedia.org/wiki/Adobe_Bridge",
       svg: "icon-[file-icons--adobe-bridge]",
     },
-    {
-      name: "Storybook",
-      href: "https://storybook.js.org/",
-      svg: "icon-[cib--storybook]",
-    },
   ];
+
   return (
-    <div className="pt-5">
-      <h1 className="text-3xl">Technologies I use:</h1>
-      <div className="max-w-[100vw] overflow-hidden py-10 group">
-        <div className="flex flex-row gap-10 animate-scroll-mobile sm:animate-scroll group-hover:[animation-play-state:paused]">
+    <div className="py-5">
+      <div className="max-w-[100vw] overflow-hidden">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
           {technologies.map((item, index) => (
             <div
               key={index}
-              className="card border text-neutral-100 border-neutral-300 rounded-lg p-10 max-w-30 bg-ykb hover:bg-ykbdark active:bg-ykblight"
+              className="card border text-neutral-100 border-neutral-300 rounded-lg p-2 sm:p-4 md:p-2 bg-ykb hover:bg-ykbdark active:bg-ykblight"
             >
               <a
                 href={item.href}
@@ -113,9 +122,9 @@ function MyTechStack() {
                 className="flex flex-col items-center justify-between text-center no-underline"
               >
                 <span
-                  className={`${item.svg} w-10 h-10 cursor-pointer  `}
+                  className={`${item.svg} w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 cursor-pointer`}
                 ></span>
-                <p className="text-sm mt-2 ">{item.name}</p>
+                <p className="text-xs sm:text-sm mt-2">{item.name}</p>
               </a>
             </div>
           ))}
