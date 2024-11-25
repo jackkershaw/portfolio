@@ -3,7 +3,7 @@ function CodingContent() {
     {
       title: "Pluto Power",
       description: [
-        "Won the Tech Zero x Kraken Hackathon in July 2024 with a project that encourages neighbours to share and expand solar capacity, resulting in a £20,000 prize and mentorship from Octopus Energy.",
+        "Won the Tech Zero x Kraken Hackathon 2024 with a project that encourages neighbours to share and expand solar capacity, resulting in a £20,000 prize and mentorship from Octopus Energy.",
         "Currently building an open-source product in Next.js, integrating an open-source map, authentication with NextAuth and AWS Cognito and the Google Solar API.",
       ],
       link: "https://plutowebsite.vercel.app/",
