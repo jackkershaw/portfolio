@@ -2,7 +2,7 @@
 
 - add all tech i use to tech stack element.
 
-- edit description and photo for pluto/octopus.
+- edit description and photo for pluto/octopus. Match description on CV.
 
 - Edit main photo for each project
 
