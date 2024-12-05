@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="relative w-full bottom-0 bg-ykb text-neutral-100 py-5 sm:py-2.5">
       <div className="mx-10 h-full">
-        <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center h-full rounded-full">
+        <div className="flex flex-row justify-center sm:justify-end items-center h-full rounded-full">
           <a
             href="https://github.com/jones58"
             target="_blank"
