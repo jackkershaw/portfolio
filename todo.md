@@ -1,12 +1,16 @@
-## Coding
+## Styling
 
-- add all tech i use to tech stack element.
+The color scheme and typography are clean but could align more cohesively with the personal branding. A defined style guide would help.
+
+- generally improve layout
+
+## Coding
 
 - edit description and photo for pluto/octopus. Match description on CV.
 
 - Edit main photo for each project
 
-  - Gif navigating site or interesting photo
+  - Gif/video navigating site or interesting photo
   - Improve alt text, add alt text field to json.
   - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif thing
 
@@ -20,6 +24,8 @@
 
 ## Design page
 
+- Make the design page more aligned with Material Design principles like the coding page
+- boxes in blue instead of black
 - blog post for each design or same thing as coding
 
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
@@ -27,8 +33,6 @@
   - like rey portfolio
 
 - pelicula - present like this maybe: https://tosche.net/fonts/dossier
-- make the design page more material design like the coding page.
-- pelicula change background colour so stands out from rest of site
 - Safe sick pay poster first
 
 ## Accessibility
@@ -53,6 +57,7 @@
 
 ## Blog post
 
+- add blog posts, maybe just condense readmes for each project like Tim did.
 - share under blog post should be left aligned
 - [shouldn't be such a mess of links, should use social icons etc. ](http://localhost:4321/blog/welcome)
 
@@ -73,7 +78,9 @@ Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
 Use dribble, and other inspiration site to copy a design fairly closely
 Colour scheme - add a secondary colour
 
-fix wander page
+fix wander page - Blogs and resource recommendations, like the "Wander" section, are thoughtful but could integrate more prominently into the site's theme. For example, labeling them as "Inspiration" or "Learnings" might give a clearer purpose​
+Jack Kershaw
+.
 
 use astro audit thing.
 
