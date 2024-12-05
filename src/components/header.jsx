@@ -8,7 +8,7 @@ function Header() {
       <header className="bg-ykb py-4 sm:py-2 text-neutral-100 relative">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="sm:hidden focus:outline-none flex flex-row items-center justify-between mx-auto text-4xl"
+          className="sm:hidden focus:outline-none flex flex-row items-center justify-between text-4xl"
         >
           <span
             className={`transition-transform duration-300 ease-in-out ${
@@ -28,7 +28,7 @@ function Header() {
             menuOpen
               ? "opacity-100 translate-y-0 "
               : "opacity-0 -translate-y-full"
-          } sm:opacity-100 sm:translate-y-0 text-neu sm:slate-600 items-center justify-between text-center text-2xl sm:mx-10 sm:space-y-0 ${
+          } sm:opacity-100 sm:translate-y-0 text-neu sm:slate-600 items-center justify-between text-center text-2xl sm:px-5 sm:space-y-0 ${
             menuOpen
               ? "flex sm:flex-row flex-col items-center"
               : "hidden sm:flex sm:flex-row justify-between items-center"
