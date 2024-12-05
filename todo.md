@@ -49,6 +49,7 @@ The color scheme and typography are clean but could align more cohesively with t
 ## Contact page
 
 - Fix so it sends an email via [webhook](https://news.ycombinator.com/item?id=41144227)
+- improve contact page
 
 ## Homepage
 
@@ -81,8 +82,3 @@ Colour scheme - add a secondary colour
 
 fix wander page - Blogs and resource recommendations, like the "Wander" section, are thoughtful but could integrate more prominently into the site's theme. For example, labeling them as "Inspiration" or "Learnings" might give a clearer purpose​
 Jack Kershaw
-.
-
-use astro audit thing.
-
-improve contact page
