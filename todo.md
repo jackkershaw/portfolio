@@ -1,6 +1,15 @@
+## Blog
+
+- add blog posts, maybe just condense readmes for each project like Tim did.
+- share under blog post should be left aligned
+- [shouldn't be such a mess of links, should use social icons etc. like on vitalsigns ](http://localhost:4321/blog/welcome)
+- Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+
 ## Styling
 
-The color scheme and typography are clean but could align more cohesively with the personal branding. A defined style guide would help.
+- Use dribble, and other inspiration site to copy a design fairly closely
+
+- A defined style guide would help. Colour scheme - add a secondary colour
 
 - generally improve layout
 
@@ -46,23 +55,6 @@ The color scheme and typography are clean but could align more cohesively with t
 - Create Open Graph meta tags for blog posts - look into best way to do this with astro. Look into how to add images to blogposts maybe.
 - Check got enough metadata in general.
 
-## Contact page
-
-- Fix so it sends an email via [webhook](https://news.ycombinator.com/item?id=41144227)
-- improve contact page
-
-## Homepage
-
-- make like linkedin front page / about bit - write about Kraken Hackathon, design work etc.
-- should probably just have see recent work in big letters and not contact me
-- download cv button.
-
-## Blog post
-
-- add blog posts, maybe just condense readmes for each project like Tim did.
-- share under blog post should be left aligned
-- [shouldn't be such a mess of links, should use social icons etc. ](http://localhost:4321/blog/welcome)
-
 ## Inspiration
 
 - Inspiration sites to copy good design: are.na/[text](https://www.are.na/jack-kershaw/portfolio-khzymlhkihk)
@@ -74,11 +66,6 @@ The color scheme and typography are clean but could align more cohesively with t
 - guestbook like on this site: https://manuelmoreale.com/guestbook
 
 ## Blog
-
-Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
-
-Use dribble, and other inspiration site to copy a design fairly closely
-Colour scheme - add a secondary colour
 
 fix wander page - Blogs and resource recommendations, like the "Wander" section, are thoughtful but could integrate more prominently into the site's theme. For example, labeling them as "Inspiration" or "Learnings" might give a clearer purpose​
 Jack Kershaw
