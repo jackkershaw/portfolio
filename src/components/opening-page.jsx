@@ -1,6 +1,7 @@
 function OpeningPage() {
   return (
     <div className="py-10">
+      <h1 className="text-6xl mb-2"></h1>
       <div className="flex sm:flex-row justify-between sm:justify-center sm:space-x-10 flex-col">
         <img
           src="/opening-page/jackkershaw.jpg"
@@ -9,12 +10,12 @@ function OpeningPage() {
         ></img>
         <div className=" flex flex-col justify-between sm:max-w-3xl sm:space-y-5">
           <p className="text-xl sm:text-3xl py-14 sm:py-0">
-            Hi there! I'm a frontend developer based in London. With
-            over ten years of design experience and two years in
-            development, I’m passionate about creating beautiful and
-            functional products that enhance user experience. My
-            proactive and organised approach drives me to build new
-            projects and learn new technologies.
+            Hi! I'm a frontend developer based in London, with over ten
+            years of design experience and two years in development.
+            I’m passionate about creating beautiful and functional
+            products that enhance user experience. My proactive and
+            organised approach drives me to build new projects and
+            learn new technologies.
           </p>
           <div className="flex flex-col justify-between space-y-4">
             <a
@@ -28,7 +29,7 @@ function OpeningPage() {
               href="/contact"
               className=" bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
             >
-              Get In Touch
+              Contact Me
             </a>
             <a
               href="/coding"
