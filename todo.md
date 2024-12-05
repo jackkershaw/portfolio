@@ -4,17 +4,18 @@ The color scheme and typography are clean but could align more cohesively with t
 
 - generally improve layout
 
-## Coding
+## Opening Page
 
-- edit description and photo for pluto/octopus. Match description on CV.
+- Add condensed tech stack to front page, like Tim Stanton has.
+
+## Coding
 
 - Edit main photo for each project
 
   - Gif/video navigating site or interesting photo
   - Improve alt text, add alt text field to json.
-  - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif thing
-
-- Maybe add tech stack to front page, will need to be rejigged somehow (like different colour/white buttons on a blue background or something)
+  - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif things
+    -edit description and photo for pluto/octopus. Match description on CV.
 
 - Improve project readmes
 
