@@ -1,17 +1,14 @@
 ## Blog
 
-- add blog posts, maybe just condense readmes for each project like Tim did.
-- share under blog post should be left aligned
-- [shouldn't be such a mess of links, should use social icons etc. like on vitalsigns ](http://localhost:4321/blog/welcome)
-- Write Blog Posts, see ideas in [drafts folder](_drafts) and todoist.
+- Add blog posts:
+  - Condense readmes for each project, then can be link to blogpost to read more, as well as github.
+  - See ideas in [drafts folder](_drafts) and Todoist.
 
 ## Styling
 
 - Use dribble, and other inspiration site to copy a design fairly closely
 
 - A defined style guide would help. Colour scheme - add a secondary colour
-
-- generally improve layout
 
 ## Opening Page
 
