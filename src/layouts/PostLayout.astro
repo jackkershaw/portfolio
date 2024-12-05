@@ -13,73 +13,76 @@ const formatDate = (date: string) => {
 ---
 
 <Layout>
-  <div
-    class="py-10 flex flex-col justify-start items-center min-h-[80vh]"
+  <article
+    class="flex flex-col justify-center items-center min-h-[80vh]"
   >
-    <div class="pb-10 max-w-prose">
-      <h1 class="text-4xl text-center">
-        {frontmatter.title}
-      </h1>
-      <p class="text-2xl text-center pt-2">
-        {formatDate(frontmatter.pubDate.slice(0, 10))}
-      </p>
-    </div>
-    <div class="prose text-xl text-neutral-900">
-      <slot />
-    </div>
-    <div
-      class="py-10 flex flex-row space-y-2 sm:space-y-0 space-x-5 text-left text-2xl flex-wrap justify-center"
-    >
-      <h1
-        class="text-2xl basis-full text-center lg:text-left lg:basis-auto"
+    <section class="max-w-prose">
+      <div class="pb-8">
+        <h2 class="text-4xl font-bold">{frontmatter.title}</h2>
+        <time class="text-2xl text-gray-600">
+          {formatDate(frontmatter.pubDate.slice(0, 10))}
+        </time>
+      </div>
+      <div class="prose text-xl text-neutral-900">
+        <slot />
+      </div>
+      <div
+        class="pt-10 flex flex-col sm:flex-row justify-between items-center"
       >
-        Share:
-      </h1>
-      <a
-        href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </a>
-      <a
-        href={`https://wa.me/?text=${encodeURIComponent(
-          `${frontmatter.title}: https://www.jackkershaw.net/blog/${frontmatter.slug}`
-        )}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Whatsapp
-      </a>
-
-      <a
-        href={`https://www.facebook.com/sharer/sharer.php?u=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Facebook
-      </a>
-      <a
-        href={`https://www.linkedin.com/shareArticle?mini=true&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
-
-      <a
-        href={`mailto:?subject=${encodeURIComponent(
-          frontmatter.title
-        )}&body=Check out this article: ${encodeURIComponent(
-          "https://www.jackkershaw.net/blog/" + frontmatter.slug
-        )}`}
-      >
-        Email
-      </a>
-    </div>
-
-    <a href="/blog" class="text-3xl hover:text-ykb block">
-      Back to all blog posts
-    </a>
-  </div>
+        <div
+          class="flex flex-wrap justify-start items-center gap-5 text-2xl"
+          aria-label="Share this article"
+        >
+          <h2 class="sr-only">Share this article</h2>
+          <span class="text-2xl">Share:</span>
+          <a
+            href={`https://wa.me/?text=${encodeURIComponent(
+              `${frontmatter.title}: https://www.jackkershaw.net/blog/${frontmatter.slug}`
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share on WhatsApp"
+            class="hover:text-ykbdark active:text-ykblight flex items-center flex-col justify-center"
+          >
+            <span class="icon-[mdi--whatsapp]"></span>
+          </a>
+          <a
+            href={`https://www.facebook.com/sharer/sharer.php?u=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share on Facebook"
+            class="hover:text-ykbdark active:text-ykblight flex items-center flex-col justify-center"
+          >
+            <span class="icon-[mdi--facebook]"></span>
+          </a>
+          <a
+            href={`https://www.linkedin.com/shareArticle?mini=true&url=https://www.jackkershaw.net/blog/${frontmatter.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share on LinkedIn"
+            class="hover:text-ykbdark active:text-ykblight flex items-center flex-col justify-center"
+          >
+            <span class="icon-[mdi--linkedin]"></span>
+          </a>
+          <a
+            href={`mailto:?subject=${encodeURIComponent(
+              frontmatter.title
+            )}&body=Check out this article: ${encodeURIComponent(
+              "https://www.jackkershaw.net/blog/" + frontmatter.slug
+            )}`}
+            aria-label="Share via Email"
+            class="hover:text-ykbdark active:text-ykblight flex items-center flex-col justify-center"
+          >
+            <span class="icon-[mdi--email]"></span>
+          </a>
+        </div>
+        <a
+          href="/blog"
+          class="text-2xl hover:text-ykbdark active:text-ykblight flex items-center flex-col justify-center no-underline"
+        >
+          Back to all blog posts
+        </a>
+      </div>
+    </section>
+  </article>
 </Layout>
