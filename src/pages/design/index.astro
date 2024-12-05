@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
 const designs = [
   {
     id: "fete2022",
@@ -97,12 +98,15 @@ const designs = [
         class="flex flex-wrap justify-center gap-4 py-4 pb-10 sm:pb-0"
       >
         {
-          designs.map((design) => (
+          designs.map((design, index) => (
             <section class="max-w-xs py-5 relative group">
-              <img
+              <Image
                 src={`/design-page/${design.id}/${design.id}.jpg`}
                 alt={design.id}
                 class="h-auto w-full"
+                height="800"
+                width="600"
+                loading={index <= 3 ? "eager" : "lazy"}
               />
 
               <p class="absolute bottom-0 left-0 right-0 bg-neutral-900 text-neutral-100 p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm mb-5">
