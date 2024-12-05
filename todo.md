@@ -25,6 +25,7 @@ The color scheme and typography are clean but could align more cohesively with t
 
 ## Design page
 
+- optimise for mobile like coding page - smaller text on mobile etc.
 - Make the design page more aligned with Material Design principles like the coding page
 - boxes in blue instead of black
 - blog post for each design or same thing as coding
@@ -38,7 +39,6 @@ The color scheme and typography are clean but could align more cohesively with t
 
 ## Accessibility
 
-- use astro audit thing in dev environment, make edits it suggests particularly for accessibility.
 - use unlighthouse and make suggested edits.
 
 ## Metadata
