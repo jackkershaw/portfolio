@@ -19,20 +19,20 @@ const formatDate = (date: string) => {
 ---
 
 <Layout>
-  <div class="flex flex-col min-h-screen">
-    <div class="flex flex-row justify-between">
-      <p class="text-2xl">
+  <div>
+    <section class="max-w-2xl">
+      <p class="text-xl sm:text-2xl">
         A blog about the web, design and typography.
       </p>
-    </div>
-    <div class="mt-10">
+    </section>
+    <div class="mt-5">
       {
         allPostsSorted.map((post) => (
           <a
             href={post.url}
-            class="hover:text-ykb active:text-neutral-100 no-underline"
+            class="hover:text-neutral-100 active:text-neutral-100 no-underline"
           >
-            <div class="border-2 border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-10 sm:items-center rounded-lg">
+            <div class="border-2 hover:bg-ykbdark border-neutral-300 flex flex-col sm:flex-row justify-between p-5 mb-2 sm:items-center rounded-lg">
               <h1 class="text-xl">{post.frontmatter.title}</h1>
               <p>
                 {" "}
@@ -48,23 +48,24 @@ const formatDate = (date: string) => {
     >
       <a
         href="https://buttondown.email/jackkershaw"
-        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
-        >Subscribe via Email
+        class="bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
+      >
+        Subscribe via Email
       </a>
       <a
         href="/rss.xml"
-        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
+        class="bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
       >
         Subscribe via RSS
       </a>
       <a
         href="/wander"
-        class="active:text-neutral-100 hover:text-ykb"
         target="_blank"
+        class="bg-ykb hover:bg-ykbdark active:bg-ykblight text-neutral-100 rounded-lg py-5 px-4 no-underline text-center"
       >
-        Read more on my Wander page
+        Read More Blogs
       </a>
     </div>
   </div>
