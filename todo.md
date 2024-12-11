@@ -51,8 +51,3 @@
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
 - guestbook like on this site: https://manuelmoreale.com/guestbook
-
-## Blog
-
-fix wander page - Blogs and resource recommendations, like the "Wander" section, are thoughtful but could integrate more prominently into the site's theme. For example, labeling them as "Inspiration" or "Learnings" might give a clearer purpose​
-Jack Kershaw
