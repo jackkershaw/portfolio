@@ -18,13 +18,22 @@ import "../styles.css";
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="A personal portfolio website for Jack Kershaw, a developer and designer."
+      content="A personal portfolio website for Jack Kershaw. He is a developer and designer based in London, with over ten
+            years of design experience and two years in development.
+            He is passionate about creating beautiful and functional
+            products that enhance user experience. His proactive and
+            organised approach drives him to build new projects and
+            learn new technologies."
     />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="favicon" href="/favicon.ico" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="canonical"
+      href={new URL(Astro.url.pathname, Astro.site).href}
+    />
     <meta name="generator" content={Astro.generator} />
-    <title>Jack Kershaw</title>
+    <title>Jack Kershaw | Portfolio</title>
   </head>
   <body class="bg-neutral-100">
     <Header client:load />
@@ -36,3 +45,19 @@ import "../styles.css";
     <Footer client:load />
   </body>
 </html>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jack Kershaw",
+    "url": "https://jackkershaw.net",
+    "jobTitle": "Developer",
+    "sameAs": [
+      "https://github.com/jones58",
+      "https://www.linkedin.com/in/jack-kershaw"
+    ],
+    "knowsAbout": ["Web Development", "Design", "Typography"],
+    "description": "A developer and designer based in London, with over ten years of design experience and two years in development."
+  }
+</script>
