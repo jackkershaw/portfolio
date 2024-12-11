@@ -2,7 +2,7 @@
 
 - Add blog posts:
 
-  - Condense readmes for each project, then can be link to blogpost to read more, as well as github.
+  - Condense readmes for each (portfolio) project and link in.
   - See ideas in [drafts folder](_drafts) and Todoist.
 
 -Look into how to add images to blogposts maybe.
