@@ -13,6 +13,12 @@ const formatDate = (date: string) => {
 ---
 
 <Layout>
+  <meta
+    property="article:published_time"
+    content={frontmatter.pubDate}
+  />
+  <meta property="article:author" content="Jack Kershaw" />
+  <meta property="article:tag" content={frontmatter.tags.join(", ")} />
   <article
     class="flex flex-col justify-center items-center min-h-[80vh]"
   >

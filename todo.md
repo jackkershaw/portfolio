@@ -1,8 +1,11 @@
 ## Blog
 
 - Add blog posts:
+
   - Condense readmes for each project, then can be link to blogpost to read more, as well as github.
   - See ideas in [drafts folder](_drafts) and Todoist.
+
+-Look into how to add images to blogposts maybe.
 
 ## Styling
 
@@ -37,11 +40,6 @@
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
 
-## Metadata
-
-- Create Open Graph meta tags for blog posts - look into best way to do this with astro. Look into how to add images to blogposts maybe.
-- Check got enough metadata in general.
-
 ## Inspiration
 
 - Inspiration sites to copy good design: are.na/[text](https://www.are.na/jack-kershaw/portfolio-khzymlhkihk)
@@ -50,4 +48,4 @@
 - [text](https://graphicdesignjunction.com/2024/06/how-to-modernize-your-website/?utm_source=vero&utm_medium=email&utm_content=control&utm_campaign=20240605%20Insider%20%28Sponsored%20by%20DMI%29&utm_term=Newsletter#N6)
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
-- guestbook like on this site: https://manuelmoreale.com/guestbook
+- Guestbook like on this site: https://manuelmoreale.com/guestbook
