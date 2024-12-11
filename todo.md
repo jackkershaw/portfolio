@@ -1,6 +1,9 @@
+## Homepage
+
+- maybe put coding projects on main home page
+
 ## Coding
 
-- think about putting on main home page
 - Edit main photo for each project
 
   - Gif/video navigating site or interesting photo
@@ -16,8 +19,7 @@
 
 ## Design page
 
-- Make the design page more aligned with Material Design principles like the coding page
-- blog post for each design maybe to see more:
+- Maybe have a blog post for each design project to see more:
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
 
