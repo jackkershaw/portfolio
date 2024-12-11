@@ -3,66 +3,64 @@ import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout>
-  <main>
-    <div class="flex flex-col items-center
+  <section class="flex flex-col items-center
 min-h-screen sm:max-w-2xl">
-      <p class="text-2xl text-neutral-900 mb-8">
-        Want to work on something together? Get in touch below or email
-        me directly at{" "}
-        <a
-          href="mailto:jackkershaw@protonmail.com"
-          target="_blank"
-          rel="noopener
+    <p class="text-xl sm:text-2xl text-neutral-900 mb-8">
+      Want to work on something together? Get in touch below or email
+      me directly at{" "}
+      <a
+        href="mailto:jackkershaw@protonmail.com"
+        target="_blank"
+        rel="noopener
 noreferrer"
-        >
-          jackkershaw@protonmail.com
-        </a>
-      </p>
-      <form
-        action="https://formspree.io/f/xpwanebv"
-        method="POST"
-        class="flex flex-col space-y-4 w-full
-rounded-lg"
       >
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Your name"
-          required
-          class="p-4 bg-neutral-100 border
+        jackkershaw@protonmail.com
+      </a>
+    </p>
+    <form
+      action="https://formspree.io/f/xpwanebv"
+      method="POST"
+      class="flex flex-col space-y-4 w-full
+rounded-lg"
+    >
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your name"
+        required
+        class="p-4 bg-neutral-100 border
 border-neutral-300 rounded-lg focus:outline-none focus:ring-2
 focus:ring-ykb"
-        />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Your email"
-          required
-          class="p-4 bg-neutral-100 border
+      />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email"
+        required
+        class="p-4 bg-neutral-100 border
 border-neutral-300 rounded-lg focus:outline-none focus:ring-2
 focus:ring-ykb"
-        />
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Your message"
-          required
-          rows="4"
-          class="p-4 bg-neutral-100
+      />
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your message"
+        required
+        rows="4"
+        class="p-4 bg-neutral-100
 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2
 focus:ring-ykb"
-        ></textarea>
-        <button
-          type="submit"
-          class="p-4
-bg-ykb text-neutral-300 rounded-lg hover:bg-ykbdark active:bg-ykblight focus:outline-none
+      ></textarea>
+      <button
+        type="submit"
+        class="p-4
+bg-ykb text-neutral-100 rounded-lg hover:bg-ykbdark active:bg-ykblight focus:outline-none
 focus:ring-2 focus:ring-ykb"
-        >
-          Submit
-        </button>
-      </form>
-    </div>
-  </main>
+      >
+        Submit
+      </button>
+    </form>
+  </section>
 </Layout>
