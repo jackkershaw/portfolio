@@ -7,7 +7,9 @@ tags: ["Projects"]
 slug: "daily-challenges"
 ---
 
-I wanted to build a website to link to all the daily challenges (like Wordle etc.). After making the initial design I decided to make some changes to the site:
+I wanted to build a website to link to all the daily challenges (like Wordle etc.). After making the initial design using local storage tracking visited sites, I decided to make some more changes to the site.
+
+## Changes Made
 
 - Changed the colour scheme to Wordle's based on user feedback.
 - Ran Google Lighthouse on the site to check accessibility. Mostly positive, but it instructed me to:
