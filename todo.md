@@ -1,5 +1,6 @@
 ## Coding
 
+- think about putting on main home page
 - Edit main photo for each project
 
   - Gif/video navigating site or interesting photo
@@ -7,11 +8,11 @@
   - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif things
     -edit description and photo for pluto/octopus. Match description on CV.
 
-- Improve project readmes
+- Improve project readmesn (and blogposts accordingly)
 
   - Include some process images ie research, early sketches, prototypes, feedback collection etc.
 
-- Under the image for each project, could have icons for the technologies used maybe.
+- Under the image for each project, have icons for the technologies used.
 
 ## Design page
 
@@ -22,8 +23,15 @@
 
 ## Blog
 
-- Add blog posts - see ideas in [drafts folder](_drafts) and Todoist.
-- Look into how to add images to blogposts maybe.
+- Add blog posts
+  - See ideas in [drafts folder](_drafts) and Todoist.
+  - Add post for Take back water and Pluto.
+- Add images to existing blog posts.
+
+## Styling
+
+- Use dribble, and other inspiration site to copy a design fairly closely
+- A defined style guide would help. Colour scheme - add a secondary colour
 
 ## Inspiration
 
@@ -34,9 +42,3 @@
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
 - Guestbook like on this site: https://manuelmoreale.com/guestbook
-
-## Styling
-
-- Use dribble, and other inspiration site to copy a design fairly closely
-
-- A defined style guide would help. Colour scheme - add a secondary colour
