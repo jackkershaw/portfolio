@@ -31,7 +31,6 @@
 
 ## Design page
 
-- optimise for mobile like coding page - smaller text on mobile etc.
 - Make the design page more aligned with Material Design principles like the coding page
 - boxes in blue instead of black
 - blog post for each design or same thing as coding
