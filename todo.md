@@ -32,15 +32,10 @@
 ## Design page
 
 - Make the design page more aligned with Material Design principles like the coding page
-- boxes in blue instead of black
 - blog post for each design or same thing as coding
 
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
-  - like rey portfolio
-
-- pelicula - present like this maybe: https://tosche.net/fonts/dossier
-- Safe sick pay poster first
 
 ## Accessibility
 
