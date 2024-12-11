@@ -11,7 +11,7 @@
   - Carousel within each image, like the three dot thing and swipe between them - probably this rather than the gif things
     -edit description and photo for pluto/octopus. Match description on CV.
 
-- Improve project readmesn (and blogposts accordingly)
+- Improve project readmes (and blogposts accordingly)
 
   - Include some process images ie research, early sketches, prototypes, feedback collection etc.
 
