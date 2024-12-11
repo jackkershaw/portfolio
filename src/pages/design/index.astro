@@ -59,7 +59,7 @@ const designs = [
 <Layout>
   <main>
     <div class="flex flex-col">
-      <section class="sm:max-w-2xl">
+      <section class="sm:max-w-2xl mb-5 sm:mb-10">
         <p class="text-xl sm:text-2xl">
           I have achieved international recognition for my design work,
           including a double-page spread in{" "}
@@ -89,21 +89,20 @@ const designs = [
         </p>
       </section>
       <div
-        class="flex flex-wrap justify-center gap-4 py-4 pb-10 sm:pb-0"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         {
           designs.map((design, index) => (
-            <section class="max-w-xs py-5 relative group">
+            <section class="border border-neutral-300 rounded-lg p-4 relative group">
               <Image
                 src={`/design-page/${design.id}/${design.id}.jpg`}
                 alt={design.id}
-                class="h-auto w-full"
+                class="w-full h-auto rounded-lg"
                 height="800"
                 width="600"
                 loading={index <= 3 ? "eager" : "lazy"}
               />
-
-              <p class="sm:absolute bottom-0 left-0 right-0 bg-ykbdark text-neutral-100 p-4 sm:opacity-0 sm:group-hover:opacity-100 sm:transition-opacity sm:duration-300 text-sm mb-5">
+              <p class="mt-4 text-neutral-900 text-lg">
                 {design.description}
               </p>
             </section>
