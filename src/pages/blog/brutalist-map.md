@@ -7,9 +7,11 @@ tags: ["Projects"]
 slug: "brutalist-map"
 ---
 
-### Why Did I Build This?
+## Why Did I Build This Map?
 
-After the success of the HTML version of this site, I decided to rebuild it in a modern framework. The previous implementation heavily relied on JavaScript, making the codebase challenging to navigate. Switching to React offered a cleaner, component-based architecture to simplify development and maintenance.
+I initially built this map of London's Brutalist architecture to share with friends and family.
+
+After the success of the HTML version of this site on Reddit and elsewhere, I decided to rebuild it in a modern framework. The previous implementation heavily relied on JavaScript, making the codebase challenging to navigate. Switching to React offered a cleaner, component-based architecture to simplify development and maintenance.
 
 Here are the primary motivations behind the rebuild:
 
@@ -22,26 +24,26 @@ Here are the primary motivations behind the rebuild:
 3. **Expanding Functionality**
    Hosting the data locally opened the door to creating a multi-page site. This allowed me to present the data in various formats, giving users more ways to engage with the content.
 
-### How I Built It
+## How I Built It
 
-#### Setting Up the Project
+## Setting Up the Project
 
 - I initialized the app using **Vite** for its fast build times and modern tooling.
 - I styled the pages using **Tailwind CSS**, taking inspiration from my previous Brutalist Map project for the overall aesthetic.
 
-#### Learning APIs
+## Learning APIs
 
 I taught myself how to work with APIs in JavaScript using `fetch()` and then applied this knowledge to React.
 
 - Initially, I focused on fetching data from the Mapbox URL.
 - I spent extra time integrating local GeoJSON data for easier edits and references.
 
-#### Integrating the Map
+## Integrating the Map
 
 - I used [React-map-gl](https://github.com/visgl/react-map-gl) as an API wrapper for [Mapbox-gl](https://github.com/mapbox/mapbox-gl-js), with map styles sourced from [Mapbox Studio](https://www.mapbox.com/studio/).
 - I added map markers using a `map()` function and implemented controls using the [React-map-gl examples](https://github.com/visgl/react-map-gl/blob/7.1-release/examples/controls/src/app.tsx) as a guide.
 
-#### Enhancing Map Interactivity
+## Enhancing Map Interactivity
 
 - **Hover Effects**
   - Initially, I used React-map-gl’s documentation to add hover events, but it didn’t work as expected.
@@ -49,7 +51,7 @@ I taught myself how to work with APIs in JavaScript using `fetch()` and then app
 - **Click Events**
   - Similar to hover, I added click events to markers. I reused HTML and CSS from the site’s index page for the pop-up display.
 
-#### Improving the User Experience
+## Improving the User Experience
 
 - **Highlighting Visited Locations**
   - I updated the map to display visited buildings in green for better visual tracking.
@@ -60,7 +62,7 @@ I taught myself how to work with APIs in JavaScript using `fetch()` and then app
 - **Landing Page**
   - A custom landing page with SASS styling was added to enhance usability. Using local storage, this page only displays on the user’s first visit.
 
-#### Refining the Codebase
+## Refining the Codebase
 
 - **Component Abstraction**
   - I moved `mapControl` and `customMarker` into separate files to improve modularity.
@@ -69,19 +71,19 @@ I taught myself how to work with APIs in JavaScript using `fetch()` and then app
   - A typography SCSS file was introduced to manage global styles.
   - Color variables were added to SASS for better maintainability.
 
-#### Moving to MapLibre
+## Moving to MapLibre
 
 To make the project more open-source friendly, I transitioned from Mapbox to **MapLibre**.
 
 - I followed guides from [OpenFreeMap](https://openfreemap.org/) to set up the new mapping stack.
 - I generated map styles using **Maputnik** and font tiles using [MapLibre Font Maker](https://github.com/maplibre/font-maker).
 
-### Deployment
+## Deployment
 
-- The app was deployed to **Netlify**, ensuring quick and reliable hosting.
-- React Router was used for seamless navigation between pages, a custom 404 page, and improved page load speeds via `Link` elements.
+- The app is deployed to **Netlify**, ensuring quick and reliable hosting.
+- React Router is used for seamless navigation between pages, a custom 404 page, and improved page load speeds via `Link` elements.
 
-### Conclusion
+## Conclusion
 
 This project taught me a great deal about working with APIs, React, and web performance optimisation. The journey was difficult, but each one contributed to a more polished, user-friendly, and maintainable final product.
 
