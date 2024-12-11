@@ -1,22 +1,3 @@
-## Blog
-
-- Add blog posts:
-
-  - Condense readmes for each (portfolio) project and link in.
-  - See ideas in [drafts folder](_drafts) and Todoist.
-
--Look into how to add images to blogposts maybe.
-
-## Styling
-
-- Use dribble, and other inspiration site to copy a design fairly closely
-
-- A defined style guide would help. Colour scheme - add a secondary colour
-
-## Opening Page
-
-- Add condensed tech stack to front page, like Tim Stanton has.
-
 ## Coding
 
 - Edit main photo for each project
@@ -39,6 +20,11 @@
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
 
+## Blog
+
+- Add blog posts - see ideas in [drafts folder](_drafts) and Todoist.
+- Look into how to add images to blogposts maybe.
+
 ## Inspiration
 
 - Inspiration sites to copy good design: are.na/[text](https://www.are.na/jack-kershaw/portfolio-khzymlhkihk)
@@ -48,3 +34,9 @@
 - [good design portfolio](https://phantom.land/work/superdry)
 - Good post on improving personal portfolio - do same when do yours [Video][ Francesco Longo on LinkedIn: Exciting Updates: Revamping My Portfolio from Scratch! 🚀 As a developer,…]
 - Guestbook like on this site: https://manuelmoreale.com/guestbook
+
+## Styling
+
+- Use dribble, and other inspiration site to copy a design fairly closely
+
+- A defined style guide would help. Colour scheme - add a secondary colour
