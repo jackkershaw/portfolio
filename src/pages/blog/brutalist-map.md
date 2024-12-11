@@ -4,7 +4,7 @@ title: "Project Overview: London Brutalist Map"
 pubDate: 2024-10-22
 description: "Description of how i built the London Brutalist Map"
 tags: ["Projects"]
-slug: "londonbrutalistmap"
+slug: "brutalist-map"
 ---
 
 ### Why Did I Build This?
