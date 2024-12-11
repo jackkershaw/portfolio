@@ -37,10 +37,6 @@
   - include some process images ie research, early sketches, prototypes , feedback collection etc.
   - Use as inspo to improve how design page looks: [Pentagram](https://www.pentagram.com/) and [MOMA](https://www.moma.org/calendar/exhibitions/5657s)
 
-## Accessibility
-
-- use unlighthouse and make suggested edits.
-
 ## Metadata
 
 - Create Open Graph meta tags for blog posts - look into best way to do this with astro. Look into how to add images to blogposts maybe.
