@@ -34,6 +34,21 @@ import "../styles.css";
     />
     <meta name="generator" content={Astro.generator} />
     <title>Jack Kershaw | Portfolio</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jack Kershaw",
+        "url": "https://jackkershaw.net",
+        "jobTitle": "Developer",
+        "sameAs": [
+          "https://github.com/jones58",
+          "https://www.linkedin.com/in/jack-kershaw"
+        ],
+        "knowsAbout": ["Web Development", "Design", "Typography"],
+        "description": "A developer and designer based in London, with over ten years of design experience and two years in development."
+      }
+    </script>
   </head>
   <body class="bg-neutral-100">
     <Header client:load />
@@ -45,19 +60,3 @@ import "../styles.css";
     <Footer client:load />
   </body>
 </html>
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jack Kershaw",
-    "url": "https://jackkershaw.net",
-    "jobTitle": "Developer",
-    "sameAs": [
-      "https://github.com/jones58",
-      "https://www.linkedin.com/in/jack-kershaw"
-    ],
-    "knowsAbout": ["Web Development", "Design", "Typography"],
-    "description": "A developer and designer based in London, with over ten years of design experience and two years in development."
-  }
-</script>
