@@ -35,7 +35,8 @@ const projects = [
       "Responded to user feedback by adding a custom marker to handle hover events.",
     ],
     link: "https://brutalistmap.jackkershaw.net/",
-    github_link: "https://github.com/jones58/brutalist-map-2/",
+    github_link: "https://github.com/jones58/londonbrutalistmap",
+    blog_post: "https://www.jackkershaw.net/blog/brutalist-map/",
     image_folder: "brutalist-map",
   },
   {
@@ -177,14 +178,23 @@ const projects = [
                       ))}
                     </ul>
                   </div>
-                  <div class="flex-col flex justify-between space-y-4">
+                  <div class="flex  flex-col sm:flex-row justify-start sm:items-center gap-4">
+                    {project.blog_post && (
+                      <a
+                        href={project.blog_post}
+                        target="_blank"
+                        class=" bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
+                      >
+                        View Blog Post
+                      </a>
+                    )}
                     {project.github_link && (
                       <a
                         href={project.github_link}
                         target="_blank"
                         class=" bg-ykb text-neutral-100 rounded-lg py-2 px-4 text-center hover:bg-ykbdark"
                       >
-                        Read More on Github
+                        View Github
                       </a>
                     )}
                     {project.link && (
