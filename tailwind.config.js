@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        ykb: "#002FA7",
+        ykb: "#002588",
         ykbdark: "#001F6F",
         ykblight: "#003AD0",
         orangepeel: "#FFA630",
