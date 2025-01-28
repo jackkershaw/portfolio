@@ -158,7 +158,7 @@ function Blogroll() {
                   <a
                     target="_blank"
                     href={blog.link}
-                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
+                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded-sm"
                   >
                     Read
                   </a>
@@ -167,7 +167,7 @@ function Blogroll() {
                   <a
                     target="_blank"
                     href={blog.RSS_link}
-                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100  py-2 px-2 rounded"
+                    className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100  py-2 px-2 rounded-sm"
                   >
                     RSS
                   </a>

@@ -47,7 +47,7 @@ function Podroll() {
                     <a
                       target="_blank"
                       href={podcast.link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
+                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded-sm"
                     >
                       Listen
                     </a>
@@ -56,7 +56,7 @@ function Podroll() {
                     <a
                       target="_blank"
                       href={podcast.RSS_link}
-                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded"
+                      className="inline-block bg-ykb hover:bg-ykbdark text-neutral-100 py-2 px-2 rounded-sm"
                     >
                       RSS
                     </a>

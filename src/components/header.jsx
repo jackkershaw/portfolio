@@ -8,7 +8,7 @@ function Header() {
       <header className="bg-ykb py-4 sm:py-2 text-neutral-100 relative">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="sm:hidden focus:outline-none flex flex-row items-center justify-between text-4xl"
+          className="sm:hidden focus:outline-hidden flex flex-row items-center justify-between text-4xl"
         >
           <span
             className={`transition-transform duration-300 ease-in-out ${
