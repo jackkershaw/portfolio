@@ -35,7 +35,7 @@ function Header() {
           }`}
         >
           <a
-            className="hidden text-4xl sm:block sm:p-5 rounded-lg w-30"
+            className="hidden text-4xl sm:block sm:p-5 rounded-lg"
             href="/"
           >
             Jack Kershaw
