@@ -42,7 +42,8 @@ a {
   text-decoration: underline;
   @apply underline-offset-4;
 }
-a .no-underline {
+
+.no-underline {
   text-decoration: none;
 }
 
