@@ -4,13 +4,13 @@
 
 - I originally built this site in vanilla HTML, CSS and JS. As the project expanded it became harder to edit, so I decided to use React and Vite with Tailwind CSS. Later I migrated it to Astro in order to add some new features(see below).
 - Generated shades for the colour scheme based on my favourite blue, Yves Klein Blue(#002FA7), plain black and white and orangepeel (#FFA630).
-- Redesigned [my old portfolio](https://github.com/jones58/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
+- Redesigned [my old portfolio](https://github.com/jackkershaw/portfolio) in Figma. Using the "html.to.design" plugin proved to be very helpful. Whilst this was probably a bit overkill for this project, this could be a good workflow for other projects.
 - Thought about the components that make up my website - this was useful for helping the move to React.
 
 ## Building and Debugging
 
 - Bootstrapped with React + Vite
-- Imported the Html from [my old portfolio](https://github.com/jones58/portfolio), this involved splitting the code into JSX files for React. This was one of the main reasons for switching to React - being able to have easily editable components like the footer and header, rather than repeating them on every page.
+- Imported the Html from [my old portfolio](https://github.com/jackkershaw/portfolio), this involved splitting the code into JSX files for React. This was one of the main reasons for switching to React - being able to have easily editable components like the footer and header, rather than repeating them on every page.
 - Changed the colour scheme to reflect my favourite blue (#002FA7), calling it ykb within tailwind.config.js.
 - While building the coding section, I realised that I could use a map function to generate elements and avoid having to write everything out by hand. This will allow me to easily add any future projects.
 - I originally started with screenshots of both mobile and desktop, but this felt a bit plain so i decided to make a phone mockup using photoshop and [Facebook design resources](https://design.facebook.com/toolsandresources/devices/).

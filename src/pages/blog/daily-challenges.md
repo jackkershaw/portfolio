@@ -29,4 +29,4 @@ I wanted to build a website to link to all the daily challenges (like Wordle etc
 
 ## Conclusion
 
-You can find a live copy of the site at [dailychallenges.jackkershaw.net](https://dailychallenges.jackkershaw.net) and read more on the Github repository [here](https://github.com/jones58/daily-challenges).
+You can find a live copy of the site at [dailychallenges.jackkershaw.net](https://dailychallenges.jackkershaw.net) and read more on the Github repository [here](https://github.com/jackkershaw/daily-challenges).

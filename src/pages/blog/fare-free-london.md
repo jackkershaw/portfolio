@@ -71,4 +71,4 @@ Addressed slow loading times by:
 
 ## Conclusion
 
-The result is a fast, responsive, and user-friendly website that communicates the goals of the Fare-Free London Campaign while allowing seamless content updates through WordPress. Check out the live site at [farefreelondon.org](https://farefreelondon.org) and the Github repository [here](https://github.com/jones58/fare-free-london).
+The result is a fast, responsive, and user-friendly website that communicates the goals of the Fare-Free London Campaign while allowing seamless content updates through WordPress. Check out the live site at [farefreelondon.org](https://farefreelondon.org) and the Github repository [here](https://github.com/jackkershaw/fare-free-london).

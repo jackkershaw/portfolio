@@ -52,4 +52,4 @@ slug: "right-to-city"
 
 ## Conclusion
 
-Check out the live site at [right-to-city.netlify.app/](https://right-to-city.netlify.app/) and the Github repository [here](https://github.com/jones58/right-to-city).
+Check out the live site at [right-to-city.netlify.app/](https://right-to-city.netlify.app/) and the Github repository [here](https://github.com/jackkershaw/right-to-city).

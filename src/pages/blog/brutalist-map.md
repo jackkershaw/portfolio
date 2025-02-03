@@ -87,4 +87,4 @@ To make the project more open-source friendly, I transitioned from Mapbox to **M
 
 This project taught me a great deal about working with APIs, React, and web performance optimisation. The journey was difficult, but each one contributed to a more polished, user-friendly, and maintainable final product.
 
-You can find a live copy of the site at [londonbrutalistmap.co.uk](https://londonbrutalistmap.co.uk) and read more on the Github repository [here](https://github.com/jones58/LondonBrutalistMap). As an open-source project, we are always looking for contributions and suggestions to improve the site further.
+You can find a live copy of the site at [londonbrutalistmap.co.uk](https://londonbrutalistmap.co.uk) and read more on the Github repository [here](https://github.com/jackkershaw/LondonBrutalistMap). As an open-source project, we are always looking for contributions and suggestions to improve the site further.

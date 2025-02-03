@@ -4,7 +4,7 @@ function Footer() {
       <div className="mx-10 h-full">
         <div className="flex flex-row justify-center sm:justify-end items-center h-full rounded-full">
           <a
-            href="https://github.com/jones58"
+            href="https://github.com/jackkershaw"
             target="_blank"
             aria-label="Jack Kershaw Github"
             className="flex items-center justify-center rounded-full"

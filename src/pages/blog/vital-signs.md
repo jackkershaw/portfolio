@@ -174,4 +174,4 @@ const sentence = excerpt.split(/[.()]/)[0].trim().concat(".");
 
 ## Conclusion
 
-The result is a fast, responsive, and user-friendly website that communicates the goals of Vital Signs Magazine while allowing seamless content updates through WordPress. Check out the live site at [vitalsignsmag.org](https://vitalsignsmag.org) and the Github repository [here](https://github.com/jones58/vital-signs).
+The result is a fast, responsive, and user-friendly website that communicates the goals of Vital Signs Magazine while allowing seamless content updates through WordPress. Check out the live site at [vitalsignsmag.org](https://vitalsignsmag.org) and the Github repository [here](https://github.com/jackkershaw/vital-signs).
