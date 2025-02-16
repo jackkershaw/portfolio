@@ -1,6 +1,4 @@
-## priority
-
-improve design of blog posts - particularly ones with headings and more going on. spacing is weird.
+Maybe switch to atkinson hyperlegible, then can use atkinson mono for code snippets.
 
 ## Homepage
 
