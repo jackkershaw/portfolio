@@ -1,3 +1,7 @@
+## priority
+
+improve design of blog posts - particularly ones with headings and more going on. spacing is weird.
+
 ## Homepage
 
 - maybe put coding projects on main home page
