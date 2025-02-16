@@ -1,6 +1,7 @@
 ---
 const { frontmatter } = Astro.props;
 import Layout from "../layouts/Layout.astro";
+import "../styles/blog.css";
 
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
@@ -44,8 +45,10 @@ const readingTime = getReadingTime(Astro.props.rawContent?.() || "");
           <span class="text-lg">{readingTime} min read</span>
         </div>
       </header>
-      <div class="prose prose-lg prose-neutral max-w-none mb-12">
-        <slot />
+      <div class="mb-12 text-lg text-neutral-900">
+        <div class="blog-content">
+          <slot />
+        </div>
       </div>
 
       <footer class="border-t border-neutral-200 pt-8">
