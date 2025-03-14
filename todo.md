@@ -2,7 +2,7 @@ Maybe switch to atkinson hyperlegible, then can use atkinson mono for code snipp
 
 ## Homepage
 
-- maybe put coding projects on main home page
+- put coding projects on main home page, like [this](https://set.studio/#studio)
 
 ## Coding
 
