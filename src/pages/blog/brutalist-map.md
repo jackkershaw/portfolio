@@ -9,82 +9,44 @@ slug: "brutalist-map"
 
 ## Why Did I Build This Map?
 
-I initially built this map of London's Brutalist architecture to share with friends and family.
+- After the success of an html copy of this site, I wanted to rebuild it in a modern framework. Seeing as much of the functionality of that project was in JavaScript, I wanted to rebuild it in React, as it was hard to navigate the codebase, something a component based architecture would solve.
+- I realised that this would allow me to use the mapbox NPM package rather than the CDN method I was previously using, which would allow me to host the geojson data myself - making it much easier to edit.
+- During development, it became obvious that I could make a multi-page site with the data, now that I was selfhosting it, allowing me to display it in different ways. This would allow different users to engage as they wished.
 
-After the success of the HTML version of this site on Reddit and elsewhere, I decided to rebuild it in a modern framework. The previous implementation heavily relied on JavaScript, making the codebase challenging to navigate. Switching to React offered a cleaner, component-based architecture to simplify development and maintenance.
+## How I built this site
 
-Here are the primary motivations behind the rebuild:
+- First, I set up the app using Vite.
+- Then I worked on each of the pages in the app, using Tailwind CSS to rapidly design them in a similar style to my Brutalist Map project.
+- Taught myself how to use APIs in Javascript with fetch() and then applied this to React.
 
-1. **Improved Codebase Structure**
-   React’s component-based design addressed the complexity of the earlier codebase, making it more modular and easier to work with.
+  - I spent a long time trying to get this to work - it was relatively simple with the Mapbox URL but I also wanted to use local geojson data where possible (easier to edit and reference).
 
-2. **Better Mapbox Integration**
-   Moving to a React-based project allowed me to use the Mapbox NPM package instead of the CDN method. This change enabled self-hosting the GeoJSON data, which simplified edits and improved flexibility.
+- Added Brutalist Map into the page
 
-3. **Expanding Functionality**
-   Hosting the data locally opened the door to creating a multi-page site. This allowed me to present the data in various formats, giving users more ways to engage with the content.
+  - [React-map-gl](https://github.com/visgl/react-map-gl) as an API wrapper for [mapbox-gl](https://github.com/mapbox/mapbox-gl-js), with [mapbox studio](https://www.mapbox.com/studio/) staying as the source.
 
-## How I Built It
-
-## Setting Up the Project
-
-- I initialized the app using **Vite** for its fast build times and modern tooling.
-- I styled the pages using **Tailwind CSS**, taking inspiration from my previous Brutalist Map project for the overall aesthetic.
-
-## Learning APIs
-
-I taught myself how to work with APIs in JavaScript using `fetch()` and then applied this knowledge to React.
-
-- Initially, I focused on fetching data from the Mapbox URL.
-- I spent extra time integrating local GeoJSON data for easier edits and references.
-
-## Integrating the Map
-
-- I used [React-map-gl](https://github.com/visgl/react-map-gl) as an API wrapper for [Mapbox-gl](https://github.com/mapbox/mapbox-gl-js), with map styles sourced from [Mapbox Studio](https://www.mapbox.com/studio/).
-- I added map markers using a `map()` function and implemented controls using the [React-map-gl examples](https://github.com/visgl/react-map-gl/blob/7.1-release/examples/controls/src/app.tsx) as a guide.
-
-## Enhancing Map Interactivity
-
-- **Hover Effects**
-  - Initially, I used React-map-gl’s documentation to add hover events, but it didn’t work as expected.
-  - I created custom markers and implemented `onMouseEnter` and `onMouseLeave` events with state management to display building details on hover. To resolve flickering issues, I bound these events to the div displaying the hover information.
-- **Click Events**
-  - Similar to hover, I added click events to markers. I reused HTML and CSS from the site’s index page for the pop-up display.
-
-## Improving the User Experience
-
-- **Highlighting Visited Locations**
-  - I updated the map to display visited buildings in green for better visual tracking.
-- **Image Optimization**
-  - Images from GeoJSON data links were downloaded using a Python script. Another script compressed these images into `.webp` format under 1MB to improve load times.
-- **Mobile Responsiveness**
-  - I debugged layout issues across different screen sizes and made necessary adjustments for a smoother mobile experience.
-- **Landing Page**
-  - A custom landing page with SASS styling was added to enhance usability. Using local storage, this page only displays on the user’s first visit.
-
-## Refining the Codebase
-
-- **Component Abstraction**
-  - I moved `mapControl` and `customMarker` into separate files to improve modularity.
-- **CSS and SASS Improvements**
-  - Common Tailwind styles were extracted into SCSS files for easier editing.
-  - A typography SCSS file was introduced to manage global styles.
-  - Color variables were added to SASS for better maintainability.
-
-## Moving to MapLibre
-
-To make the project more open-source friendly, I transitioned from Mapbox to **MapLibre**.
-
-- I followed guides from [OpenFreeMap](https://openfreemap.org/) to set up the new mapping stack.
-- I generated map styles using **Maputnik** and font tiles using [MapLibre Font Maker](https://github.com/maplibre/font-maker).
-
-## Deployment
-
-- The app is deployed to **Netlify**, ensuring quick and reliable hosting.
-- React Router is used for seamless navigation between pages, a custom 404 page, and improved page load speeds via `Link` elements.
+- Added React Router to navigate between pages and serve a 404 page and Link elements to improve page load speed.
+- Deployed to Netlify.
+- Added markers to the map using a map function.
+- Added controls to the map using the example [in the React-map-gl docs](https://github.com/visgl/react-map-gl/blob/7.1-release/examples/controls/src/app.tsx) as a guide.
+- Added details of the buildings on hovering over them on the map. I tried using the example [in the React-map-gl docs](http://visgl.github.io/react-map-gl/examples/geojson) but unfortunately couldn't get it to work. A workaround was to create a custom marker, since React Map GL wasn't letting me add onMouseEnter events to the marker that comes with the NPM package. I then used State management, to set whether each marker was hovered over. This caused some flickering which I resolved by binding the onMouseEnter and onMouseLeave events to the div displaying the information on hover.
+- Added click event on marker, similar to the hover event above. Used borrowed html and css from the index page.
+- Edited map so visited buildings are highlighted green on the map.
+- Transformed svg icons to React TSX components using an [online tool](https://react-svgr.com/) - to allow for easier editing.
+- Updated mobile look of site after some debugging on different screen sizes.
+- I noticed some issues with images not loading, so I decided to download them from the links in the geojson data. I ran a python script to do this, and then another script to compress the .webp images down to below 1mb. This would improve speed.
+- Abstracting out mapcontrol and customMarker components into separate files from the map component. This improves editability.
+- Fixed a build error from incorrect typing.
+- Added a landing page with custom SASS, to improve usability on the site. I used local storage to set this to only display on the first visit to the site.
+- Add color variables to SASS, to make them easier to edit.
+- Added a typography SCSS file to extract out of globals and make it easier to edit.
+- Extracted common tailwind styles to scss, to make them easier to edit.
+- Moved from Mapbox maplibre-gl, using the guides on [OpenFreeMap](https://openfreemap.org/) and their tiling. This should enable people to contribute to this repository more easily (i previously used a mapbox api key tied to the local and production servers).
+  - I used Maputnik to generate styles and [Map Libre Font Maker](https://github.com/maplibre/font-maker) to generate the font tiles I needed.
+- Removed SASS in favour of pure Tailwind CSS.
 
 ## Conclusion
 
-This project taught me a great deal about working with APIs, React, and web performance optimisation. The journey was difficult, but each one contributed to a more polished, user-friendly, and maintainable final product.
+This project taught me a lot about working with Mapping APIs, React, and performance optimisation.
 
-You can find a live copy of the site at [londonbrutalistmap.co.uk](https://londonbrutalistmap.co.uk) and read more on the Github repository [here](https://github.com/jackkershaw/LondonBrutalistMap). As an open-source project, we are always looking for contributions and suggestions to improve the site further.
+You can find a live copy of the site at [londonbrutalistmap.co.uk](https://londonbrutalistmap.co.uk) and read more on the Github repository [here](https://github.com/jackkershaw/LondonBrutalistMap). As an open-source project, I am always looking for contributions and suggestions to improve the site further.
